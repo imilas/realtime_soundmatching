@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.o
+*.so
+bandpass_noise
+bandpass_noise_target
+*.json
+*.wav
