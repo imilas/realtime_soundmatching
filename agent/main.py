@@ -5,19 +5,9 @@ Entry point for the realtime synth agent.
 
 Usage
 -----
-# Match a pre-recorded WAV target:
 python -m agent.main --synth-json synths/bandpass_noise.json \
                      --jack-port "bandpass_noise:output_0" \
                      --target-wav target.wav
-
-# Match a second running Faust instance (target synth also on JACK):
-python -m agent.main --synth-json synths/bandpass_noise.json \
-                     --jack-port "bandpass_noise:output_0" \
-                     --target-jack-port "target:output_0" \
-                     --record-target-blocks 64
-
-# Use CMA-ES instead of hillclimbing:
-python -m agent.main ... --optimizer cma
 """
 
 import argparse
@@ -31,7 +21,7 @@ from .capture import JackCapture
 from .params import FaustParams
 from .controller import OSCController
 from .features import load_target_from_wav, load_target_from_capture
-from .optimizer import HillClimbOptimizer, CMAOptimizer
+from .optimizer import BoilerplateOptimizer
 
 
 def parse_args():
@@ -51,9 +41,13 @@ def parse_args():
 
     p.add_argument("--record-target-blocks", default=64, type=int,
                    help="How many JACK blocks to record for live target capture")
-    p.add_argument("--optimizer", choices=["hill", "cma"], default="hill")
-    p.add_argument("--settle-time",  default=0.08,  type=float)
-    p.add_argument("--eval-blocks",  default=8,     type=int)
+    p.add_argument("--optimizer", choices=["boilerplate"], default="boilerplate")
+    p.add_argument("--settle-time",   default=0.08,  type=float)
+    p.add_argument("--eval-duration", default=None,  type=float,
+                   help="Seconds of audio to capture per evaluation (e.g. 0.5, 1.0). "
+                        "Overrides --eval-blocks when provided.")
+    p.add_argument("--eval-blocks",   default=8,     type=int,
+                   help="JACK blocks to capture per evaluation (used if --eval-duration is not set)")
     p.add_argument("--max-iters",    default=5_000, type=int)
     return p.parse_args()
 
@@ -91,12 +85,22 @@ def main():
         target_capture.stop()
 
     # ------------------------------------------------------------------
-    # 4. OSC controller
+    # 4. Resolve eval_blocks from duration if requested
+    # ------------------------------------------------------------------
+    if args.eval_duration is not None:
+        eval_blocks = max(1, round(args.eval_duration * synth_capture.sample_rate / synth_capture.blocksize))
+        print(f"[main] eval_duration={args.eval_duration}s → {eval_blocks} blocks "
+              f"(blocksize={synth_capture.blocksize}, sr={synth_capture.sample_rate})")
+    else:
+        eval_blocks = args.eval_blocks
+
+    # ------------------------------------------------------------------
+    # 5. OSC controller
     # ------------------------------------------------------------------
     controller = OSCController(params, host=args.osc_host, port=args.osc_port)
 
     # ------------------------------------------------------------------
-    # 5. Build optimizer
+    # 6. Build optimizer
     # ------------------------------------------------------------------
     opt_kwargs = dict(
         params=params,
@@ -105,16 +109,13 @@ def main():
         target_features=target_features,
         sample_rate=args.sample_rate,
         settle_time=args.settle_time,
-        eval_blocks=args.eval_blocks,
+        eval_blocks=eval_blocks,
     )
 
-    if args.optimizer == "cma":
-        optimizer = CMAOptimizer(**opt_kwargs)
-    else:
-        optimizer = HillClimbOptimizer(**opt_kwargs)
+    optimizer = BoilerplateOptimizer(**opt_kwargs)
 
     # ------------------------------------------------------------------
-    # 6. Graceful shutdown on Ctrl-C
+    # 7. Graceful shutdown on Ctrl-C
     # ------------------------------------------------------------------
     def _signal_handler(sig, frame):
         print("\n[main] Stopping…")
@@ -124,7 +125,7 @@ def main():
     signal.signal(signal.SIGTERM, _signal_handler)
 
     # ------------------------------------------------------------------
-    # 7. Run
+    # 8. Run
     # ------------------------------------------------------------------
     try:
         optimizer.run(max_iterations=args.max_iters)

@@ -3,60 +3,71 @@ agent/features.py
 
 Audio feature extraction for the loss function.
 
-We use a log-magnitude power spectrum averaged over several blocks.
+We use a mean log-magnitude spectrogram (STFT-based) averaged over time frames.
 This is intentionally simple and swappable — you could replace
 compute_features() with MFCCs, mel spectrograms, perceptual weighting, etc.
 """
 
 import numpy as np
-from scipy.signal import welch
+from scipy.signal import stft
 
 
 # ------------------------------------------------------------------
-# Core feature: log power spectral density
+# Core feature: mean log-magnitude spectrogram
 # ------------------------------------------------------------------
 
 def compute_features(
     audio: np.ndarray,
     sample_rate: int,
     n_fft: int = 2048,
+    hop_length: int = 512,
     freq_range: tuple = (20, 8000),
 ) -> np.ndarray:
     """
-    Compute a log-magnitude power spectrum (PSD via Welch's method).
+    Compute a mean log-magnitude spectrogram via STFT.
+
+    Each STFT frame gives a magnitude spectrum; we log-compress each frame,
+    then average across time to produce a single 1-D feature vector.
+    The result is L2-normalised so overall volume doesn't dominate.
 
     Parameters
     ----------
     audio       : 1-D float32 array of PCM samples
     sample_rate : sample rate in Hz
     n_fft       : FFT window size
+    hop_length  : hop between successive frames
     freq_range  : (low, high) Hz — trim spectrum to this band
 
     Returns
     -------
-    log_psd : 1-D float64 array (same length for all calls with same params)
+    features : 1-D float64 array (same length for all calls with same params)
     """
-    freqs, psd = welch(
+    freqs, _, Zxx = stft(
         audio.astype(np.float64),
         fs=sample_rate,
-        nperseg=n_fft,
-        noverlap=n_fft // 2,
         window="hann",
+        nperseg=n_fft,
+        noverlap=n_fft - hop_length,
     )
+
+    mag = np.abs(Zxx)  # shape: (n_freq_bins, n_frames)
 
     # Trim to audible band of interest
     mask = (freqs >= freq_range[0]) & (freqs <= freq_range[1])
-    psd = psd[mask]
+    mag = mag[mask, :]
 
-    # Log-compress; add floor to avoid log(0)
-    log_psd = np.log1p(psd * 1e6)
+    # Log-compress per frame
+    log_mag = np.log1p(mag * 1e3)
 
-    # L2-normalise so overall volume doesn't dominate
-    norm = np.linalg.norm(log_psd)
+    # Average over time frames → 1-D
+    features = log_mag.mean(axis=1)
+
+    # L2-normalise
+    norm = np.linalg.norm(features)
     if norm > 0:
-        log_psd /= norm
+        features /= norm
 
-    return log_psd
+    return features
 
 
 # ------------------------------------------------------------------
