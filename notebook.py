@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.23.0"
-app = marimo.App(width="medium")
+app = marimo.App(width="full")
 
 
 @app.cell
@@ -11,13 +11,14 @@ def _():
     import matplotlib.pyplot as plt
     from scipy.signal import stft
     from agent.params import FaustParams
+    from agent.capture import JackCapture
     import soundfile as sf
     import utils.io as io_utils
-    import utils.marimo_helpers as mo_help
 
 
 
-    return FaustParams, io_utils, mo, mo_help, np, stft
+
+    return FaustParams, JackCapture, io_utils, mo, np, stft
 
 
 @app.cell
@@ -30,13 +31,13 @@ def _(mo):
 
 @app.cell
 def _():
-    synth_json  = "synths/sine.dsp.json"
+    synth_json  = "synths/bandpass_noise.dsp.json"
     jack_port   = "sine:out_0"
     target_wav  = "targets/50hz_sine.wav"
     sample_rate = 44100
     osc_host    = "127.0.0.1"
     osc_port    = 5510
-    eval_blocks = 8
+    eval_blocks = 8 # block length is set in jack, i'm using 1024
     return (
         eval_blocks,
         jack_port,
@@ -83,21 +84,16 @@ def _(io_utils, mo, sample_rate, spec_features, target_wav):
 
 
 @app.cell
-def _(mo, mo_help, osc_host, osc_port, params):
+def _(mo, osc_host, osc_port, params):
     from agent.controller import OSCController
+    import utils.marimo_helpers as mo_help
 
+    def auto_send_osc(s):
+        controller.send({name: s.value for name, s in sliders.items()})
+    
     controller = OSCController(params, host=osc_host, port=osc_port)
-
-    sliders = mo_help.make_slider(params)
- 
+    sliders = mo_help.make_slider(params,on_change_func=auto_send_osc)
     mo.vstack([mo.md("## OSC Controls"), *sliders.values()])
-    return controller, sliders
-
-
-@app.cell
-def _(controller, sliders):
-    # Reactive send: re-runs whenever any slider moves
-    controller.send({name: s.value for name, s in sliders.items()})
     return
 
 
@@ -110,6 +106,7 @@ def _(mo):
 
 @app.cell
 def _(
+    JackCapture,
     capture_btn,
     eval_blocks,
     jack_port,
@@ -125,12 +122,12 @@ def _(
 
     if capture_btn.value:
         try:
-            from agent.capture import JackCapture
+
             _cap = JackCapture("nb_capture")
             _cap.start(jack_port)
             _audio = _cap.get_n_blocks(eval_blocks)
             _cap.stop()
-
+            print(len(_audio)/eval_blocks)
             _feats = spec_features(_audio, sample_rate)
             _loss  = loss_fn(_feats, target_features) if target_features is not None else float("nan")
             _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
@@ -138,11 +135,6 @@ def _(
             _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
 
     _result
-    return
-
-
-@app.cell
-def _():
     return
 
 
