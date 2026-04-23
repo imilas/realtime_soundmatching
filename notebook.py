@@ -15,9 +15,6 @@ def _():
     import soundfile as sf
     import utils.io as io_utils
 
-
-
-
     return FaustParams, JackCapture, io_utils, mo, np, stft
 
 
@@ -32,8 +29,8 @@ def _(mo):
 @app.cell
 def _():
     synth_json  = "synths/bandpass_noise.dsp.json"
-    jack_port   = "sine:out_0"
-    target_wav  = "targets/50hz_sine.wav"
+    jack_port   = "bandpass_noise:out_0"
+    target_wav  = "targets/bp_900_3.wav"
     sample_rate = 44100
     osc_host    = "127.0.0.1"
     osc_port    = 5510
@@ -53,6 +50,42 @@ def _():
 def _(FaustParams, synth_json):
     params = FaustParams(synth_json)
     return (params,)
+
+
+@app.cell
+def _(mo, params):
+    param_state, set_param_state = mo.state(
+        {name: p.default for name, p in params.items()}
+    )
+    sent_cache = {}  # tracks values sent by notebook sliders, used to filter echoes
+    return param_state, sent_cache, set_param_state
+
+
+@app.cell
+def _(osc_port, params, sent_cache, set_param_state):
+    from pythonosc import dispatcher as _dispatcher, osc_server as _osc_server
+    import threading as _threading
+
+    _disp = _dispatcher.Dispatcher()
+
+    def _on_param(address, value):
+        for name, p in params.items():
+            if p.osc_address == address:
+                # skip echoes of values we just sent from the notebook
+                if name in sent_cache and abs(sent_cache.pop(name) - float(value)) < 1.0:
+                    return
+                set_param_state(lambda s, n=name, v=float(value): {**s, n: v})
+                break
+
+    for _name, _p in params.items():
+        _disp.map(_p.osc_address, _on_param)
+
+    try:
+        _server = _osc_server.ThreadingOSCUDPServer(("127.0.0.1", osc_port + 1), _disp)
+        _threading.Thread(target=_server.serve_forever, daemon=True).start()
+    except OSError:
+        print(f"[OSC Listener] Could not bind to port {osc_port + 1}")
+    return
 
 
 @app.cell
@@ -84,15 +117,17 @@ def _(io_utils, mo, sample_rate, spec_features, target_wav):
 
 
 @app.cell
-def _(mo, osc_host, osc_port, params):
+def _(mo, osc_host, osc_port, param_state, params, sent_cache):
     from agent.controller import OSCController
     import utils.marimo_helpers as mo_help
 
-    def auto_send_osc(s):
-        controller.send({name: s.value for name, s in sliders.items()})
-    
     controller = OSCController(params, host=osc_host, port=osc_port)
-    sliders = mo_help.make_slider(params,on_change_func=auto_send_osc)
+
+    def auto_send_osc(name, value):
+        sent_cache[name] = value
+        controller.send({name: value})
+
+    sliders = mo_help.make_slider(params, values=param_state(), on_change_func=auto_send_osc)
     mo.vstack([mo.md("## OSC Controls"), *sliders.values()])
     return
 
@@ -135,6 +170,32 @@ def _(
             _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
 
     _result
+    return
+
+
+@app.cell
+def _(mo):
+    loss_refresh = mo.ui.refresh(default_interval=1)
+    loss_refresh
+    return
+
+
+@app.cell
+def _():
+    # loss_refresh
+
+    # try:
+    #     _cap = JackCapture("nb_capture")
+    #     _cap.start(jack_port)
+    #     _audio = _cap.get_n_blocks(eval_blocks)
+    #     _cap.stop()
+    #     # print(len(_audio)/eval_blocks)
+    #     _feats = spec_features(_audio, sample_rate)
+    #     _loss = loss_fn(_feats, target_features) if target_features is not None else float("nan")
+    #     _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+    # except Exception as e:
+    #     _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
+    # _result
     return
 
 
