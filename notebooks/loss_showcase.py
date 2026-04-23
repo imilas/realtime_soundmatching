@@ -20,6 +20,12 @@ def _():
 
 
 @app.cell
+def _(ALL_LOSSES):
+    ALL_LOSSES
+    return
+
+
+@app.cell
 def _(mo):
     mo.md("""
     # Loss Function Showcase
@@ -82,11 +88,6 @@ def _(ALL_LOSSES, SWEEP_FREQS, TARGET_FREQ, loss_results, plt):
 
     fig.tight_layout()
     fig
-    return
-
-
-@app.cell
-def _():
     return
 
 
