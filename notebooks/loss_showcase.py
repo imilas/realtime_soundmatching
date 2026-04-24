@@ -20,12 +20,6 @@ def _():
 
 
 @app.cell
-def _(ALL_LOSSES):
-    ALL_LOSSES
-    return
-
-
-@app.cell
 def _(mo):
     mo.md("""
     # Loss Function Showcase

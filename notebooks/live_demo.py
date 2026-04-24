@@ -48,7 +48,10 @@ def _():
     osc_host    = "127.0.0.1"
     osc_port    = 5510
     eval_blocks = 32 # block length is set in jack, i'm using 1024
+    block_len = 1024 # this is set in jack
+
     return (
+        block_len,
         eval_blocks,
         jack_port,
         osc_host,
@@ -117,7 +120,7 @@ def _(np, stft):
         """L2 distance between two feature vectors."""
         return float(np.linalg.norm(a - b))
 
-    return loss_fn, spec_features
+    return
 
 
 @app.cell
@@ -127,8 +130,9 @@ def _():
 
 
 @app.cell
-def _(io_utils, target_wav):
+def _(block_len, eval_blocks, io_utils, target_wav):
     target_audio, _sr = io_utils.load_audio(target_wav)
+    target_audio = target_audio[:eval_blocks * block_len]  # trim to eval length
     return (target_audio,)
 
 
@@ -149,49 +153,40 @@ def _(mo, osc_host, osc_port, param_state, params, sent_cache):
 
 
 @app.cell
-def _(mo):
-    capture_btn = mo.ui.run_button(label="Capture & Evaluate")
-    capture_btn
-    return (capture_btn,)
+def _():
+    # capture_btn = mo.ui.run_button(label="Capture & Evaluate")
+    # capture_btn
+    return
 
 
 @app.cell(hide_code=True)
-def _(
-    JackCapture,
-    capture_btn,
-    eval_blocks,
-    jack_port,
-    loss_fn,
-    mo,
-    sample_rate,
-    spec_features,
-    target_features,
-):
-    capture_btn  # re-run on click
+def _():
+    # capture_btn  # re-run on click
 
-    _result = mo.md("_press button to capture_")
+    # _result = mo.md("_press button to capture_")
 
-    if capture_btn.value:
-        try:
+    # if capture_btn.value:
+    #     try:
 
-            _cap = JackCapture("nb_capture")
-            _cap.start(jack_port)
-            _audio = _cap.get_n_blocks(eval_blocks)
-            _cap.stop()
-            print(len(_audio)/eval_blocks)
-            _feats = spec_features(_audio, sample_rate)
-            _loss  = loss_fn(_feats, target_features) if target_features is not None else float("nan")
-            _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
-        except Exception as e:
-            _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
+    #         _cap = JackCapture("nb_capture")
+    #         _cap.start(jack_port)
+    #         audio = _cap.get_n_blocks(eval_blocks)
+    #         _cap.stop()
+    #         print(len(audio), len(target_audio))
+    #         _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
+    #         _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
 
-    _result
+    #         rec_audio = audio
+    #     except Exception as e:
+    #         _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
+
+    # _result
     return
 
 
 @app.cell
 def _(mo):
-    loss_refresh = mo.ui.refresh(default_interval=1)
+    loss_refresh = mo.ui.refresh(default_interval=2)
     loss_refresh
     return (loss_refresh,)
 
@@ -213,7 +208,9 @@ def _(
         _cap.start(jack_port)
         audio = _cap.get_n_blocks(eval_blocks)
         _cap.stop()
-        _loss = loss_fns.ssim_spectral_loss(audio,target_audio[0:len(audio)],sample_rate=44100)
+        print(len(audio), len(target_audio))
+        # _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
+        _loss = loss_fns.l2_spectral_loss(audio,target_audio,sample_rate=44100)
         _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
     except Exception as e:
         _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
@@ -222,15 +219,35 @@ def _(
 
 
 @app.cell
-def _(audio, mo):
-    mo.audio(audio, 44100)
+def _(audio, mo, sample_rate, target_audio):
+    mo.hstack([
+        mo.vstack([
+            mo.md("**Target**"),
+            mo.audio(target_audio, rate=sample_rate),
+        ]),
+        mo.vstack([
+            mo.md("**Output**"),
+            mo.audio(audio, rate=sample_rate),
+        ]),
+    ])
     return
 
 
 @app.cell
-def _(mo, target_audio):
+def _(audio):
+    from utils.plotting import compute_spectrogram, plot_spectrogram
 
-    mo.audio(target_audio, 44100)
+    # just the data
+    freqs, times, spec = compute_spectrogram(audio, 44100, freq_range=(20, 5000))
+
+    # plot it
+    plot_spectrogram(audio, 44100, title="My signal", freq_range=(20, 5000))
+    return (plot_spectrogram,)
+
+
+@app.cell
+def _(plot_spectrogram, target_audio):
+    plot_spectrogram(target_audio, 44100, title="My signal", freq_range=(20, 5000))
     return
 
 
