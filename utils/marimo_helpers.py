@@ -69,6 +69,7 @@ def make_slider(params, values=None, on_change_func=None):
         def cb(value):
             if on_change_func:
                 on_change_func(param_name, value)
+
         return cb
 
     return {
