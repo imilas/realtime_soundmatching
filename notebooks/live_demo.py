@@ -42,14 +42,14 @@ def _(mo):
 @app.cell
 def _():
     synth_json  = "synths/bandpass_noise.dsp.json"
-    jack_port   = "bandpass_noise:out_0"
-    target_wav  = "targets/bp_100-900.wav"
+    jack_port = "bandpass_noise:out_0"
+    # jack_port   = "sine:out_0"
+    target_wav  = "targets/bp_100-901.wav"
     sample_rate = 44100
     osc_host    = "127.0.0.1"
     osc_port    = 5510
     eval_blocks = 32 # block length is set in jack, i'm using 1024
     block_len = 1024 # this is set in jack
-
     return (
         block_len,
         eval_blocks,
@@ -153,69 +153,69 @@ def _(mo, osc_host, osc_port, param_state, params, sent_cache):
 
 
 @app.cell
-def _():
-    # capture_btn = mo.ui.run_button(label="Capture & Evaluate")
-    # capture_btn
-    return
+def _(mo):
+    capture_btn = mo.ui.run_button(label="Capture & Evaluate")
+    capture_btn
+    return (capture_btn,)
 
 
 @app.cell(hide_code=True)
+def _(
+    JackCapture,
+    capture_btn,
+    eval_blocks,
+    jack_port,
+    loss_fns,
+    mo,
+    target_audio,
+):
+    capture_btn  # re-run on click
+
+    _result = mo.md("_press button to capture_")
+
+    if capture_btn.value:
+        try:
+
+            _cap = JackCapture("nb_capture")
+            _cap.start(jack_port)
+            audio = _cap.get_n_blocks(eval_blocks)
+            _cap.stop()
+            print(len(audio), len(target_audio))
+            _loss = loss_fns.multi_resolution_spectral_loss(audio,target_audio,sample_rate=44100)
+            _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+
+            rec_audio = audio
+        except Exception as e:
+            _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
+
+    _result
+    return (audio,)
+
+
+@app.cell
 def _():
-    # capture_btn  # re-run on click
-
-    # _result = mo.md("_press button to capture_")
-
-    # if capture_btn.value:
-    #     try:
-
-    #         _cap = JackCapture("nb_capture")
-    #         _cap.start(jack_port)
-    #         audio = _cap.get_n_blocks(eval_blocks)
-    #         _cap.stop()
-    #         print(len(audio), len(target_audio))
-    #         _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
-    #         _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
-
-    #         rec_audio = audio
-    #     except Exception as e:
-    #         _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
-
-    # _result
+    # loss_refresh = mo.ui.refresh(default_interval=2)
+    # loss_refresh
     return
 
 
 @app.cell
-def _(mo):
-    loss_refresh = mo.ui.refresh(default_interval=2)
-    loss_refresh
-    return (loss_refresh,)
+def _():
+    # loss_refresh
 
-
-@app.cell
-def _(
-    JackCapture,
-    eval_blocks,
-    jack_port,
-    loss_fns,
-    loss_refresh,
-    mo,
-    target_audio,
-):
-    loss_refresh
-
-    try:
-        _cap = JackCapture("nb_capture")
-        _cap.start(jack_port)
-        audio = _cap.get_n_blocks(eval_blocks)
-        _cap.stop()
-        print(len(audio), len(target_audio))
-        # _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
-        _loss = loss_fns.l2_spectral_loss(audio,target_audio,sample_rate=44100)
-        _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
-    except Exception as e:
-        _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
-    _result
-    return (audio,)
+    # try:
+    #     _cap = JackCapture("nb_capture")
+    #     _cap.start(jack_port)
+    #     audio = _cap.get_n_blocks(eval_blocks)
+    #     _cap.stop()
+    #     print(len(audio), len(target_audio))
+    #     # _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
+    #     _loss = loss_fns.dtw_onset_loss(audio,target_audio,sample_rate=44100)
+    #     _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+    # except Exception as e:
+    #     _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
+    # _result
+    return
 
 
 @app.cell

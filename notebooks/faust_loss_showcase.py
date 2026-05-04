@@ -39,7 +39,7 @@ def _():
     target_params = {"hp_freq": 200, "lp_freq": 1000}
 
     imitator_dsp = "synths/bandpass_noise.dsp"
-    imitator_fixed_params = {"hp_freq": 200}  # params held constant during sweep
+    imitator_fixed_params = {"lp_freq": 1000}  # params held constant during sweep
     sweep_param = "lp_freq"                     # param to sweep
     sweep_min = 20
     sweep_max = 1500

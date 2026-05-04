@@ -157,15 +157,16 @@ def _(
 
     if capture_btn.value:
         try:
-
             _cap = JackCapture("nb_capture")
-            _cap.start(jack_port)
-            _audio = _cap.get_n_blocks(eval_blocks)
-            _cap.stop()
-            print(len(_audio)/eval_blocks)
-            _feats = spec_features(_audio, sample_rate)
-            _loss  = loss_fn(_feats, target_features) if target_features is not None else float("nan")
-            _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+            try:
+                _cap.start(jack_port)
+                _audio = _cap.get_n_blocks(eval_blocks)
+                print(len(_audio)/eval_blocks)
+                _feats = spec_features(_audio, sample_rate)
+                _loss  = loss_fn(_feats, target_features) if target_features is not None else float("nan")
+                _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+            finally:
+                _cap.stop()
         except Exception as e:
             _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
 
