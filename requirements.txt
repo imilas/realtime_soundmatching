@@ -4,3 +4,5 @@ numpy>=1.24
 scipy>=1.11
 soundfile>=0.12
 cma>=3.3          # optional — only needed for --optimizer cma
+PySide6>=6.7
+pyqtgraph>=0.13
