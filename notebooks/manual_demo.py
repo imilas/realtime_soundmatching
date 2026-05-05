@@ -6,6 +6,11 @@ app = marimo.App(width="full")
 
 @app.cell
 def _():
+    import sys
+    from pathlib import Path
+
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+
     import marimo as mo
     import numpy as np
     import matplotlib.pyplot as plt
@@ -15,7 +20,15 @@ def _():
     import soundfile as sf
     import utils.io as io_utils
 
-    return FaustParams, JackCapture, io_utils, mo, np, stft
+    import utils.loss_functions as loss_fns
+
+    return FaustParams, JackCapture, io_utils, loss_fns, mo, np, stft
+
+
+@app.cell
+def _():
+    # l2_spectral_loss(np.zeros([4096]), np.ones([4096]),44100)
+    return
 
 
 @app.cell
@@ -29,13 +42,16 @@ def _(mo):
 @app.cell
 def _():
     synth_json  = "synths/bandpass_noise.dsp.json"
-    jack_port   = "bandpass_noise:out_0"
-    target_wav  = "targets/bp_900_3.wav"
+    jack_port = "bandpass_noise:out_0"
+    # jack_port   = "sine:out_0"
+    target_wav  = "targets/bp_100-901.wav"
     sample_rate = 44100
     osc_host    = "127.0.0.1"
     osc_port    = 5510
-    eval_blocks = 8 # block length is set in jack, i'm using 1024
+    eval_blocks = 32 # block length is set in jack, i'm using 1024
+    block_len = 1024 # this is set in jack
     return (
+        block_len,
         eval_blocks,
         jack_port,
         osc_host,
@@ -104,16 +120,20 @@ def _(np, stft):
         """L2 distance between two feature vectors."""
         return float(np.linalg.norm(a - b))
 
-    return loss_fn, spec_features
+    return
 
 
 @app.cell
-def _(io_utils, mo, sample_rate, spec_features, target_wav):
-    _audio, _sr = io_utils.load_audio(target_wav)
-    target_features = spec_features(_audio, sample_rate)
-    target_status = mo.callout(mo.md(f"Loaded `{target_wav}`  —  {len(_audio)} samples"), kind="success")
-    target_status
-    return (target_features,)
+def _():
+    # loss_fn(np.zeros([4096]), np.ones([4096]))
+    return
+
+
+@app.cell
+def _(block_len, eval_blocks, io_utils, target_wav):
+    target_audio, _sr = io_utils.load_audio(target_wav)
+    target_audio = target_audio[:eval_blocks * block_len]  # trim to eval length
+    return (target_audio,)
 
 
 @app.cell
@@ -139,17 +159,15 @@ def _(mo):
     return (capture_btn,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(
     JackCapture,
     capture_btn,
     eval_blocks,
     jack_port,
-    loss_fn,
+    loss_fns,
     mo,
-    sample_rate,
-    spec_features,
-    target_features,
+    target_audio,
 ):
     capture_btn  # re-run on click
 
@@ -157,27 +175,28 @@ def _(
 
     if capture_btn.value:
         try:
+
             _cap = JackCapture("nb_capture")
             try:
                 _cap.start(jack_port)
-                _audio = _cap.get_n_blocks(eval_blocks)
-                print(len(_audio)/eval_blocks)
-                _feats = spec_features(_audio, sample_rate)
-                _loss  = loss_fn(_feats, target_features) if target_features is not None else float("nan")
+                audio = _cap.get_n_blocks(eval_blocks)
+                print(len(audio), len(target_audio))
+                _loss = loss_fns.multi_resolution_spectral_loss(audio,target_audio,sample_rate=44100)
                 _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+                rec_audio = audio
             finally:
                 _cap.stop()
         except Exception as e:
             _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
 
     _result
-    return
+    return (audio,)
 
 
 @app.cell
-def _(mo):
-    loss_refresh = mo.ui.refresh(default_interval=1)
-    loss_refresh
+def _():
+    # loss_refresh = mo.ui.refresh(default_interval=2)
+    # loss_refresh
     return
 
 
@@ -187,16 +206,51 @@ def _():
 
     # try:
     #     _cap = JackCapture("nb_capture")
-    #     _cap.start(jack_port)
-    #     _audio = _cap.get_n_blocks(eval_blocks)
-    #     _cap.stop()
-    #     # print(len(_audio)/eval_blocks)
-    #     _feats = spec_features(_audio, sample_rate)
-    #     _loss = loss_fn(_feats, target_features) if target_features is not None else float("nan")
-    #     _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+    #     try:
+    #         _cap.start(jack_port)
+    #         audio = _cap.get_n_blocks(eval_blocks)
+    #         print(len(audio), len(target_audio))
+    #         # _loss = loss_fns.ssim_spectral_loss(audio,target_audio,sample_rate=44100)
+    #         _loss = loss_fns.dtw_onset_loss(audio,target_audio,sample_rate=44100)
+    #         _result = mo.callout(mo.md(f"**loss = {_loss:.5f}**"), kind="info")
+    #     finally:
+    #         _cap.stop()
     # except Exception as e:
     #     _result = mo.callout(mo.md(f"Capture failed: {e}"), kind="danger")
     # _result
+    return
+
+
+@app.cell
+def _(audio, mo, sample_rate, target_audio):
+    mo.hstack([
+        mo.vstack([
+            mo.md("**Target**"),
+            mo.audio(target_audio, rate=sample_rate),
+        ]),
+        mo.vstack([
+            mo.md("**Output**"),
+            mo.audio(audio, rate=sample_rate),
+        ]),
+    ])
+    return
+
+
+@app.cell
+def _(audio):
+    from utils.plotting import compute_spectrogram, plot_spectrogram
+
+    # just the data
+    freqs, times, spec = compute_spectrogram(audio, 44100, freq_range=(20, 5000))
+
+    # plot it
+    plot_spectrogram(audio, 44100, title="My signal", freq_range=(20, 5000))
+    return (plot_spectrogram,)
+
+
+@app.cell
+def _(plot_spectrogram, target_audio):
+    plot_spectrogram(target_audio, 44100, title="My signal", freq_range=(20, 5000))
     return
 
 
