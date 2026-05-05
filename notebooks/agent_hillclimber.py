@@ -320,8 +320,8 @@ def _(mo):
     The agent uses a simple greedy hill-climbing strategy: try a step in a random direction, and if the loss improves, keep it.
     If it doesn't improve, try the opposite direction. This makes it follow the downward slope of the landscape.
 
-    **Note**: For fast visualization, the agent evaluates moves using the pre-computed landscape (it "cheats" and can see the loss function).
-    In a real scenario, it would measure loss via JACK capture, which would be much slower but more realistic.
+    **Real-time measurement**: The agent measures actual loss by capturing audio from JACK and computing spectral loss.
+    This is slower than the landscape approximation but realistic.
     """)
     return
 
@@ -337,15 +337,17 @@ def _(mo):
 
 @app.cell
 def _(
+    JackCapture,
     agent_enabled,
     agent_refresh,
     best_loss,
     controller,
-    landscape_x,
-    landscape_y,
+    jack_port,
+    loss_fns,
     np,
     param_state,
     params,
+    sample_rate,
     sent_cache,
     set_agent_history,
     set_best_loss,
@@ -353,46 +355,88 @@ def _(
     set_param_state,
     step_pct,
     sweep_param,
+    target_audio,
 ):
+    import time as _time
+
     agent_refresh
 
     if agent_enabled.value:
-        # Get current parameter and look up its loss from the landscape
-        _current = param_state()
-        _current_val = _current[sweep_param]
-        _current_loss = float(np.interp(_current_val, landscape_x, landscape_y))
+        try:
+            # Get current parameter and measure its actual loss via JACK
+            _current = param_state()
+            _current_val = _current[sweep_param]
 
-        _p = params[sweep_param]
-        _step = (_p.max_val - _p.min_val) * (step_pct.value / 100)
+            # Measure current loss
+            _cap_current = JackCapture("hc_current")
+            try:
+                _cap_current.start(jack_port)
+                _time.sleep(0.1)  # settle time
+                _audio_current = _cap_current.get_n_blocks(8)
+            finally:
+                _cap_current.stop()
+            _current_loss = loss_fns.dtw_onset_loss(target_audio, _audio_current, sample_rate=sample_rate)
 
-        # Try a random direction first
-        _direction = np.random.choice([-1, 1])
-        _trial_val = float(np.clip(_current_val + _direction * _step, _p.min_val, _p.max_val))
-        _trial_loss = float(np.interp(_trial_val, landscape_x, landscape_y))
+            _p = params[sweep_param]
+            _step = (_p.max_val - _p.min_val) * (step_pct.value / 100)
 
-        # If that didn't improve, try the opposite direction
-        if _trial_loss >= _current_loss:
-            _direction = -_direction
+            # Try a random direction first
+            _direction = np.random.choice([-1, 1])
             _trial_val = float(np.clip(_current_val + _direction * _step, _p.min_val, _p.max_val))
-            _trial_loss = float(np.interp(_trial_val, landscape_x, landscape_y))
 
-        # Accept the move if it improved, otherwise stay put
-        _new_val = _trial_val if _trial_loss < _current_loss else _current_val
+            # Send trial and measure loss
+            sent_cache[sweep_param] = _trial_val
+            controller.send({sweep_param: _trial_val})
+            _time.sleep(0.1)
 
-        # Send new parameter value to synth via OSC
-        sent_cache[sweep_param] = _new_val
-        controller.send({sweep_param: _new_val})
+            _cap_trial = JackCapture("hc_trial")
+            try:
+                _cap_trial.start(jack_port)
+                _time.sleep(0.1)
+                _audio_trial = _cap_trial.get_n_blocks(8)
+            finally:
+                _cap_trial.stop()
+            _trial_loss = loss_fns.dtw_onset_loss(target_audio, _audio_trial, sample_rate=sample_rate)
 
-        # Update state and track best found
-        set_param_state(lambda s, v=_new_val: {**s, sweep_param: v})
-        set_agent_history(lambda h, v=_new_val: h + [v])
+            # If didn't improve, try opposite direction
+            if _trial_loss >= _current_loss:
+                _direction = -_direction
+                _trial_val = float(np.clip(_current_val + _direction * _step, _p.min_val, _p.max_val))
 
-        # Track best loss/value found globally
-        _new_loss = float(np.interp(_new_val, landscape_x, landscape_y))
-        _best_loss_current = best_loss()
-        if _new_loss < _best_loss_current:
-            set_best_loss(lambda _: _new_loss)
-            set_best_value(lambda _: _new_val)
+                sent_cache[sweep_param] = _trial_val
+                controller.send({sweep_param: _trial_val})
+                _time.sleep(0.1)
+
+                _cap_trial2 = JackCapture("hc_trial2")
+                try:
+                    _cap_trial2.start(jack_port)
+                    _time.sleep(0.1)
+                    _audio_trial2 = _cap_trial2.get_n_blocks(8)
+                finally:
+                    _cap_trial2.stop()
+                _trial_loss = loss_fns.dtw_onset_loss(target_audio, _audio_trial2, sample_rate=sample_rate)
+
+            # Accept move if improved
+            _new_val = _trial_val if _trial_loss < _current_loss else _current_val
+            _new_loss = _trial_loss if _trial_loss < _current_loss else _current_loss
+
+            # Send final parameter
+            sent_cache[sweep_param] = _new_val
+            controller.send({sweep_param: _new_val})
+
+            # Update state
+            set_param_state(lambda s, v=_new_val: {**s, sweep_param: v})
+            set_agent_history(lambda h, v=_new_val: h + [v])
+
+            # Track best
+            _best_loss_current = best_loss()
+            if _new_loss < _best_loss_current:
+                set_best_loss(lambda _: _new_loss)
+                set_best_value(lambda _: _new_val)
+
+        except Exception as _e:
+            pass  # silently fail on JACK errors
+
     return
 
 
