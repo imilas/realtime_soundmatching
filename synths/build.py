@@ -26,6 +26,7 @@ Typical usage:
 from __future__ import annotations
 
 import hashlib
+import fcntl
 import shutil
 import subprocess
 import time
@@ -83,29 +84,35 @@ def prepare(program: SynthProgram | str, force: bool = False) -> SynthBuild:
         return SynthBuild(program, dsp_path, binary_path, json_path)
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    dsp_path.write_text(instantiated)
+    lock_path = out_dir / ".build.lock"
+    with lock_path.open("w") as lock_file:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX)
+        if not force and binary_path.is_file() and json_path.is_file():
+            return SynthBuild(program, dsp_path, binary_path, json_path)
 
-    # Compile JACK + OSC binary. faust2jaqt drops the binary in cwd.
-    res = subprocess.run(
-        ["faust2jaqt", "-osc", dsp_path.name],
-        cwd=out_dir, capture_output=True, text=True,
-    )
-    if res.returncode != 0 or not binary_path.is_file():
-        raise RuntimeError(
-            f"faust2jaqt failed for {program.name}:\n"
-            f"stdout: {res.stdout}\nstderr: {res.stderr}"
-        )
+        dsp_path.write_text(instantiated)
 
-    # Emit parameter JSON next to the dsp file.
-    res = subprocess.run(
-        ["faust", "-json", dsp_path.name],
-        cwd=out_dir, capture_output=True, text=True,
-    )
-    if res.returncode != 0 or not json_path.is_file():
-        raise RuntimeError(
-            f"faust -json failed for {program.name}:\n"
-            f"stdout: {res.stdout}\nstderr: {res.stderr}"
+        # Compile JACK + OSC binary. faust2jaqt drops the binary in cwd.
+        res = subprocess.run(
+            ["faust2jaqt", "-osc", dsp_path.name],
+            cwd=out_dir, capture_output=True, text=True,
         )
+        if res.returncode != 0 or not binary_path.is_file():
+            raise RuntimeError(
+                f"faust2jaqt failed for {program.name}:\n"
+                f"stdout: {res.stdout}\nstderr: {res.stderr}"
+            )
+
+        # Emit parameter JSON next to the dsp file.
+        res = subprocess.run(
+            ["faust", "-json", dsp_path.name],
+            cwd=out_dir, capture_output=True, text=True,
+        )
+        if res.returncode != 0 or not json_path.is_file():
+            raise RuntimeError(
+                f"faust -json failed for {program.name}:\n"
+                f"stdout: {res.stdout}\nstderr: {res.stderr}"
+            )
 
     return SynthBuild(program, dsp_path, binary_path, json_path)
 
