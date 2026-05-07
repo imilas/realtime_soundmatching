@@ -7,3 +7,4 @@ bandpass_noise
 bandpass_noise_target
 *.json
 *.wav
+synths/build/
