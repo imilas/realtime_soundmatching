@@ -9,6 +9,8 @@ import os
 import subprocess
 import tempfile
 import hashlib
+import fcntl
+import shutil
 import numpy as np
 import soundfile as sf
 
@@ -39,24 +41,28 @@ def compile_dsp(dsp_path):
     if os.path.isfile(binary):
         return binary
 
-    # faust2sndfile wants the DSP in the working directory
-    work_dir = os.path.dirname(dsp_path)
-    result = subprocess.run(
-        ["faust2sndfile", dsp_path],
-        cwd=work_dir,
-        capture_output=True,
-        text=True,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"faust2sndfile failed:\n{result.stderr}")
+    lock_path = f"{binary}.lock"
+    with open(lock_path, "w") as lock_file:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX)
+        if os.path.isfile(binary):
+            return binary
 
-    # faust2sndfile puts the binary next to the DSP file
-    src_binary = os.path.join(work_dir, name)
-    if not os.path.isfile(src_binary):
-        raise FileNotFoundError(f"Expected binary at {src_binary}")
+        with tempfile.TemporaryDirectory(prefix="faust_render_") as work_dir:
+            local_dsp = os.path.join(work_dir, os.path.basename(dsp_path))
+            shutil.copy2(dsp_path, local_dsp)
+            result = subprocess.run(
+                ["faust2sndfile", os.path.basename(local_dsp)],
+                cwd=work_dir,
+                capture_output=True,
+                text=True,
+            )
+            if result.returncode != 0:
+                raise RuntimeError(f"faust2sndfile failed:\n{result.stderr}")
 
-    import shutil
-    shutil.move(src_binary, binary)
+            src_binary = os.path.join(work_dir, name)
+            if not os.path.isfile(src_binary):
+                raise FileNotFoundError(f"Expected binary at {src_binary}")
+            os.replace(src_binary, binary)
     return binary
 
 
