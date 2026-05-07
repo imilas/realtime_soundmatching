@@ -1,44 +1,26 @@
 """
-Synth configurations registry.
+Synth programs and build helpers.
+
+Programs are .dsp templates in synths/programs/ — each declares parameter
+bounds via hslider definitions. The build helper compiles a program to a
+JACK + OSC binary on demand and caches the result by content hash.
+
+Public API:
+  list_programs()        — names of available .dsp templates
+  get_program(name)      — load a SynthProgram by name
+  prepare(name)          — compile + emit JSON; returns SynthBuild
+  running_synth(name)    — context manager: prepare + launch + cleanup
 """
 
-from .config import SynthConfig
+from .build import SynthBuild, prepare, launch, running_synth
+from .program import SynthProgram, get_program, list_programs
 
-# Define available synths
-BANDPASS_NOISE = SynthConfig(
-    name="Bandpass Noise",
-    synth_json="synths/bandpass_noise.dsp.json",
-    dsp_path="synths/bandpass_noise.dsp",
-    target_wav="targets/bp_100-901.wav",
-    jack_port="bandpass_noise:out_0",
-    sweep_param="lp_freq",
-    fixed_params={"hp_freq": 400},
-)
-
-SINE = SynthConfig(
-    name="Sine",
-    synth_json="synths/sine.dsp.json",
-    dsp_path="synths/sine.dsp",
-    target_wav="targets/50hz_sine.wav",
-    jack_port="sine:out_0",
-    sweep_param="freq",
-    fixed_params={},
-)
-
-# Registry: name -> config
-SYNTHS = {
-    "bandpass_noise": BANDPASS_NOISE,
-    "sine": SINE,
-}
-
-
-def get_synth(name: str) -> SynthConfig:
-    """Get synth config by name."""
-    if name not in SYNTHS:
-        raise ValueError(f"Unknown synth: {name}. Available: {list(SYNTHS.keys())}")
-    return SYNTHS[name]
-
-
-def list_synths() -> list[str]:
-    """List available synth names."""
-    return list(SYNTHS.keys())
+__all__ = [
+    "SynthBuild",
+    "SynthProgram",
+    "get_program",
+    "list_programs",
+    "prepare",
+    "launch",
+    "running_synth",
+]
