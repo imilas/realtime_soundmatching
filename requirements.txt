@@ -1,8 +1,34 @@
-JACK-Client>=0.5.4
-python-osc>=1.8.0
-numpy>=1.24
-scipy>=1.11
-soundfile>=0.12
-cma>=3.3          # optional — only needed for --optimizer cma
-PySide6>=6.7
-pyqtgraph>=0.13
+# Core audio / synthesis
+dawdreamer==0.8.3
+JACK-Client==0.5.5
+python-osc==1.10.2
+soundfile==0.13.1
+
+# Numerics
+numpy==2.2.6
+scipy==1.15.3
+
+# JAX stack (GD agent)
+jax==0.6.2
+jaxlib==0.6.2
+flax==0.10.7
+optax==0.2.8
+audax==0.0.3
+dm_pix==0.4.4
+kymatio==0.3.0
+
+# Gradient-free agents
+cma==4.4.4
+scikit-optimize==0.10.2
+
+# Visualization / notebooks
+matplotlib==3.10.9
+marimo==0.23.8
+pandas==2.3.3
+
+# GUI (Qt landscape viewer — optional)
+PySide6==6.11.1
+pyqtgraph==0.14.0
+
+# Tests
+pytest==9.0.3

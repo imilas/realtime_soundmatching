@@ -10,8 +10,8 @@ source .venv/bin/activate
 
 SYNTHS="bandpass_noise am_noise add_sinesaw"
 METHODS="HillClimber RandomSearch CMA-ES BO QL"
-TRIALS=5
-BUDGET=10
+TRIALS=10
+BUDGET=200
 JOBS=6  # adjust to taste
 
 parallel -j $JOBS \
