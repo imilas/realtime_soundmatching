@@ -5,6 +5,7 @@ from .random_search import MultiDimRandomSearch
 from .hill_climber import MultiDimHillClimber
 from .cma_es import CMAESAgent
 from .bayesian_opt import BayesianOptAgent
+from .q_learning import MultiDimQLearning
 
 __all__ = [
     "MultiDimAgentBase",
@@ -13,4 +14,5 @@ __all__ = [
     "MultiDimHillClimber",
     "CMAESAgent",
     "BayesianOptAgent",
+    "MultiDimQLearning",
 ]
