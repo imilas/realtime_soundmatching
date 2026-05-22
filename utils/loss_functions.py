@@ -14,6 +14,11 @@ import numpy as np
 from scipy.signal import stft
 from scipy.ndimage import gaussian_filter1d, uniform_filter
 
+# Parameters matching the JAX GD pipeline (gradient_descent.py / loss_helpers.py)
+_GD_NFFT    = 512
+_GD_WIN_LEN = 600
+_GD_HOP_LEN = 100
+
 
 # ------------------------------------------------------------------
 # Internal helpers
@@ -85,18 +90,23 @@ def _ssim_2d(img_a, img_b, win_size=7):
     return float(np.mean(num / den))
 
 
-def _dtw_distance(seq_a, seq_b):
-    """Dynamic time warping distance between two 1-D sequences."""
+def _dtw_distance(seq_a, seq_b, squared=False, normalize=True):
+    """Dynamic time warping distance between two 1-D sequences.
+
+    squared=True, normalize=False matches JAX SoftDTW(gamma=1) from softdtw_jax.py
+    (which uses squared L2 cost and returns the raw accumulated distance).
+    """
     n, m = len(seq_a), len(seq_b)
-    # cost matrix
-    cost = np.abs(seq_a[:, None] - seq_b[None, :])
-    # cumulative cost
+    if squared:
+        cost = (seq_a[:, None] - seq_b[None, :]) ** 2
+    else:
+        cost = np.abs(seq_a[:, None] - seq_b[None, :])
     D = np.full((n + 1, m + 1), np.inf)
     D[0, 0] = 0.0
     for i in range(1, n + 1):
         for j in range(1, m + 1):
             D[i, j] = cost[i - 1, j - 1] + min(D[i - 1, j], D[i, j - 1], D[i - 1, j - 1])
-    return float(D[n, m] / (n + m))
+    return float(D[n, m] / (n + m) if normalize else D[n, m])
 
 
 # ------------------------------------------------------------------
@@ -164,6 +174,73 @@ def dtw_onset_loss(audio_a, audio_b, sample_rate):
 
 
 # ------------------------------------------------------------------
+# GD-matching helpers (same STFT params as JAX pipeline)
+# ------------------------------------------------------------------
+
+def _gd_spectrogram(audio: np.ndarray) -> np.ndarray:
+    """
+    Magnitude spectrogram matching audax/loss_helpers.spec_func exactly.
+    Returns shape (n_frames, n_freq) = (time, freq).
+    Params: nfft=512, win_len=600, hop=100, Hann window, reflect-pad by nfft//2,
+    normalized by sqrt(sum(window^2)), power=1.
+    """
+    window = np.hanning(_GD_WIN_LEN)
+    pad = _GD_NFFT // 2
+    padded = np.pad(audio.astype(np.float32), pad, mode="reflect")
+    n_frames = (len(padded) - _GD_WIN_LEN) // _GD_HOP_LEN + 1
+    frames = np.stack([
+        padded[i * _GD_HOP_LEN : i * _GD_HOP_LEN + _GD_WIN_LEN] * window
+        for i in range(n_frames)
+    ])  # (n_frames, win_len)
+    # Truncate to nfft before FFT (win_len > nfft in the GD config)
+    spec = np.abs(np.fft.rfft(frames[:, :_GD_NFFT], n=_GD_NFFT))  # (n_frames, n_freq)
+    spec /= np.sqrt(np.sum(window ** 2))
+    return spec
+
+
+def _gd_onset_envelope(audio: np.ndarray) -> np.ndarray:
+    """
+    Onset envelope matching onset_1d in loss_helpers.py.
+    Sum spectrogram over freq axis, then convolve with Gaussian(sigma=3, radius=10).
+    """
+    spec = _gd_spectrogram(audio)        # (n_frames, n_freq)
+    energy = spec.sum(axis=1)            # (n_frames,) — total energy per frame
+    kernel = _gaussian_kernel1d(sigma=3, radius=10)
+    return np.convolve(energy, kernel, mode="same")
+
+
+def _gaussian_kernel1d(sigma: float, radius: int) -> np.ndarray:
+    x = np.arange(-radius, radius + 1, dtype=np.float64)
+    k = np.exp(-0.5 * x ** 2 / sigma ** 2)
+    return (k / k.sum()).astype(np.float32)
+
+
+def simse_spec_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
+    """
+    Scale-Invariant MSE on GD spectrograms, clipped to [0,1].
+    Matches dm_pix.simse used in gradient_descent.py for bandpass_noise.
+    alpha = dot(a, b) / dot(b, b);  loss = mean((a - alpha*b)^2)
+    """
+    spec_a = np.clip(_gd_spectrogram(audio_a), 0.0, 1.0).ravel()
+    spec_b = np.clip(_gd_spectrogram(audio_b), 0.0, 1.0).ravel()
+    b_dot_b = np.dot(spec_b, spec_b)
+    if b_dot_b < 1e-10:
+        return float(np.mean(spec_a ** 2))
+    alpha = np.dot(spec_a, spec_b) / b_dot_b
+    return float(np.mean((spec_a - alpha * spec_b) ** 2))
+
+
+def dtw_envelope_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
+    """
+    Hard DTW on GD onset envelopes.
+    Matches SoftDTW(gamma=1) from softdtw_jax.py: squared L2 cost, no (n+m) normalization.
+    """
+    env_a = _gd_onset_envelope(audio_a)
+    env_b = _gd_onset_envelope(audio_b)
+    return _dtw_distance(env_a, env_b, squared=True, normalize=False)
+
+
+# ------------------------------------------------------------------
 # Registry for easy iteration
 # ------------------------------------------------------------------
 
@@ -174,4 +251,6 @@ ALL_LOSSES = {
     "Multi-Res Spectral": multi_resolution_spectral_loss,
     "SSIM Spectral": ssim_spectral_loss,
     "DTW Onset": dtw_onset_loss,
+    "SIMSE_Spec": simse_spec_loss,
+    "DTW_Envelope": dtw_envelope_loss,
 }
