@@ -146,7 +146,7 @@ def run_gd(
 
     history_audio_loss: list[float] = []
     history_p_loss: list[float] = []
-    best_loss = float("inf")
+    best_p_loss = float("inf")
     best_params_real = dict(init_real)
 
     for _ in range(eval_budget):
@@ -166,8 +166,8 @@ def run_gd(
         history_audio_loss.append(loss_float)
         history_p_loss.append(p_loss)
 
-        if loss_float < best_loss:
-            best_loss = loss_float
+        if p_loss < best_p_loss:
+            best_p_loss = p_loss
             best_params_real = {pname: float(cur_real[i]) for i, pname in enumerate(param_names)}
 
     return history_audio_loss, history_p_loss, best_params_real

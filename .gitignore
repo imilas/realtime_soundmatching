@@ -8,3 +8,4 @@ bandpass_noise_target
 *.json
 *.wav
 synths/build/
+papers/
