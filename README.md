@@ -182,3 +182,12 @@ automatically from the JSON file.
 | OSC not reaching Faust | Confirm Faust binary started with `-osc` flag; check port with `faust -osc -port 5510` |
 | `queue.Empty` / timeout | Increase `--settle-time`; ensure JACK ports are connected |
 | Low-latency audio clicks | Increase JACK buffer: `jackd ... -p 1024` |
+
+
+
+## server setup
+  conda create -n soundmatch python=3.10
+  conda activate soundmatch
+  install faust?
+  bash setup.sh
+
