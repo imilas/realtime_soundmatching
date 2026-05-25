@@ -59,14 +59,14 @@ echo "Using $($PYTHON --version) at $PYTHON"
 # 2. Faust compiler
 # ---------------------------------------------------------------------------
 if ! command -v faust &>/dev/null; then
-    echo "faust not found — trying to install without sudo..."
+    echo ""
+    echo "faust not found. Options:"
+    echo "  1) Build from source (~10 min, needs cmake + gcc)"
+    echo "  2) Skip — I will install it myself and re-run setup.sh"
+    echo ""
+    read -rp "Choice [1/2]: " FAUST_CHOICE
 
-    CONDA_CMD=$(command -v mamba || command -v conda || true)
-    if [ -n "$CONDA_CMD" ]; then
-        echo "  using $CONDA_CMD to install faust..."
-        "$CONDA_CMD" install -y -c conda-forge faust
-    else
-        echo "  conda/mamba not found — building faust from source (~10 min)..."
+    if [ "${FAUST_CHOICE}" = "1" ]; then
         FAUST_VERSION="2.85.5"
         FAUST_SRC_URL="https://github.com/grame-cncm/faust/releases/download/${FAUST_VERSION}/faust-${FAUST_VERSION}.tar.gz"
         TMP=$(mktemp -d)
@@ -84,12 +84,18 @@ if ! command -v faust &>/dev/null; then
         cmake --install . --prefix "$HOME/.local"
         cd "$REPO_DIR"
         rm -rf "$TMP"
+    else
+        echo ""
+        echo "Install faust and re-run setup.sh. Some options:"
+        echo "  sudo apt install faust        # Ubuntu with sudo"
+        echo "  sudo pacman -S faust          # Arch with sudo"
+        echo "  conda install -c conda-forge faust  # if available"
+        echo "  build from source: see faust-2.85.5/build/README"
+        exit 0
     fi
 
     if ! command -v faust &>/dev/null; then
-        echo ""
-        echo "ERROR: could not install faust automatically." >&2
-        echo "Run: conda install -c conda-forge faust" >&2
+        echo "ERROR: faust still not found after build." >&2
         exit 1
     fi
 fi
