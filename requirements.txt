@@ -9,8 +9,8 @@ numpy>=1.24
 scipy>=1.7
 
 # JAX stack (GD agent)
-jax>=0.4.0
-jaxlib>=0.4.0
+# jax and jaxlib must be installed via conda first:
+#   conda install -c conda-forge jax jaxlib
 flax>=0.8.0
 optax>=0.2.0
 audax>=0.0.3
