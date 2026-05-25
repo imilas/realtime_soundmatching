@@ -9,10 +9,9 @@ numpy>=1.24
 scipy>=1.7
 
 # JAX stack (GD agent)
-# jax and jaxlib must be installed via conda first:
-#   conda install -c conda-forge jax jaxlib
-# flax and optax: conda install -c conda-forge flax optax
-# dm_pix: conda install -c conda-forge dm-pix
+# jax, jaxlib, flax, optax must be installed via conda first:
+#   conda install -c conda-forge jax jaxlib flax optax
+dm_pix>=0.4.0
 audax>=0.0.3
 kymatio>=0.3.0
 
