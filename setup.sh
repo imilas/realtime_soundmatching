@@ -87,10 +87,9 @@ if ! command -v faust &>/dev/null; then
     else
         echo ""
         echo "Install faust and re-run setup.sh. Some options:"
-        echo "  sudo apt install faust        # Ubuntu with sudo"
-        echo "  sudo pacman -S faust          # Arch with sudo"
-        echo "  conda install -c conda-forge faust  # if available"
-        echo "  build from source: see faust-2.85.5/build/README"
+        echo "  sudo apt install faust"
+        echo "  sudo pacman -S faust"
+        echo "  conda install -c conda-forge faust"
         exit 0
     fi
 
@@ -103,7 +102,7 @@ fi
 echo "Using $(faust --version 2>&1 | head -1)"
 
 # ---------------------------------------------------------------------------
-# 3. GNU parallel
+# 3. GNU parallel (optional — run_parallel.sh falls back to bash if missing)
 # ---------------------------------------------------------------------------
 if ! command -v parallel &>/dev/null; then
     echo "GNU parallel not found — installing to ~/.local..."
@@ -118,7 +117,11 @@ if ! command -v parallel &>/dev/null; then
     rm -rf "$TMP"
 fi
 
-echo "Using $(parallel --version | head -1)"
+if command -v parallel &>/dev/null; then
+    echo "Using $(parallel --version | head -1)"
+else
+    echo "GNU parallel unavailable — run_parallel.sh will use bash background jobs"
+fi
 
 # ---------------------------------------------------------------------------
 # 4. Python packages
@@ -127,7 +130,7 @@ cd "$REPO_DIR"
 
 if [ "$IN_CONDA" = true ]; then
     echo "Installing Python packages into conda env..."
-    pip install -r requirements.txt --quiet
+    pip install -r requirements.txt
 else
     if [ ! -d .venv ]; then
         echo "Creating .venv..."
@@ -136,11 +139,11 @@ else
     source .venv/bin/activate
     echo "Installing Python packages..."
     pip install --upgrade pip --quiet
-    pip install -r requirements.txt --quiet
+    pip install -r requirements.txt
 fi
 
 # ---------------------------------------------------------------------------
-# 5. Compile synths (idempotent — skips if already built)
+# 5. Compile synths (always recompile to pick up any toolchain changes)
 # ---------------------------------------------------------------------------
 echo "Building synths..."
 python - <<'EOF'
@@ -148,7 +151,7 @@ from synths.build import prepare
 from synths.program import PROGRAMS
 for name in PROGRAMS:
     print(f"  {name}...", end=" ", flush=True)
-    prepare(name)
+    prepare(name, force=True)
     print("ok")
 EOF
 
