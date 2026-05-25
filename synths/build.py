@@ -92,14 +92,15 @@ def prepare(program: SynthProgram | str, force: bool = False) -> SynthBuild:
 
         dsp_path.write_text(instantiated)
 
-        # Compile JACK + OSC binary. faust2jaqt drops the binary in cwd.
+        # Compile sndfile binary (no JACK required). faust2sndfile drops it in cwd.
+        # faust2jaqt is only needed for the interactive GUI — skip it on headless servers.
         res = subprocess.run(
-            ["faust2jaqt", "-osc", dsp_path.name],
+            ["faust2sndfile", dsp_path.name],
             cwd=out_dir, capture_output=True, text=True,
         )
         if res.returncode != 0 or not binary_path.is_file():
             raise RuntimeError(
-                f"faust2jaqt failed for {program.name}:\n"
+                f"faust2sndfile failed for {program.name}:\n"
                 f"stdout: {res.stdout}\nstderr: {res.stderr}"
             )
 
