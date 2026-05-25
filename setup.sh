@@ -72,17 +72,16 @@ if ! command -v faust &>/dev/null; then
         TMP=$(mktemp -d)
         curl -fsSL "$FAUST_SRC_URL" -o "$TMP/faust.tar.gz"
         tar xf "$TMP/faust.tar.gz" -C "$TMP"
-        cd "$TMP"/faust-*/
-        cmake -S . -B build \
+        cd "$TMP"/faust-*/build
+        cmake . \
             -DCMAKE_INSTALL_PREFIX="$HOME/.local" \
             -DCMAKE_BUILD_TYPE=Release \
             -DINCLUDE_LLVM=OFF \
             -DINCLUDE_OSC=ON \
             -DINCLUDE_HTTP=OFF \
-            -DUSE_LLVM_CONFIG=OFF \
-            2>&1 | tail -5
-        cmake --build build --parallel "$(nproc)" 2>&1 | tail -5
-        cmake --install build
+            -DUSE_LLVM_CONFIG=OFF
+        cmake --build . --parallel "$(nproc)" 2>&1 | grep --line-buffered -E "^\["
+        cmake --install . --prefix "$HOME/.local"
         cd "$REPO_DIR"
         rm -rf "$TMP"
     fi
