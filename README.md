@@ -188,6 +188,7 @@ automatically from the JSON file.
 ## server setup
   conda create -n soundmatch python=3.10
   conda activate soundmatch
-  install faust?
+  this script builds faust from scratch, give the user an option to install it
+  themselves if they want 
   bash setup.sh
 
