@@ -6,7 +6,7 @@ soundfile>=0.12.0
 
 # Numerics
 numpy>=1.24
-scipy>=1.11
+scipy>=1.7
 
 # JAX stack (GD agent)
 jax>=0.4.0
