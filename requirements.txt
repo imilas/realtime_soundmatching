@@ -12,8 +12,8 @@ scipy>=1.7
 # jax and jaxlib must be installed via conda first:
 #   conda install -c conda-forge jax jaxlib
 # flax and optax: conda install -c conda-forge flax optax
+# dm_pix: conda install -c conda-forge dm-pix
 audax>=0.0.3
-dm_pix>=0.4.0
 kymatio>=0.3.0
 
 # Gradient-free agents

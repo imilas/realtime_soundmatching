@@ -2,10 +2,10 @@
 # One-time setup: install tools, create .venv (or use conda env), compile synths.
 # No sudo required.
 #
-# Recommended on servers with conda:
+# Recommended (conda — works on servers):
 #   conda create -n soundmatch python=3.10
 #   conda activate soundmatch
-#   conda install -c conda-forge faust
+#   conda install -c conda-forge faust jax jaxlib flax optax dm-pix
 #   bash setup.sh
 #
 # On a local machine with sudo:
