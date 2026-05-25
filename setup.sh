@@ -29,7 +29,8 @@ if ! command -v faust &>/dev/null; then
         -DINCLUDE_LLVM=OFF \
         -DINCLUDE_OSC=ON \
         -DINCLUDE_HTTP=OFF \
-        -DUSE_LLVM_CONFIG=OFF
+        -DUSE_LLVM_CONFIG=OFF \
+        -DBACKEND=all
     cmake --build . --parallel "$(nproc)" 2>&1 | grep --line-buffered -E "^\["
     cmake --install . --prefix "$HOME/.local"
     export PATH="$HOME/.local/bin:$PATH"
