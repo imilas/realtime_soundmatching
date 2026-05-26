@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import hashlib
 import fcntl
+import os
 import shutil
 import subprocess
 import time
@@ -94,9 +95,11 @@ def prepare(program: SynthProgram | str, force: bool = False) -> SynthBuild:
 
         # Compile sndfile binary (no JACK required). faust2sndfile drops it in cwd.
         # faust2jaqt is only needed for the interactive GUI — skip it on headless servers.
+        env = os.environ.copy()
+        env["CXXFLAGS"] = f"{env.get('CXXFLAGS', '')} -pthread".strip()
         res = subprocess.run(
             ["faust2sndfile", dsp_path.name],
-            cwd=out_dir, capture_output=True, text=True,
+            cwd=out_dir, capture_output=True, text=True, env=env,
         )
         if res.returncode != 0 or not binary_path.is_file():
             raise RuntimeError(

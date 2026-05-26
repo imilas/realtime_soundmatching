@@ -16,9 +16,9 @@ fi
 
 SYNTHS="bandpass_noise am_noise add_sinesaw"
 METHODS="HillClimber RandomSearch CMA-ES BO QL"
-TRIALS=10
+TRIALS=200
 BUDGET=200
-JOBS=6
+JOBS=15
 
 mkdir -p paper_experiments/results
 
