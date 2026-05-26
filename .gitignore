@@ -9,3 +9,5 @@ bandpass_noise_target
 *.wav
 synths/build/
 papers/
+*.tsv
+*.pkl

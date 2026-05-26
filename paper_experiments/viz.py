@@ -25,7 +25,7 @@ def _():
         "BO": "#d62728",
         "QL": "#9467bd",
     }
-    return COLORS, METHOD_ORDER, RESULTS_DIR, combinations, mo, np, pd, pickle, plt, Path
+    return COLORS, METHOD_ORDER, RESULTS_DIR, mo, np, pd, pickle, plt
 
 
 @app.cell
@@ -59,6 +59,12 @@ def _(RESULTS_DIR, pd, pickle):
 
 
 @app.cell
+def _(df):
+    df
+    return
+
+
+@app.cell
 def _(methods_available, mo, synths_available):
     synth_picker = mo.ui.multiselect(
         options=synths_available,
@@ -70,22 +76,41 @@ def _(methods_available, mo, synths_available):
         value=methods_available,
         label="Methods",
     )
-    mo.hstack([synth_picker, method_picker])
-    return method_picker, synth_picker
+    ql_tail_pct = mo.ui.slider(
+        start=1,
+        stop=100,
+        step=1,
+        value=100,
+        label="QL last %",
+    )
+    mo.hstack([synth_picker, method_picker, ql_tail_pct])
+    return method_picker, ql_tail_pct, synth_picker
 
 
 @app.cell
-def _(df, method_picker, synth_picker):
-    filtered = df[
+def _(df, method_picker, np, pd, ql_tail_pct, synth_picker):
+    def _keep_last_ql_pct(sub, pct):
+        if sub.empty:
+            return sub
+        ql = sub[sub["method"] == "QL"]
+        other = sub[sub["method"] != "QL"]
+        if ql.empty:
+            return sub
+
+        kept = []
+        for _synth, _rows in ql.groupby("program", sort=False):
+            _n = max(1, int(np.ceil(len(_rows) * pct / 100.0)))
+            kept.append(_rows.tail(_n))
+        return pd.concat([other, *kept], ignore_index=True)
+
+    selected = df[
         df["program"].isin(synth_picker.value) &
         df["method"].isin(method_picker.value)
     ]
+    filtered = _keep_last_ql_pct(selected, ql_tail_pct.value)
     return (filtered,)
 
 
-# ---------------------------------------------------------------------------
-# Boxplots
-# ---------------------------------------------------------------------------
 @app.cell
 def _(COLORS, METHOD_ORDER, filtered, mo, plt):
     _synths = sorted(filtered["program"].unique())
@@ -124,63 +149,9 @@ def _(COLORS, METHOD_ORDER, filtered, mo, plt):
         _out = mo.md("_No data for current selection._")
 
     _out
+    return
 
 
-# ---------------------------------------------------------------------------
-# NPSK win-rate heatmaps
-# ---------------------------------------------------------------------------
-@app.cell
-def _(METHOD_ORDER, filtered, mo, np, plt):
-    def _npsk(sub, methods):
-        _mat = np.full((len(methods), len(methods)), np.nan)
-        for _i, _a in enumerate(methods):
-            for _j, _b in enumerate(methods):
-                if _i == _j:
-                    _mat[_i, _j] = 0.5
-                    continue
-                _va = sub[sub["method"] == _a]["best_p_loss"].values
-                _vb = sub[sub["method"] == _b]["best_p_loss"].values
-                _n = min(len(_va), len(_vb))
-                if _n:
-                    _mat[_i, _j] = (_va[:_n] < _vb[:_n]).mean()
-        return _mat
-
-    _synths = sorted(filtered["program"].unique())
-    _methods = [_m for _m in METHOD_ORDER if _m in filtered["method"].unique()]
-
-    if _synths and len(_methods) >= 2:
-        _fig, _axes = plt.subplots(1, len(_synths), figsize=(3.5 * len(_synths), 3.5))
-        if len(_synths) == 1:
-            _axes = [_axes]
-
-        for _ax, _synth in zip(_axes, _synths):
-            _mat = _npsk(filtered[filtered["program"] == _synth], _methods)
-            _im = _ax.imshow(_mat, vmin=0, vmax=1, cmap="RdYlGn")
-            _ax.set_xticks(range(len(_methods)))
-            _ax.set_xticklabels(_methods, rotation=45, ha="right", fontsize=7)
-            _ax.set_yticks(range(len(_methods)))
-            _ax.set_yticklabels(_methods, fontsize=7)
-            _ax.set_title(_synth, fontsize=8)
-            for _i in range(len(_methods)):
-                for _j in range(len(_methods)):
-                    _v = _mat[_i, _j]
-                    if not np.isnan(_v):
-                        _ax.text(_j, _i, f"{_v:.2f}", ha="center", va="center", fontsize=7)
-            plt.colorbar(_im, ax=_ax, fraction=0.046)
-
-        _fig.suptitle("NPSK win rate (row beats column)", fontsize=10)
-        _fig.tight_layout()
-        _out = mo.as_html(_fig)
-        plt.close(_fig)
-    else:
-        _out = mo.md("_Need at least 2 methods selected._")
-
-    _out
-
-
-# ---------------------------------------------------------------------------
-# QL cross-trial learning
-# ---------------------------------------------------------------------------
 @app.cell
 def _(COLORS, filtered, mo, np, plt):
     _ql = filtered[filtered["method"] == "QL"].copy()
@@ -214,11 +185,9 @@ def _(COLORS, filtered, mo, np, plt):
         plt.close(_fig)
 
     _out
+    return
 
 
-# ---------------------------------------------------------------------------
-# Summary table
-# ---------------------------------------------------------------------------
 @app.cell
 def _(METHOD_ORDER, filtered, mo, np, pd):
     if filtered.empty:
@@ -240,6 +209,12 @@ def _(METHOD_ORDER, filtered, mo, np, pd):
                         "min": round(float(np.min(_vals)), 4),
                     })
         mo.ui.table(pd.DataFrame(_rows), selection=None)
+    return
+
+
+@app.cell
+def _():
+    return
 
 
 if __name__ == "__main__":

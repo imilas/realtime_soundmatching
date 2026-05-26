@@ -37,7 +37,7 @@ def run_gd(
     loss_name: str = "SIMSE_Spec",
     learning_rate: float = 0.045,
     seed: int = 0,
-) -> tuple[list[float], list[float], dict[str, float]]:
+) -> tuple[list[float], list[float], list[dict[str, float]], dict[str, float]]:
     """
     Run RMSProp on the JAX-compiled Faust instrument.
 
@@ -63,6 +63,7 @@ def run_gd(
     -------
     history_audio_loss  : loss value at each step
     history_p_loss      : P-Loss at each step
+    history_params      : real parameter values at each step
     best_params_real    : {param_name: value} of best point found
     """
     import jax
@@ -146,6 +147,7 @@ def run_gd(
 
     history_audio_loss: list[float] = []
     history_p_loss: list[float] = []
+    history_params: list[dict[str, float]] = []
     best_p_loss = float("inf")
     best_params_real = dict(init_real)
 
@@ -162,12 +164,14 @@ def run_gd(
         ])
         cur_norm = np.clip((cur_real - bounds_lowers) / bounds_range, 0.0, 1.0)
         p_loss = float(np.linalg.norm(true_norm - cur_norm))
+        cur_params = {pname: float(cur_real[i]) for i, pname in enumerate(param_names)}
 
         history_audio_loss.append(loss_float)
         history_p_loss.append(p_loss)
+        history_params.append(cur_params)
 
         if p_loss < best_p_loss:
             best_p_loss = p_loss
-            best_params_real = {pname: float(cur_real[i]) for i, pname in enumerate(param_names)}
+            best_params_real = cur_params
 
-    return history_audio_loss, history_p_loss, best_params_real
+    return history_audio_loss, history_p_loss, history_params, best_params_real
