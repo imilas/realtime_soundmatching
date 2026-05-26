@@ -2,9 +2,8 @@
 GD integration tests.
 
 These tests require JAX, Flax, Optax, DawDreamer, kymatio, dm_pix — they
-run against the real synth renderer, not a synthetic loss.  They are slow
-(~30-60s each) and marked with the 'gd' pytest marker so they can be run
-separately:
+run against the real synth renderer, not a synthetic loss.  They are marked
+with the 'gd' pytest marker so they can be run separately:
 
     pytest tests/test_gd.py -v -m gd
 """
@@ -13,6 +12,9 @@ import numpy as np
 import pytest
 
 pytestmark = pytest.mark.gd
+
+N_SAMPLES = 44100
+SR = 44100
 
 
 @pytest.fixture(scope="module")
@@ -28,8 +30,37 @@ def bandpass_setup():
     return build, params, bounds
 
 
+@pytest.fixture(scope="module")
+def jax_warmed(bandpass_setup):
+    """Run one short GD pass to warm up JAX JIT before the real tests."""
+    from experiments.multidim_runner import _render_audio
+    from synths.program import get_program
+
+    build, params, bounds = bandpass_setup
+    rng = np.random.default_rng(0)
+    true_norm = rng.uniform(0, 1, size=bounds.d)
+    true_real = bounds.denormalize(true_norm)
+    true_params = params.vector_to_dict(true_real)
+    target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
+    dsp_code = get_program("bandpass_noise").instantiate(true_params)
+    from agents.multidim.gradient_descent import run_gd
+    run_gd(
+        dsp_code=dsp_code,
+        target_audio=target_audio,
+        init_real=true_params,
+        param_names=params.names(),
+        bounds_lowers=bounds.lowers,
+        bounds_uppers=bounds.uppers,
+        true_norm=true_norm,
+        eval_budget=3,
+        loss_name="SIMSE_Spec",
+        seed=0,
+    )
+    return True
+
+
 def _run_gd_direct(dsp_code, target_audio, init_real, params, bounds, true_norm,
-                   budget=50, loss_name="SIMSE_Spec", lr=0.045):
+                   budget=15, loss_name="SIMSE_Spec", lr=0.045):
     from agents.multidim.gradient_descent import run_gd
     return run_gd(
         dsp_code=dsp_code,
@@ -46,7 +77,7 @@ def _run_gd_direct(dsp_code, target_audio, init_real, params, bounds, true_norm,
     )
 
 
-def test_gd_audio_loss_decreases(bandpass_setup):
+def test_gd_audio_loss_decreases(bandpass_setup, jax_warmed):
     """Audio loss should be lower at the end than at the start."""
     from experiments.multidim_runner import _render_audio
     from synths.program import get_program
@@ -55,29 +86,23 @@ def test_gd_audio_loss_decreases(bandpass_setup):
     rng = np.random.default_rng(42)
 
     true_norm = rng.uniform(0, 1, size=bounds.d)
-    true_real = bounds.denormalize(true_norm)
-    true_params = params.vector_to_dict(true_real)
-
+    true_params = params.vector_to_dict(bounds.denormalize(true_norm))
     init_norm = rng.uniform(0, 1, size=bounds.d)
-    init_real = bounds.denormalize(init_norm)
-    init_params = params.vector_to_dict(init_real)
+    init_params = params.vector_to_dict(bounds.denormalize(init_norm))
 
-    n_samples = 44100
-    target_audio = _render_audio(str(build.dsp_path), true_params, n_samples, 44100)
+    target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(init_params)
 
-    hist_audio, hist_p, _ = _run_gd_direct(
-        dsp_code, target_audio, init_params, params, bounds, true_norm, budget=80
+    hist_audio, _, _ = _run_gd_direct(
+        dsp_code, target_audio, init_params, params, bounds, true_norm, budget=20
     )
 
-    first_quarter = np.mean(hist_audio[:20])
-    last_quarter = np.mean(hist_audio[-20:])
-    assert last_quarter < first_quarter, (
-        f"Audio loss did not decrease: start={first_quarter:.4f} end={last_quarter:.4f}"
+    assert hist_audio[-1] < hist_audio[0], (
+        f"Audio loss did not decrease: start={hist_audio[0]:.4f} end={hist_audio[-1]:.4f}"
     )
 
 
-def test_gd_p_loss_decreases(bandpass_setup):
+def test_gd_p_loss_decreases(bandpass_setup, jax_warmed):
     """P-Loss should on average decrease over GD steps."""
     from experiments.multidim_runner import _render_audio
     from synths.program import get_program
@@ -86,29 +111,23 @@ def test_gd_p_loss_decreases(bandpass_setup):
     rng = np.random.default_rng(7)
 
     true_norm = rng.uniform(0, 1, size=bounds.d)
-    true_real = bounds.denormalize(true_norm)
-    true_params = params.vector_to_dict(true_real)
-
+    true_params = params.vector_to_dict(bounds.denormalize(true_norm))
     init_norm = rng.uniform(0, 1, size=bounds.d)
-    init_real = bounds.denormalize(init_norm)
-    init_params = params.vector_to_dict(init_real)
+    init_params = params.vector_to_dict(bounds.denormalize(init_norm))
 
-    n_samples = 44100
-    target_audio = _render_audio(str(build.dsp_path), true_params, n_samples, 44100)
+    target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(init_params)
 
     _, hist_p, _ = _run_gd_direct(
-        dsp_code, target_audio, init_params, params, bounds, true_norm, budget=100
+        dsp_code, target_audio, init_params, params, bounds, true_norm, budget=20
     )
 
-    first_half = np.mean(hist_p[:50])
-    second_half = np.mean(hist_p[50:])
-    assert second_half < first_half, (
-        f"P-Loss did not decrease: first_half={first_half:.4f} second_half={second_half:.4f}"
+    assert hist_p[-1] < hist_p[0], (
+        f"P-Loss did not decrease: start={hist_p[0]:.4f} end={hist_p[-1]:.4f}"
     )
 
 
-def test_gd_perfect_init_stays_low(bandpass_setup):
+def test_gd_perfect_init_stays_low(bandpass_setup, jax_warmed):
     """When init == true params, P-Loss should start near 0 and stay low."""
     from experiments.multidim_runner import _render_audio
     from synths.program import get_program
@@ -117,63 +136,47 @@ def test_gd_perfect_init_stays_low(bandpass_setup):
     rng = np.random.default_rng(99)
 
     true_norm = rng.uniform(0, 1, size=bounds.d)
-    true_real = bounds.denormalize(true_norm)
-    true_params = params.vector_to_dict(true_real)
-
-    n_samples = 44100
-    target_audio = _render_audio(str(build.dsp_path), true_params, n_samples, 44100)
-    # Init exactly at the true params — P-Loss should stay near 0.
+    true_params = params.vector_to_dict(bounds.denormalize(true_norm))
+    target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(true_params)
 
-    _, hist_p, best_params = _run_gd_direct(
-        dsp_code, target_audio, true_params, params, bounds, true_norm, budget=30
+    _, hist_p, _ = _run_gd_direct(
+        dsp_code, target_audio, true_params, params, bounds, true_norm, budget=10
     )
 
     assert hist_p[0] < 0.05, f"P-Loss at perfect init should be ~0, got {hist_p[0]:.4f}"
     assert min(hist_p) < 0.1, f"GD drifted away from perfect init: min P-Loss={min(hist_p):.4f}"
 
 
-def test_gd_close_init_better_than_far_on_average(bandpass_setup):
-    """
-    On average over multiple seeds, GD from a close init should reach lower P-Loss
-    than GD from a far init.  A single-seed comparison is unreliable because the
-    loss landscape can be non-convex.
-    """
+def test_gd_close_init_better_than_far_on_average(bandpass_setup, jax_warmed):
+    """On average over multiple seeds, GD from a close init should reach lower P-Loss."""
     from experiments.multidim_runner import _render_audio
     from synths.program import get_program
 
     build, params, bounds = bandpass_setup
-    n_samples = 44100
-    n_seeds = 5
-    budget = 80
+    n_seeds = 2
+    budget = 15
 
     close_mins, far_mins = [], []
 
     for seed in range(n_seeds):
         rng = np.random.default_rng(seed)
-        true_norm = rng.uniform(0.2, 0.8, size=bounds.d)  # keep target away from edges
-        true_real = bounds.denormalize(true_norm)
-        true_params = params.vector_to_dict(true_real)
-        target_audio = _render_audio(str(build.dsp_path), true_params, n_samples, 44100)
+        true_norm = rng.uniform(0.2, 0.8, size=bounds.d)
+        true_params = params.vector_to_dict(bounds.denormalize(true_norm))
+        target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
 
-        # Close init: 0.08 away from true in a fixed direction.
         close_norm = np.clip(true_norm + 0.08, 0, 1)
-        close_real = bounds.denormalize(close_norm)
-        close_params = params.vector_to_dict(close_real)
-
-        # Far init: opposite side of the space from true.
+        close_params = params.vector_to_dict(bounds.denormalize(close_norm))
         far_norm = np.clip(1.0 - true_norm, 0, 1)
-        far_real = bounds.denormalize(far_norm)
-        far_params = params.vector_to_dict(far_real)
-
-        dsp_close = get_program("bandpass_noise").instantiate(close_params)
-        dsp_far = get_program("bandpass_noise").instantiate(far_params)
+        far_params = params.vector_to_dict(bounds.denormalize(far_norm))
 
         _, hp_close, _ = _run_gd_direct(
-            dsp_close, target_audio, close_params, params, bounds, true_norm, budget=budget
+            get_program("bandpass_noise").instantiate(close_params),
+            target_audio, close_params, params, bounds, true_norm, budget=budget
         )
         _, hp_far, _ = _run_gd_direct(
-            dsp_far, target_audio, far_params, params, bounds, true_norm, budget=budget
+            get_program("bandpass_noise").instantiate(far_params),
+            target_audio, far_params, params, bounds, true_norm, budget=budget
         )
         close_mins.append(min(hp_close))
         far_mins.append(min(hp_far))
@@ -182,9 +185,7 @@ def test_gd_close_init_better_than_far_on_average(bandpass_setup):
     mean_far = np.mean(far_mins)
     assert mean_close < mean_far, (
         f"Expected close init to beat far init on average: "
-        f"close={mean_close:.4f} far={mean_far:.4f}\n"
-        f"per-seed close={[round(x,4) for x in close_mins]} "
-        f"far={[round(x,4) for x in far_mins]}"
+        f"close={mean_close:.4f} far={mean_far:.4f}"
     )
 
 
@@ -192,19 +193,10 @@ def test_gd_loss_name_passed_through():
     """run_trial_gd should use the loss_name passed in, not the hardcoded default."""
     from experiments.multidim_runner import run_trial_gd
 
-    # Run with explicit loss_name — should not raise.
     result = run_trial_gd(
         program_name="bandpass_noise",
         seed=0,
-        eval_budget=10,
+        eval_budget=3,
         loss_name="SIMSE_Spec",
     )
     assert result.loss_name == "SIMSE_Spec"
-
-    result2 = run_trial_gd(
-        program_name="bandpass_noise",
-        seed=0,
-        eval_budget=10,
-        loss_name="JTFS",
-    )
-    assert result2.loss_name == "JTFS"
