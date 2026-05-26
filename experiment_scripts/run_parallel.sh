@@ -20,6 +20,60 @@ TRIALS=200
 BUDGET=200
 JOBS=15
 
+usage() {
+    cat <<EOF
+Usage: $0 [options]
+
+Options:
+  --trials N       Number of trials per synth/method cell (default: $TRIALS)
+  --budget N       Evaluation budget per trial (default: $BUDGET)
+  --jobs N         Maximum parallel jobs (default: $JOBS)
+  --synths "..."   Space-separated synth list (default: "$SYNTHS")
+  --methods "..."  Space-separated method list (default: "$METHODS")
+  -h, --help       Show this help
+EOF
+}
+
+while (($#)); do
+    case "$1" in
+        --trials)
+            TRIALS="$2"
+            shift 2
+            ;;
+        --budget)
+            BUDGET="$2"
+            shift 2
+            ;;
+        --jobs)
+            JOBS="$2"
+            shift 2
+            ;;
+        --synths)
+            SYNTHS="$2"
+            shift 2
+            ;;
+        --methods)
+            METHODS="$2"
+            shift 2
+            ;;
+        -h|--help)
+            usage
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1" >&2
+            usage >&2
+            exit 1
+            ;;
+    esac
+done
+
+echo "Synths:  $SYNTHS"
+echo "Methods: $METHODS"
+echo "Trials:  $TRIALS"
+echo "Budget:  $BUDGET"
+echo "Jobs:    $JOBS"
+
 mkdir -p paper_experiments/results
 
 if command -v parallel &>/dev/null; then
