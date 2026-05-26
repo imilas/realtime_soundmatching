@@ -93,7 +93,7 @@ def test_gd_audio_loss_decreases(bandpass_setup, jax_warmed):
     target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(init_params)
 
-    hist_audio, _, _ = _run_gd_direct(
+    hist_audio, _, _, _ = _run_gd_direct(
         dsp_code, target_audio, init_params, params, bounds, true_norm, budget=20
     )
 
@@ -118,7 +118,7 @@ def test_gd_p_loss_decreases(bandpass_setup, jax_warmed):
     target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(init_params)
 
-    _, hist_p, _ = _run_gd_direct(
+    _, hist_p, _, _ = _run_gd_direct(
         dsp_code, target_audio, init_params, params, bounds, true_norm, budget=20
     )
 
@@ -140,7 +140,7 @@ def test_gd_perfect_init_stays_low(bandpass_setup, jax_warmed):
     target_audio = _render_audio(str(build.dsp_path), true_params, N_SAMPLES, SR)
     dsp_code = get_program("bandpass_noise").instantiate(true_params)
 
-    _, hist_p, _ = _run_gd_direct(
+    _, hist_p, _, _ = _run_gd_direct(
         dsp_code, target_audio, true_params, params, bounds, true_norm, budget=10
     )
 
@@ -170,11 +170,11 @@ def test_gd_close_init_better_than_far_on_average(bandpass_setup, jax_warmed):
         far_norm = np.clip(1.0 - true_norm, 0, 1)
         far_params = params.vector_to_dict(bounds.denormalize(far_norm))
 
-        _, hp_close, _ = _run_gd_direct(
+        _, hp_close, _, _ = _run_gd_direct(
             get_program("bandpass_noise").instantiate(close_params),
             target_audio, close_params, params, bounds, true_norm, budget=budget
         )
-        _, hp_far, _ = _run_gd_direct(
+        _, hp_far, _, _ = _run_gd_direct(
             get_program("bandpass_noise").instantiate(far_params),
             target_audio, far_params, params, bounds, true_norm, budget=budget
         )

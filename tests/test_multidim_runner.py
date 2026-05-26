@@ -51,6 +51,7 @@ def test_random_search_runs_end_to_end():
         eval_budget=SMOKE_BUDGET,
         audio_duration_s=0.25,
     )
+    assert len(result.history_params) == SMOKE_BUDGET
     assert len(result.history_audio_loss) == SMOKE_BUDGET
     assert len(result.history_p_loss) == SMOKE_BUDGET
     assert np.isfinite(result.best_audio_loss)
@@ -58,6 +59,23 @@ def test_random_search_runs_end_to_end():
     # P-Loss is in normalized space (bounds = [0,1]^d), so it can't exceed sqrt(d)
     assert result.best_p_loss <= np.sqrt(2) + 1e-6
     assert set(result.best_params.keys()) == set(result.true_params.keys())
+    assert set(result.history_params[0].keys()) == set(result.true_params.keys())
+
+
+def test_random_search_moves_locally():
+    bounds = Bounds(
+        lowers=np.array([0.0, 0.0]),
+        uppers=np.array([1.0, 1.0]),
+        names=["x", "y"],
+    )
+    agent = MultiDimRandomSearch(bounds, step_size=0.05, seed=0)
+    agent.observe(np.array([0.25, 0.75]), 1.0)
+
+    candidate = agent.propose()
+
+    assert np.all(candidate >= 0.0)
+    assert np.all(candidate <= 1.0)
+    assert np.linalg.norm(candidate - np.array([0.25, 0.75])) < 0.25
 
 
 def test_cma_es_runs_end_to_end():

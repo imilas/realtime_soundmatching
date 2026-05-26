@@ -58,6 +58,9 @@ class SavedTrial:
     best_params: dict
     best_p_loss: float
     eval_budget: int
+    history_params: list[dict] = field(default_factory=list)
+    history_audio_loss: list[float] = field(default_factory=list)
+    history_p_loss: list[float] = field(default_factory=list)
     duration_s: float = 0.0
     ql_q_table_size: Optional[int] = None
     ql_epsilon_end: Optional[float] = None
@@ -118,6 +121,9 @@ def _run_gradfree(synth: str, method: str, factory, trial_idx: int, budget: int)
         best_params=r.best_params,
         best_p_loss=r.best_p_loss,
         eval_budget=r.eval_budget,
+        history_params=r.history_params,
+        history_audio_loss=r.history_audio_loss,
+        history_p_loss=r.history_p_loss,
         duration_s=time.perf_counter() - _t0,
     )
 
@@ -145,6 +151,9 @@ def _run_gd(synth: str, trial_idx: int, budget: int) -> SavedTrial:
         best_params=r.best_params,
         best_p_loss=r.best_p_loss,
         eval_budget=r.eval_budget,
+        history_params=r.history_params,
+        history_audio_loss=r.history_audio_loss,
+        history_p_loss=r.history_p_loss,
         duration_s=time.perf_counter() - _t0,
     )
 
@@ -161,6 +170,7 @@ def _run_ql_trials(
     existing_epsilon: Optional[float],
     budget: int = 200,
     pkl_path: Optional[Path] = None,
+    existing_trials: Optional[list[dict]] = None,
 ) -> tuple[list[SavedTrial], dict, float]:
     """
     Run n_trials of QL starting from trial index start_idx.
@@ -202,17 +212,22 @@ def _run_ql_trials(
 
         target_audio = _render_audio(str(build.dsp_path), true_params, n_samples, SAMPLE_RATE)
         agent.soft_reset()
+        history_params: list[dict] = []
+        history_audio_loss: list[float] = []
+        history_p_loss: list[float] = []
         _t0 = time.perf_counter()
 
         def evaluate(x_norm: np.ndarray) -> float:
             x_norm_c = bounds.clip_norm(x_norm)
             x_real = bounds.denormalize(x_norm_c)
-            audio = _render_audio(
-                str(build.dsp_path), params.vector_to_dict(x_real), n_samples, SAMPLE_RATE
-            )
+            params_dict = params.vector_to_dict(x_real)
+            audio = _render_audio(str(build.dsp_path), params_dict, n_samples, SAMPLE_RATE)
             m = min(len(audio), len(target_audio))
             al = float(loss_fn(target_audio[:m], audio[:m], sample_rate=SAMPLE_RATE))
             agent.observe(x_norm_c, al)
+            history_params.append(params_dict)
+            history_audio_loss.append(al)
+            history_p_loss.append(_p_loss(true_norm, x_norm_c))
             return al
 
         evaluate(init_norm)
@@ -228,11 +243,21 @@ def _run_ql_trials(
             best_params=params.vector_to_dict(bounds.denormalize(agent.best_x)),
             best_p_loss=_p_loss(true_norm, agent.best_x),
             eval_budget=budget,
+            history_params=history_params,
+            history_audio_loss=history_audio_loss,
+            history_p_loss=history_p_loss,
             duration_s=time.perf_counter() - _t0,
             ql_q_table_size=agent.q_table_size,
             ql_epsilon_end=agent.epsilon,
         )
         new_trials.append(t)
+        if pkl_path is not None:
+            _save_pkl(
+                pkl_path,
+                (existing_trials or []) + [asdict(_t) for _t in new_trials],
+                agent.q_table,
+                agent.epsilon,
+            )
         _log_trial(trial_idx + 1, n_trials + start_idx, synth, "QL", t.best_p_loss, t.duration_s, pkl_path or Path(f"{synth}_QL.pkl"))
 
     return new_trials, agent.q_table, agent.epsilon
@@ -286,7 +311,14 @@ def main() -> None:
 
     if is_ql:
         new_trials, ql_q_table, ql_epsilon = _run_ql_trials(
-            synth, n_remaining, n_done, ql_q_table, ql_epsilon, args.budget, pkl_path
+            synth,
+            n_remaining,
+            n_done,
+            ql_q_table,
+            ql_epsilon,
+            args.budget,
+            pkl_path,
+            existing_trials,
         )
     else:
         new_trials = []
@@ -298,6 +330,12 @@ def main() -> None:
                 t = _run_gradfree(synth, method, factory, trial_idx, args.budget)
             new_trials.append(t)
             _log_trial(trial_idx + 1, args.trials, synth, method, t.best_p_loss, t.duration_s, pkl_path)
+            _save_pkl(
+                pkl_path,
+                existing_trials + [asdict(_t) for _t in new_trials],
+                ql_q_table,
+                ql_epsilon,
+            )
 
     all_trials = existing_trials + [asdict(t) for t in new_trials]
     _save_pkl(pkl_path, all_trials, ql_q_table, ql_epsilon)

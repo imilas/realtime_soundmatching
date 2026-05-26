@@ -47,6 +47,7 @@ class TrialResult:
     best_params: dict[str, float]
     best_audio_loss: float
     best_p_loss: float
+    history_params: list[dict[str, float]]  # per-evaluation real parameter values
     history_audio_loss: list[float]  # per-evaluation
     history_p_loss: list[float]      # per-evaluation
     eval_budget: int
@@ -127,6 +128,7 @@ def run_trial(
     # propose, this still counts toward the budget.
     history_audio_loss: list[float] = []
     history_p_loss: list[float] = []
+    history_params: list[dict[str, float]] = []
 
     def evaluate(x_norm: np.ndarray) -> float:
         x_norm_c = bounds.clip_norm(x_norm)
@@ -136,6 +138,7 @@ def run_trial(
         m = min(len(audio), len(target_audio))
         audio_loss = float(loss_fn(target_audio[:m], audio[:m], sample_rate=sample_rate))
         agent.observe(x_norm_c, audio_loss)
+        history_params.append(params_dict)
         history_audio_loss.append(audio_loss)
         history_p_loss.append(_p_loss(true_norm, x_norm_c))
         return audio_loss
@@ -161,6 +164,7 @@ def run_trial(
         best_params=params.vector_to_dict(best_real),
         best_audio_loss=agent.best_loss,
         best_p_loss=_p_loss(true_norm, agent.best_x),
+        history_params=history_params,
         history_audio_loss=history_audio_loss,
         history_p_loss=history_p_loss,
         eval_budget=eval_budget,
@@ -217,7 +221,7 @@ def run_trial_gd(
     # exactly the desired initial point.
     dsp_code = program.instantiate(init_params_dict)
 
-    history_audio_loss, history_p_loss, best_params_real = run_gd(
+    history_audio_loss, history_p_loss, history_params, best_params_real = run_gd(
         dsp_code=dsp_code,
         target_audio=target_audio,
         init_real=init_params_dict,
@@ -242,6 +246,7 @@ def run_trial_gd(
         best_params=best_params_real,
         best_audio_loss=min(history_audio_loss) if history_audio_loss else float("inf"),
         best_p_loss=min(history_p_loss) if history_p_loss else float("inf"),
+        history_params=history_params,
         history_audio_loss=history_audio_loss,
         history_p_loss=history_p_loss,
         eval_budget=eval_budget,

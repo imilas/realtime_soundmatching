@@ -49,7 +49,7 @@ GD_LEARNING_RATE = 0.045
 # ---------------------------------------------------------------------------
 
 def _make_rs(bounds: Bounds, seed: int) -> MultiDimRandomSearch:
-    return MultiDimRandomSearch(bounds, seed=seed)
+    return MultiDimRandomSearch(bounds, step_size=0.1, seed=seed)
 
 
 def _make_hc(bounds: Bounds, seed: int) -> MultiDimHillClimber:
