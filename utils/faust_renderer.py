@@ -50,11 +50,14 @@ def compile_dsp(dsp_path):
         with tempfile.TemporaryDirectory(prefix="faust_render_") as work_dir:
             local_dsp = os.path.join(work_dir, os.path.basename(dsp_path))
             shutil.copy2(dsp_path, local_dsp)
+            env = os.environ.copy()
+            env["CXXFLAGS"] = f"{env.get('CXXFLAGS', '')} -pthread".strip()
             result = subprocess.run(
                 ["faust2sndfile", os.path.basename(local_dsp)],
                 cwd=work_dir,
                 capture_output=True,
                 text=True,
+                env=env,
             )
             if result.returncode != 0:
                 raise RuntimeError(f"faust2sndfile failed:\n{result.stderr}")

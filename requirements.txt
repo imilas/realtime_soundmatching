@@ -14,6 +14,7 @@ scipy>=1.7
 dm_pix>=0.4.0
 audax>=0.0.3
 kymatio>=0.3.0
+librosa>=0.10.0
 
 # Gradient-free agents
 cma>=3.3
