@@ -14,7 +14,6 @@ from agents.multidim import (
     BayesianOptAgent,
     Bounds,
     CMAESAgent,
-    MultiDimHillClimber,
     MultiDimRandomSearch,
 )
 from experiments.multidim_runner import run_trial
@@ -26,10 +25,6 @@ SMOKE_BUDGET = 20
 
 def _factory_rs(bounds, seed):
     return MultiDimRandomSearch(bounds, seed=seed)
-
-
-def _factory_hc(bounds, seed):
-    return MultiDimHillClimber(bounds, step_size=0.1, seed=seed)
 
 
 def _factory_cma(bounds, seed):
@@ -62,20 +57,21 @@ def test_random_search_runs_end_to_end():
     assert set(result.history_params[0].keys()) == set(result.true_params.keys())
 
 
-def test_random_search_moves_locally():
+def test_random_search_uniform():
+    """Uniform RS: proposals lie in [0,1]^d and are independent of observations."""
     bounds = Bounds(
         lowers=np.array([0.0, 0.0]),
         uppers=np.array([1.0, 1.0]),
         names=["x", "y"],
     )
-    agent = MultiDimRandomSearch(bounds, step_size=0.05, seed=0)
-    agent.observe(np.array([0.25, 0.75]), 1.0)
+    agent = MultiDimRandomSearch(bounds, seed=0)
+    agent.observe(np.array([0.0, 0.0]), 99.0)  # fix at a corner
 
-    candidate = agent.propose()
-
-    assert np.all(candidate >= 0.0)
-    assert np.all(candidate <= 1.0)
-    assert np.linalg.norm(candidate - np.array([0.25, 0.75])) < 0.25
+    # Many proposals should cover the whole box, not cluster near [0,0]
+    proposals = np.array([agent.propose() for _ in range(200)])
+    assert np.all(proposals >= 0.0) and np.all(proposals <= 1.0)
+    # Mean should be near 0.5 (uniform), not near 0.0 (old random walk)
+    assert np.abs(proposals.mean(axis=0) - 0.5).max() < 0.1
 
 
 def test_cma_es_runs_end_to_end():
@@ -104,18 +100,3 @@ def test_bayesian_opt_runs_end_to_end():
     assert len(result.history_audio_loss) == SMOKE_BUDGET
     assert np.isfinite(result.best_audio_loss)
     assert result.best_p_loss <= np.sqrt(2) + 1e-6
-
-
-def test_hill_climber_runs_end_to_end():
-    result = run_trial(
-        program_name="bandpass_noise",
-        agent_factory=_factory_hc,
-        method_name="hill_climber",
-        seed=42,
-        eval_budget=SMOKE_BUDGET,
-        audio_duration_s=0.25,
-    )
-    assert len(result.history_audio_loss) == SMOKE_BUDGET
-    # Best loss is monotone non-increasing as evals proceed.
-    best_so_far = np.minimum.accumulate(result.history_audio_loss)
-    assert np.all(np.diff(best_so_far) <= 1e-12)
