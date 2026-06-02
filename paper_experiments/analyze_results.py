@@ -27,7 +27,7 @@ from synths.build import prepare
 
 RES = Path(__file__).parent / "results"
 SYNTHS = ["bandpass_noise", "am_noise", "add_sinesaw"]
-METHODS = ["GD", "HillClimber", "RandomSearch", "CMA-ES", "BO", "QL"]
+METHODS = ["GD", "RandomSearch", "CMA-ES", "BO"]
 SNAP = [25, 50, 100, 200]
 
 
@@ -128,22 +128,32 @@ def identifiability():
               f"median P at min-audio={np.median(ploss_at_min_audio):.3f}")
 
 
-def ql_learning():
-    print("\n=== QL learning: first-20% vs last-20% (median best_p_loss) ===")
+def returned_vs_visited():
+    """RETURNED (argmin audio-loss) vs VISITED (oracle best) P-loss — the gap
+    measures how badly the loss deceives each method (key comparative metric)."""
+    print("\n=== RETURNED vs VISITED P-loss (median); gap = deception ===")
+    print(f"{'synth':14s} {'method':12s} {'returned':>9s} {'visited':>8s} {'gap':>6s}")
     for s in SYNTHS:
-        trials = _load(s, "QL")
-        if not trials:
-            continue
-        v = np.array([t["best_p_loss"] for t in trials])
-        k = max(1, len(v) // 5)
-        print(f"  {s:14s} n={len(v):5d} first20%={np.median(v[:k]):.3f} "
-              f"last20%={np.median(v[-k:]):.3f} delta={np.median(v[:k])-np.median(v[-k:]):+.3f}")
+        for m in METHODS:
+            trials = _load(s, m)
+            if not trials:
+                continue
+            ret, vis = [], []
+            for t in trials:
+                ha = np.array(t["history_audio_loss"])
+                hp = np.array(t["history_p_loss"])
+                if len(ha) == 0:
+                    continue
+                ret.append(hp[int(np.argmin(ha))])
+                vis.append(hp.min())
+            r, v = np.median(ret), np.median(vis)
+            print(f"{s:14s} {m:12s} {r:9.3f} {v:8.3f} {r-v:6.3f}")
 
 
 if __name__ == "__main__":
     final_accuracy()
+    returned_vs_visited()
     sample_efficiency()
     step_sizes()
     bo_best_index()
     identifiability()
-    ql_learning()
