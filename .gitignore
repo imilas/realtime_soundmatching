@@ -10,4 +10,5 @@ bandpass_noise_target
 synths/build/
 papers/
 *.tsv
-*.pkl
+.pkl
+!paper_experiments/reslts/*.pkl
