@@ -196,6 +196,12 @@ def _(pd, trials_df):
     return (summary_df,)
 
 
+@app.cell
+def _(trials_df):
+    trials_df.groupby(["loss","synth","method"]).count()
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo, summary_df, trials_df):
     if len(summary_df) == 0:
@@ -595,6 +601,39 @@ def _(mo, selected_loss, selected_synth, summary_df):
                 across `{int(_best_row['n'])}` trials.
                 """
             )
+    _out
+    return
+
+
+@app.cell(hide_code=True)
+def _(method_names, mo, summary_df):
+    if len(summary_df) == 0:
+        _out = mo.md("No data loaded yet.")
+    else:
+        _tables = []
+        for _method in method_names:
+            _method_df = summary_df[summary_df["method"] == _method]
+            if len(_method_df) == 0:
+                continue
+            _pivot = (
+                _method_df.pivot_table(
+                    index="loss",
+                    columns="synth",
+                    values="median_returned_p_loss",
+                    aggfunc="median",
+                )
+                .map(lambda _v: f"{_v:.4g}" if _v == _v else "—")
+                .reset_index()
+                .rename(columns={"loss": "Loss"})
+            )
+            _pivot.columns.name = None
+            _tables.append(
+                mo.vstack([
+                    mo.md(f"### {_method}"),
+                    mo.ui.table(_pivot, label=f"P-Loss by loss × synth", page_size=len(_pivot)),
+                ])
+            )
+        _out = mo.vstack([mo.md("## P-Loss by Method"), *_tables])
     _out
     return
 
