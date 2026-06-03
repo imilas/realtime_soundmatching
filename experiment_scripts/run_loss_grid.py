@@ -9,7 +9,7 @@ Examples
 --------
     python experiment_scripts/run_loss_grid.py --trials 10 --budget 50 --jobs 2
     python experiment_scripts/run_loss_grid.py --methods CMA-ES BO --losses all
-    python experiment_scripts/run_loss_grid.py --losses "L1 Signal" SIMSE_Spec
+    python experiment_scripts/run_loss_grid.py --losses "L2 Spectral" SIMSE_Spec
 """
 
 from __future__ import annotations

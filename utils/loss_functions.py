@@ -113,26 +113,11 @@ def _dtw_distance(seq_a, seq_b, squared=False, normalize=True):
 # Public loss functions
 # ------------------------------------------------------------------
 
-def l1_signal_loss(audio_a, audio_b, sample_rate):
-    """Mean absolute difference on raw waveforms."""
-    n = min(len(audio_a), len(audio_b))
-    return float(np.mean(np.abs(audio_a[:n] - audio_b[:n])))
-
-
 def l2_spectral_loss(audio_a, audio_b, sample_rate):
     """L2 distance between L2-normalised log-magnitude spectra."""
     feat_a = _log_mean_spectrum(audio_a, sample_rate)
     feat_b = _log_mean_spectrum(audio_b, sample_rate)
     return float(np.linalg.norm(feat_a - feat_b))
-
-
-def cosine_spectral_loss(audio_a, audio_b, sample_rate):
-    """1 - cosine similarity between log-magnitude spectra."""
-    feat_a = _log_mean_spectrum(audio_a, sample_rate)
-    feat_b = _log_mean_spectrum(audio_b, sample_rate)
-    dot = np.dot(feat_a, feat_b)
-    denom = np.linalg.norm(feat_a) * np.linalg.norm(feat_b) + 1e-12
-    return float(1.0 - dot / denom)
 
 
 def multi_resolution_spectral_loss(audio_a, audio_b, sample_rate):
@@ -230,6 +215,36 @@ def simse_spec_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) 
     return float(np.mean((spec_a - alpha * spec_b) ** 2))
 
 
+_JTFS_J = 6
+_JTFS_Q = 1
+_jtfs_scat = None
+_jtfs_scat_len = None
+
+
+def _get_jtfs_scattering(sample_rate: int, audio_len: int):
+    """Lazy-build and cache the 1D scattering transform (matches GD: J=6, Q=1)."""
+    global _jtfs_scat, _jtfs_scat_len
+    if _jtfs_scat is None or _jtfs_scat_len != audio_len:
+        from kymatio.numpy import Scattering1D
+        _jtfs_scat = Scattering1D(J=_JTFS_J, shape=audio_len, Q=_JTFS_Q)
+        _jtfs_scat_len = audio_len
+    return _jtfs_scat
+
+
+def jtfs_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
+    """
+    L2 distance between 1D scattering coefficients (J=6, Q=1).
+    Matches the JTFS loss used by GD in agents/multidim/gradient_descent.py.
+    """
+    n = min(len(audio_a), len(audio_b))
+    a = audio_a[:n].astype(np.float32)
+    b = audio_b[:n].astype(np.float32)
+    scat = _get_jtfs_scattering(sample_rate, n)
+    sa = scat(a)
+    sb = scat(b)
+    return float(np.mean((sa - sb) ** 2))
+
+
 def dtw_envelope_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
     """
     Hard DTW on GD onset envelopes.
@@ -245,12 +260,11 @@ def dtw_envelope_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int
 # ------------------------------------------------------------------
 
 ALL_LOSSES = {
-    "L1 Signal": l1_signal_loss,
     "L2 Spectral": l2_spectral_loss,
-    "Cosine Spectral": cosine_spectral_loss,
     "Multi-Res Spectral": multi_resolution_spectral_loss,
     "SSIM Spectral": ssim_spectral_loss,
     "DTW Onset": dtw_onset_loss,
     "SIMSE_Spec": simse_spec_loss,
     "DTW_Envelope": dtw_envelope_loss,
+    "JTFS": jtfs_loss,
 }

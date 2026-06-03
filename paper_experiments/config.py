@@ -22,13 +22,26 @@ SYNTHS = [
     "bandpass_noise",
     "am_noise",
     "add_sinesaw",
+    "sine_saw",
+    "sine_mod_saw",
+    "sine_mod_sine",
+    "chirplet",
+    "chirplet_pulse",
 ]
 
-# Best-performing loss per synth (from IEEE 2025 paper), used for ALL methods.
+# Per-synth "expected best" loss from the IEEE 2025 paper (in-domain) and the
+# ISMIR 2026 OOD paper. Used as the default loss when --loss isn't passed.
+# chirplet and chirplet_pulse come from the OOD paper: chirplet's best loss is
+# JTFS; chirplet_pulse's is DTW_Envelope (JTFS fails there — the headline finding).
 SYNTH_LOSS = {
     "bandpass_noise": "SIMSE_Spec",
     "am_noise":       "DTW_Envelope",
     "add_sinesaw":    "SIMSE_Spec",
+    "sine_saw":       "JTFS",
+    "sine_mod_saw":   "JTFS",
+    "sine_mod_sine":  "JTFS",
+    "chirplet":       "JTFS",
+    "chirplet_pulse": "DTW_Envelope",
 }
 
 N_TRIALS    = 200

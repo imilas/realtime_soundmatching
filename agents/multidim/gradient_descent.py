@@ -16,6 +16,9 @@ SYNTH_LOSS_MAP: dict[str, str] = {
     "am_noise": "DTW_Envelope",
     "sine_mod_saw": "JTFS",
     "sine_mod_sine": "JTFS",
+    "add_sinesaw": "SIMSE_Spec",
+    "chirplet": "JTFS",
+    "chirplet_pulse": "DTW_Envelope",
 }
 
 _NFFT = 512

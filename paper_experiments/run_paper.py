@@ -14,7 +14,7 @@ Resume: existing trials are loaded and counted; only missing trials are run.
 
 Single synth/method invocation:
     python paper_experiments/run_paper.py --synth bandpass_noise --method CMA-ES --trials 200
-    python paper_experiments/run_paper.py --synth bandpass_noise --loss "L1 Signal" --method CMA-ES --trials 200
+    python paper_experiments/run_paper.py --synth bandpass_noise --loss "L2 Spectral" --method CMA-ES --trials 200
 """
 
 from __future__ import annotations
