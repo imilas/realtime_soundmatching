@@ -1,0 +1,15 @@
+Unknown option: methods
+Usage: experiment_scripts/run_parallel.sh [options]
+
+Options:
+  --trials N       Trials per synth/method cell (default: 300)
+  --budget N       Evaluation budget per trial (default: 200)
+  --jobs N         Parallel jobs (default: 10)
+  --threads N      Native CPU threads per job (default: 1)
+  --synths "..."   Space-separated synth list (default: "bandpass_noise am_noise add_sinesaw")
+  --methods "..."  Space-separated method list (default: "HillClimber RandomSearch CMA-ES BO QL")
+  --timing-file P  Timing summary TSV path (default: timestamped file in results/)
+  -h, --help       Show this help
+
+Example:
+  experiment_scripts/run_parallel.sh --trials 10 --budget 50 --jobs 2

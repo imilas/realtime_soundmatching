@@ -82,17 +82,17 @@ def fig_deception():
         ret, vis = [], []
         for m in ms:
             tr = _load(s, m)
-            ret.append(np.median([np.array(t["history_p_loss"])[int(np.argmin(t["history_audio_loss"]))] for t in tr]))
+            ret.append(np.median([t["history_p_loss"][-1] for t in tr]))
             vis.append(np.median([np.min(t["history_p_loss"]) for t in tr]))
         x = np.arange(len(ms))
         ax.bar(x - 0.2, vis, 0.4, label="visited (oracle)", color="#aaaaaa")
-        ax.bar(x + 0.2, ret, 0.4, label="returned (deployed)", color="#d62728", alpha=0.8)
+        ax.bar(x + 0.2, ret, 0.4, label="returned final", color="#d62728", alpha=0.8)
         ax.set_xticks(x); ax.set_xticklabels(ms, rotation=35, ha="right", fontsize=8)
         ax.set_title(s, fontsize=10); ax.set_ylabel("median P-loss")
         ax.grid(True, axis="y", alpha=0.3)
         if s == SYNTHS[0]:
             ax.legend(fontsize=8)
-    fig.suptitle("Deception gap: what a method VISITS vs what it RETURNS (returned − visited = deception)", fontsize=11)
+    fig.suptitle("Final P-loss vs best visited: what a method ENDS AT vs best it SAW (final − visited = gap)", fontsize=11)
     fig.tight_layout(); _save(fig, "02_returned_vs_visited.png")
 
 
@@ -184,7 +184,7 @@ def fig_identifiability():
 
 
 def _med_returned(tr):
-    return np.median([np.array(t["history_p_loss"])[int(np.argmin(t["history_audio_loss"]))] for t in tr])
+    return np.median([t["history_p_loss"][-1] for t in tr])
 
 
 def _med_visited(tr):
@@ -212,11 +212,11 @@ def stats_summary():
             rows.append("| " + " | ".join(r) + " |")
         return rows + [""]
 
-    out += table("Returned P-loss (median) — what each method DEPLOYS", _med_returned)
+    out += table("Final P-loss (median) — last evaluation of each trial", _med_returned)
     out += table("Visited P-loss (median) — oracle best (optimistic)", _med_visited)
 
     # deception gap
-    out += ["## Deception gap (returned − visited; higher = more fooled by the loss)\n",
+    out += ["## Final vs visited gap (final − visited; higher = final worse than best seen)\n",
             "| synth | " + " | ".join(METHODS) + " |", "|" + "---|" * (len(METHODS) + 1)]
     for s in SYNTHS:
         r = [s]

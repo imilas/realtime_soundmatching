@@ -80,11 +80,11 @@ def _(FIG, mo):
 def _(FIG, mo):
     _out = mo.vstack([
         mo.md(
-            "## The deception gap (why optimizers fail)\n\n"
-            "**Visited** = best params ever sampled (oracle). **Returned** = what "
-            "the method deploys (argmin audio loss). On `add_sinesaw` every method "
-            "*visits* good params but *returns* bad ones — and CMA-ES is the **most** "
-            "deceived because it commits to one (wrong) basin, while BO hedges."
+            "## Final vs best-visited gap (why optimizers fail)\n\n"
+            "**Visited** = best params ever sampled (oracle). **Final** = what "
+            "the method ends at (last evaluation). On `add_sinesaw` every method "
+            "*visits* good params but *ends up* at bad ones — and CMA-ES is the **most** "
+            "affected because it commits to one (wrong) basin, while BO hedges."
         ),
         mo.image(str(FIG / "02_returned_vs_visited.png")),
     ])
@@ -122,11 +122,11 @@ def _(METHODS, RES, mo, np, pd, pickle, synth_pick):
             if not f.exists():
                 continue
             tr = pickle.load(open(f, "rb"))["trials"]
-            ret = np.median([np.array(t["history_p_loss"])[int(np.argmin(t["history_audio_loss"]))] for t in tr])
+            ret = np.median([t["history_p_loss"][-1] for t in tr])
             vis = np.median([np.min(t["history_p_loss"]) for t in tr])
             rows.append({"method": m, "n": len(tr),
-                         "returned": round(float(ret), 3), "visited": round(float(vis), 3),
-                         "deception_gap": round(float(ret - vis), 3)})
+                         "final": round(float(ret), 3), "visited": round(float(vis), 3),
+                         "final_vs_visited_gap": round(float(ret - vis), 3)})
         # learned
         lp = RES / "learned_results.pkl"
         if lp.exists():

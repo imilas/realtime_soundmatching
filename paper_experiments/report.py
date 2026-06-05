@@ -117,11 +117,10 @@ def _(mo):
 
     - **Visited** — best parameters ever sampled *(requires oracle knowledge of
       the true params; optimistic upper bound)*.
-    - **Returned** — parameters the method would actually deploy = argmin of
-      audio loss *(what matters in practice)*.
+    - **Final** — P-loss at the last evaluation of the trial *(what matters in practice)*.
 
-    Their difference is the **deception gap**: how badly the audio loss
-    misleads a method into returning wrong parameters.
+    Their difference measures how much better the best-visited params were
+    compared to where the method actually ended up.
     """)
     return
 
@@ -209,7 +208,7 @@ def _(mo):
     audio rendering is near-deterministic, this inflates posterior uncertainty
     and keeps EI in a global exploration mode throughout, producing large
     (corner-to-corner) step sizes.  A version with `noise ≈ 1e-10` was
-    validated and shows improvement (halves am_noise returned P-loss), but
+    validated and shows improvement (halves am_noise final P-loss), but
     is not used in the main benchmark to keep the baseline representative.
 
     ---
@@ -288,11 +287,11 @@ def _(FIG, mo):
     mo.vstack([
         mo.md(r"""
     ---
-    ## 4. Deception gap — returned vs visited
+    ## 4. Final vs best-visited gap
 
     Grey bars = best parameter ever **visited** (oracle).
-    Red bars  = parameter the method would **return** (argmin audio loss).
-    The gap between them measures how badly the audio loss fools a method.
+    Red bars  = P-loss at the **final** evaluation.
+    The gap between them shows how far the method ended from its best seen point.
         """),
         mo.image(str(FIG / "02_returned_vs_visited.png")),
         mo.md(r"""
@@ -482,7 +481,7 @@ def _(mo):
     ---
     ## 9. Summary
 
-    ### Returned P-loss (median) — what each method deploys
+    ### Final P-loss (median) — last evaluation of each trial
 
     | Synth | GD | RS | CMA-ES | BO | Learned |
     |---|---|---|---|---|---|
@@ -544,14 +543,14 @@ def _(METHODS, RES, mo, np, pd, pickle, synth_sel):
             if not f.exists():
                 continue
             tr = pickle.load(open(f, "rb"))["trials"]
-            ret = np.median([np.array(t["history_p_loss"])[int(np.argmin(t["history_audio_loss"]))] for t in tr])
+            ret = np.median([t["history_p_loss"][-1] for t in tr])
             vis = np.median([np.min(t["history_p_loss"]) for t in tr])
             dur = np.median([t.get("duration_s", np.nan) for t in tr])
             rows.append({
                 "method": m, "n": len(tr),
-                "returned (median)": round(float(ret), 4),
+                "final (median)": round(float(ret), 4),
                 "visited (median)": round(float(vis), 4),
-                "deception gap": round(float(ret - vis), 4),
+                "final vs visited gap": round(float(ret - vis), 4),
                 "duration_s (median)": round(float(dur), 1),
             })
         lp = RES / "learned_results.pkl"
@@ -560,9 +559,9 @@ def _(METHODS, RES, mo, np, pd, pickle, synth_sel):
             if L:
                 rows.append({
                     "method": "Learned (0-eval)", "n": 200,
-                    "returned (median)": round(float(L["median"]), 4),
+                    "final (median)": round(float(L["median"]), 4),
                     "visited (median)": round(float(L["median"]), 4),
-                    "deception gap": 0.0,
+                    "final vs visited gap": 0.0,
                     "duration_s (median)": 0.0,
                 })
         return pd.DataFrame(rows)
@@ -637,6 +636,362 @@ def _(mo):
       statistical baseline.  The earlier implementation was a random walk that
       ignored the objective and has been replaced.
     """)
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ---
+    ## 12. Multi-loss performance tables
+
+    Median **returned P-loss** across 200 trials per cell.
+    *Returned* metric follows the natural semantics of each method:
+    - **GD**: P-loss at the final gradient step (step 200) — GD converges to a point.
+    - **Black-box (RS, CMA-ES, BO)**: P-loss at argmin(audio loss) — the best candidate found during search.
+
+    Core losses: **SIMSE\_Spec**, **JTFS**, **DTW\_Envelope** — the three for which
+    GD results exist and the canonical set from SYNTH\_LOSS.
+
+    Tables are laid out one per synthesizer: rows = loss functions, columns = methods.
+    Bold = best (lowest) median in each row.  `—` = no result file.
+    """)
+    return
+
+
+@app.cell
+def _(RES, np, pickle):
+    import re as _re
+    from scipy.stats import mannwhitneyu as _mannwhitneyu
+
+    ML_CORE_LOSSES = ["SIMSE_Spec", "JTFS", "DTW_Envelope"]
+    ML_METHODS = ["GD", "RandomSearch", "CMA-ES", "BO"]
+    ML_SYNTHS = [
+        "bandpass_noise", "am_noise", "add_sinesaw",
+        "sine_saw", "sine_mod_saw", "sine_mod_sine",
+        "chirplet", "chirplet_pulse",
+    ]
+
+    def _slug(s):
+        return _re.sub(r"[^A-Za-z0-9]+", "_", s).strip("_")
+
+    def _returned_p_loss_ml(trial, method):
+        ploss = np.asarray(trial.get("history_p_loss", []), dtype=float)
+        if len(ploss) == 0:
+            return float("nan")
+        if method == "GD":
+            # GD converges to a point; use the final gradient step.
+            return float(ploss[-1])
+        audio = np.asarray(trial.get("history_audio_loss", []), dtype=float)
+        if len(audio) == 0:
+            return float("nan")
+        return float(ploss[int(np.nanargmin(audio))])
+
+    def load_scores_ml(synth, loss, method):
+        path = RES / f"{synth}_{_slug(loss)}_{method}.pkl"
+        if not path.exists():
+            return []
+        with path.open("rb") as fh:
+            trials = pickle.load(fh).get("trials", [])
+        return [s for s in (_returned_p_loss_ml(t, method) for t in trials) if np.isfinite(s)]
+
+    def _cliffs_delta(a, b):
+        a, b = np.asarray(a), np.asarray(b)
+        count = sum(np.sum(ai > b) - np.sum(ai < b) for ai in a)
+        return count / (len(a) * len(b))
+
+    def npsk_ranks(groups_dict, alpha=0.05, negligible_delta=0.147):
+        """NPSK: Scott-Knott with Cliff's delta effect-size gate on raw scores.
+
+        Sorts by group mean (ascending = lower P-loss = better).
+        Splits only when Mann-Whitney p < alpha AND |Cliff's delta| >= negligible_delta.
+        Returns {name: int rank}, rank 1 = best.
+        """
+        valid = {}
+        for name, scores in groups_dict.items():
+            arr = np.asarray(scores, dtype=float)
+            arr = arr[np.isfinite(arr)]
+            if len(arr) > 0:
+                valid[name] = arr
+        if len(valid) < 2:
+            return {name: 1 for name in valid}
+
+        sorted_names = sorted(valid, key=lambda g: valid[g].mean())
+
+        def sk_split(names):
+            if len(names) <= 1:
+                return [list(names)]
+            all_vals = np.concatenate([valid[n] for n in names])
+            grand_mean = all_vals.mean()
+            best_bss, best_i = -1.0, 1
+            for i in range(1, len(names)):
+                lv = np.concatenate([valid[n] for n in names[:i]])
+                rv = np.concatenate([valid[n] for n in names[i:]])
+                bss = (len(lv) * (lv.mean() - grand_mean) ** 2
+                       + len(rv) * (rv.mean() - grand_mean) ** 2)
+                if bss > best_bss:
+                    best_bss, best_i = bss, i
+            lv = np.concatenate([valid[n] for n in names[:best_i]])
+            rv = np.concatenate([valid[n] for n in names[best_i:]])
+            _, p = _mannwhitneyu(lv, rv, alternative="two-sided")
+            delta = _cliffs_delta(lv, rv)
+            if p < alpha and abs(delta) >= negligible_delta:
+                return sk_split(names[:best_i]) + sk_split(names[best_i:])
+            return [list(names)]
+
+        partitions = sk_split(sorted_names)
+        return {n: r for r, grp in enumerate(partitions, 1) for n in grp}
+
+    return ML_CORE_LOSSES, ML_METHODS, ML_SYNTHS, load_scores_ml, npsk_ranks
+
+
+@app.cell
+def _(ML_CORE_LOSSES, ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, pd):
+    def _build_median_table(synth):
+        rows = []
+        for loss in ML_CORE_LOSSES:
+            row = {"Loss": loss}
+            for method in ML_METHODS:
+                scores = load_scores_ml(synth, loss, method)
+                row[method] = float(np.median(scores)) if scores else float("nan")
+            rows.append(row)
+        df = pd.DataFrame(rows).set_index("Loss")
+
+        def _fmt_row(row):
+            finite = row.dropna()
+            if finite.empty:
+                return row.map(lambda v: "—" if np.isnan(v) else f"{v:.4f}")
+            best_val = finite.min()
+            return row.map(
+                lambda v: "—" if np.isnan(v)
+                else f"**{v:.4f}**" if v == best_val
+                else f"{v:.4f}"
+            )
+
+        formatted = df.apply(_fmt_row, axis=1)
+        formatted.index.name = "Loss \\ Method"
+        return formatted.reset_index()
+
+    _tables = []
+    for _synth in ML_SYNTHS:
+        _t = _build_median_table(_synth)
+        if _t.iloc[:, 1:].apply(lambda col: col != "—").any().any():
+            _tables.append(mo.vstack([
+                mo.md(f"### `{_synth}`"),
+                mo.ui.table(_t, label="Median returned P-loss", page_size=len(_t)),
+            ]))
+
+    mo.vstack(_tables)
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ---
+    ## 13. NPSK method rankings
+
+    Nonparametric Scott-Knott (NPSK) ranks for the four methods within each
+    (synthesizer, loss) cell.  The ranking uses raw returned-P-loss scores
+    (200 trials per cell): groups are split only when **both**
+    Mann-Whitney *p* < 0.05 and |Cliff's δ| ≥ 0.147 (negligible threshold).
+    Rank 1 = best (lowest expected P-loss); tied ranks indicate statistically
+    indistinguishable performance.
+
+    NPSK is sorted by group **mean** — on high-variance methods (e.g., CMA-ES on
+    am\_noise with SIMSE) this may diverge from the median shown above.
+    """)
+    return
+
+
+@app.cell
+def _(
+    ML_CORE_LOSSES,
+    ML_METHODS,
+    ML_SYNTHS,
+    load_scores_ml,
+    mo,
+    npsk_ranks,
+    pd,
+):
+    def _build_npsk_table(synth):
+        rows = []
+        for loss in ML_CORE_LOSSES:
+            groups = {m: load_scores_ml(synth, loss, m) for m in ML_METHODS}
+            groups = {m: s for m, s in groups.items() if s}
+            if len(groups) < 2:
+                continue
+            ranks = npsk_ranks(groups)
+            row = {"Loss": loss}
+            for method in ML_METHODS:
+                row[method] = int(ranks[method]) if method in ranks else "—"
+            rows.append(row)
+        return pd.DataFrame(rows) if rows else pd.DataFrame()
+
+    _npsk_tables = []
+    for _synth in ML_SYNTHS:
+        _df = _build_npsk_table(_synth)
+        if len(_df):
+            _npsk_tables.append(mo.vstack([
+                mo.md(f"### `{_synth}`"),
+                mo.ui.table(_df, label="NPSK rank (1 = best)", page_size=len(_df)),
+            ]))
+
+    mo.vstack(_npsk_tables)
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ---
+    ## 14. NPSK summary table (canonical loss per synth)
+
+    One row per method, one column per synthesizer.  Each cell shows the NPSK rank
+    under the **canonical loss** for that synthesizer (from `SYNTH_LOSS`):
+
+    | Synth | Canonical loss |
+    |---|---|
+    | bandpass\_noise | SIMSE\_Spec |
+    | am\_noise | DTW\_Envelope |
+    | add\_sinesaw | SIMSE\_Spec |
+    | sine\_saw | JTFS |
+    | sine\_mod\_saw | JTFS |
+    | sine\_mod\_sine | JTFS |
+    | chirplet | JTFS |
+    | chirplet\_pulse | DTW\_Envelope |
+
+    Format mirrors Table 1 of the companion OOD paper.  Rank 1 = best; tied ranks
+    indicate distributions that NPSK cannot distinguish at α = 0.05, |δ| ≥ 0.147.
+    """)
+    return
+
+
+@app.cell
+def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
+    _SYNTH_LOSS_CANONICAL = {
+        "bandpass_noise": "SIMSE_Spec",
+        "am_noise":       "DTW_Envelope",
+        "add_sinesaw":    "SIMSE_Spec",
+        "sine_saw":       "JTFS",
+        "sine_mod_saw":   "JTFS",
+        "sine_mod_sine":  "JTFS",
+        "chirplet":       "JTFS",
+        "chirplet_pulse": "DTW_Envelope",
+    }
+
+    _summary_rows = {m: {} for m in ML_METHODS}
+    for _synth, _loss in _SYNTH_LOSS_CANONICAL.items():
+        _groups = {m: load_scores_ml(_synth, _loss, m) for m in ML_METHODS}
+        _groups = {m: s for m, s in _groups.items() if s}
+        if len(_groups) < 2:
+            continue
+        _ranks = npsk_ranks(_groups)
+        for _m in ML_METHODS:
+            _summary_rows[_m][_synth] = _ranks.get(_m, "—")
+
+    _synth_cols = list(_SYNTH_LOSS_CANONICAL)
+    _summary_df = pd.DataFrame(
+        [{**{"Method": m}, **{s: _summary_rows[m].get(s, "—") for s in _synth_cols}}
+         for m in ML_METHODS]
+    )
+
+    mo.vstack([
+        mo.md("**NPSK ranks — methods × synthesizers (canonical loss)**"),
+        mo.ui.table(_summary_df, label="Rank 1 = best; ties = statistically indistinguishable", page_size=len(_summary_df)),
+    ])
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ---
+    ## 15. Bootstrapped distributions colored by NPSK rank
+
+    Each panel shows one (synth, canonical loss) cell.  The violin is the
+    bootstrapped sampling distribution of the **median returned P-loss** (1 000
+    bootstrap resamples).  Violins are colored by NPSK rank:
+
+    - Rank 1 (best) → **green**
+    - Rank 2 → **orange**
+    - Rank 3 → **red**
+    - Rank 4 (worst) → **darkred**
+
+    A result file that does not exist is omitted from the panel.
+    """)
+    return
+
+
+@app.cell
+def _(ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, npsk_ranks, pd, plt):
+    _SYNTH_LOSS_CANONICAL = {
+        "bandpass_noise": "SIMSE_Spec",
+        "am_noise":       "DTW_Envelope",
+        "add_sinesaw":    "SIMSE_Spec",
+        "sine_saw":       "JTFS",
+        "sine_mod_saw":   "JTFS",
+        "sine_mod_sine":  "JTFS",
+        "chirplet":       "JTFS",
+        "chirplet_pulse": "DTW_Envelope",
+    }
+
+    _RANK_COLORS = {1: "#2ca02c", 2: "#ff7f0e", 3: "#d62728", 4: "#7f0000"}
+
+    def _bootstrap_medians(scores, n_boot=1000, rng_seed=0):
+        rng = np.random.default_rng(rng_seed)
+        arr = np.asarray(scores, float)
+        return np.array([np.median(rng.choice(arr, size=len(arr), replace=True)) for _ in range(n_boot)])
+
+    _ncols = 4
+    _nrows = (len(ML_SYNTHS) + _ncols - 1) // _ncols
+    _fig, _axes = plt.subplots(_nrows, _ncols, figsize=(14, 3.5 * _nrows), squeeze=False)
+
+    for _idx, _synth in enumerate(ML_SYNTHS):
+        _ax = _axes[_idx // _ncols][_idx % _ncols]
+        _loss = _SYNTH_LOSS_CANONICAL[_synth]
+        _groups = {m: load_scores_ml(_synth, _loss, m) for m in ML_METHODS}
+        _groups = {m: s for m, s in _groups.items() if s}
+        if len(_groups) < 2:
+            _ax.set_visible(False)
+            continue
+        _ranks = npsk_ranks(_groups)
+
+        _violin_data, _positions, _colors, _labels = [], [], [], []
+        for _pi, _m in enumerate([m for m in ML_METHODS if m in _groups]):
+            _boots = _bootstrap_medians(_groups[_m])
+            _violin_data.append(_boots)
+            _positions.append(_pi)
+            _colors.append(_RANK_COLORS.get(_ranks.get(_m, 4), "#999999"))
+            _labels.append(_m)
+
+        _vp = _ax.violinplot(_violin_data, positions=_positions, showmedians=True, widths=0.7)
+        for _body, _c in zip(_vp["bodies"], _colors):
+            _body.set_facecolor(_c)
+            _body.set_alpha(0.75)
+        for _part in ("cmedians", "cmins", "cmaxes", "cbars"):
+            _vp[_part].set_color("black")
+            _vp[_part].set_linewidth(0.8)
+
+        _ax.set_xticks(_positions)
+        _ax.set_xticklabels(_labels, fontsize=8)
+        _ax.set_title(f"{_synth}\n({_loss})", fontsize=8)
+        _ax.set_ylabel("bootstrapped median P-loss", fontsize=7)
+        _ax.tick_params(axis="y", labelsize=7)
+
+    # Hide unused axes
+    for _idx in range(len(ML_SYNTHS), _nrows * _ncols):
+        _axes[_idx // _ncols][_idx % _ncols].set_visible(False)
+
+    _fig.suptitle(
+        "Bootstrapped median returned P-loss  |  color = NPSK rank  "
+        "(green=1st, orange=2nd, red=3rd, darkred=4th)",
+        fontsize=9, y=1.01,
+    )
+    _fig.tight_layout()
+    _out = mo.as_html(_fig)
+    plt.close(_fig)
+    _out
     return
 
 

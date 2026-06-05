@@ -26,15 +26,25 @@ METHOD_ORDER = ["GD", "RandomSearch", "CMA-ES", "BO"]
 # ---------------------------------------------------------------------------
 
 def load_all_results(results_dir: Path) -> dict:
-    """Return {synth: {method: pkl_data}} for every *_*.pkl in results_dir."""
+    """Return {synth: {method: pkl_data}} for every *_*.pkl in results_dir.
+
+    Handles both old naming ({synth}_{method}.pkl) and new naming
+    ({synth}_{loss}_{method}.pkl). When multiple loss files exist for the same
+    (synth, method) pair the first one (alphabetically) is kept, which is
+    sufficient for the trajectory explorer.
+    """
+    from synths.program import list_programs
+    known_synths = sorted(list_programs(), key=len, reverse=True)  # longest first avoids prefix collisions
     out: dict = {}
     for path in sorted(results_dir.glob("*.pkl")):
         stem = path.stem
-        if "_" not in stem:
+        synth = next((s for s in known_synths if stem.startswith(s + "_")), None)
+        if synth is None:
             continue
-        synth, method = stem.rsplit("_", 1)
+        remainder = stem[len(synth) + 1:]  # "loss_method" or "method"
+        method = remainder.rsplit("_", 1)[-1]
         with open(path, "rb") as f:
-            out.setdefault(synth, {})[method] = pickle.load(f)
+            out.setdefault(synth, {}).setdefault(method, pickle.load(f))
     return out
 
 
