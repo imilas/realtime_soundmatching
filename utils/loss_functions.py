@@ -200,6 +200,13 @@ def _gaussian_kernel1d(sigma: float, radius: int) -> np.ndarray:
     return (k / k.sum()).astype(np.float32)
 
 
+def l1_spec_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
+    """L1 distance between magnitude GD spectrograms. Matches JAX naive_loss(sf(a)[0], sf(b)[0])."""
+    spec_a = _gd_spectrogram(audio_a)
+    spec_b = _gd_spectrogram(audio_b)
+    return float(np.mean(np.abs(spec_a - spec_b)))
+
+
 def simse_spec_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
     """
     Scale-Invariant MSE on GD spectrograms, clipped to [0,1].
@@ -264,6 +271,7 @@ ALL_LOSSES = {
     "Multi-Res Spectral": multi_resolution_spectral_loss,
     "SSIM Spectral": ssim_spectral_loss,
     "DTW Onset": dtw_onset_loss,
+    "L1_Spec": l1_spec_loss,
     "SIMSE_Spec": simse_spec_loss,
     "DTW_Envelope": dtw_envelope_loss,
     "JTFS": jtfs_loss,

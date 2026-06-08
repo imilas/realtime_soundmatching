@@ -27,6 +27,9 @@ SYNTHS = [
     "sine_mod_sine",
     "chirplet",
     "chirplet_pulse",
+    # v1 variants: exact DSP from the old in-domain paper, used for GD verification only
+    "bandpass_noise_v1",
+    "am_noise_v1",
 ]
 
 # Per-synth "expected best" loss from the IEEE 2025 paper (in-domain) and the
@@ -34,14 +37,16 @@ SYNTHS = [
 # chirplet and chirplet_pulse come from the OOD paper: chirplet's best loss is
 # JTFS; chirplet_pulse's is DTW_Envelope (JTFS fails there — the headline finding).
 SYNTH_LOSS = {
-    "bandpass_noise": "SIMSE_Spec",
-    "am_noise":       "DTW_Envelope",
-    "add_sinesaw":    "SIMSE_Spec",
-    "sine_saw":       "JTFS",
-    "sine_mod_saw":   "JTFS",
-    "sine_mod_sine":  "JTFS",
-    "chirplet":       "JTFS",
-    "chirplet_pulse": "DTW_Envelope",
+    "bandpass_noise":    "SIMSE_Spec",
+    "am_noise":          "DTW_Envelope",
+    "add_sinesaw":       "SIMSE_Spec",
+    "sine_saw":          "JTFS",
+    "sine_mod_saw":      "JTFS",
+    "sine_mod_sine":     "JTFS",
+    "chirplet":          "JTFS",
+    "chirplet_pulse":    "DTW_Envelope",
+    "bandpass_noise_v1": "SIMSE_Spec",
+    "am_noise_v1":       "DTW_Envelope",
 }
 
 N_TRIALS    = 200

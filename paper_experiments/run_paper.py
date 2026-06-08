@@ -43,7 +43,7 @@ from paper_experiments.config import (
 from utils.loss_functions import ALL_LOSSES
 
 RESULTS_DIR = Path(__file__).parent / "results"
-GD_SUPPORTED_LOSSES = {"SIMSE_Spec", "DTW_Envelope", "JTFS"}
+GD_SUPPORTED_LOSSES = {"L1_Spec", "SIMSE_Spec", "DTW_Envelope", "JTFS"}
 
 
 # ---------------------------------------------------------------------------

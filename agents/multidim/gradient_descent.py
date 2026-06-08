@@ -58,7 +58,7 @@ def run_gd(
     bounds_uppers  : real upper bounds, shape (d,)
     true_norm      : true target in normalized [0,1]^d (for P-Loss)
     eval_budget    : number of gradient steps
-    loss_name      : one of SIMSE_Spec | JTFS | DTW_Envelope
+    loss_name      : one of L1_Spec | SIMSE_Spec | JTFS | DTW_Envelope
     learning_rate  : RMSProp step size
     seed           : JAX PRNG seed
 
@@ -90,7 +90,11 @@ def run_gd(
     sf = spec_func(_NFFT, _WIN_LEN, _HOP_LEN)
     target_jax = jnp.array(target_audio, dtype=jnp.float32)
 
-    if loss_name == "SIMSE_Spec":
+    if loss_name == "L1_Spec":
+        def _audio_loss(pred):
+            return naive_loss(sf(target_jax)[0], sf(pred)[0])
+
+    elif loss_name == "SIMSE_Spec":
         import dm_pix
 
         def _audio_loss(pred):
