@@ -13,6 +13,9 @@ ENV="${SOUNDMATCH_ENV:-/cshome/asalimi/.conda/envs/soundmatch}"
 THREADS="${THREADS:-1}"
 
 export PATH="$HOME/.local/bin:$ENV/bin:$PATH"
+# Extra packages that can't be installed into the read-only env site-packages
+# (e.g. jinja2, needed by pandas .style for the gd_verification notebook).
+export PYTHONPATH="$HOME/.local/soundmatch-extra:${PYTHONPATH:-}"
 export PKG_CONFIG_PATH="$ENV/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 export LD_LIBRARY_PATH="$ENV/lib:${LD_LIBRARY_PATH:-}"
 
