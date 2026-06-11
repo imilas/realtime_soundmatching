@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<title>RandomSearch Verification Report</title>
+<style>
+body{font-family:'Segoe UI',Arial,sans-serif;margin:40px auto;max-width:1200px;
+     color:#2c3e50;background:#f8f9fa;padding:0 20px}
+h1{color:#2c3e50;border-bottom:3px solid #3498db;padding-bottom:8px}
+h2{color:#34495e;margin-top:40px}
+h3{color:#555;margin-top:24px}
+.summary-box{display:flex;gap:16px;margin:20px 0;flex-wrap:wrap}
+.stat{background:white;border-radius:8px;padding:14px 20px;
+      box-shadow:0 2px 6px rgba(0,0,0,.1);text-align:center;flex:1;min-width:120px}
+.stat .num{font-size:2em;font-weight:bold}
+.stat .lbl{font-size:.82em;color:#7f8c8d;margin-top:4px}
+.green .num{color:#27ae60} .amber .num{color:#e67e22}
+.red .num{color:#e74c3c}   .blue .num{color:#2980b9}
+table{border-collapse:collapse;width:100%;background:white;border-radius:8px;
+      overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.1);margin-bottom:24px}
+th{background:#2c3e50;color:white;padding:9px 12px;text-align:center;font-size:.85em}
+th.left{text-align:left}
+td{padding:8px 12px;border-bottom:1px solid #ecf0f1;text-align:center;font-size:.85em}
+td.left{text-align:left;font-weight:600}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#f0f4f8}
+.badge{display:inline-block;width:22px;height:22px;border-radius:50%;color:white;
+       font-weight:bold;font-size:.82em;line-height:22px;text-align:center}
+.badge-na{background:#bdc3c7;color:#555;font-size:.72em}
+.cell-match{color:#27ae60;font-weight:600}
+.cell-mismatch{color:#e74c3c}
+.cell-na{color:#95a5a6;font-style:italic}
+.note{background:#eaf4fb;border-left:4px solid #3498db;
+      padding:12px 16px;border-radius:4px;margin:16px 0;font-size:.88em;line-height:1.6}
+.warn{background:#fef9e7;border-left:4px solid #f39c12;
+      padding:12px 16px;border-radius:4px;margin:16px 0;font-size:.88em;line-height:1.6}
+.rank1{outline:2px solid #f1c40f;outline-offset:-1px;font-weight:700}
+</style>
+</head>
+<body>
+
+<h1>RandomSearch — Verification Report</h1>
+<p style="color:#7f8c8d;font-size:.88em">
+  Comparing NPSK P-loss rankings (RandomSearch, 5 synths × 4 losses)
+  against published in-domain rankings.
+  Generated 2026-06-10 16:07.
+</p>
+
+<div class="note">
+  <strong>IEEE paper</strong> (Salimi et al., 200 trials):
+  BP-Noise → <code>bandpass_noise_v1</code>,
+  Add-SineSaw → <code>add_sinesaw</code>,
+  Noise-AM → <code>am_noise</code>,
+  SineSaw-AM → <code>sine_mod_saw</code><br>
+  <strong>ISMIR paper</strong> (in-domain, 200 trials):
+  Chirp (no delay) → <code>chirplet</code>
+</div>
+
+<div class="note" style="font-size:.85em">
+  <span style="background:#f1c40f;padding:1px 5px;border-radius:3px;font-size:.9em">■ yellow border</span>
+  = published rank-1 cell (most important).
+</div>
+
+<h2>Summary</h2>
+<div class="summary-box">
+  <div class="stat red">
+    <div class="num">4/7</div>
+    <div class="lbl">rank-1 match</div>
+  </div>
+  <div class="stat amber">
+    <div class="num">8/20</div>
+    <div class="lbl">all ranks match</div>
+  </div>
+  <div class="stat red">
+    <div class="num">12</div>
+    <div class="lbl">disagreements</div>
+  </div>
+  <div class="stat amber">
+    <div class="num">0</div>
+    <div class="lbl">missing data</div>
+  </div>
+  <div class="stat blue">
+    <div class="num">6000</div>
+    <div class="lbl">total trials</div>
+  </div>
+</div>
+<h2>Rank Comparison: Returned P-loss <small style="font-size:.6em;color:#888">(best-audio step)</small></h2>
+<p style="font-size:.85em;color:#7f8c8d">Yellow border = published rank 1 (best loss per synth). This is the headline metric.</p>
+<h3>IEEE paper</h3>
+<table>
+<tr><th class="left">Synth</th><th>SIMSE<br>Spec</th><th>L1<br>Spec</th><th>JTFS</th><th>DTW<br>Envelope</th></tr>
+<tr><td class="left">BP-Noise</td><td class="rank1" class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=1)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="cell-mismatch"><span class="badge" style="background:#e67e22">3</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#e74c3c">4</span> ✗ <small>(pub=3)</small></td></tr>
+<tr><td class="left">Add-SineSaw</td><td class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=2)</small></td><td class="rank1" class="cell-mismatch"><span class="badge" style="background:#e67e22">3</span> ✗ <small>(pub=1)</small></td><td class="cell-match"><span class="badge" style="background:#e67e22">3</span> ✓</td></tr>
+<tr><td class="left">Noise-AM</td><td class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=2)</small></td><td class="cell-match"><span class="badge" style="background:#e67e22">3</span> ✓</td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td></tr>
+<tr><td class="left">SineSaw-AM</td><td class="cell-mismatch"><span class="badge" style="background:#e67e22">3</span> ✗ <small>(pub=2)</small></td><td class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=3)</small></td><td class="cell-match"><span class="badge" style="background:#e74c3c">4</span> ✓</td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td></tr>
+</table>
+<h3>ISMIR paper (in-domain)</h3>
+<table>
+<tr><th class="left">Synth</th><th>SIMSE<br>Spec</th><th>L1<br>Spec</th><th>JTFS</th><th>DTW<br>Envelope</th></tr>
+<tr><td class="left">Chirp (no delay)</td><td class="cell-match"><span class="badge" style="background:#e67e22">3</span> ✓</td><td class="rank1" class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=1)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="cell-mismatch"><span class="badge" style="background:#f39c12">2</span> ✗ <small>(pub=4)</small></td></tr>
+</table>
+<h2>Rank Comparison: Best P-loss <small style="font-size:.6em;color:#888">(diagnostic — best ever visited)</small></h2>
+<p style="font-size:.85em;color:#7f8c8d">Minimum P-loss at any step. If best ranks match but returned ranks do not, the method visited good params but failed to return them.</p>
+<h3>IEEE paper</h3>
+<table>
+<tr><th class="left">Synth</th><th>SIMSE<br>Spec</th><th>L1<br>Spec</th><th>JTFS</th><th>DTW<br>Envelope</th></tr>
+<tr><td class="left">BP-Noise</td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=3)</small></td></tr>
+<tr><td class="left">Add-SineSaw</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=2)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=3)</small></td></tr>
+<tr><td class="left">Noise-AM</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=4)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=2)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=3)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td></tr>
+<tr><td class="left">SineSaw-AM</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=2)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=3)</small></td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=4)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td></tr>
+</table>
+<h3>ISMIR paper (in-domain)</h3>
+<table>
+<tr><th class="left">Synth</th><th>SIMSE<br>Spec</th><th>L1<br>Spec</th><th>JTFS</th><th>DTW<br>Envelope</th></tr>
+<tr><td class="left">Chirp (no delay)</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=3)</small></td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="rank1" class="cell-match"><span class="badge" style="background:#27ae60">1</span> ✓</td><td class="cell-mismatch"><span class="badge" style="background:#27ae60">1</span> ✗ <small>(pub=4)</small></td></tr>
+</table>
+<h2>Per-Synth Detail</h2>
+<h3>BP-Noise <small style="font-size:.65em;color:#888">(IEEE) <code>bandpass_noise_v1</code></small></h3>
+<table>
+<tr>
+  <th class="left">Loss</th>
+  <th>n trials</th>
+  <th>Returned P-loss<br><small>best-audio step</small></th>
+  <th>Best P-loss<br>median</th>
+  <th>Published<br>rank</th>
+  <th>Returned<br>rank</th>
+  <th>Rank-1<br>match</th>
+  <th>Best<br>rank</th>
+</tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">SIMSE_Spec</td><td>300</td><td>0.0383</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-mismatch">✗</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">L1_Spec</td><td>300</td><td>0.0363</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-match">✓</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">JTFS</td><td>300</td><td>0.0509</td><td>0.0333</td><td><span class="badge" style="background:#e74c3c">4</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">DTW_Envelope</td><td>300</td><td>0.0531</td><td>0.0333</td><td><span class="badge" style="background:#e67e22">3</span></td><td><span class="badge" style="background:#e74c3c">4</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+</table>
+<h3>Add-SineSaw <small style="font-size:.65em;color:#888">(IEEE) <code>add_sinesaw</code></small></h3>
+<table>
+<tr>
+  <th class="left">Loss</th>
+  <th>n trials</th>
+  <th>Returned P-loss<br><small>best-audio step</small></th>
+  <th>Best P-loss<br>median</th>
+  <th>Published<br>rank</th>
+  <th>Returned<br>rank</th>
+  <th>Rank-1<br>match</th>
+  <th>Best<br>rank</th>
+</tr>
+<tr><td class="left">SIMSE_Spec</td><td>300</td><td>0.1565</td><td>0.0333</td><td><span class="badge" style="background:#e74c3c">4</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">L1_Spec</td><td>300</td><td>0.0837</td><td>0.0333</td><td><span class="badge" style="background:#f39c12">2</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">JTFS</td><td>300</td><td>0.2451</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-mismatch">✗</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">DTW_Envelope</td><td>300</td><td>0.2490</td><td>0.0333</td><td><span class="badge" style="background:#e67e22">3</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+</table>
+<h3>Noise-AM <small style="font-size:.65em;color:#888">(IEEE) <code>am_noise</code></small></h3>
+<table>
+<tr>
+  <th class="left">Loss</th>
+  <th>n trials</th>
+  <th>Returned P-loss<br><small>best-audio step</small></th>
+  <th>Best P-loss<br>median</th>
+  <th>Published<br>rank</th>
+  <th>Returned<br>rank</th>
+  <th>Rank-1<br>match</th>
+  <th>Best<br>rank</th>
+</tr>
+<tr><td class="left">SIMSE_Spec</td><td>300</td><td>0.0520</td><td>0.0333</td><td><span class="badge" style="background:#e74c3c">4</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">L1_Spec</td><td>300</td><td>0.0464</td><td>0.0333</td><td><span class="badge" style="background:#f39c12">2</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">JTFS</td><td>300</td><td>0.0650</td><td>0.0333</td><td><span class="badge" style="background:#e67e22">3</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">DTW_Envelope</td><td>300</td><td>0.0468</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-match">✓</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+</table>
+<h3>SineSaw-AM <small style="font-size:.65em;color:#888">(IEEE) <code>sine_mod_saw</code></small></h3>
+<table>
+<tr>
+  <th class="left">Loss</th>
+  <th>n trials</th>
+  <th>Returned P-loss<br><small>best-audio step</small></th>
+  <th>Best P-loss<br>median</th>
+  <th>Published<br>rank</th>
+  <th>Returned<br>rank</th>
+  <th>Rank-1<br>match</th>
+  <th>Best<br>rank</th>
+</tr>
+<tr><td class="left">SIMSE_Spec</td><td>300</td><td>0.1863</td><td>0.0333</td><td><span class="badge" style="background:#f39c12">2</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">L1_Spec</td><td>300</td><td>0.1383</td><td>0.0333</td><td><span class="badge" style="background:#e67e22">3</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">JTFS</td><td>300</td><td>0.2716</td><td>0.0333</td><td><span class="badge" style="background:#e74c3c">4</span></td><td><span class="badge" style="background:#e74c3c">4</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">DTW_Envelope</td><td>300</td><td>0.1039</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-match">✓</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+</table>
+<h3>Chirp (no delay) <small style="font-size:.65em;color:#888">(ISMIR) <code>chirplet</code></small></h3>
+<table>
+<tr>
+  <th class="left">Loss</th>
+  <th>n trials</th>
+  <th>Returned P-loss<br><small>best-audio step</small></th>
+  <th>Best P-loss<br>median</th>
+  <th>Published<br>rank</th>
+  <th>Returned<br>rank</th>
+  <th>Rank-1<br>match</th>
+  <th>Best<br>rank</th>
+</tr>
+<tr><td class="left">SIMSE_Spec</td><td>300</td><td>0.1888</td><td>0.0333</td><td><span class="badge" style="background:#e67e22">3</span></td><td><span class="badge" style="background:#e67e22">3</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">L1_Spec</td><td>300</td><td>0.1381</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-mismatch">✗</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr style="outline:2px solid #f1c40f;outline-offset:-1px"><td class="left">JTFS</td><td>300</td><td>0.0761</td><td>0.0333</td><td><span class="badge" style="background:#27ae60">1</span></td><td><span class="badge" style="background:#27ae60">1</span></td><td class="cell-match">✓</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+<tr><td class="left">DTW_Envelope</td><td>300</td><td>0.1348</td><td>0.0333</td><td><span class="badge" style="background:#e74c3c">4</span></td><td><span class="badge" style="background:#f39c12">2</span></td><td class="cell-na">·</td><td><span class="badge" style="background:#27ae60">1</span></td></tr>
+</table>
+
+<div class="note" style="margin-top:40px">
+  <strong>Interpretation:</strong><br>
+  <strong>Rank-1 accuracy</strong> (yellow-bordered cells) is the headline metric —
+  does the method correctly identify the best loss function for each synth?<br>
+  <em>Returned P-loss</em>: P-loss at the step with the lowest audio loss — the candidate the method returns.<br>
+  <em>Best P-loss</em>: minimum P-loss ever visited (oracle). If best ranks match but returned ranks don't,
+  the method found good params but returned a worse candidate.
+</div>
+<hr style="border:none;border-top:1px solid #ecf0f1;margin-top:40px">
+<p style="font-size:.78em;color:#bdc3c7;text-align:center">
+  Generated 2026-06-10 16:07
+</p></body></html>

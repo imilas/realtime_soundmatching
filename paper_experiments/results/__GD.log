@@ -1,0 +1,6 @@
+usage: run_paper.py [-h] --synth
+                    {bandpass_noise,am_noise,add_sinesaw,sine_saw,sine_mod_saw,sine_mod_sine,chirplet,chirplet_pulse,bandpass_noise_v1,am_noise_v1}
+                    --method {GD,RandomSearch,CMA-ES,BO}
+                    [--loss {DTW Onset,DTW_Envelope,JTFS,L1_Spec,L2 Spectral,Multi-Res Spectral,SIMSE_Spec,SSIM Spectral}]
+                    [--trials TRIALS] [--budget BUDGET]
+run_paper.py: error: argument --synth: invalid choice: '' (choose from 'bandpass_noise', 'am_noise', 'add_sinesaw', 'sine_saw', 'sine_mod_saw', 'sine_mod_sine', 'chirplet', 'chirplet_pulse', 'bandpass_noise_v1', 'am_noise_v1')
