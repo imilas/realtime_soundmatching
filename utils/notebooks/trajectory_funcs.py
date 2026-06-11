@@ -18,7 +18,7 @@ from paper_experiments.config import AUDIO_DURATION_S, SAMPLE_RATE, SYNTH_LOSS
 from synths.build import prepare
 from utils.loss_functions import ALL_LOSSES
 
-METHOD_ORDER = ["GD", "RandomSearch", "CMA-ES", "BO"]
+METHOD_ORDER = ["GD", "RandomSearch", "CMA-ES"]
 
 
 # ---------------------------------------------------------------------------

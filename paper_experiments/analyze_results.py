@@ -2,10 +2,9 @@
 Diagnostic analysis of paper_experiments/results/*.pkl.
 
 Regenerates every number in ANALYSIS.md:
-  - step-size distribution per method (tests "BO behaves like random search")
+  - step-size distribution per method
   - final accuracy (best_p_loss) per (synth, method)
   - sample efficiency (best-so-far at eval snapshots)
-  - BO best-found-index (does the GP phase help over initial random?)
   - add_sinesaw identifiability (audio-loss vs P-loss correlation)
   - QL learning (first-20% vs last-20% of trials)
 
@@ -27,7 +26,7 @@ from synths.build import prepare
 
 RES = Path(__file__).parent / "results"
 SYNTHS = ["bandpass_noise", "am_noise", "add_sinesaw"]
-METHODS = ["GD", "RandomSearch", "CMA-ES", "BO"]
+METHODS = ["GD", "RandomSearch", "CMA-ES"]
 SNAP = [25, 50, 100, 200]
 
 
@@ -100,20 +99,9 @@ def sample_efficiency():
             print(f"{s:14s} {m:12s} " + " ".join(f"{med[min(k,L)-1]:5.3f}" for k in SNAP))
 
 
-def bo_best_index():
-    print("\n=== BO best-found index (n_initial=10) ===")
-    print(f"{'synth':14s} {'median_idx':>10s} {'%first10':>9s} {'%after100':>10s}")
-    for s in SYNTHS:
-        trials = _load(s, "BO")
-        if not trials:
-            continue
-        idx = np.array([int(np.argmin(t["history_p_loss"])) for t in trials])
-        print(f"{s:14s} {np.median(idx):10.0f} {100*np.mean(idx<10):8.0f}% {100*np.mean(idx>=100):9.0f}%")
-
-
 def identifiability():
     print("\n=== add_sinesaw identifiability (audio-loss vs P-loss) ===")
-    for m in ["CMA-ES", "BO", "HillClimber"]:
+    for m in ["CMA-ES", "HillClimber"]:
         trials = _load("add_sinesaw", m)
         if not trials:
             continue
@@ -155,5 +143,4 @@ if __name__ == "__main__":
     returned_vs_visited()
     sample_efficiency()
     step_sizes()
-    bo_best_index()
     identifiability()

@@ -27,7 +27,6 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from agents.multidim import (
-    BayesianOptAgent,
     CMAESAgent,
     MultiDimRandomSearch,
 )
@@ -37,13 +36,12 @@ from paper_experiments.config import SYNTH_LOSS
 RES = Path(__file__).parent / "results"
 SYNTHS = ["bandpass_noise", "am_noise", "add_sinesaw"]
 # order chosen cheap->expensive so a partial run still has the fast methods
-METHODS = ["RandomSearch", "CMA-ES", "BO", "GD"]
+METHODS = ["RandomSearch", "CMA-ES", "GD"]
 THRESHOLD = 0.05  # P-loss target for "time-to-solution"
 
 _FACTORIES = {
     "RandomSearch": lambda b, s: MultiDimRandomSearch(b, seed=s),
     "CMA-ES": lambda b, s: CMAESAgent(b, sigma0=0.3, seed=s),
-    "BO": lambda b, s: BayesianOptAgent(b, n_initial_points=10, seed=s),
 }
 
 

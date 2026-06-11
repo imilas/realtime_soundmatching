@@ -3,12 +3,13 @@
 from .base import MultiDimAgentBase, Bounds
 from .random_search import MultiDimRandomSearch
 from .cma_es import CMAESAgent
-from .bayesian_opt import BayesianOptAgent
+from .evosax_agents import CMAESEvosaxAgent, LESAgent
 
 __all__ = [
     "MultiDimAgentBase",
     "Bounds",
     "MultiDimRandomSearch",
     "CMAESAgent",
-    "BayesianOptAgent",
+    "CMAESEvosaxAgent",
+    "LESAgent",
 ]

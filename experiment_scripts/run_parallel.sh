@@ -7,7 +7,7 @@ REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_DIR"
 
 SYNTHS="bandpass_noise am_noise add_sinesaw"
-METHODS="HillClimber RandomSearch CMA-ES BO QL"
+METHODS="HillClimber RandomSearch CMA-ES QL"
 TRIALS=200
 BUDGET=200
 JOBS=2

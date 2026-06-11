@@ -53,7 +53,7 @@ def _(mo):
         # Trajectory deep dive
 
         Step through a single optimization run for **any method** (GD, HillClimber,
-        RandomSearch, CMA-ES, BO, QL) and watch the parameter updates move across the
+        RandomSearch, CMA-ES, QL) and watch the parameter updates move across the
         2D loss surface.  Pick a synth, method, and trial below.
         """
     )

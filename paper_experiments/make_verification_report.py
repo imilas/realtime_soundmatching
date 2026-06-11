@@ -7,7 +7,6 @@ published rankings from the IEEE 2025 and ISMIR in-domain papers.
 Usage:
     python paper_experiments/make_verification_report.py                 # GD
     python paper_experiments/make_verification_report.py --method CMA-ES
-    python paper_experiments/make_verification_report.py --method BO
     python paper_experiments/make_verification_report.py --method RandomSearch
     python paper_experiments/make_verification_report.py --out my_report.html
 """
@@ -23,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 RES = Path(__file__).parent / "results"
 
-METHODS = ["GD", "CMA-ES", "BO", "RandomSearch"]
+METHODS = ["GD", "CMA-ES", "RandomSearch", "CMA-ES-evosax", "LES"]
 
 # ---------------------------------------------------------------------------
 # Published ranks — P-Loss (NPSK) column

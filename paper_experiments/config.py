@@ -2,15 +2,16 @@
 Paper experiment configuration.
 
 Single source of truth for synths, methods, budgets, and hyperparameters.
-Paper scope: GD vs gradient-free black-box methods (CMA-ES, BO, RandomSearch).
+Paper scope: GD vs gradient-free black-box methods (CMA-ES, RandomSearch).
 """
 
 from __future__ import annotations
 
 from agents.multidim import (
-    BayesianOptAgent,
     Bounds,
     CMAESAgent,
+    CMAESEvosaxAgent,
+    LESAgent,
     MultiDimRandomSearch,
 )
 
@@ -68,14 +69,19 @@ def _make_cma(bounds: Bounds, seed: int) -> CMAESAgent:
     return CMAESAgent(bounds, sigma0=0.3, seed=seed)
 
 
-def _make_bo(bounds: Bounds, seed: int) -> BayesianOptAgent:
-    return BayesianOptAgent(bounds, n_initial_points=10, seed=seed)
+def _make_cma_evosax(bounds: Bounds, seed: int) -> CMAESEvosaxAgent:
+    return CMAESEvosaxAgent(bounds, seed=seed)
+
+
+def _make_les(bounds: Bounds, seed: int) -> LESAgent:
+    return LESAgent(bounds, seed=seed)
 
 
 # Maps method name → (is_gd, agent_factory_or_None)
 METHODS: dict[str, tuple[bool, object]] = {
-    "GD":           (True,  None),
-    "RandomSearch": (False, _make_rs),
-    "CMA-ES":       (False, _make_cma),
-    "BO":           (False, _make_bo),
+    "GD":             (True,  None),
+    "RandomSearch":   (False, _make_rs),
+    "CMA-ES":         (False, _make_cma),
+    "CMA-ES-evosax":  (False, _make_cma_evosax),
+    "LES":            (False, _make_les),
 }

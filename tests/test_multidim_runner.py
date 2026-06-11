@@ -11,7 +11,6 @@ import pytest
 import numpy as np
 
 from agents.multidim import (
-    BayesianOptAgent,
     Bounds,
     CMAESAgent,
     MultiDimRandomSearch,
@@ -30,11 +29,6 @@ def _factory_rs(bounds, seed):
 def _factory_cma(bounds, seed):
     # Small population so we get several "tell" cycles within SMOKE_BUDGET evals.
     return CMAESAgent(bounds, sigma0=0.3, population_size=4, seed=seed)
-
-
-def _factory_bo(bounds, seed):
-    # n_initial_points kept small so GP fitting kicks in within SMOKE_BUDGET.
-    return BayesianOptAgent(bounds, n_initial_points=5, seed=seed)
 
 
 def test_random_search_runs_end_to_end():
@@ -79,20 +73,6 @@ def test_cma_es_runs_end_to_end():
         program_name="bandpass_noise",
         agent_factory=_factory_cma,
         method_name="cma_es",
-        seed=42,
-        eval_budget=SMOKE_BUDGET,
-        audio_duration_s=0.25,
-    )
-    assert len(result.history_audio_loss) == SMOKE_BUDGET
-    assert np.isfinite(result.best_audio_loss)
-    assert result.best_p_loss <= np.sqrt(2) + 1e-6
-
-
-def test_bayesian_opt_runs_end_to_end():
-    result = run_trial(
-        program_name="bandpass_noise",
-        agent_factory=_factory_bo,
-        method_name="bayesian_opt",
         seed=42,
         eval_budget=SMOKE_BUDGET,
         audio_duration_s=0.25,

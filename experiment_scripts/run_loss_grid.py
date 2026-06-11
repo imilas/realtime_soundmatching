@@ -8,7 +8,6 @@ resumable through the existing per-cell pickle files.
 Examples
 --------
     python experiment_scripts/run_loss_grid.py --trials 10 --budget 50 --jobs 2
-    python experiment_scripts/run_loss_grid.py --methods CMA-ES BO --losses all
     python experiment_scripts/run_loss_grid.py --losses "L2 Spectral" SIMSE_Spec
 """
 

@@ -6,7 +6,7 @@ One process per (synth, method) cell — designed for GNU parallel:
     parallel python paper_experiments/run_paper.py --synth {1} --loss {2} --method {3} --trials 200 \
         ::: bandpass_noise am_noise add_sinesaw \
         ::: "SIMSE_Spec" "DTW_Envelope" \
-        ::: GD RandomSearch CMA-ES BO
+        ::: GD RandomSearch CMA-ES
 
 Each default-loss run writes/updates results/{synth}_{method}.pkl.
 Each explicit-loss run writes/updates results/{synth}_{loss}_{method}.pkl.
