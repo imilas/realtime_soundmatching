@@ -243,3 +243,19 @@ bandpass_noise_v1/DTW_Envelope/LES: 0 done, running 300 more → /cshome/asalimi
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
 [61/300] LES | bandpass_noise_v1 | p_loss=0.0011 | 151.1s | bandpass_noise_v1_DTW_Envelope_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[62/300] LES | bandpass_noise_v1 | p_loss=0.0005 | 151.2s | bandpass_noise_v1_DTW_Envelope_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[63/300] LES | bandpass_noise_v1 | p_loss=0.0009 | 151.8s | bandpass_noise_v1_DTW_Envelope_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[64/300] LES | bandpass_noise_v1 | p_loss=0.0008 | 151.3s | bandpass_noise_v1_DTW_Envelope_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[65/300] LES | bandpass_noise_v1 | p_loss=0.2647 | 150.9s | bandpass_noise_v1_DTW_Envelope_LES.pkl

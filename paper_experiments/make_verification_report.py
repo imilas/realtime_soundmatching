@@ -172,7 +172,11 @@ def match_cell(pub: int, comp, highlight_rank1: bool = False) -> str:
 # Build report
 # ---------------------------------------------------------------------------
 
-def main(out_path: Path, method: str) -> None:
+def build_html(method: str) -> tuple[str, dict]:
+    """Build the verification report HTML for one method.
+
+    Returns (html, stats) where stats has the summary counts printed by main().
+    """
     is_gd = (method == "GD")
     returned_label = "Final P-loss<br><small>step 200</small>" if is_gd else "Returned P-loss<br><small>best-audio step</small>"
 
@@ -398,11 +402,22 @@ tr:hover td{background:#f0f4f8}
   Generated {datetime.now().strftime("%Y-%m-%d %H:%M")}
 </p></body></html>"""
 
+    stats = dict(
+        n_rank1_match=n_rank1_match, n_rank1_pub=n_rank1_pub,
+        n_match=n_match, n_total=n_total, n_miss=n_miss, n_fail=n_fail,
+        total_trials=total_trials,
+    )
+    return html, stats
+
+
+def main(out_path: Path, method: str) -> None:
+    html, stats = build_html(method)
     out_path.write_text(html, encoding="utf-8")
     print(f"Report written to {out_path}")
-    print(f"Rank-1 match:  {n_rank1_match}/{n_rank1_pub}")
-    print(f"All ranks:     {n_match}/{n_total} match, {n_miss} missing, {n_fail} disagreements")
-    print(f"Total trials:  {total_trials}")
+    print(f"Rank-1 match:  {stats['n_rank1_match']}/{stats['n_rank1_pub']}")
+    print(f"All ranks:     {stats['n_match']}/{stats['n_total']} match, "
+          f"{stats['n_miss']} missing, {stats['n_fail']} disagreements")
+    print(f"Total trials:  {stats['total_trials']}")
 
 
 if __name__ == "__main__":

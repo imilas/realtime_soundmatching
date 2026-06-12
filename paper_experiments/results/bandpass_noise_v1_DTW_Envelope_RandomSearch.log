@@ -359,3 +359,19 @@ bandpass_noise_v1/DTW_Envelope/RandomSearch: 0 done, running 300 more → /cshom
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
 [90/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0045 | 147.6s | bandpass_noise_v1_DTW_Envelope_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[91/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0242 | 147.5s | bandpass_noise_v1_DTW_Envelope_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[92/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0575 | 148.1s | bandpass_noise_v1_DTW_Envelope_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[93/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0144 | 147.6s | bandpass_noise_v1_DTW_Envelope_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[94/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0441 | 145.9s | bandpass_noise_v1_DTW_Envelope_RandomSearch.pkl

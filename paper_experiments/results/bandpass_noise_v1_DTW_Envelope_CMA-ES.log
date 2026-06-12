@@ -359,3 +359,19 @@ bandpass_noise_v1/DTW_Envelope/CMA-ES: 0 done, running 300 more → /cshome/asal
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
 [90/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0002 | 147.0s | bandpass_noise_v1_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[91/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0003 | 147.3s | bandpass_noise_v1_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[92/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0000 | 146.8s | bandpass_noise_v1_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[93/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0144 | 146.7s | bandpass_noise_v1_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[94/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0001 | 146.1s | bandpass_noise_v1_DTW_Envelope_CMA-ES.pkl
