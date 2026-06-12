@@ -200,7 +200,7 @@ def _(RES, np, pickle):
     import re as _re
     from scipy.stats import mannwhitneyu as _mannwhitneyu
 
-    ML_CORE_LOSSES = ["SIMSE_Spec", "JTFS", "DTW_Envelope"]
+    ML_CORE_LOSSES = ["SIMSE_Spec", "JTFS", "DTW_Envelope", "CLAP"]
     ML_METHODS = ["GD", "RandomSearch", "CMA-ES"]
     ML_SYNTHS = [
         "bandpass_noise", "am_noise", "add_sinesaw",

@@ -10,6 +10,8 @@ Ported from JAX originals in utils/loss_helpers.py and
 utils/loss_functions_definitions.py.
 """
 
+from pathlib import Path
+
 import numpy as np
 from scipy.signal import stft
 from scipy.ndimage import gaussian_filter1d, uniform_filter
@@ -262,6 +264,71 @@ def dtw_envelope_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int
     return _dtw_distance(env_a, env_b, squared=True, normalize=False)
 
 
+_CLAP_SR = 48000
+_clap_model = None
+
+
+def _get_clap_model():
+    """Lazy-load and cache the LAION-CLAP model (HTSAT-tiny audio encoder)."""
+    global _clap_model
+    if _clap_model is None:
+        import os
+        # Point numba's cache at a writable, in-repo directory before librosa
+        # (a laion_clap dependency) JIT-compiles anything — otherwise numba's
+        # cache locator fails under a restricted-filesystem sandbox.
+        os.environ["NUMBA_CACHE_DIR"] = str(Path(__file__).resolve().parent.parent / ".numba_cache")
+        import torch
+        # Force-import (not lazy) so numba JIT-compiles these with our
+        # NUMBA_CACHE_DIR in effect, before laion_clap's lazy-loader path
+        # reaches them.
+        import librosa  # noqa: F401
+        import librosa.util.utils  # noqa: F401
+        import librosa.core.notation  # noqa: F401
+        import laion_clap
+        torch.set_num_threads(1)
+        model = laion_clap.CLAP_Module(enable_fusion=False, amodel="HTSAT-tiny")
+        model.load_ckpt()
+        model.eval()
+        _clap_model = model
+    return _clap_model
+
+
+def _clap_embed(audio: np.ndarray, sample_rate: int) -> np.ndarray:
+    from scipy.signal import resample_poly
+    a = audio.astype(np.float32)
+    if sample_rate != _CLAP_SR:
+        from math import gcd
+        g = gcd(sample_rate, _CLAP_SR)
+        a = resample_poly(a, _CLAP_SR // g, sample_rate // g).astype(np.float32)
+    model = _get_clap_model()
+    emb = model.get_audio_embedding_from_data(a[None, :], use_tensor=False)
+    return emb[0]
+
+
+# Cache the most recent "audio_a" embedding: within a trial, audio_a is the
+# fixed target audio re-passed on every evaluation, so this avoids
+# recomputing its (expensive) CLAP embedding on every call.
+_clap_cache_key = None
+_clap_cache_emb = None
+
+
+def clap_loss(audio_a: np.ndarray, audio_b: np.ndarray, sample_rate: int) -> float:
+    """
+    L2 distance between LAION-CLAP audio embeddings (HTSAT-tiny, 630k-audioset-best ckpt).
+    Audio is resampled to 48kHz to match CLAP's expected input rate.
+    """
+    global _clap_cache_key, _clap_cache_emb
+    key = (audio_a.tobytes(), sample_rate)
+    if key == _clap_cache_key:
+        ea = _clap_cache_emb
+    else:
+        ea = _clap_embed(audio_a, sample_rate)
+        _clap_cache_key = key
+        _clap_cache_emb = ea
+    eb = _clap_embed(audio_b, sample_rate)
+    return float(np.linalg.norm(ea - eb))
+
+
 # ------------------------------------------------------------------
 # Registry for easy iteration
 # ------------------------------------------------------------------
@@ -275,4 +342,5 @@ ALL_LOSSES = {
     "SIMSE_Spec": simse_spec_loss,
     "DTW_Envelope": dtw_envelope_loss,
     "JTFS": jtfs_loss,
+    "CLAP": clap_loss,
 }

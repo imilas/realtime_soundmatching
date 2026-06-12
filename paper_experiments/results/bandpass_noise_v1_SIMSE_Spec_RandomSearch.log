@@ -1,238 +1,1202 @@
-bandpass_noise_v1/SIMSE_Spec/RandomSearch: 241 done, running 59 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+bandpass_noise_v1/SIMSE_Spec/RandomSearch: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[242/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0533 | 5.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[1/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0011 | 12.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[243/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0393 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[2/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0198 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[244/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0348 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[3/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0133 | 12.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[245/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0416 | 5.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[4/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0162 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[246/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0112 | 5.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[5/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0246 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[247/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1064 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[6/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0229 | 13.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[248/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0084 | 5.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[7/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0280 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[249/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0396 | 4.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[8/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0126 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[250/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0200 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[9/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0064 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[251/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0238 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[10/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0509 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[252/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0218 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[11/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0432 | 13.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[253/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0531 | 5.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[12/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0117 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[254/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0304 | 5.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[13/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0291 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[255/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0544 | 5.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[14/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0455 | 13.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[256/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0201 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[15/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0270 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[257/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0505 | 5.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[16/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0058 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[258/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0895 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[17/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0385 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[259/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0227 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[18/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0245 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[260/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0157 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[19/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0121 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[261/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0173 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[20/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0035 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[262/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0251 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[21/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0462 | 13.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[263/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0173 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[22/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0184 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[264/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0478 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[23/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0272 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[265/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0703 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[24/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0299 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[266/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0106 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[25/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0691 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[267/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0286 | 5.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[26/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0180 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[268/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0310 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[27/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0215 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[269/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0216 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[28/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0328 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[270/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0477 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[29/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0602 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[271/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0422 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[30/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0288 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[272/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0454 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[31/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0122 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[273/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0386 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[32/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0476 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[274/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0517 | 5.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[33/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0020 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[275/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0294 | 5.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[34/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0147 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[276/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0486 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[35/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0172 | 13.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[277/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0246 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[36/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0160 | 13.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[278/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0413 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[37/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0523 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[279/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0621 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[38/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0297 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[280/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0122 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[39/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0479 | 13.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[281/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0166 | 5.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[40/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0255 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[282/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0329 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[41/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0249 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[283/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0232 | 5.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[42/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0143 | 13.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[284/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0148 | 5.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[43/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0316 | 13.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[285/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1144 | 5.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[44/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0311 | 13.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[286/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0296 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[45/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0121 | 13.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[287/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0059 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[46/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0310 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[288/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0050 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[47/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0356 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[289/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0505 | 5.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[48/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0234 | 13.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[290/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0128 | 5.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[49/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0571 | 13.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[291/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0989 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[50/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0204 | 13.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[292/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0191 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[51/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0421 | 13.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[293/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0365 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[52/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0352 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[294/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0783 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[53/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0087 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[295/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0115 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[54/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0405 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[296/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0199 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[55/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0289 | 11.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[297/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0277 | 5.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[56/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0091 | 11.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[298/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0519 | 5.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[57/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0567 | 11.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[299/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0926 | 6.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[58/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0081 | 11.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 [FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
   hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
   lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
-[300/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0318 | 5.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[59/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0222 | 11.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[60/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0112 | 11.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[61/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0159 | 11.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[62/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0431 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[63/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0172 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[64/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0205 | 12.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[65/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0068 | 12.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[66/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0133 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[67/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0432 | 11.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[68/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0554 | 11.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[69/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0097 | 11.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[70/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0574 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[71/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0568 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[72/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0251 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[73/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0131 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[74/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0233 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[75/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0112 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[76/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0213 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[77/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0258 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[78/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0137 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[79/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0833 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[80/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0492 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[81/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0354 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[82/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0595 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[83/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0290 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[84/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0153 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[85/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0251 | 12.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[86/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0396 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[87/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0331 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[88/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0095 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[89/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0262 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[90/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0045 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[91/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0242 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[92/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0355 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[93/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0164 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[94/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0120 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[95/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0253 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[96/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0501 | 13.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[97/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0663 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[98/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0328 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[99/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0321 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[100/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0094 | 13.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[101/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0483 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[102/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0303 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[103/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0143 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[104/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0458 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[105/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0192 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[106/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0753 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[107/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0241 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[108/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0197 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[109/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0269 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[110/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0096 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[111/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1093 | 13.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[112/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0255 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[113/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0227 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[114/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0250 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[115/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0453 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[116/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0235 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[117/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0317 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[118/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0489 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[119/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0452 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[120/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0097 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[121/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0268 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[122/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0391 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[123/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0080 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[124/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0080 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[125/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0094 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[126/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0382 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[127/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0156 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[128/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0412 | 13.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[129/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0258 | 13.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[130/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0182 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[131/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0111 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[132/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0120 | 13.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[133/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0352 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[134/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0109 | 12.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[135/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0218 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[136/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0163 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[137/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0134 | 13.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[138/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0284 | 13.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[139/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0494 | 13.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[140/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0268 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[141/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0171 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[142/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0570 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[143/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0211 | 11.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[144/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0134 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[145/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0185 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[146/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0117 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[147/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0105 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[148/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0117 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[149/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0808 | 12.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[150/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0371 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[151/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0192 | 13.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[152/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0987 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[153/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0141 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[154/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0485 | 12.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[155/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0366 | 12.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[156/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0248 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[157/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0138 | 12.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[158/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0202 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[159/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0151 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[160/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0190 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[161/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0155 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[162/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0213 | 12.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[163/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0309 | 12.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[164/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0307 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[165/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0318 | 12.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[166/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1113 | 12.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[167/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0310 | 14.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[168/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0297 | 13.9s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[169/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0322 | 14.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[170/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0494 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[171/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0172 | 12.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[172/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0421 | 12.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[173/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0089 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[174/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0649 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[175/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0688 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[176/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1419 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[177/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0536 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[178/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0531 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[179/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0197 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[180/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0028 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[181/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0163 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[182/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0114 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[183/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0407 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[184/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0340 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[185/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0131 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[186/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0238 | 9.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[187/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0127 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[188/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0160 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[189/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0198 | 9.2s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[190/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0356 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[191/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0349 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[192/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0208 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[193/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0065 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[194/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0195 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[195/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0023 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[196/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0606 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[197/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0151 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[198/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0434 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[199/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0455 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[200/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0281 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[201/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0231 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[202/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0230 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[203/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0356 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[204/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0149 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[205/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0805 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[206/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0383 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[207/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0412 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[208/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0207 | 9.3s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[209/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0178 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[210/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0167 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[211/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0104 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[212/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0203 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[213/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0966 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[214/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0425 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[215/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0286 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[216/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0219 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[217/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0479 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[218/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0144 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[219/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0167 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[220/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0423 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[221/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0206 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[222/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0180 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[223/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0618 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[224/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0033 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[225/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0040 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[226/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0082 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[227/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0038 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[228/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0257 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[229/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0280 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[230/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0051 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[231/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0578 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[232/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0517 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[233/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0154 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[234/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0116 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[235/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0168 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[236/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0201 | 10.0s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[237/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0155 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[238/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0484 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[239/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0254 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[240/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0610 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[241/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0313 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[242/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0059 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[243/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0393 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[244/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0080 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[245/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0202 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[246/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0197 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[247/300] RandomSearch | bandpass_noise_v1 | p_loss=0.1064 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[248/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0084 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[249/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0225 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[250/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0200 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[251/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0402 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[252/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0218 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[253/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0394 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[254/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0774 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[255/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0259 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[256/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0201 | 9.1s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[257/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0182 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[258/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0475 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[259/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0034 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[260/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0105 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[261/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0158 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[262/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0284 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[263/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0173 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[264/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0286 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[265/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0212 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[266/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0106 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[267/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0286 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[268/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0431 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[269/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0220 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[270/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0477 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[271/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0077 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[272/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0408 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[273/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0386 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[274/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0517 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[275/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0294 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[276/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0101 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[277/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0246 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[278/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0218 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[279/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0107 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[280/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0122 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[281/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0129 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[282/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0288 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[283/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0018 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[284/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0148 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[285/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0307 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[286/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0296 | 9.8s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[287/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0059 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[288/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0050 | 9.7s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[289/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0309 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[290/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0128 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[291/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0625 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[292/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0108 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[293/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0238 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[294/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0272 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[295/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0067 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[296/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0199 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[297/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0126 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[298/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0517 | 9.4s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[299/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0926 | 9.5s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/bandpass_noise_v1_72d72c2706d7/bandpass_noise_v1.dsp.json
+  hp_cut                /bandpass_noise_v1/hp_cut                 [1.0, 120.0]  default=60.5
+  lp_cut                /bandpass_noise_v1/lp_cut                 [50.0, 1000.0]  default=525.0
+[300/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0164 | 9.6s | bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
 Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/bandpass_noise_v1_SIMSE_Spec_RandomSearch.pkl
