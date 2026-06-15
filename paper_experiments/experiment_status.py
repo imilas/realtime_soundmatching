@@ -26,7 +26,7 @@ def _(RES, datetime, np, pd, pickle, re):
     # Scan all {synth}_{loss}_{method}.pkl files in results/
     _PAT = re.compile(
         r"^(?P<synth>.+?)_(?P<loss>SIMSE_Spec|L1_Spec|JTFS|DTW_Envelope|CLAP)"
-        r"_(?P<method>GD|CMA-ES|RandomSearch|LES|CMA-ES-evosax)\.pkl$"
+        r"_(?P<method>GD|CMA-ES|RandomSearch|LES)\.pkl$"
     )
 
     _rows = []

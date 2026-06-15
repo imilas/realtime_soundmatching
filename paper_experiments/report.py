@@ -44,63 +44,44 @@ def _():
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    # Sound-matching benchmark report
-    """)
+def _(FIG, mo):
+    mo.image(str(FIG / "01_boxplots_bestploss.png"))
     return
 
 
 @app.cell
 def _(FIG, mo):
-    mo.vstack([
-        mo.md("## Final accuracy (best P-loss, log scale, lower=better)"),
-        mo.image(str(FIG / "01_boxplots_bestploss.png")),
-    ])
+    mo.image(str(FIG / "02_returned_vs_visited.png"))
     return
 
 
 @app.cell
 def _(FIG, mo):
-    mo.vstack([
-        mo.md("## Final vs best-visited gap (grey=visited oracle, red=final)"),
-        mo.image(str(FIG / "02_returned_vs_visited.png")),
-    ])
+    mo.image(str(FIG / "03_learning_curves.png"))
     return
 
 
 @app.cell
 def _(FIG, mo):
-    mo.vstack([
-        mo.md("## Sample efficiency (median best-so-far P-loss, IQR band)"),
-        mo.image(str(FIG / "03_learning_curves.png")),
-    ])
+    mo.image(str(FIG / "07_returned_curves.png"))
     return
 
 
 @app.cell
 def _(FIG, mo):
-    mo.vstack([
-        mo.md("## Wall-clock efficiency (ms/eval, label=reach-rate to P-loss<=0.05)"),
-        mo.image(str(FIG / "04_walltime_mseval.png")),
-    ])
+    mo.image(str(FIG / "04_walltime_mseval.png"))
     return
 
 
 @app.cell
 def _(FIG, mo):
-    mo.vstack([
-        mo.md("## Non-identifiability (audio-loss vs P-loss; flat=non-identifiable)"),
-        mo.image(str(FIG / "06_identifiability_scatter.png")),
-    ])
+    mo.image(str(FIG / "05_clap_walltime.png"))
     return
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    ## Interactive explorer
-    """)
+def _(FIG, mo):
+    mo.image(str(FIG / "06_identifiability_scatter.png"))
     return
 
 
@@ -188,22 +169,14 @@ def _(
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    ## Multi-loss performance tables (median returned P-loss)
-    """)
-    return
-
-
-@app.cell
 def _(RES, np, pickle):
     import re as _re
     from scipy.stats import mannwhitneyu as _mannwhitneyu
 
     ML_CORE_LOSSES = ["SIMSE_Spec", "JTFS", "DTW_Envelope", "CLAP"]
-    ML_METHODS = ["GD", "RandomSearch", "CMA-ES"]
+    ML_METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
     ML_SYNTHS = [
-        "bandpass_noise", "am_noise", "add_sinesaw",
+        "bandpass_noise_v1", "am_noise", "add_sinesaw",
         "sine_saw", "sine_mod_saw", "sine_mod_sine",
         "chirplet", "chirplet_pulse",
     ]
@@ -322,14 +295,6 @@ def _(ML_CORE_LOSSES, ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, pd):
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    ## NPSK method rankings (rank 1 = best)
-    """)
-    return
-
-
-@app.cell
 def _(
     ML_CORE_LOSSES,
     ML_METHODS,
@@ -367,17 +332,9 @@ def _(
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    ## NPSK summary table (canonical loss per synth)
-    """)
-    return
-
-
-@app.cell
 def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
     _SYNTH_LOSS_CANONICAL = {
-        "bandpass_noise": "SIMSE_Spec",
+        "bandpass_noise_v1": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
         "sine_saw":       "JTFS",
@@ -411,17 +368,9 @@ def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
 
 
 @app.cell
-def _(mo):
-    mo.md("""
-    ## Bootstrapped median P-loss, colored by NPSK rank (green=1st ... darkred=4th)
-    """)
-    return
-
-
-@app.cell
 def _(ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, npsk_ranks, plt):
     _SYNTH_LOSS_CANONICAL = {
-        "bandpass_noise": "SIMSE_Spec",
+        "bandpass_noise_v1": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
         "sine_saw":       "JTFS",

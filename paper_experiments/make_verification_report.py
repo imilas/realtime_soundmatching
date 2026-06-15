@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 RES = Path(__file__).parent / "results"
 
-METHODS = ["GD", "CMA-ES", "RandomSearch", "CMA-ES-evosax", "LES"]
+METHODS = ["GD", "CMA-ES", "RandomSearch", "LES"]
 
 # ---------------------------------------------------------------------------
 # Published ranks — P-Loss (NPSK) column
@@ -51,6 +51,10 @@ SYNTH_LABELS = {
 }
 SYNTH_PAPER = {s: "IEEE" for s in IEEE_PUBLISHED} | {s: "ISMIR" for s in ISMIR_PUBLISHED}
 LOSSES = ["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope"]
+# CLAP has no published rank (not in the IEEE/ISMIR papers), but it competes
+# in the NPSK ranking alongside the published losses and gets its own row in
+# the per-synth detail tables.
+LOSSES_ALL = LOSSES + ["CLAP"]
 SYNTHS = list(PUBLISHED)
 RANK_COLORS = {1: "#27ae60", 2: "#f39c12", 3: "#e67e22", 4: "#e74c3c"}
 
@@ -184,18 +188,20 @@ def build_html(method: str) -> tuple[str, dict]:
     data: dict[str, dict[str, dict]] = {}
     for synth in SYNTHS:
         data[synth] = {}
-        for loss in LOSSES:
+        for loss in LOSSES_ALL:
             trials = load_trials(synth, loss, method)
             returned, bests = extract_scores(trials, method)
             n = len(trials)
             data[synth][loss] = dict(n=n, returned=returned, bests=bests)
 
-    # Compute ranks on both returned and best P-loss
+    # Compute ranks on both returned and best P-loss.
+    # CLAP competes alongside the published losses in the NPSK ranking
+    # (even though it has no published rank to compare against).
     ret_ranks: dict[str, dict[str, int | str]] = {}
     best_ranks: dict[str, dict[str, int | str]] = {}
     for synth in SYNTHS:
         rg, bg = {}, {}
-        for loss in LOSSES:
+        for loss in LOSSES_ALL:
             r, b = data[synth][loss]["returned"], data[synth][loss]["bests"]
             if len(r) >= 2:
                 rg[loss] = bootstrap_medians(r)
@@ -203,8 +209,8 @@ def build_html(method: str) -> tuple[str, dict]:
                 bg[loss] = bootstrap_medians(b)
         rr = npsk_ranks(rg) if len(rg) >= 2 else {}
         br = npsk_ranks(bg) if len(bg) >= 2 else {}
-        ret_ranks[synth] = {l: rr.get(l, "—") for l in LOSSES}
-        best_ranks[synth] = {l: br.get(l, "—") for l in LOSSES}
+        ret_ranks[synth] = {l: rr.get(l, "—") for l in LOSSES_ALL}
+        best_ranks[synth] = {l: br.get(l, "—") for l in LOSSES_ALL}
 
     # Summary counts (rank-1 match is the headline metric)
     n_match = n_miss = n_fail = 0
@@ -292,6 +298,13 @@ tr:hover td{background:#f0f4f8}
   <span style="background:#f1c40f;padding:1px 5px;border-radius:3px;font-size:.9em">■ yellow border</span>
   = published rank-1 cell (most important).
 </div>
+<div class="note" style="font-size:.85em">
+  <strong>CLAP</strong> has no published rank (not part of the IEEE/ISMIR studies), so it's
+  excluded from the rank-comparison tables above. It still competes in the NPSK ranking —
+  its computed rank (relative to the 4 published losses) appears as an extra row per synth
+  in the per-synth detail tables below, with <span class="badge badge-na">n/a</span> in the
+  published-rank column.
+</div>
 """
 
     html += f"""
@@ -344,6 +357,27 @@ tr:hover td{background:#f0f4f8}
     html += "<h3>IEEE paper</h3>\n" + rank_table(list(IEEE_PUBLISHED), best_ranks)
     html += "<h3>ISMIR paper (in-domain)</h3>\n" + rank_table(list(ISMIR_PUBLISHED), best_ranks)
 
+    # CLAP has no published rank, but show its computed P-loss NPSK rank
+    # (relative to the published losses) per synth where data exists.
+    def clap_rank_table(ranks, label):
+        t = '<table>\n<tr><th class="left">Synth</th><th>n trials</th>'
+        t += f'<th>CLAP rank<br><small>({label})</small></th></tr>\n'
+        for synth in SYNTHS:
+            n = data[synth]["CLAP"]["n"]
+            comp = ranks[synth].get("CLAP", "—")
+            t += (f'<tr><td class="left">{SYNTH_LABELS[synth]}</td>'
+                  f"<td>{n}</td>"
+                  f"<td>{rank_badge(comp, muted=not isinstance(comp, int))}</td></tr>\n")
+        t += "</table>\n"
+        return t
+
+    html += "<h2>CLAP Rank <small style=\"font-size:.6em;color:#888\">(computed only — no published comparison)</small></h2>\n"
+    html += ('<p style="font-size:.85em;color:#7f8c8d">CLAP\'s NPSK rank among the 5 losses '
+             '(SIMSE_Spec, L1_Spec, JTFS, DTW_Envelope, CLAP) for each synth, shown where data exists. '
+             f'{"GD does not support CLAP, so this table is empty for GD." if is_gd else ""}</p>\n')
+    html += "<h3>Returned P-loss</h3>\n" + clap_rank_table(ret_ranks, "best-audio step" if not is_gd else "n/a")
+    html += "<h3>Best P-loss (oracle)</h3>\n" + clap_rank_table(best_ranks, "best ever visited")
+
     html += "<h2>Per-Synth Detail</h2>\n"
     for synth in SYNTHS:
         paper_tag = SYNTH_PAPER[synth]
@@ -359,9 +393,9 @@ tr:hover td{background:#f0f4f8}
   <th>Rank-1<br>match</th>
   <th>Best<br>rank</th>
 </tr>\n"""
-        for loss in LOSSES:
+        for loss in LOSSES_ALL:
             d = data[synth][loss]
-            pub = PUBLISHED[synth][loss]
+            pub = PUBLISHED[synth].get(loss)  # None for CLAP — no published rank
             rr = ret_ranks[synth].get(loss, "—")
             br = best_ranks[synth].get(loss, "—")
             n = d["n"]
@@ -374,13 +408,14 @@ tr:hover td{background:#f0f4f8}
             else:
                 r1_match, r1_cls = "·", "cell-na"
             r1_style = ' style="outline:2px solid #f1c40f;outline-offset:-1px"' if pub == 1 else ""
+            pub_badge = rank_badge(pub) if pub is not None else '<span class="badge badge-na">n/a</span>'
             html += (
                 f"<tr{r1_style}>"
                 f'<td class="left">{loss}</td>'
                 f"<td>{n}</td>"
                 f"<td>{ret_med}</td>"
                 f"<td>{best_med}</td>"
-                f"<td>{rank_badge(pub)}</td>"
+                f"<td>{pub_badge}</td>"
                 f"<td>{rank_badge(rr, muted=not isinstance(rr,int))}</td>"
                 f'<td class="{r1_cls}">{r1_match}</td>'
                 f"<td>{rank_badge(br, muted=not isinstance(br,int))}</td>"

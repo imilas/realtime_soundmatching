@@ -1,5 +1,5 @@
 """
-evosax-based agents (CMA-ES and Learned Evolution Strategy).
+evosax-based agents (Learned Evolution Strategy).
 
 evosax is JAX-native and generation-based (ask -> evaluate population ->
 tell), same shape mismatch with MultiDimAgentBase's one-proposal-one-
@@ -72,14 +72,6 @@ class EvosaxAgent(MultiDimAgentBase):
             self._state, _ = self._es.tell(tell_key, population, fitness, self._state, self._params)
             self._gen_xs.clear()
             self._gen_losses.clear()
-
-
-class CMAESEvosaxAgent(EvosaxAgent):
-    """CMA-ES via evosax, for cross-checking against the `cma`-library wrapper."""
-
-    def __init__(self, bounds: Bounds, population_size: Optional[int] = None, seed: Optional[int] = None):
-        from evosax.algorithms import CMA_ES
-        super().__init__(bounds, CMA_ES, population_size=population_size, seed=seed)
 
 
 class LESAgent(EvosaxAgent):

@@ -19,7 +19,7 @@ def _():
 
     RES = Path(__file__).parent / "results"
 
-    METHODS = ["GD", "CMA-ES", "RandomSearch"]
+    METHODS = ["GD", "CMA-ES", "RandomSearch", "LES"]
     LOSSES = ["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope", "CLAP"]
 
     # Synths with both replication data and a published P-Loss NPSK rank to

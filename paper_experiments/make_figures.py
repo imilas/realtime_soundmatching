@@ -27,7 +27,7 @@ FIG = RES / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
 
 SYNTHS = ["bandpass_noise_v1", "am_noise", "add_sinesaw", "sine_mod_saw", "chirplet"]
-LOSSES = ["SIMSE_Spec", "DTW_Envelope", "JTFS", "L1_Spec"]
+LOSSES = ["SIMSE_Spec", "DTW_Envelope", "JTFS", "L1_Spec", "CLAP"]
 METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
 COLORS = {
     "GD": "black", "RandomSearch": "#ff7f0e",
@@ -146,15 +146,18 @@ def fig_learning_curves():
                 B = max(len(t["history_p_loss"]) for t in tr)
                 curves = []
                 for t in tr:
-                    c = np.minimum.accumulate(np.array(t["history_p_loss"]))
+                    # fmin.accumulate ignores occasional NaN p-loss evaluations
+                    # (transient eval failures) instead of poisoning the running
+                    # best from that point on.
+                    c = np.fmin.accumulate(np.array(t["history_p_loss"]))
                     if len(c) < B:
                         c = np.pad(c, (0, B - len(c)), constant_values=c[-1])
                     curves.append(c)
                 arr = np.vstack(curves)
                 x = np.arange(1, B + 1)
-                med = np.median(arr, 0)
+                med = np.nanmedian(arr, 0)
                 ax.plot(x, med, color=COLORS[m], lw=1.6, label=m)
-                ax.fill_between(x, np.percentile(arr, 25, 0), np.percentile(arr, 75, 0),
+                ax.fill_between(x, np.nanpercentile(arr, 25, 0), np.nanpercentile(arr, 75, 0),
                                 color=COLORS[m], alpha=0.10)
             ax.set_yscale("log")
             if i == len(LOSSES) - 1:
@@ -168,6 +171,50 @@ def fig_learning_curves():
                 ax.legend(fontsize=7)
     fig.suptitle("Sample efficiency: median best-so-far P-loss (IQR band), rows = loss, cols = synth", fontsize=12)
     fig.tight_layout(); _save(fig, "03_learning_curves.png")
+
+
+# 3b — returned (instantaneous) P-loss, no running-min ----------------------
+def fig_returned_curves():
+    """Same layout as fig_learning_curves, but plots the *raw* per-step
+    P-loss (no cumulative minimum). A method whose best-so-far curve looks
+    good only because it occasionally wanders near a good point — without
+    settling there — will show a flat/noisy median here instead of a
+    monotonically improving one."""
+    fig, axes = plt.subplots(len(LOSSES), len(SYNTHS), figsize=(4 * len(SYNTHS), 3.2 * len(LOSSES)))
+    for i, loss in enumerate(LOSSES):
+        for j, s in enumerate(SYNTHS):
+            ax = axes[i, j]
+            ms = _present(s, loss)
+            if not ms:
+                ax.axis("off")
+                continue
+            for m in ms:
+                tr = _load(s, loss, m)
+                B = max(len(t["history_p_loss"]) for t in tr)
+                curves = []
+                for t in tr:
+                    c = np.array(t["history_p_loss"], dtype=float)
+                    if len(c) < B:
+                        c = np.pad(c, (0, B - len(c)), constant_values=np.nan)
+                    curves.append(c)
+                arr = np.vstack(curves)
+                x = np.arange(1, B + 1)
+                med = np.nanmedian(arr, 0)
+                ax.plot(x, med, color=COLORS[m], lw=1.6, label=m)
+                ax.fill_between(x, np.nanpercentile(arr, 25, 0), np.nanpercentile(arr, 75, 0),
+                                color=COLORS[m], alpha=0.10)
+            if i == len(LOSSES) - 1:
+                ax.set_xlabel("evaluations")
+            if j == 0:
+                ax.set_ylabel(f"{loss}\nreturned P-loss", fontsize=8)
+            if i == 0:
+                ax.set_title(s, fontsize=10)
+            ax.grid(True, alpha=0.3, which="both")
+            if i == 0 and j == 0:
+                ax.legend(fontsize=7)
+    fig.suptitle("Sanity check: median returned (instantaneous, non-cumulative) P-loss (IQR band), "
+                  "rows = loss, cols = synth", fontsize=12)
+    fig.tight_layout(); _save(fig, "07_returned_curves.png")
 
 
 # 4 — controlled wall-clock efficiency --------------------------------------
@@ -188,6 +235,39 @@ def fig_walltime():
     fig.suptitle("Controlled wall-clock: ms/eval (bar) + reach-rate to P-loss≤0.05 (label)\n"
                   "(measured for these 3 synths only)", fontsize=11)
     fig.tight_layout(); _save(fig, "04_walltime_mseval.png")
+
+
+# 5 — CLAP wall-clock (from production run durations) -----------------------
+def fig_walltime_clap():
+    """ms/eval for the CLAP loss, derived from each trial's recorded
+    `duration_s` / `eval_budget` — no controlled E3 benchmark exists for CLAP
+    (it wasn't part of bench_walltime.py), so this uses the actual production
+    run timings instead."""
+    clap_methods = [m for m in METHODS if m != "GD"]  # GD doesn't support CLAP
+    fig, axes = plt.subplots(1, len(SYNTHS), figsize=(3.2 * len(SYNTHS), 4))
+    for ax, s in zip(axes, SYNTHS):
+        ms, msev = [], []
+        for m in clap_methods:
+            tr = _load(s, "CLAP", m)
+            if not tr:
+                continue
+            budget = tr[0].get("eval_budget", len(tr[0].get("history_p_loss", [])))
+            durs = [t["duration_s"] for t in tr if t.get("duration_s") is not None]
+            if not durs or not budget:
+                continue
+            ms.append(m)
+            msev.append(np.median(durs) / budget * 1000)
+        if not ms:
+            ax.axis("off")
+            continue
+        ax.bar(range(len(ms)), msev, color=[COLORS[m] for m in ms], alpha=0.8)
+        ax.set_yscale("log"); ax.set_ylabel("ms / eval (log)")
+        ax.set_xticks(range(len(ms))); ax.set_xticklabels(ms, rotation=35, ha="right", fontsize=8)
+        ax.set_title(s, fontsize=10)
+        ax.grid(True, axis="y", alpha=0.3)
+    fig.suptitle("CLAP wall-clock: ms/eval from production run durations (median duration_s / eval_budget)",
+                  fontsize=11)
+    fig.tight_layout(); _save(fig, "05_clap_walltime.png")
 
 
 # 6 — non-identifiability scatter -------------------------------------------
@@ -289,7 +369,9 @@ if __name__ == "__main__":
     fig_boxplots()
     fig_deception()
     fig_learning_curves()
+    fig_returned_curves()
     fig_walltime()
+    fig_walltime_clap()
     fig_identifiability()
     stats_summary()
     print("Done.", flush=True)

@@ -10,7 +10,6 @@ from __future__ import annotations
 from agents.multidim import (
     Bounds,
     CMAESAgent,
-    CMAESEvosaxAgent,
     LESAgent,
     MultiDimRandomSearch,
 )
@@ -69,10 +68,6 @@ def _make_cma(bounds: Bounds, seed: int) -> CMAESAgent:
     return CMAESAgent(bounds, sigma0=0.3, seed=seed)
 
 
-def _make_cma_evosax(bounds: Bounds, seed: int) -> CMAESEvosaxAgent:
-    return CMAESEvosaxAgent(bounds, seed=seed)
-
-
 def _make_les(bounds: Bounds, seed: int) -> LESAgent:
     return LESAgent(bounds, seed=seed)
 
@@ -82,6 +77,5 @@ METHODS: dict[str, tuple[bool, object]] = {
     "GD":             (True,  None),
     "RandomSearch":   (False, _make_rs),
     "CMA-ES":         (False, _make_cma),
-    "CMA-ES-evosax":  (False, _make_cma_evosax),
     "LES":            (False, _make_les),
 }
