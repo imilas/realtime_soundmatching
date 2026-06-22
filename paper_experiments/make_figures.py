@@ -26,7 +26,8 @@ RES = Path(__file__).parent / "results"
 FIG = RES / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
 
-SYNTHS = ["bandpass_noise_v1", "am_noise", "add_sinesaw", "sine_mod_saw", "chirplet"]
+SYNTHS = ["bandpass_noise_v1", "am_noise", "add_sinesaw", "sine_mod_saw", "chirplet",
+          "dx7_alg1", "dx7_alg2", "dx7_alg3"]
 LOSSES = ["SIMSE_Spec", "DTW_Envelope", "JTFS", "L1_Spec", "CLAP"]
 METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
 COLORS = {
@@ -41,6 +42,9 @@ SYNTH_LOSS_CANONICAL = {
     "add_sinesaw": "SIMSE_Spec",
     "sine_mod_saw": "JTFS",
     "chirplet": "JTFS",
+    "dx7_alg1": "SIMSE_Spec",
+    "dx7_alg2": "SIMSE_Spec",
+    "dx7_alg3": "SIMSE_Spec",
 }
 
 # E3 controlled wall-clock (ms/eval, reach%, sec->thr) from bench_walltime.py

@@ -26,6 +26,8 @@ export OPENBLAS_NUM_THREADS="$THREADS"
 export MKL_NUM_THREADS="$THREADS"
 export NUMEXPR_NUM_THREADS="$THREADS"
 export VECLIB_MAXIMUM_THREADS="$THREADS"
+export NUMBA_NUM_THREADS="$THREADS"   # numba-backed losses (DTW/librosa) else fan out
+export RAYON_NUM_THREADS="$THREADS"   # rust/rayon backends (e.g. some resamplers)
 
 # JAX/XLA: disable multi-threaded Eigen (=true enables it — common footgun).
 # TF inter/intra-op pools catch any remaining TF-backed threading.
@@ -38,6 +40,13 @@ mkdir -p "$MPLCONFIGDIR" 2>/dev/null
 
 export NUMBA_CACHE_DIR="${NUMBA_CACHE_DIR:-${TMPDIR:-/tmp}/numba}"
 mkdir -p "$NUMBA_CACHE_DIR" 2>/dev/null
+
+# HuggingFace cache for the CLAP loss model. The default ~/.cache/huggingface is
+# read-only under the sandbox, so point HF at the repo-local writable cache.
+_REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
+export HF_HOME="${HF_HOME:-$_REPO_DIR/.hf_cache}"
+export HF_HUB_CACHE="${HF_HUB_CACHE:-$HF_HOME/hub}"
+mkdir -p "$HF_HUB_CACHE" 2>/dev/null
 
 export PY="$ENV/bin/python"
 echo "[env_capped] THREADS=$THREADS  PY=$PY  (keep jobs*THREADS <= 30)"

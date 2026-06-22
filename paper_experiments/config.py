@@ -27,6 +27,10 @@ SYNTHS = [
     "sine_mod_sine",
     "chirplet",
     "chirplet_pulse",
+    # DX7-style FM synths (fully differentiable), one per operator routing
+    "dx7_alg1",
+    "dx7_alg2",
+    "dx7_alg3",
     # v1 variants: exact DSP from the old in-domain paper, used for GD verification only
     "bandpass_noise_v1",
     "am_noise_v1",
@@ -45,6 +49,9 @@ SYNTH_LOSS = {
     "sine_mod_sine":     "JTFS",
     "chirplet":          "JTFS",
     "chirplet_pulse":    "DTW_Envelope",
+    "dx7_alg1":          "SIMSE_Spec",
+    "dx7_alg2":          "SIMSE_Spec",
+    "dx7_alg3":          "SIMSE_Spec",
     "bandpass_noise_v1": "SIMSE_Spec",
     "am_noise_v1":       "DTW_Envelope",
 }

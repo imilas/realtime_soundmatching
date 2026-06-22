@@ -83,14 +83,26 @@ def _pkl_path(synth: str, method: str, loss_name: str | None = None) -> Path:
 def _load_pkl(path: Path) -> list[dict]:
     if not path.exists():
         return []
-    with open(path, "rb") as f:
-        return pickle.load(f)["trials"]
+    try:
+        with open(path, "rb") as f:
+            return pickle.load(f)["trials"]
+    except (EOFError, pickle.UnpicklingError, KeyError, ValueError):
+        # Truncated/corrupted pkl (e.g. a process killed mid-write). Treat as
+        # empty so the cell is recomputed rather than crashing the whole run.
+        print(f"  [warn] corrupt pkl {path.name}, restarting cell from scratch", flush=True)
+        return []
 
 
 def _save_pkl(path: Path, trials: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "wb") as f:
+    # Atomic write: dump to a temp file then rename, so a kill mid-write can't
+    # leave a truncated pkl that breaks the next resume.
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with open(tmp, "wb") as f:
         pickle.dump({"trials": trials}, f)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)
 
 
 # ---------------------------------------------------------------------------

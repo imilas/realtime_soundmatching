@@ -40,7 +40,14 @@ ISMIR_PUBLISHED = {
     "chirplet": {"SIMSE_Spec": 3, "L1_Spec": 1, "JTFS": 1, "DTW_Envelope": 4},
 }
 
-PUBLISHED = {**IEEE_PUBLISHED, **ISMIR_PUBLISHED}
+# DX7-style FM synths (this work) — no published ranks; empty dict ⇒ "—" columns.
+DX7_PUBLISHED = {
+    "dx7_alg1": {},
+    "dx7_alg2": {},
+    "dx7_alg3": {},
+}
+
+PUBLISHED = {**IEEE_PUBLISHED, **ISMIR_PUBLISHED, **DX7_PUBLISHED}
 
 SYNTH_LABELS = {
     "bandpass_noise_v1": "BP-Noise",
@@ -48,8 +55,15 @@ SYNTH_LABELS = {
     "am_noise":          "Noise-AM",
     "sine_mod_saw":      "SineSaw-AM",
     "chirplet":          "Chirp (no delay)",
+    "dx7_alg1":          "DX7 (serial stack)",
+    "dx7_alg2":          "DX7 (two pairs)",
+    "dx7_alg3":          "DX7 (3 mods→1)",
 }
-SYNTH_PAPER = {s: "IEEE" for s in IEEE_PUBLISHED} | {s: "ISMIR" for s in ISMIR_PUBLISHED}
+SYNTH_PAPER = (
+    {s: "IEEE" for s in IEEE_PUBLISHED}
+    | {s: "ISMIR" for s in ISMIR_PUBLISHED}
+    | {s: "DX7" for s in DX7_PUBLISHED}
+)
 LOSSES = ["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope"]
 # CLAP has no published rank (not in the IEEE/ISMIR papers), but it competes
 # in the NPSK ranking alongside the published losses and gets its own row in
@@ -164,10 +178,12 @@ def rank_badge(rank, muted=False):
     return f'<span class="badge" style="background:{color}">{rank}</span>'
 
 
-def match_cell(pub: int, comp, highlight_rank1: bool = False) -> str:
+def match_cell(pub, comp, highlight_rank1: bool = False) -> str:
     r1 = ' class="rank1"' if (pub == 1 and highlight_rank1) else ''
     if not isinstance(comp, int):
         return f'<td{r1} class="cell-na">—<br><small>no data</small></td>'
+    if pub is None:
+        return f'<td{r1} class="cell-na">{rank_badge(comp)}</td>'
     if pub == comp:
         return f'<td{r1} class="cell-match">{rank_badge(pub)} ✓</td>'
     return f'<td{r1} class="cell-mismatch">{rank_badge(comp)} ✗ <small>(pub={pub})</small></td>'
@@ -334,13 +350,14 @@ tr:hover td{background:#f0f4f8}
 """
 
     def rank_table(synth_list, ranks):
+        losses_show = LOSSES if is_gd else LOSSES_ALL
         t = '<table>\n<tr><th class="left">Synth</th>'
-        t += "".join(f'<th>{l.replace("_","<br>")}</th>' for l in LOSSES)
+        t += "".join(f'<th>{l.replace("_","<br>")}</th>' for l in losses_show)
         t += "</tr>\n"
         for synth in synth_list:
             t += f'<tr><td class="left">{SYNTH_LABELS[synth]}</td>'
-            for loss in LOSSES:
-                pub = PUBLISHED[synth][loss]
+            for loss in losses_show:
+                pub = PUBLISHED[synth].get(loss)  # None for CLAP
                 comp = ranks[synth].get(loss, "—")
                 t += match_cell(pub, comp, highlight_rank1=True)
             t += "</tr>\n"
