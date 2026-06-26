@@ -15,7 +15,7 @@ def _():
 
     from paper_experiments.make_verification_report import (
         METHODS, LOSSES, LOSSES_ALL, SYNTHS, SYNTH_LABELS, PUBLISHED,
-        load_trials, extract_scores, bootstrap_medians, npsk_ranks,
+        load_pkl, load_trials, extract_scores, bootstrap_medians, npsk_ranks,
     )
 
     RES = Path(__file__).parent / "results"

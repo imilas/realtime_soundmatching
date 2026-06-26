@@ -59,11 +59,11 @@ SYNTH_LABELS = {
     "dx7_alg2":          "DX7 (two pairs)",
     "dx7_alg3":          "DX7 (3 mods→1)",
 }
-SYNTH_PAPER = (
-    {s: "IEEE" for s in IEEE_PUBLISHED}
-    | {s: "ISMIR" for s in ISMIR_PUBLISHED}
-    | {s: "DX7" for s in DX7_PUBLISHED}
-)
+SYNTH_PAPER = {
+    **{s: "IEEE" for s in IEEE_PUBLISHED},
+    **{s: "ISMIR" for s in ISMIR_PUBLISHED},
+    **{s: "DX7" for s in DX7_PUBLISHED},
+}
 LOSSES = ["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope"]
 # CLAP has no published rank (not in the IEEE/ISMIR papers), but it competes
 # in the NPSK ranking alongside the published losses and gets its own row in
@@ -80,14 +80,19 @@ def _slug(loss: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", loss).strip("_")
 
 
-def load_trials(synth: str, loss: str, method: str) -> list[dict]:
-    path = RES / f"{synth}_{_slug(loss)}_{method}.pkl"
+def load_pkl(path) -> list[dict]:
+    """Load trials from an explicit pkl path."""
+    path = Path(path)
     if not path.exists():
         return []
     try:
         return pickle.load(open(path, "rb")).get("trials", [])
     except Exception:
         return []
+
+
+def load_trials(synth: str, loss: str, method: str) -> list[dict]:
+    return load_pkl(RES / f"{synth}_{_slug(loss)}_{method}.pkl")
 
 
 def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[float]]:
@@ -233,7 +238,9 @@ def build_html(method: str) -> tuple[str, dict]:
     n_rank1_pub = n_rank1_match = 0
     for synth in SYNTHS:
         for loss in LOSSES:
-            pub = PUBLISHED[synth][loss]
+            pub = PUBLISHED[synth].get(loss)
+            if pub is None:
+                continue  # no published baseline for this synth/loss
             comp = ret_ranks[synth].get(loss, "—")
             if not isinstance(comp, int):
                 n_miss += 1
@@ -245,7 +252,9 @@ def build_html(method: str) -> tuple[str, dict]:
                 n_rank1_pub += 1
                 if isinstance(comp, int) and comp == 1:
                     n_rank1_match += 1
-    n_total = len(SYNTHS) * len(LOSSES)
+    n_total = sum(
+        len(PUBLISHED[s]) for s in SYNTHS if PUBLISHED[s]
+    )
 
     total_trials = sum(data[s][l]["n"] for s in SYNTHS for l in LOSSES)
 
