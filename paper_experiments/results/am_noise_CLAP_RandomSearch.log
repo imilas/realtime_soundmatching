@@ -1,0 +1,1620 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/cshome/asalimi/.conda/envs/soundmatch/lib/python3.10/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4382.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+am_noise/CLAP/RandomSearch: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 4382.76it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Load our best checkpoint in the paper.
+The checkpoint is already downloaded
+Load Checkpoint...
+logit_scale_a 	 Loaded
+logit_scale_t 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_real.weight 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_imag.weight 	 Loaded
+audio_branch.logmel_extractor.melW 	 Loaded
+audio_branch.bn0.weight 	 Loaded
+audio_branch.bn0.bias 	 Loaded
+audio_branch.patch_embed.proj.weight 	 Loaded
+audio_branch.patch_embed.proj.bias 	 Loaded
+audio_branch.patch_embed.norm.weight 	 Loaded
+audio_branch.patch_embed.norm.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.downsample.reduction.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.downsample.reduction.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.downsample.reduction.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.norm.weight 	 Loaded
+audio_branch.norm.bias 	 Loaded
+audio_branch.tscam_conv.weight 	 Loaded
+audio_branch.tscam_conv.bias 	 Loaded
+audio_branch.head.weight 	 Loaded
+audio_branch.head.bias 	 Loaded
+text_branch.embeddings.word_embeddings.weight 	 Loaded
+text_branch.embeddings.token_type_embeddings.weight 	 Loaded
+text_branch.embeddings.LayerNorm.weight 	 Loaded
+text_branch.embeddings.LayerNorm.bias 	 Loaded
+text_branch.embeddings.position_embeddings.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.bias 	 Loaded
+text_branch.pooler.dense.weight 	 Loaded
+text_branch.pooler.dense.bias 	 Loaded
+text_transform.sequential.0.weight 	 Loaded
+text_transform.sequential.0.bias 	 Loaded
+text_transform.sequential.3.weight 	 Loaded
+text_transform.sequential.3.bias 	 Loaded
+text_projection.0.weight 	 Loaded
+text_projection.0.bias 	 Loaded
+text_projection.2.weight 	 Loaded
+text_projection.2.bias 	 Loaded
+audio_transform.sequential.0.weight 	 Loaded
+audio_transform.sequential.0.bias 	 Loaded
+audio_transform.sequential.3.weight 	 Loaded
+audio_transform.sequential.3.bias 	 Loaded
+audio_projection.0.weight 	 Loaded
+audio_projection.0.bias 	 Loaded
+audio_projection.2.weight 	 Loaded
+audio_projection.2.bias 	 Loaded
+[1/300] RandomSearch | am_noise | p_loss=0.0011 | 330.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[2/300] RandomSearch | am_noise | p_loss=0.0198 | 307.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[3/300] RandomSearch | am_noise | p_loss=0.0120 | 315.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[4/300] RandomSearch | am_noise | p_loss=0.0242 | 308.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[5/300] RandomSearch | am_noise | p_loss=0.0246 | 327.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[6/300] RandomSearch | am_noise | p_loss=0.0652 | 324.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[7/300] RandomSearch | am_noise | p_loss=0.0834 | 310.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[8/300] RandomSearch | am_noise | p_loss=0.0126 | 330.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[9/300] RandomSearch | am_noise | p_loss=0.0079 | 314.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[10/300] RandomSearch | am_noise | p_loss=0.2996 | 311.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[11/300] RandomSearch | am_noise | p_loss=0.0878 | 313.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[12/300] RandomSearch | am_noise | p_loss=0.0236 | 312.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[13/300] RandomSearch | am_noise | p_loss=0.3125 | 320.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[14/300] RandomSearch | am_noise | p_loss=0.0712 | 312.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[15/300] RandomSearch | am_noise | p_loss=0.0349 | 317.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[16/300] RandomSearch | am_noise | p_loss=0.0058 | 315.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[17/300] RandomSearch | am_noise | p_loss=0.0331 | 319.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[18/300] RandomSearch | am_noise | p_loss=0.0338 | 313.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[19/300] RandomSearch | am_noise | p_loss=0.1202 | 306.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[20/300] RandomSearch | am_noise | p_loss=0.0035 | 311.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[21/300] RandomSearch | am_noise | p_loss=0.0738 | 312.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[22/300] RandomSearch | am_noise | p_loss=0.0263 | 315.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[23/300] RandomSearch | am_noise | p_loss=0.1694 | 312.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[24/300] RandomSearch | am_noise | p_loss=0.0277 | 304.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[25/300] RandomSearch | am_noise | p_loss=0.0691 | 312.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[26/300] RandomSearch | am_noise | p_loss=0.1230 | 307.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[27/300] RandomSearch | am_noise | p_loss=0.0215 | 315.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[28/300] RandomSearch | am_noise | p_loss=0.0328 | 306.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[29/300] RandomSearch | am_noise | p_loss=0.0159 | 307.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[30/300] RandomSearch | am_noise | p_loss=0.0289 | 314.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[31/300] RandomSearch | am_noise | p_loss=0.0122 | 312.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[32/300] RandomSearch | am_noise | p_loss=0.0273 | 295.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[33/300] RandomSearch | am_noise | p_loss=0.0020 | 302.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[34/300] RandomSearch | am_noise | p_loss=0.0416 | 301.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[35/300] RandomSearch | am_noise | p_loss=0.0172 | 304.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[36/300] RandomSearch | am_noise | p_loss=0.0160 | 313.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[37/300] RandomSearch | am_noise | p_loss=0.0226 | 312.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[38/300] RandomSearch | am_noise | p_loss=0.0277 | 308.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[39/300] RandomSearch | am_noise | p_loss=0.0725 | 308.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[40/300] RandomSearch | am_noise | p_loss=0.0608 | 306.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[41/300] RandomSearch | am_noise | p_loss=0.0803 | 314.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[42/300] RandomSearch | am_noise | p_loss=0.2347 | 320.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[43/300] RandomSearch | am_noise | p_loss=0.0959 | 319.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[44/300] RandomSearch | am_noise | p_loss=0.2005 | 319.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[45/300] RandomSearch | am_noise | p_loss=0.1249 | 318.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[46/300] RandomSearch | am_noise | p_loss=0.0682 | 320.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[47/300] RandomSearch | am_noise | p_loss=0.0268 | 316.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[48/300] RandomSearch | am_noise | p_loss=0.0234 | 317.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[49/300] RandomSearch | am_noise | p_loss=0.0317 | 326.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[50/300] RandomSearch | am_noise | p_loss=0.0204 | 308.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[51/300] RandomSearch | am_noise | p_loss=0.2649 | 311.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[52/300] RandomSearch | am_noise | p_loss=0.0537 | 324.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[53/300] RandomSearch | am_noise | p_loss=0.0087 | 312.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[54/300] RandomSearch | am_noise | p_loss=0.0890 | 319.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[55/300] RandomSearch | am_noise | p_loss=0.0554 | 319.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[56/300] RandomSearch | am_noise | p_loss=0.0091 | 316.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[57/300] RandomSearch | am_noise | p_loss=0.0807 | 321.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[58/300] RandomSearch | am_noise | p_loss=0.0252 | 320.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[59/300] RandomSearch | am_noise | p_loss=0.0222 | 323.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[60/300] RandomSearch | am_noise | p_loss=0.0285 | 312.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[61/300] RandomSearch | am_noise | p_loss=0.0159 | 322.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[62/300] RandomSearch | am_noise | p_loss=0.0561 | 321.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[63/300] RandomSearch | am_noise | p_loss=0.0172 | 315.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[64/300] RandomSearch | am_noise | p_loss=0.0545 | 304.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[65/300] RandomSearch | am_noise | p_loss=0.0068 | 310.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[66/300] RandomSearch | am_noise | p_loss=0.0133 | 306.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[67/300] RandomSearch | am_noise | p_loss=0.0432 | 307.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[68/300] RandomSearch | am_noise | p_loss=0.1751 | 300.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[69/300] RandomSearch | am_noise | p_loss=0.0665 | 317.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[70/300] RandomSearch | am_noise | p_loss=0.0574 | 312.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[71/300] RandomSearch | am_noise | p_loss=0.0910 | 312.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[72/300] RandomSearch | am_noise | p_loss=0.0351 | 324.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[73/300] RandomSearch | am_noise | p_loss=0.0131 | 325.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[74/300] RandomSearch | am_noise | p_loss=0.0702 | 329.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[75/300] RandomSearch | am_noise | p_loss=0.0795 | 325.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[76/300] RandomSearch | am_noise | p_loss=0.0393 | 323.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[77/300] RandomSearch | am_noise | p_loss=0.0352 | 322.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[78/300] RandomSearch | am_noise | p_loss=0.0141 | 304.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[79/300] RandomSearch | am_noise | p_loss=0.0259 | 314.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[80/300] RandomSearch | am_noise | p_loss=0.0331 | 314.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[81/300] RandomSearch | am_noise | p_loss=0.0354 | 296.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[82/300] RandomSearch | am_noise | p_loss=0.0943 | 305.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[83/300] RandomSearch | am_noise | p_loss=0.0224 | 300.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[84/300] RandomSearch | am_noise | p_loss=0.0153 | 302.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[85/300] RandomSearch | am_noise | p_loss=0.1248 | 298.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[86/300] RandomSearch | am_noise | p_loss=0.0452 | 298.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[87/300] RandomSearch | am_noise | p_loss=0.1423 | 300.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[88/300] RandomSearch | am_noise | p_loss=0.0095 | 307.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[89/300] RandomSearch | am_noise | p_loss=0.0262 | 296.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[90/300] RandomSearch | am_noise | p_loss=0.0090 | 308.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[91/300] RandomSearch | am_noise | p_loss=0.0242 | 307.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[92/300] RandomSearch | am_noise | p_loss=0.0575 | 304.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[93/300] RandomSearch | am_noise | p_loss=0.0164 | 308.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[94/300] RandomSearch | am_noise | p_loss=0.0120 | 303.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[95/300] RandomSearch | am_noise | p_loss=0.1657 | 304.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[96/300] RandomSearch | am_noise | p_loss=0.0547 | 303.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[97/300] RandomSearch | am_noise | p_loss=0.0663 | 298.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[98/300] RandomSearch | am_noise | p_loss=0.0878 | 309.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[99/300] RandomSearch | am_noise | p_loss=0.0321 | 299.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[100/300] RandomSearch | am_noise | p_loss=0.0504 | 306.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[101/300] RandomSearch | am_noise | p_loss=0.0393 | 295.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[102/300] RandomSearch | am_noise | p_loss=0.0246 | 306.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[103/300] RandomSearch | am_noise | p_loss=0.0143 | 305.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[104/300] RandomSearch | am_noise | p_loss=0.0429 | 299.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[105/300] RandomSearch | am_noise | p_loss=0.0127 | 295.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[106/300] RandomSearch | am_noise | p_loss=0.1707 | 307.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[107/300] RandomSearch | am_noise | p_loss=0.0795 | 300.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[108/300] RandomSearch | am_noise | p_loss=0.0095 | 306.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[109/300] RandomSearch | am_noise | p_loss=0.0410 | 302.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[110/300] RandomSearch | am_noise | p_loss=0.0096 | 309.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[111/300] RandomSearch | am_noise | p_loss=0.0626 | 304.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[112/300] RandomSearch | am_noise | p_loss=0.0739 | 322.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[113/300] RandomSearch | am_noise | p_loss=0.0227 | 324.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[114/300] RandomSearch | am_noise | p_loss=0.0303 | 332.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[115/300] RandomSearch | am_noise | p_loss=0.0151 | 323.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[116/300] RandomSearch | am_noise | p_loss=0.0107 | 326.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[117/300] RandomSearch | am_noise | p_loss=0.0617 | 314.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[118/300] RandomSearch | am_noise | p_loss=0.0904 | 317.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[119/300] RandomSearch | am_noise | p_loss=0.0452 | 316.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[120/300] RandomSearch | am_noise | p_loss=0.0286 | 312.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[121/300] RandomSearch | am_noise | p_loss=0.0268 | 318.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[122/300] RandomSearch | am_noise | p_loss=0.0884 | 316.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[123/300] RandomSearch | am_noise | p_loss=0.0080 | 313.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[124/300] RandomSearch | am_noise | p_loss=0.0080 | 321.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[125/300] RandomSearch | am_noise | p_loss=0.0094 | 313.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[126/300] RandomSearch | am_noise | p_loss=0.0382 | 320.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[127/300] RandomSearch | am_noise | p_loss=0.0564 | 318.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[128/300] RandomSearch | am_noise | p_loss=0.2235 | 317.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[129/300] RandomSearch | am_noise | p_loss=0.0331 | 318.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[130/300] RandomSearch | am_noise | p_loss=0.0213 | 312.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[131/300] RandomSearch | am_noise | p_loss=0.0111 | 308.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[132/300] RandomSearch | am_noise | p_loss=0.0529 | 314.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[133/300] RandomSearch | am_noise | p_loss=0.0677 | 310.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[134/300] RandomSearch | am_noise | p_loss=0.1041 | 316.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[135/300] RandomSearch | am_noise | p_loss=0.0763 | 311.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[136/300] RandomSearch | am_noise | p_loss=0.0163 | 305.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[137/300] RandomSearch | am_noise | p_loss=0.0301 | 315.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[138/300] RandomSearch | am_noise | p_loss=0.3496 | 315.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[139/300] RandomSearch | am_noise | p_loss=0.1382 | 319.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[140/300] RandomSearch | am_noise | p_loss=0.0971 | 318.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[141/300] RandomSearch | am_noise | p_loss=0.0188 | 318.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[142/300] RandomSearch | am_noise | p_loss=0.0351 | 317.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[143/300] RandomSearch | am_noise | p_loss=0.0211 | 320.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[144/300] RandomSearch | am_noise | p_loss=0.0143 | 323.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[145/300] RandomSearch | am_noise | p_loss=0.0454 | 318.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[146/300] RandomSearch | am_noise | p_loss=0.0432 | 321.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[147/300] RandomSearch | am_noise | p_loss=0.1288 | 321.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[148/300] RandomSearch | am_noise | p_loss=0.0152 | 327.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[149/300] RandomSearch | am_noise | p_loss=0.0385 | 317.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[150/300] RandomSearch | am_noise | p_loss=0.1603 | 323.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[151/300] RandomSearch | am_noise | p_loss=0.0240 | 317.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[152/300] RandomSearch | am_noise | p_loss=0.0987 | 312.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[153/300] RandomSearch | am_noise | p_loss=0.0141 | 316.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[154/300] RandomSearch | am_noise | p_loss=0.0530 | 319.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[155/300] RandomSearch | am_noise | p_loss=0.0655 | 320.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[156/300] RandomSearch | am_noise | p_loss=0.0341 | 321.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[157/300] RandomSearch | am_noise | p_loss=0.0138 | 318.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[158/300] RandomSearch | am_noise | p_loss=0.0202 | 322.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[159/300] RandomSearch | am_noise | p_loss=0.0151 | 316.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[160/300] RandomSearch | am_noise | p_loss=0.0603 | 315.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[161/300] RandomSearch | am_noise | p_loss=0.0155 | 318.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[162/300] RandomSearch | am_noise | p_loss=0.0641 | 322.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[163/300] RandomSearch | am_noise | p_loss=0.0309 | 325.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[164/300] RandomSearch | am_noise | p_loss=0.0143 | 315.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[165/300] RandomSearch | am_noise | p_loss=0.1000 | 316.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[166/300] RandomSearch | am_noise | p_loss=0.0290 | 320.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[167/300] RandomSearch | am_noise | p_loss=0.7111 | 320.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[168/300] RandomSearch | am_noise | p_loss=0.0631 | 317.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[169/300] RandomSearch | am_noise | p_loss=0.0322 | 322.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[170/300] RandomSearch | am_noise | p_loss=0.0124 | 327.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[171/300] RandomSearch | am_noise | p_loss=0.0196 | 333.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[172/300] RandomSearch | am_noise | p_loss=0.1174 | 316.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[173/300] RandomSearch | am_noise | p_loss=0.0336 | 315.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[174/300] RandomSearch | am_noise | p_loss=0.0971 | 319.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[175/300] RandomSearch | am_noise | p_loss=0.0583 | 327.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[176/300] RandomSearch | am_noise | p_loss=0.0316 | 353.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[177/300] RandomSearch | am_noise | p_loss=0.0536 | 325.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[178/300] RandomSearch | am_noise | p_loss=0.0829 | 327.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[179/300] RandomSearch | am_noise | p_loss=0.0197 | 332.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[180/300] RandomSearch | am_noise | p_loss=0.0028 | 332.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[181/300] RandomSearch | am_noise | p_loss=0.0245 | 330.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[182/300] RandomSearch | am_noise | p_loss=0.0114 | 336.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[183/300] RandomSearch | am_noise | p_loss=0.0192 | 335.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[184/300] RandomSearch | am_noise | p_loss=0.0133 | 338.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[185/300] RandomSearch | am_noise | p_loss=0.0330 | 335.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[186/300] RandomSearch | am_noise | p_loss=0.0238 | 331.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[187/300] RandomSearch | am_noise | p_loss=0.0196 | 320.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[188/300] RandomSearch | am_noise | p_loss=0.0160 | 324.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[189/300] RandomSearch | am_noise | p_loss=0.0334 | 319.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[190/300] RandomSearch | am_noise | p_loss=0.1254 | 320.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[191/300] RandomSearch | am_noise | p_loss=0.1493 | 323.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[192/300] RandomSearch | am_noise | p_loss=0.0074 | 307.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[193/300] RandomSearch | am_noise | p_loss=0.0359 | 314.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[194/300] RandomSearch | am_noise | p_loss=0.0195 | 318.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[195/300] RandomSearch | am_noise | p_loss=0.0023 | 323.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[196/300] RandomSearch | am_noise | p_loss=0.0288 | 317.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[197/300] RandomSearch | am_noise | p_loss=0.0308 | 316.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[198/300] RandomSearch | am_noise | p_loss=0.0434 | 308.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[199/300] RandomSearch | am_noise | p_loss=0.0226 | 317.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[200/300] RandomSearch | am_noise | p_loss=0.0612 | 312.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[201/300] RandomSearch | am_noise | p_loss=0.0260 | 306.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[202/300] RandomSearch | am_noise | p_loss=0.0685 | 304.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[203/300] RandomSearch | am_noise | p_loss=0.0356 | 307.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[204/300] RandomSearch | am_noise | p_loss=0.0148 | 308.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[205/300] RandomSearch | am_noise | p_loss=0.0437 | 306.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[206/300] RandomSearch | am_noise | p_loss=0.0665 | 306.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[207/300] RandomSearch | am_noise | p_loss=0.0436 | 312.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[208/300] RandomSearch | am_noise | p_loss=0.0544 | 319.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[209/300] RandomSearch | am_noise | p_loss=0.0178 | 312.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[210/300] RandomSearch | am_noise | p_loss=0.0167 | 309.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[211/300] RandomSearch | am_noise | p_loss=0.0405 | 311.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[212/300] RandomSearch | am_noise | p_loss=0.0317 | 319.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[213/300] RandomSearch | am_noise | p_loss=0.0966 | 323.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[214/300] RandomSearch | am_noise | p_loss=0.0362 | 318.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[215/300] RandomSearch | am_noise | p_loss=0.0270 | 320.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[216/300] RandomSearch | am_noise | p_loss=0.0719 | 322.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[217/300] RandomSearch | am_noise | p_loss=0.0484 | 315.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[218/300] RandomSearch | am_noise | p_loss=0.1459 | 322.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[219/300] RandomSearch | am_noise | p_loss=0.3721 | 319.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[220/300] RandomSearch | am_noise | p_loss=0.0704 | 310.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[221/300] RandomSearch | am_noise | p_loss=0.1008 | 317.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[222/300] RandomSearch | am_noise | p_loss=0.0180 | 323.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[223/300] RandomSearch | am_noise | p_loss=0.0209 | 306.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[224/300] RandomSearch | am_noise | p_loss=0.0033 | 318.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[225/300] RandomSearch | am_noise | p_loss=0.0040 | 322.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[226/300] RandomSearch | am_noise | p_loss=0.0082 | 323.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[227/300] RandomSearch | am_noise | p_loss=0.0038 | 319.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[228/300] RandomSearch | am_noise | p_loss=0.0236 | 319.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[229/300] RandomSearch | am_noise | p_loss=0.0280 | 322.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[230/300] RandomSearch | am_noise | p_loss=0.0051 | 311.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[231/300] RandomSearch | am_noise | p_loss=0.1343 | 303.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[232/300] RandomSearch | am_noise | p_loss=0.0710 | 302.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[233/300] RandomSearch | am_noise | p_loss=0.0154 | 304.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[234/300] RandomSearch | am_noise | p_loss=0.0116 | 300.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[235/300] RandomSearch | am_noise | p_loss=0.0642 | 298.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[236/300] RandomSearch | am_noise | p_loss=0.0361 | 299.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[237/300] RandomSearch | am_noise | p_loss=0.0596 | 301.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[238/300] RandomSearch | am_noise | p_loss=0.0164 | 304.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[239/300] RandomSearch | am_noise | p_loss=0.0254 | 309.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[240/300] RandomSearch | am_noise | p_loss=0.0892 | 305.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[241/300] RandomSearch | am_noise | p_loss=0.0313 | 302.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[242/300] RandomSearch | am_noise | p_loss=0.0059 | 302.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[243/300] RandomSearch | am_noise | p_loss=0.0451 | 305.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[244/300] RandomSearch | am_noise | p_loss=0.0080 | 305.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[245/300] RandomSearch | am_noise | p_loss=0.0723 | 300.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[246/300] RandomSearch | am_noise | p_loss=0.0112 | 300.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[247/300] RandomSearch | am_noise | p_loss=0.0318 | 309.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[248/300] RandomSearch | am_noise | p_loss=0.0084 | 303.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[249/300] RandomSearch | am_noise | p_loss=0.0225 | 306.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[250/300] RandomSearch | am_noise | p_loss=0.0200 | 301.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[251/300] RandomSearch | am_noise | p_loss=0.5171 | 303.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[252/300] RandomSearch | am_noise | p_loss=0.0332 | 302.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[253/300] RandomSearch | am_noise | p_loss=0.1822 | 312.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[254/300] RandomSearch | am_noise | p_loss=0.0304 | 307.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[255/300] RandomSearch | am_noise | p_loss=0.0856 | 305.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[256/300] RandomSearch | am_noise | p_loss=0.0925 | 323.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[257/300] RandomSearch | am_noise | p_loss=0.0525 | 315.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[258/300] RandomSearch | am_noise | p_loss=0.1208 | 318.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[259/300] RandomSearch | am_noise | p_loss=0.0034 | 313.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[260/300] RandomSearch | am_noise | p_loss=0.0157 | 315.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[261/300] RandomSearch | am_noise | p_loss=0.0477 | 329.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[262/300] RandomSearch | am_noise | p_loss=0.0284 | 323.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[263/300] RandomSearch | am_noise | p_loss=0.0631 | 325.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[264/300] RandomSearch | am_noise | p_loss=0.0871 | 325.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[265/300] RandomSearch | am_noise | p_loss=0.0688 | 317.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[266/300] RandomSearch | am_noise | p_loss=0.0106 | 320.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[267/300] RandomSearch | am_noise | p_loss=0.0514 | 313.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[268/300] RandomSearch | am_noise | p_loss=0.0431 | 322.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[269/300] RandomSearch | am_noise | p_loss=0.0220 | 310.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[270/300] RandomSearch | am_noise | p_loss=0.0379 | 316.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[271/300] RandomSearch | am_noise | p_loss=0.0077 | 313.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[272/300] RandomSearch | am_noise | p_loss=0.0465 | 311.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[273/300] RandomSearch | am_noise | p_loss=0.0325 | 317.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[274/300] RandomSearch | am_noise | p_loss=0.0738 | 316.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[275/300] RandomSearch | am_noise | p_loss=0.0400 | 308.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[276/300] RandomSearch | am_noise | p_loss=0.0648 | 319.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[277/300] RandomSearch | am_noise | p_loss=0.0430 | 312.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[278/300] RandomSearch | am_noise | p_loss=0.0693 | 323.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[279/300] RandomSearch | am_noise | p_loss=0.0107 | 311.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[280/300] RandomSearch | am_noise | p_loss=0.0122 | 324.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[281/300] RandomSearch | am_noise | p_loss=0.0166 | 318.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[282/300] RandomSearch | am_noise | p_loss=0.0504 | 322.0s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[283/300] RandomSearch | am_noise | p_loss=0.0018 | 318.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[284/300] RandomSearch | am_noise | p_loss=0.3720 | 332.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[285/300] RandomSearch | am_noise | p_loss=0.0307 | 326.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[286/300] RandomSearch | am_noise | p_loss=0.0373 | 323.7s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[287/300] RandomSearch | am_noise | p_loss=0.0128 | 300.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[288/300] RandomSearch | am_noise | p_loss=0.0050 | 299.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[289/300] RandomSearch | am_noise | p_loss=0.0309 | 304.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[290/300] RandomSearch | am_noise | p_loss=0.0128 | 300.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[291/300] RandomSearch | am_noise | p_loss=0.0147 | 301.1s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[292/300] RandomSearch | am_noise | p_loss=0.0191 | 298.2s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[293/300] RandomSearch | am_noise | p_loss=0.0567 | 305.3s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[294/300] RandomSearch | am_noise | p_loss=0.0272 | 313.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[295/300] RandomSearch | am_noise | p_loss=0.0115 | 310.8s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[296/300] RandomSearch | am_noise | p_loss=0.0199 | 301.5s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[297/300] RandomSearch | am_noise | p_loss=0.0230 | 308.4s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[298/300] RandomSearch | am_noise | p_loss=0.0575 | 316.9s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[299/300] RandomSearch | am_noise | p_loss=0.0306 | 330.6s | am_noise_CLAP_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[300/300] RandomSearch | am_noise | p_loss=0.0164 | 330.8s | am_noise_CLAP_RandomSearch.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_RandomSearch.pkl

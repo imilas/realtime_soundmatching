@@ -1,0 +1,1206 @@
+am_noise/L1_Spec/LES: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[1/300] LES | am_noise | p_loss=0.8761 | 17.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[2/300] LES | am_noise | p_loss=0.0080 | 16.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[3/300] LES | am_noise | p_loss=0.0002 | 16.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[4/300] LES | am_noise | p_loss=0.4333 | 16.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[5/300] LES | am_noise | p_loss=0.1327 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[6/300] LES | am_noise | p_loss=0.0004 | 16.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[7/300] LES | am_noise | p_loss=0.0004 | 16.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[8/300] LES | am_noise | p_loss=0.0012 | 16.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[9/300] LES | am_noise | p_loss=0.0022 | 17.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[10/300] LES | am_noise | p_loss=0.3204 | 16.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[11/300] LES | am_noise | p_loss=0.0003 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[12/300] LES | am_noise | p_loss=0.0007 | 14.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[13/300] LES | am_noise | p_loss=0.4561 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[14/300] LES | am_noise | p_loss=0.0005 | 14.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[15/300] LES | am_noise | p_loss=0.3085 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[16/300] LES | am_noise | p_loss=0.0003 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[17/300] LES | am_noise | p_loss=0.0007 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[18/300] LES | am_noise | p_loss=0.0006 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[19/300] LES | am_noise | p_loss=0.3935 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[20/300] LES | am_noise | p_loss=0.0259 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[21/300] LES | am_noise | p_loss=0.0001 | 16.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[22/300] LES | am_noise | p_loss=0.0583 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[23/300] LES | am_noise | p_loss=0.0001 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[24/300] LES | am_noise | p_loss=0.0002 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[25/300] LES | am_noise | p_loss=0.6585 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[26/300] LES | am_noise | p_loss=0.2288 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[27/300] LES | am_noise | p_loss=0.4376 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[28/300] LES | am_noise | p_loss=0.6198 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[29/300] LES | am_noise | p_loss=0.0006 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[30/300] LES | am_noise | p_loss=0.0000 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[31/300] LES | am_noise | p_loss=0.6567 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[32/300] LES | am_noise | p_loss=0.0000 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[33/300] LES | am_noise | p_loss=0.0005 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[34/300] LES | am_noise | p_loss=0.0004 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[35/300] LES | am_noise | p_loss=0.0003 | 16.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[36/300] LES | am_noise | p_loss=0.4047 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[37/300] LES | am_noise | p_loss=0.0001 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[38/300] LES | am_noise | p_loss=0.6180 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[39/300] LES | am_noise | p_loss=0.0004 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[40/300] LES | am_noise | p_loss=0.0008 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[41/300] LES | am_noise | p_loss=0.0023 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[42/300] LES | am_noise | p_loss=0.0311 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[43/300] LES | am_noise | p_loss=0.0332 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[44/300] LES | am_noise | p_loss=0.0016 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[45/300] LES | am_noise | p_loss=0.5558 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[46/300] LES | am_noise | p_loss=0.3399 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[47/300] LES | am_noise | p_loss=0.2156 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[48/300] LES | am_noise | p_loss=0.0025 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[49/300] LES | am_noise | p_loss=0.3306 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[50/300] LES | am_noise | p_loss=0.0001 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[51/300] LES | am_noise | p_loss=0.4067 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[52/300] LES | am_noise | p_loss=0.0296 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[53/300] LES | am_noise | p_loss=0.0002 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[54/300] LES | am_noise | p_loss=0.0000 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[55/300] LES | am_noise | p_loss=0.0751 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[56/300] LES | am_noise | p_loss=0.4953 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[57/300] LES | am_noise | p_loss=0.0006 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[58/300] LES | am_noise | p_loss=0.0000 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[59/300] LES | am_noise | p_loss=0.0506 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[60/300] LES | am_noise | p_loss=0.0001 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[61/300] LES | am_noise | p_loss=0.0006 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[62/300] LES | am_noise | p_loss=0.0002 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[63/300] LES | am_noise | p_loss=0.0722 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[64/300] LES | am_noise | p_loss=0.0180 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[65/300] LES | am_noise | p_loss=0.0007 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[66/300] LES | am_noise | p_loss=0.0003 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[67/300] LES | am_noise | p_loss=0.0008 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[68/300] LES | am_noise | p_loss=0.0003 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[69/300] LES | am_noise | p_loss=0.0004 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[70/300] LES | am_noise | p_loss=0.2728 | 14.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[71/300] LES | am_noise | p_loss=0.0016 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[72/300] LES | am_noise | p_loss=0.2551 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[73/300] LES | am_noise | p_loss=0.0029 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[74/300] LES | am_noise | p_loss=0.1788 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[75/300] LES | am_noise | p_loss=0.0007 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[76/300] LES | am_noise | p_loss=0.0001 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[77/300] LES | am_noise | p_loss=0.0003 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[78/300] LES | am_noise | p_loss=0.0000 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[79/300] LES | am_noise | p_loss=0.0002 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[80/300] LES | am_noise | p_loss=0.0002 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[81/300] LES | am_noise | p_loss=0.0002 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[82/300] LES | am_noise | p_loss=0.0003 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[83/300] LES | am_noise | p_loss=0.7749 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[84/300] LES | am_noise | p_loss=0.0006 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[85/300] LES | am_noise | p_loss=0.0009 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[86/300] LES | am_noise | p_loss=0.0005 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[87/300] LES | am_noise | p_loss=0.0003 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[88/300] LES | am_noise | p_loss=0.0006 | 14.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[89/300] LES | am_noise | p_loss=0.0004 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[90/300] LES | am_noise | p_loss=0.5543 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[91/300] LES | am_noise | p_loss=0.0002 | 14.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[92/300] LES | am_noise | p_loss=0.0001 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[93/300] LES | am_noise | p_loss=0.0144 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[94/300] LES | am_noise | p_loss=0.0000 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[95/300] LES | am_noise | p_loss=0.1997 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[96/300] LES | am_noise | p_loss=0.0012 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[97/300] LES | am_noise | p_loss=0.0017 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[98/300] LES | am_noise | p_loss=0.0004 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[99/300] LES | am_noise | p_loss=0.0004 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[100/300] LES | am_noise | p_loss=0.0003 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[101/300] LES | am_noise | p_loss=0.0000 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[102/300] LES | am_noise | p_loss=0.0762 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[103/300] LES | am_noise | p_loss=0.0002 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[104/300] LES | am_noise | p_loss=0.0004 | 15.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[105/300] LES | am_noise | p_loss=0.2010 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[106/300] LES | am_noise | p_loss=0.0140 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[107/300] LES | am_noise | p_loss=0.0002 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[108/300] LES | am_noise | p_loss=0.0254 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[109/300] LES | am_noise | p_loss=0.0002 | 15.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[110/300] LES | am_noise | p_loss=0.4312 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[111/300] LES | am_noise | p_loss=0.8522 | 15.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[112/300] LES | am_noise | p_loss=0.2388 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[113/300] LES | am_noise | p_loss=0.0001 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[114/300] LES | am_noise | p_loss=0.4474 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[115/300] LES | am_noise | p_loss=0.0489 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[116/300] LES | am_noise | p_loss=0.4166 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[117/300] LES | am_noise | p_loss=0.0000 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[118/300] LES | am_noise | p_loss=0.0001 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[119/300] LES | am_noise | p_loss=0.0002 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[120/300] LES | am_noise | p_loss=0.0004 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[121/300] LES | am_noise | p_loss=0.4905 | 16.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[122/300] LES | am_noise | p_loss=0.0025 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[123/300] LES | am_noise | p_loss=0.1618 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[124/300] LES | am_noise | p_loss=0.0002 | 16.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[125/300] LES | am_noise | p_loss=0.4010 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[126/300] LES | am_noise | p_loss=0.0018 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[127/300] LES | am_noise | p_loss=0.0002 | 16.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[128/300] LES | am_noise | p_loss=0.3039 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[129/300] LES | am_noise | p_loss=0.0010 | 16.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[130/300] LES | am_noise | p_loss=0.0027 | 16.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[131/300] LES | am_noise | p_loss=0.4165 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[132/300] LES | am_noise | p_loss=0.3021 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[133/300] LES | am_noise | p_loss=0.0001 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[134/300] LES | am_noise | p_loss=0.0006 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[135/300] LES | am_noise | p_loss=0.4584 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[136/300] LES | am_noise | p_loss=0.5871 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[137/300] LES | am_noise | p_loss=0.0008 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[138/300] LES | am_noise | p_loss=0.1408 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[139/300] LES | am_noise | p_loss=0.0015 | 16.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[140/300] LES | am_noise | p_loss=0.0001 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[141/300] LES | am_noise | p_loss=0.0003 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[142/300] LES | am_noise | p_loss=0.1647 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[143/300] LES | am_noise | p_loss=0.0007 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[144/300] LES | am_noise | p_loss=0.0005 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[145/300] LES | am_noise | p_loss=0.0012 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[146/300] LES | am_noise | p_loss=0.5160 | 15.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[147/300] LES | am_noise | p_loss=0.0001 | 16.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[148/300] LES | am_noise | p_loss=0.0002 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[149/300] LES | am_noise | p_loss=0.0539 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[150/300] LES | am_noise | p_loss=0.0001 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[151/300] LES | am_noise | p_loss=0.3738 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[152/300] LES | am_noise | p_loss=0.3530 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[153/300] LES | am_noise | p_loss=0.0025 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[154/300] LES | am_noise | p_loss=0.0003 | 16.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[155/300] LES | am_noise | p_loss=0.0633 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[156/300] LES | am_noise | p_loss=0.2180 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[157/300] LES | am_noise | p_loss=0.0006 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[158/300] LES | am_noise | p_loss=0.0008 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[159/300] LES | am_noise | p_loss=0.0296 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[160/300] LES | am_noise | p_loss=0.0004 | 16.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[161/300] LES | am_noise | p_loss=0.5015 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[162/300] LES | am_noise | p_loss=0.0001 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[163/300] LES | am_noise | p_loss=0.0000 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[164/300] LES | am_noise | p_loss=0.0004 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[165/300] LES | am_noise | p_loss=0.0005 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[166/300] LES | am_noise | p_loss=0.8018 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[167/300] LES | am_noise | p_loss=0.0093 | 15.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[168/300] LES | am_noise | p_loss=0.0003 | 15.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[169/300] LES | am_noise | p_loss=0.0002 | 15.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[170/300] LES | am_noise | p_loss=0.0001 | 15.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[171/300] LES | am_noise | p_loss=0.0001 | 15.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[172/300] LES | am_noise | p_loss=0.0001 | 15.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[173/300] LES | am_noise | p_loss=0.0002 | 12.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[174/300] LES | am_noise | p_loss=0.0004 | 12.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[175/300] LES | am_noise | p_loss=0.0001 | 12.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[176/300] LES | am_noise | p_loss=0.0002 | 12.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[177/300] LES | am_noise | p_loss=0.0034 | 13.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[178/300] LES | am_noise | p_loss=0.5932 | 13.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[179/300] LES | am_noise | p_loss=0.0004 | 12.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[180/300] LES | am_noise | p_loss=0.5801 | 13.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[181/300] LES | am_noise | p_loss=0.0000 | 13.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[182/300] LES | am_noise | p_loss=0.0002 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[183/300] LES | am_noise | p_loss=0.7578 | 12.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[184/300] LES | am_noise | p_loss=0.0004 | 13.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[185/300] LES | am_noise | p_loss=0.0208 | 12.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[186/300] LES | am_noise | p_loss=0.0001 | 13.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[187/300] LES | am_noise | p_loss=0.0021 | 12.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[188/300] LES | am_noise | p_loss=0.0002 | 13.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[189/300] LES | am_noise | p_loss=0.0001 | 13.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[190/300] LES | am_noise | p_loss=0.0017 | 13.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[191/300] LES | am_noise | p_loss=0.0424 | 13.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[192/300] LES | am_noise | p_loss=0.5529 | 13.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[193/300] LES | am_noise | p_loss=0.0005 | 13.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[194/300] LES | am_noise | p_loss=0.0006 | 13.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[195/300] LES | am_noise | p_loss=0.0197 | 13.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[196/300] LES | am_noise | p_loss=0.0273 | 13.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[197/300] LES | am_noise | p_loss=0.0007 | 13.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[198/300] LES | am_noise | p_loss=0.3646 | 13.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[199/300] LES | am_noise | p_loss=0.0002 | 13.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[200/300] LES | am_noise | p_loss=0.0793 | 13.2s | am_noise_L1_Spec_LES.pkl
+E0614 03:06:17.491506 3588441 execution_engine.cc:54] LLVM compilation error: Cannot allocate memory
+E0614 03:06:17.492171 3588440 execution_engine.cc:54] LLVM compilation error: JITDylib <xla_jit_dylib_10> is defunct
+[03:06:18] attempt 1 failed (status=139), retrying...
+am_noise/L1_Spec/LES: 200 done, running 100 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[201/300] LES | am_noise | p_loss=0.0004 | 18.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[202/300] LES | am_noise | p_loss=0.1847 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[203/300] LES | am_noise | p_loss=0.0005 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[204/300] LES | am_noise | p_loss=0.0481 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[205/300] LES | am_noise | p_loss=0.0324 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[206/300] LES | am_noise | p_loss=0.0027 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[207/300] LES | am_noise | p_loss=0.4965 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[208/300] LES | am_noise | p_loss=0.0002 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[209/300] LES | am_noise | p_loss=0.0003 | 11.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[210/300] LES | am_noise | p_loss=0.0003 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[211/300] LES | am_noise | p_loss=0.0096 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[212/300] LES | am_noise | p_loss=0.5198 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[213/300] LES | am_noise | p_loss=0.7477 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[214/300] LES | am_noise | p_loss=0.0003 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[215/300] LES | am_noise | p_loss=0.0006 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[216/300] LES | am_noise | p_loss=0.0000 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[217/300] LES | am_noise | p_loss=0.0005 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[218/300] LES | am_noise | p_loss=0.0005 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[219/300] LES | am_noise | p_loss=0.0502 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[220/300] LES | am_noise | p_loss=0.0001 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[221/300] LES | am_noise | p_loss=0.0032 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[222/300] LES | am_noise | p_loss=0.3951 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[223/300] LES | am_noise | p_loss=0.0007 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[224/300] LES | am_noise | p_loss=0.0133 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[225/300] LES | am_noise | p_loss=0.0002 | 13.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[226/300] LES | am_noise | p_loss=0.0037 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[227/300] LES | am_noise | p_loss=0.0000 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[228/300] LES | am_noise | p_loss=0.0305 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[229/300] LES | am_noise | p_loss=0.0293 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[230/300] LES | am_noise | p_loss=0.0010 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[231/300] LES | am_noise | p_loss=0.0001 | 11.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[232/300] LES | am_noise | p_loss=0.3370 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[233/300] LES | am_noise | p_loss=0.0002 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[234/300] LES | am_noise | p_loss=0.0385 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[235/300] LES | am_noise | p_loss=0.0002 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[236/300] LES | am_noise | p_loss=0.6090 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[237/300] LES | am_noise | p_loss=0.0008 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[238/300] LES | am_noise | p_loss=0.0004 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[239/300] LES | am_noise | p_loss=0.0014 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[240/300] LES | am_noise | p_loss=0.0011 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[241/300] LES | am_noise | p_loss=0.0001 | 11.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[242/300] LES | am_noise | p_loss=0.4621 | 11.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[243/300] LES | am_noise | p_loss=0.0001 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[244/300] LES | am_noise | p_loss=0.5146 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[245/300] LES | am_noise | p_loss=0.0006 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[246/300] LES | am_noise | p_loss=0.0001 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[247/300] LES | am_noise | p_loss=0.4579 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[248/300] LES | am_noise | p_loss=0.0009 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[249/300] LES | am_noise | p_loss=0.0226 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[250/300] LES | am_noise | p_loss=0.0002 | 12.8s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[251/300] LES | am_noise | p_loss=0.0351 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[252/300] LES | am_noise | p_loss=0.0002 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[253/300] LES | am_noise | p_loss=0.0023 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[254/300] LES | am_noise | p_loss=0.0002 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[255/300] LES | am_noise | p_loss=0.0005 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[256/300] LES | am_noise | p_loss=0.0011 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[257/300] LES | am_noise | p_loss=0.0005 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[258/300] LES | am_noise | p_loss=0.0002 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[259/300] LES | am_noise | p_loss=0.0929 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[260/300] LES | am_noise | p_loss=0.0001 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[261/300] LES | am_noise | p_loss=0.0006 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[262/300] LES | am_noise | p_loss=0.6465 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[263/300] LES | am_noise | p_loss=0.0018 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[264/300] LES | am_noise | p_loss=0.0028 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[265/300] LES | am_noise | p_loss=0.3430 | 12.6s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[266/300] LES | am_noise | p_loss=0.0098 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[267/300] LES | am_noise | p_loss=0.0122 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[268/300] LES | am_noise | p_loss=0.0002 | 12.5s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[269/300] LES | am_noise | p_loss=0.0331 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[270/300] LES | am_noise | p_loss=0.3472 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[271/300] LES | am_noise | p_loss=0.0195 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[272/300] LES | am_noise | p_loss=0.2695 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[273/300] LES | am_noise | p_loss=0.4308 | 11.9s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[274/300] LES | am_noise | p_loss=0.3505 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[275/300] LES | am_noise | p_loss=0.4570 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[276/300] LES | am_noise | p_loss=0.3591 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[277/300] LES | am_noise | p_loss=0.0002 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[278/300] LES | am_noise | p_loss=0.0008 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[279/300] LES | am_noise | p_loss=0.0473 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[280/300] LES | am_noise | p_loss=0.0002 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[281/300] LES | am_noise | p_loss=0.0017 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[282/300] LES | am_noise | p_loss=0.2807 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[283/300] LES | am_noise | p_loss=0.0006 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[284/300] LES | am_noise | p_loss=0.4584 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[285/300] LES | am_noise | p_loss=0.0001 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[286/300] LES | am_noise | p_loss=0.0487 | 12.7s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[287/300] LES | am_noise | p_loss=0.0001 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[288/300] LES | am_noise | p_loss=0.4044 | 12.0s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[289/300] LES | am_noise | p_loss=0.0128 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[290/300] LES | am_noise | p_loss=0.0001 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[291/300] LES | am_noise | p_loss=0.0005 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[292/300] LES | am_noise | p_loss=0.0012 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[293/300] LES | am_noise | p_loss=0.0153 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[294/300] LES | am_noise | p_loss=0.0002 | 12.3s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[295/300] LES | am_noise | p_loss=0.0003 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[296/300] LES | am_noise | p_loss=0.0006 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[297/300] LES | am_noise | p_loss=0.4626 | 12.1s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[298/300] LES | am_noise | p_loss=0.0006 | 12.4s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[299/300] LES | am_noise | p_loss=0.0001 | 12.2s | am_noise_L1_Spec_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[300/300] LES | am_noise | p_loss=0.0004 | 12.5s | am_noise_L1_Spec_LES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_L1_Spec_LES.pkl

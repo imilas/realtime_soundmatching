@@ -1,0 +1,1207 @@
+sine_mod_saw/JTFS/LES: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[1/300] LES | sine_mod_saw | p_loss=0.0058 | 58.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[2/300] LES | sine_mod_saw | p_loss=0.3586 | 55.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[3/300] LES | sine_mod_saw | p_loss=0.1353 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[4/300] LES | sine_mod_saw | p_loss=0.0215 | 54.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[5/300] LES | sine_mod_saw | p_loss=0.0053 | 54.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[6/300] LES | sine_mod_saw | p_loss=0.0201 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[7/300] LES | sine_mod_saw | p_loss=0.0250 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[8/300] LES | sine_mod_saw | p_loss=0.0686 | 55.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[9/300] LES | sine_mod_saw | p_loss=0.8215 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[10/300] LES | sine_mod_saw | p_loss=0.1714 | 54.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[11/300] LES | sine_mod_saw | p_loss=0.6387 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[12/300] LES | sine_mod_saw | p_loss=0.0142 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[13/300] LES | sine_mod_saw | p_loss=0.1881 | 54.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[14/300] LES | sine_mod_saw | p_loss=0.1621 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[15/300] LES | sine_mod_saw | p_loss=0.0956 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[16/300] LES | sine_mod_saw | p_loss=0.4555 | 58.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[17/300] LES | sine_mod_saw | p_loss=0.2424 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[18/300] LES | sine_mod_saw | p_loss=0.0141 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[19/300] LES | sine_mod_saw | p_loss=0.0148 | 57.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[20/300] LES | sine_mod_saw | p_loss=0.6724 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[21/300] LES | sine_mod_saw | p_loss=0.4407 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[22/300] LES | sine_mod_saw | p_loss=0.0155 | 57.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[23/300] LES | sine_mod_saw | p_loss=0.1407 | 57.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[24/300] LES | sine_mod_saw | p_loss=0.9656 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[25/300] LES | sine_mod_saw | p_loss=0.2399 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[26/300] LES | sine_mod_saw | p_loss=0.1205 | 57.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[27/300] LES | sine_mod_saw | p_loss=0.5361 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[28/300] LES | sine_mod_saw | p_loss=0.0227 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[29/300] LES | sine_mod_saw | p_loss=0.2715 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[30/300] LES | sine_mod_saw | p_loss=0.0163 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[31/300] LES | sine_mod_saw | p_loss=0.0744 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[32/300] LES | sine_mod_saw | p_loss=0.0204 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[33/300] LES | sine_mod_saw | p_loss=0.5693 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[34/300] LES | sine_mod_saw | p_loss=0.0476 | 57.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[35/300] LES | sine_mod_saw | p_loss=0.0243 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[36/300] LES | sine_mod_saw | p_loss=0.0275 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[37/300] LES | sine_mod_saw | p_loss=0.1315 | 59.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[38/300] LES | sine_mod_saw | p_loss=0.0245 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[39/300] LES | sine_mod_saw | p_loss=0.0498 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[40/300] LES | sine_mod_saw | p_loss=0.0351 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[41/300] LES | sine_mod_saw | p_loss=0.1001 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[42/300] LES | sine_mod_saw | p_loss=0.3788 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[43/300] LES | sine_mod_saw | p_loss=0.0318 | 58.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[44/300] LES | sine_mod_saw | p_loss=0.1869 | 51.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[45/300] LES | sine_mod_saw | p_loss=0.2590 | 52.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[46/300] LES | sine_mod_saw | p_loss=0.0012 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[47/300] LES | sine_mod_saw | p_loss=0.1747 | 52.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[48/300] LES | sine_mod_saw | p_loss=0.0100 | 52.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[49/300] LES | sine_mod_saw | p_loss=0.6224 | 52.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[50/300] LES | sine_mod_saw | p_loss=0.3461 | 52.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[51/300] LES | sine_mod_saw | p_loss=0.6062 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[52/300] LES | sine_mod_saw | p_loss=0.1171 | 53.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[53/300] LES | sine_mod_saw | p_loss=0.2421 | 54.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[54/300] LES | sine_mod_saw | p_loss=0.2138 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[55/300] LES | sine_mod_saw | p_loss=0.0236 | 52.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[56/300] LES | sine_mod_saw | p_loss=0.5147 | 52.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[57/300] LES | sine_mod_saw | p_loss=0.1991 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[58/300] LES | sine_mod_saw | p_loss=0.0552 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[59/300] LES | sine_mod_saw | p_loss=0.0974 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[60/300] LES | sine_mod_saw | p_loss=0.0027 | 52.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[61/300] LES | sine_mod_saw | p_loss=0.1780 | 52.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[62/300] LES | sine_mod_saw | p_loss=0.0377 | 52.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[63/300] LES | sine_mod_saw | p_loss=0.0071 | 52.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[64/300] LES | sine_mod_saw | p_loss=0.1459 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[65/300] LES | sine_mod_saw | p_loss=0.1054 | 51.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[66/300] LES | sine_mod_saw | p_loss=0.0709 | 52.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[67/300] LES | sine_mod_saw | p_loss=0.3025 | 52.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[68/300] LES | sine_mod_saw | p_loss=0.0101 | 52.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[69/300] LES | sine_mod_saw | p_loss=0.0868 | 52.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[70/300] LES | sine_mod_saw | p_loss=0.1143 | 52.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[71/300] LES | sine_mod_saw | p_loss=0.0126 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[72/300] LES | sine_mod_saw | p_loss=0.0025 | 52.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[73/300] LES | sine_mod_saw | p_loss=0.1412 | 51.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[74/300] LES | sine_mod_saw | p_loss=0.1266 | 51.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[75/300] LES | sine_mod_saw | p_loss=0.2970 | 52.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[76/300] LES | sine_mod_saw | p_loss=0.7183 | 51.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[77/300] LES | sine_mod_saw | p_loss=0.0484 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[78/300] LES | sine_mod_saw | p_loss=0.0072 | 52.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[79/300] LES | sine_mod_saw | p_loss=0.0079 | 52.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[80/300] LES | sine_mod_saw | p_loss=0.1395 | 52.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[81/300] LES | sine_mod_saw | p_loss=0.1638 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[82/300] LES | sine_mod_saw | p_loss=0.0124 | 52.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[83/300] LES | sine_mod_saw | p_loss=0.8030 | 52.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[84/300] LES | sine_mod_saw | p_loss=0.3961 | 52.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[85/300] LES | sine_mod_saw | p_loss=0.8746 | 52.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[86/300] LES | sine_mod_saw | p_loss=0.0174 | 52.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[87/300] LES | sine_mod_saw | p_loss=0.0048 | 52.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[88/300] LES | sine_mod_saw | p_loss=0.3572 | 53.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[89/300] LES | sine_mod_saw | p_loss=0.4354 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[90/300] LES | sine_mod_saw | p_loss=0.5144 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[91/300] LES | sine_mod_saw | p_loss=0.7382 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[92/300] LES | sine_mod_saw | p_loss=0.0345 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[93/300] LES | sine_mod_saw | p_loss=0.3474 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[94/300] LES | sine_mod_saw | p_loss=0.9462 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[95/300] LES | sine_mod_saw | p_loss=0.0945 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[96/300] LES | sine_mod_saw | p_loss=0.5510 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[97/300] LES | sine_mod_saw | p_loss=0.1508 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[98/300] LES | sine_mod_saw | p_loss=0.0188 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[99/300] LES | sine_mod_saw | p_loss=0.1420 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[100/300] LES | sine_mod_saw | p_loss=0.0268 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[101/300] LES | sine_mod_saw | p_loss=1.0983 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[102/300] LES | sine_mod_saw | p_loss=0.0184 | 55.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[103/300] LES | sine_mod_saw | p_loss=0.3329 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[104/300] LES | sine_mod_saw | p_loss=0.2383 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[105/300] LES | sine_mod_saw | p_loss=0.8385 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[106/300] LES | sine_mod_saw | p_loss=0.1881 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[107/300] LES | sine_mod_saw | p_loss=0.0123 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[108/300] LES | sine_mod_saw | p_loss=0.2853 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[109/300] LES | sine_mod_saw | p_loss=0.0063 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[110/300] LES | sine_mod_saw | p_loss=0.2777 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[111/300] LES | sine_mod_saw | p_loss=0.1885 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[112/300] LES | sine_mod_saw | p_loss=0.9477 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[113/300] LES | sine_mod_saw | p_loss=0.0062 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[114/300] LES | sine_mod_saw | p_loss=0.0260 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[115/300] LES | sine_mod_saw | p_loss=1.1658 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[116/300] LES | sine_mod_saw | p_loss=0.0127 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[117/300] LES | sine_mod_saw | p_loss=0.0486 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[118/300] LES | sine_mod_saw | p_loss=0.0025 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[119/300] LES | sine_mod_saw | p_loss=0.9411 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[120/300] LES | sine_mod_saw | p_loss=0.0289 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[121/300] LES | sine_mod_saw | p_loss=0.1226 | 55.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[122/300] LES | sine_mod_saw | p_loss=0.7824 | 54.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[123/300] LES | sine_mod_saw | p_loss=0.1317 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[124/300] LES | sine_mod_saw | p_loss=0.0125 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[125/300] LES | sine_mod_saw | p_loss=0.1496 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[126/300] LES | sine_mod_saw | p_loss=0.0051 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[127/300] LES | sine_mod_saw | p_loss=0.0145 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[128/300] LES | sine_mod_saw | p_loss=0.1657 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[129/300] LES | sine_mod_saw | p_loss=0.7403 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[130/300] LES | sine_mod_saw | p_loss=0.0174 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[131/300] LES | sine_mod_saw | p_loss=0.0241 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[132/300] LES | sine_mod_saw | p_loss=0.5737 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[133/300] LES | sine_mod_saw | p_loss=0.0701 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[134/300] LES | sine_mod_saw | p_loss=0.0364 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[135/300] LES | sine_mod_saw | p_loss=0.2243 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[136/300] LES | sine_mod_saw | p_loss=0.0107 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[137/300] LES | sine_mod_saw | p_loss=0.2899 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[138/300] LES | sine_mod_saw | p_loss=0.1595 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[139/300] LES | sine_mod_saw | p_loss=0.0483 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[140/300] LES | sine_mod_saw | p_loss=0.0306 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[141/300] LES | sine_mod_saw | p_loss=0.0724 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[142/300] LES | sine_mod_saw | p_loss=0.0256 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[143/300] LES | sine_mod_saw | p_loss=0.0126 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[144/300] LES | sine_mod_saw | p_loss=0.2748 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[145/300] LES | sine_mod_saw | p_loss=0.0130 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[146/300] LES | sine_mod_saw | p_loss=0.0131 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[147/300] LES | sine_mod_saw | p_loss=0.0675 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[148/300] LES | sine_mod_saw | p_loss=0.0177 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[149/300] LES | sine_mod_saw | p_loss=0.6567 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[150/300] LES | sine_mod_saw | p_loss=0.0043 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[151/300] LES | sine_mod_saw | p_loss=0.0104 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[152/300] LES | sine_mod_saw | p_loss=0.0085 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[153/300] LES | sine_mod_saw | p_loss=0.0221 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[154/300] LES | sine_mod_saw | p_loss=0.0012 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[155/300] LES | sine_mod_saw | p_loss=0.0800 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[156/300] LES | sine_mod_saw | p_loss=0.5558 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[157/300] LES | sine_mod_saw | p_loss=0.0144 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[158/300] LES | sine_mod_saw | p_loss=0.0124 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[159/300] LES | sine_mod_saw | p_loss=0.0336 | 52.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[160/300] LES | sine_mod_saw | p_loss=0.3325 | 53.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[161/300] LES | sine_mod_saw | p_loss=0.0085 | 53.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[162/300] LES | sine_mod_saw | p_loss=0.5081 | 52.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[163/300] LES | sine_mod_saw | p_loss=0.0369 | 52.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[164/300] LES | sine_mod_saw | p_loss=0.2856 | 52.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[165/300] LES | sine_mod_saw | p_loss=0.3744 | 53.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[166/300] LES | sine_mod_saw | p_loss=0.0976 | 53.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[167/300] LES | sine_mod_saw | p_loss=0.1032 | 53.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[168/300] LES | sine_mod_saw | p_loss=0.0045 | 53.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[169/300] LES | sine_mod_saw | p_loss=0.0023 | 53.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[170/300] LES | sine_mod_saw | p_loss=0.2170 | 53.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[171/300] LES | sine_mod_saw | p_loss=0.0234 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[172/300] LES | sine_mod_saw | p_loss=0.0407 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[173/300] LES | sine_mod_saw | p_loss=0.2214 | 59.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[174/300] LES | sine_mod_saw | p_loss=0.0679 | 58.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[175/300] LES | sine_mod_saw | p_loss=0.0771 | 58.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[176/300] LES | sine_mod_saw | p_loss=0.0135 | 59.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[177/300] LES | sine_mod_saw | p_loss=0.0355 | 58.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[178/300] LES | sine_mod_saw | p_loss=0.0334 | 58.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[179/300] LES | sine_mod_saw | p_loss=0.0011 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[180/300] LES | sine_mod_saw | p_loss=0.1565 | 58.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[181/300] LES | sine_mod_saw | p_loss=0.0653 | 57.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[182/300] LES | sine_mod_saw | p_loss=0.0077 | 58.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[183/300] LES | sine_mod_saw | p_loss=0.2335 | 57.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[184/300] LES | sine_mod_saw | p_loss=0.0105 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[185/300] LES | sine_mod_saw | p_loss=0.0991 | 57.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[186/300] LES | sine_mod_saw | p_loss=0.0524 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[187/300] LES | sine_mod_saw | p_loss=0.0188 | 58.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[188/300] LES | sine_mod_saw | p_loss=0.0678 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[189/300] LES | sine_mod_saw | p_loss=0.1106 | 57.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[190/300] LES | sine_mod_saw | p_loss=0.0807 | 57.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[191/300] LES | sine_mod_saw | p_loss=0.1472 | 57.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[192/300] LES | sine_mod_saw | p_loss=0.7236 | 58.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[193/300] LES | sine_mod_saw | p_loss=0.1299 | 58.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[194/300] LES | sine_mod_saw | p_loss=0.0054 | 58.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[195/300] LES | sine_mod_saw | p_loss=0.0469 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[196/300] LES | sine_mod_saw | p_loss=0.0382 | 57.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[197/300] LES | sine_mod_saw | p_loss=0.1475 | 57.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[198/300] LES | sine_mod_saw | p_loss=0.0218 | 59.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[199/300] LES | sine_mod_saw | p_loss=0.0171 | 58.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[200/300] LES | sine_mod_saw | p_loss=0.0222 | 57.5s | sine_mod_saw_JTFS_LES.pkl
+E0615 17:12:21.997482 2856387 execution_engine.cc:54] LLVM compilation error: Cannot allocate memory
+E0615 17:12:21.997710 2856373 execution_engine.cc:54] LLVM compilation error: Cannot allocate memory
+[17:12:22] attempt 1 failed (status=139), retrying...
+sine_mod_saw/JTFS/LES: 200 done, running 100 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[201/300] LES | sine_mod_saw | p_loss=0.0135 | 67.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[202/300] LES | sine_mod_saw | p_loss=0.1320 | 59.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[203/300] LES | sine_mod_saw | p_loss=0.0127 | 58.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[204/300] LES | sine_mod_saw | p_loss=0.2544 | 58.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[205/300] LES | sine_mod_saw | p_loss=0.3701 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[206/300] LES | sine_mod_saw | p_loss=0.0041 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[207/300] LES | sine_mod_saw | p_loss=0.2693 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[208/300] LES | sine_mod_saw | p_loss=0.1150 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[209/300] LES | sine_mod_saw | p_loss=0.0131 | 55.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[210/300] LES | sine_mod_saw | p_loss=0.0051 | 55.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[211/300] LES | sine_mod_saw | p_loss=0.0215 | 55.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[212/300] LES | sine_mod_saw | p_loss=0.0483 | 54.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[213/300] LES | sine_mod_saw | p_loss=0.0112 | 55.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[214/300] LES | sine_mod_saw | p_loss=0.3875 | 55.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[215/300] LES | sine_mod_saw | p_loss=0.0134 | 54.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[216/300] LES | sine_mod_saw | p_loss=0.1694 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[217/300] LES | sine_mod_saw | p_loss=0.0163 | 55.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[218/300] LES | sine_mod_saw | p_loss=0.0074 | 55.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[219/300] LES | sine_mod_saw | p_loss=0.1804 | 54.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[220/300] LES | sine_mod_saw | p_loss=0.0147 | 54.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[221/300] LES | sine_mod_saw | p_loss=0.1086 | 55.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[222/300] LES | sine_mod_saw | p_loss=0.1674 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[223/300] LES | sine_mod_saw | p_loss=0.0977 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[224/300] LES | sine_mod_saw | p_loss=0.9417 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[225/300] LES | sine_mod_saw | p_loss=0.0408 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[226/300] LES | sine_mod_saw | p_loss=0.0778 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[227/300] LES | sine_mod_saw | p_loss=0.1269 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[228/300] LES | sine_mod_saw | p_loss=0.0066 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[229/300] LES | sine_mod_saw | p_loss=0.3958 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[230/300] LES | sine_mod_saw | p_loss=0.0053 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[231/300] LES | sine_mod_saw | p_loss=0.0367 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[232/300] LES | sine_mod_saw | p_loss=0.0006 | 57.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[233/300] LES | sine_mod_saw | p_loss=0.0271 | 56.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[234/300] LES | sine_mod_saw | p_loss=0.0640 | 57.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[235/300] LES | sine_mod_saw | p_loss=0.0298 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[236/300] LES | sine_mod_saw | p_loss=0.3045 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[237/300] LES | sine_mod_saw | p_loss=0.6376 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[238/300] LES | sine_mod_saw | p_loss=0.7166 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[239/300] LES | sine_mod_saw | p_loss=0.0032 | 57.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[240/300] LES | sine_mod_saw | p_loss=0.0082 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[241/300] LES | sine_mod_saw | p_loss=0.7700 | 57.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[242/300] LES | sine_mod_saw | p_loss=0.0463 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[243/300] LES | sine_mod_saw | p_loss=0.0326 | 57.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[244/300] LES | sine_mod_saw | p_loss=0.0132 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[245/300] LES | sine_mod_saw | p_loss=0.5226 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[246/300] LES | sine_mod_saw | p_loss=0.5971 | 57.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[247/300] LES | sine_mod_saw | p_loss=0.4570 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[248/300] LES | sine_mod_saw | p_loss=0.1144 | 57.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[249/300] LES | sine_mod_saw | p_loss=0.0073 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[250/300] LES | sine_mod_saw | p_loss=0.0333 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[251/300] LES | sine_mod_saw | p_loss=0.3870 | 58.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[252/300] LES | sine_mod_saw | p_loss=0.1653 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[253/300] LES | sine_mod_saw | p_loss=0.5696 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[254/300] LES | sine_mod_saw | p_loss=0.1633 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[255/300] LES | sine_mod_saw | p_loss=0.3760 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[256/300] LES | sine_mod_saw | p_loss=0.0170 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[257/300] LES | sine_mod_saw | p_loss=0.0024 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[258/300] LES | sine_mod_saw | p_loss=0.0201 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[259/300] LES | sine_mod_saw | p_loss=0.9820 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[260/300] LES | sine_mod_saw | p_loss=0.8444 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[261/300] LES | sine_mod_saw | p_loss=0.0153 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[262/300] LES | sine_mod_saw | p_loss=0.0718 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[263/300] LES | sine_mod_saw | p_loss=0.0119 | 55.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[264/300] LES | sine_mod_saw | p_loss=0.0306 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[265/300] LES | sine_mod_saw | p_loss=0.3919 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[266/300] LES | sine_mod_saw | p_loss=0.2479 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[267/300] LES | sine_mod_saw | p_loss=0.0093 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[268/300] LES | sine_mod_saw | p_loss=0.0045 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[269/300] LES | sine_mod_saw | p_loss=0.0274 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[270/300] LES | sine_mod_saw | p_loss=0.1852 | 55.8s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[271/300] LES | sine_mod_saw | p_loss=0.3957 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[272/300] LES | sine_mod_saw | p_loss=0.1860 | 56.1s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[273/300] LES | sine_mod_saw | p_loss=0.0252 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[274/300] LES | sine_mod_saw | p_loss=0.5084 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[275/300] LES | sine_mod_saw | p_loss=0.1433 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[276/300] LES | sine_mod_saw | p_loss=0.0042 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[277/300] LES | sine_mod_saw | p_loss=0.0166 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[278/300] LES | sine_mod_saw | p_loss=0.0102 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[279/300] LES | sine_mod_saw | p_loss=0.3066 | 56.0s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[280/300] LES | sine_mod_saw | p_loss=0.3513 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[281/300] LES | sine_mod_saw | p_loss=0.3247 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[282/300] LES | sine_mod_saw | p_loss=0.6610 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[283/300] LES | sine_mod_saw | p_loss=0.0051 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[284/300] LES | sine_mod_saw | p_loss=0.1528 | 56.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[285/300] LES | sine_mod_saw | p_loss=0.5760 | 56.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[286/300] LES | sine_mod_saw | p_loss=0.1060 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[287/300] LES | sine_mod_saw | p_loss=0.2273 | 56.5s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[288/300] LES | sine_mod_saw | p_loss=0.2615 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[289/300] LES | sine_mod_saw | p_loss=0.8525 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[290/300] LES | sine_mod_saw | p_loss=0.0242 | 56.2s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[291/300] LES | sine_mod_saw | p_loss=0.1210 | 56.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[292/300] LES | sine_mod_saw | p_loss=0.0481 | 55.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[293/300] LES | sine_mod_saw | p_loss=0.0062 | 55.6s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[294/300] LES | sine_mod_saw | p_loss=0.2091 | 56.4s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[295/300] LES | sine_mod_saw | p_loss=0.0131 | 55.9s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[296/300] LES | sine_mod_saw | p_loss=0.0786 | 55.7s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[297/300] LES | sine_mod_saw | p_loss=0.1649 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[298/300] LES | sine_mod_saw | p_loss=0.2939 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[299/300] LES | sine_mod_saw | p_loss=0.1326 | 56.3s | sine_mod_saw_JTFS_LES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[300/300] LES | sine_mod_saw | p_loss=0.0163 | 57.0s | sine_mod_saw_JTFS_LES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_JTFS_LES.pkl
+Already have 300 trials for sine_mod_saw/LES, nothing to do.

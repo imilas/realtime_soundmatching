@@ -1,0 +1,2044 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/cshome/asalimi/.conda/envs/soundmatch/lib/python3.10/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4382.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+add_sinesaw/CLAP/CMA-ES: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3093.30it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Load our best checkpoint in the paper.
+The checkpoint is already downloaded
+Load Checkpoint...
+logit_scale_a 	 Loaded
+logit_scale_t 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_real.weight 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_imag.weight 	 Loaded
+audio_branch.logmel_extractor.melW 	 Loaded
+audio_branch.bn0.weight 	 Loaded
+audio_branch.bn0.bias 	 Loaded
+audio_branch.patch_embed.proj.weight 	 Loaded
+audio_branch.patch_embed.proj.bias 	 Loaded
+audio_branch.patch_embed.norm.weight 	 Loaded
+audio_branch.patch_embed.norm.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.downsample.reduction.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.downsample.reduction.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.downsample.reduction.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.norm.weight 	 Loaded
+audio_branch.norm.bias 	 Loaded
+audio_branch.tscam_conv.weight 	 Loaded
+audio_branch.tscam_conv.bias 	 Loaded
+audio_branch.head.weight 	 Loaded
+audio_branch.head.bias 	 Loaded
+text_branch.embeddings.word_embeddings.weight 	 Loaded
+text_branch.embeddings.token_type_embeddings.weight 	 Loaded
+text_branch.embeddings.LayerNorm.weight 	 Loaded
+text_branch.embeddings.LayerNorm.bias 	 Loaded
+text_branch.embeddings.position_embeddings.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.bias 	 Loaded
+text_branch.pooler.dense.weight 	 Loaded
+text_branch.pooler.dense.bias 	 Loaded
+text_transform.sequential.0.weight 	 Loaded
+text_transform.sequential.0.bias 	 Loaded
+text_transform.sequential.3.weight 	 Loaded
+text_transform.sequential.3.bias 	 Loaded
+text_projection.0.weight 	 Loaded
+text_projection.0.bias 	 Loaded
+text_projection.2.weight 	 Loaded
+text_projection.2.bias 	 Loaded
+audio_transform.sequential.0.weight 	 Loaded
+audio_transform.sequential.0.bias 	 Loaded
+audio_transform.sequential.3.weight 	 Loaded
+audio_transform.sequential.3.bias 	 Loaded
+audio_projection.0.weight 	 Loaded
+audio_projection.0.bias 	 Loaded
+audio_projection.2.weight 	 Loaded
+audio_projection.2.bias 	 Loaded
+[1/300] CMA-ES | add_sinesaw | p_loss=0.9105 | 331.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[2/300] CMA-ES | add_sinesaw | p_loss=0.0269 | 316.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[3/300] CMA-ES | add_sinesaw | p_loss=0.4769 | 323.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[4/300] CMA-ES | add_sinesaw | p_loss=0.3761 | 312.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[5/300] CMA-ES | add_sinesaw | p_loss=0.6133 | 320.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[6/300] CMA-ES | add_sinesaw | p_loss=0.1860 | 324.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[7/300] CMA-ES | add_sinesaw | p_loss=0.1802 | 317.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[8/300] CMA-ES | add_sinesaw | p_loss=0.4916 | 311.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[9/300] CMA-ES | add_sinesaw | p_loss=0.0950 | 310.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[10/300] CMA-ES | add_sinesaw | p_loss=0.0002 | 309.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[11/300] CMA-ES | add_sinesaw | p_loss=0.3909 | 311.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[12/300] CMA-ES | add_sinesaw | p_loss=0.0488 | 302.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[13/300] CMA-ES | add_sinesaw | p_loss=0.0008 | 310.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[14/300] CMA-ES | add_sinesaw | p_loss=0.3529 | 310.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[15/300] CMA-ES | add_sinesaw | p_loss=0.1941 | 313.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[16/300] CMA-ES | add_sinesaw | p_loss=0.0021 | 311.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[17/300] CMA-ES | add_sinesaw | p_loss=0.1084 | 311.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[18/300] CMA-ES | add_sinesaw | p_loss=0.3252 | 322.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[19/300] CMA-ES | add_sinesaw | p_loss=0.1716 | 310.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[20/300] CMA-ES | add_sinesaw | p_loss=0.2579 | 312.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[21/300] CMA-ES | add_sinesaw | p_loss=0.6147 | 310.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[22/300] CMA-ES | add_sinesaw | p_loss=0.0550 | 319.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[23/300] CMA-ES | add_sinesaw | p_loss=0.1745 | 316.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[24/300] CMA-ES | add_sinesaw | p_loss=0.5977 | 306.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[25/300] CMA-ES | add_sinesaw | p_loss=0.0099 | 298.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[26/300] CMA-ES | add_sinesaw | p_loss=0.5043 | 313.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[27/300] CMA-ES | add_sinesaw | p_loss=0.0093 | 313.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[28/300] CMA-ES | add_sinesaw | p_loss=0.0003 | 323.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[29/300] CMA-ES | add_sinesaw | p_loss=0.0114 | 312.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[30/300] CMA-ES | add_sinesaw | p_loss=0.1804 | 315.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[31/300] CMA-ES | add_sinesaw | p_loss=0.2769 | 318.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[32/300] CMA-ES | add_sinesaw | p_loss=0.0754 | 318.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[33/300] CMA-ES | add_sinesaw | p_loss=0.3256 | 319.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[34/300] CMA-ES | add_sinesaw | p_loss=0.5948 | 318.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[35/300] CMA-ES | add_sinesaw | p_loss=0.1987 | 315.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[36/300] CMA-ES | add_sinesaw | p_loss=0.1087 | 317.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[37/300] CMA-ES | add_sinesaw | p_loss=0.0248 | 321.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[38/300] CMA-ES | add_sinesaw | p_loss=0.0029 | 327.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[39/300] CMA-ES | add_sinesaw | p_loss=0.0534 | 327.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[40/300] CMA-ES | add_sinesaw | p_loss=0.1364 | 323.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[41/300] CMA-ES | add_sinesaw | p_loss=0.2811 | 320.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[42/300] CMA-ES | add_sinesaw | p_loss=0.0732 | 327.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[43/300] CMA-ES | add_sinesaw | p_loss=0.8202 | 326.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[44/300] CMA-ES | add_sinesaw | p_loss=0.2211 | 324.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[45/300] CMA-ES | add_sinesaw | p_loss=0.5882 | 326.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[46/300] CMA-ES | add_sinesaw | p_loss=0.7907 | 321.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[47/300] CMA-ES | add_sinesaw | p_loss=0.0865 | 319.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[48/300] CMA-ES | add_sinesaw | p_loss=0.3826 | 325.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[49/300] CMA-ES | add_sinesaw | p_loss=0.0950 | 328.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[50/300] CMA-ES | add_sinesaw | p_loss=0.1088 | 324.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[51/300] CMA-ES | add_sinesaw | p_loss=0.0006 | 325.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[52/300] CMA-ES | add_sinesaw | p_loss=0.4840 | 311.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[53/300] CMA-ES | add_sinesaw | p_loss=0.0613 | 326.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[54/300] CMA-ES | add_sinesaw | p_loss=0.4699 | 300.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[55/300] CMA-ES | add_sinesaw | p_loss=0.1566 | 307.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[56/300] CMA-ES | add_sinesaw | p_loss=0.0315 | 313.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[57/300] CMA-ES | add_sinesaw | p_loss=0.3839 | 311.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[58/300] CMA-ES | add_sinesaw | p_loss=0.6059 | 316.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[59/300] CMA-ES | add_sinesaw | p_loss=0.5782 | 306.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[60/300] CMA-ES | add_sinesaw | p_loss=0.0005 | 315.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[61/300] CMA-ES | add_sinesaw | p_loss=0.0668 | 311.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[62/300] CMA-ES | add_sinesaw | p_loss=0.4205 | 314.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[63/300] CMA-ES | add_sinesaw | p_loss=0.0964 | 304.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[64/300] CMA-ES | add_sinesaw | p_loss=0.1511 | 312.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[65/300] CMA-ES | add_sinesaw | p_loss=0.4247 | 306.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[66/300] CMA-ES | add_sinesaw | p_loss=0.3138 | 313.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[67/300] CMA-ES | add_sinesaw | p_loss=0.4082 | 330.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[68/300] CMA-ES | add_sinesaw | p_loss=0.5494 | 327.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[69/300] CMA-ES | add_sinesaw | p_loss=0.3984 | 322.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[70/300] CMA-ES | add_sinesaw | p_loss=0.0120 | 323.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[71/300] CMA-ES | add_sinesaw | p_loss=0.3393 | 325.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[72/300] CMA-ES | add_sinesaw | p_loss=0.4736 | 330.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[73/300] CMA-ES | add_sinesaw | p_loss=0.1967 | 330.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[74/300] CMA-ES | add_sinesaw | p_loss=0.0038 | 326.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[75/300] CMA-ES | add_sinesaw | p_loss=0.0538 | 325.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[76/300] CMA-ES | add_sinesaw | p_loss=0.1364 | 334.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[77/300] CMA-ES | add_sinesaw | p_loss=0.1457 | 324.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[78/300] CMA-ES | add_sinesaw | p_loss=0.0345 | 320.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[79/300] CMA-ES | add_sinesaw | p_loss=0.8115 | 321.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[80/300] CMA-ES | add_sinesaw | p_loss=0.3409 | 325.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[81/300] CMA-ES | add_sinesaw | p_loss=0.1401 | 323.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[82/300] CMA-ES | add_sinesaw | p_loss=0.2520 | 323.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[83/300] CMA-ES | add_sinesaw | p_loss=0.4350 | 325.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[84/300] CMA-ES | add_sinesaw | p_loss=0.4476 | 318.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[85/300] CMA-ES | add_sinesaw | p_loss=0.1337 | 329.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[86/300] CMA-ES | add_sinesaw | p_loss=0.4251 | 321.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[87/300] CMA-ES | add_sinesaw | p_loss=0.2696 | 322.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[88/300] CMA-ES | add_sinesaw | p_loss=0.1481 | 321.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[89/300] CMA-ES | add_sinesaw | p_loss=0.3408 | 319.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[90/300] CMA-ES | add_sinesaw | p_loss=0.4971 | 316.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[91/300] CMA-ES | add_sinesaw | p_loss=0.0758 | 316.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[92/300] CMA-ES | add_sinesaw | p_loss=0.1443 | 331.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[93/300] CMA-ES | add_sinesaw | p_loss=0.0393 | 329.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[94/300] CMA-ES | add_sinesaw | p_loss=0.0121 | 327.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[95/300] CMA-ES | add_sinesaw | p_loss=0.2197 | 324.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[96/300] CMA-ES | add_sinesaw | p_loss=0.2314 | 330.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[97/300] CMA-ES | add_sinesaw | p_loss=0.3534 | 326.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[98/300] CMA-ES | add_sinesaw | p_loss=0.2144 | 323.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[99/300] CMA-ES | add_sinesaw | p_loss=0.5063 | 327.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[100/300] CMA-ES | add_sinesaw | p_loss=0.0010 | 320.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[101/300] CMA-ES | add_sinesaw | p_loss=0.0059 | 321.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[102/300] CMA-ES | add_sinesaw | p_loss=0.2428 | 302.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[103/300] CMA-ES | add_sinesaw | p_loss=0.8318 | 315.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[104/300] CMA-ES | add_sinesaw | p_loss=0.1222 | 309.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[105/300] CMA-ES | add_sinesaw | p_loss=0.0387 | 306.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[106/300] CMA-ES | add_sinesaw | p_loss=0.2390 | 308.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[107/300] CMA-ES | add_sinesaw | p_loss=0.0158 | 305.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[108/300] CMA-ES | add_sinesaw | p_loss=0.2634 | 323.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[109/300] CMA-ES | add_sinesaw | p_loss=0.3720 | 320.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[110/300] CMA-ES | add_sinesaw | p_loss=0.1317 | 322.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[111/300] CMA-ES | add_sinesaw | p_loss=0.0014 | 300.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[112/300] CMA-ES | add_sinesaw | p_loss=0.1786 | 334.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[113/300] CMA-ES | add_sinesaw | p_loss=0.4246 | 315.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[114/300] CMA-ES | add_sinesaw | p_loss=0.0649 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[115/300] CMA-ES | add_sinesaw | p_loss=0.0302 | 321.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[116/300] CMA-ES | add_sinesaw | p_loss=0.0540 | 329.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[117/300] CMA-ES | add_sinesaw | p_loss=0.0021 | 325.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[118/300] CMA-ES | add_sinesaw | p_loss=0.4934 | 323.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[119/300] CMA-ES | add_sinesaw | p_loss=0.0410 | 331.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[120/300] CMA-ES | add_sinesaw | p_loss=0.3748 | 327.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[121/300] CMA-ES | add_sinesaw | p_loss=0.0411 | 330.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[122/300] CMA-ES | add_sinesaw | p_loss=0.0669 | 326.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[123/300] CMA-ES | add_sinesaw | p_loss=0.0136 | 318.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[124/300] CMA-ES | add_sinesaw | p_loss=0.0334 | 320.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[125/300] CMA-ES | add_sinesaw | p_loss=0.0051 | 330.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[126/300] CMA-ES | add_sinesaw | p_loss=0.1151 | 328.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[127/300] CMA-ES | add_sinesaw | p_loss=0.1862 | 332.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[128/300] CMA-ES | add_sinesaw | p_loss=0.0011 | 315.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[129/300] CMA-ES | add_sinesaw | p_loss=0.0847 | 321.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[130/300] CMA-ES | add_sinesaw | p_loss=0.1604 | 324.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[131/300] CMA-ES | add_sinesaw | p_loss=0.0029 | 322.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[132/300] CMA-ES | add_sinesaw | p_loss=0.1730 | 319.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[133/300] CMA-ES | add_sinesaw | p_loss=0.0347 | 325.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[134/300] CMA-ES | add_sinesaw | p_loss=0.0174 | 332.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[135/300] CMA-ES | add_sinesaw | p_loss=0.2240 | 323.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[136/300] CMA-ES | add_sinesaw | p_loss=0.6406 | 324.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[137/300] CMA-ES | add_sinesaw | p_loss=0.2888 | 326.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[138/300] CMA-ES | add_sinesaw | p_loss=0.2711 | 326.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[139/300] CMA-ES | add_sinesaw | p_loss=0.1994 | 320.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[140/300] CMA-ES | add_sinesaw | p_loss=0.0810 | 323.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[141/300] CMA-ES | add_sinesaw | p_loss=0.3424 | 320.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[142/300] CMA-ES | add_sinesaw | p_loss=0.3854 | 323.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[143/300] CMA-ES | add_sinesaw | p_loss=0.1353 | 320.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[144/300] CMA-ES | add_sinesaw | p_loss=0.2049 | 320.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[145/300] CMA-ES | add_sinesaw | p_loss=0.1254 | 318.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[146/300] CMA-ES | add_sinesaw | p_loss=0.5503 | 314.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[147/300] CMA-ES | add_sinesaw | p_loss=0.5455 | 312.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[148/300] CMA-ES | add_sinesaw | p_loss=0.0247 | 313.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[149/300] CMA-ES | add_sinesaw | p_loss=0.0434 | 326.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[150/300] CMA-ES | add_sinesaw | p_loss=0.6127 | 323.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[151/300] CMA-ES | add_sinesaw | p_loss=0.0022 | 327.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[152/300] CMA-ES | add_sinesaw | p_loss=0.4169 | 326.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[153/300] CMA-ES | add_sinesaw | p_loss=0.2284 | 320.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[154/300] CMA-ES | add_sinesaw | p_loss=0.4085 | 325.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[155/300] CMA-ES | add_sinesaw | p_loss=0.2809 | 332.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[156/300] CMA-ES | add_sinesaw | p_loss=0.0448 | 326.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[157/300] CMA-ES | add_sinesaw | p_loss=0.4581 | 330.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[158/300] CMA-ES | add_sinesaw | p_loss=0.4325 | 325.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[159/300] CMA-ES | add_sinesaw | p_loss=0.0950 | 329.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[160/300] CMA-ES | add_sinesaw | p_loss=0.0185 | 327.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[161/300] CMA-ES | add_sinesaw | p_loss=0.4340 | 325.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[162/300] CMA-ES | add_sinesaw | p_loss=0.0293 | 330.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[163/300] CMA-ES | add_sinesaw | p_loss=0.5393 | 326.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[164/300] CMA-ES | add_sinesaw | p_loss=0.1384 | 328.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[165/300] CMA-ES | add_sinesaw | p_loss=0.1889 | 325.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[166/300] CMA-ES | add_sinesaw | p_loss=0.0106 | 325.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[167/300] CMA-ES | add_sinesaw | p_loss=0.1698 | 322.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[168/300] CMA-ES | add_sinesaw | p_loss=0.1928 | 324.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[169/300] CMA-ES | add_sinesaw | p_loss=0.0679 | 326.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[170/300] CMA-ES | add_sinesaw | p_loss=0.3115 | 324.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[171/300] CMA-ES | add_sinesaw | p_loss=0.0249 | 326.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[172/300] CMA-ES | add_sinesaw | p_loss=0.0226 | 324.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[173/300] CMA-ES | add_sinesaw | p_loss=0.0584 | 357.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[174/300] CMA-ES | add_sinesaw | p_loss=0.3158 | 324.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[175/300] CMA-ES | add_sinesaw | p_loss=0.4840 | 327.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[176/300] CMA-ES | add_sinesaw | p_loss=0.0104 | 319.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[177/300] CMA-ES | add_sinesaw | p_loss=0.0190 | 317.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[178/300] CMA-ES | add_sinesaw | p_loss=0.0352 | 313.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[179/300] CMA-ES | add_sinesaw | p_loss=0.6414 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[180/300] CMA-ES | add_sinesaw | p_loss=0.2891 | 324.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[181/300] CMA-ES | add_sinesaw | p_loss=0.3382 | 328.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[182/300] CMA-ES | add_sinesaw | p_loss=0.3277 | 325.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[183/300] CMA-ES | add_sinesaw | p_loss=0.6941 | 331.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[184/300] CMA-ES | add_sinesaw | p_loss=0.0416 | 327.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[185/300] CMA-ES | add_sinesaw | p_loss=0.2660 | 326.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[186/300] CMA-ES | add_sinesaw | p_loss=1.0931 | 329.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[187/300] CMA-ES | add_sinesaw | p_loss=0.5243 | 330.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[188/300] CMA-ES | add_sinesaw | p_loss=0.2247 | 329.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[189/300] CMA-ES | add_sinesaw | p_loss=0.0531 | 328.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[190/300] CMA-ES | add_sinesaw | p_loss=0.1351 | 329.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[191/300] CMA-ES | add_sinesaw | p_loss=0.0418 | 326.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[192/300] CMA-ES | add_sinesaw | p_loss=0.5182 | 333.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[193/300] CMA-ES | add_sinesaw | p_loss=0.2665 | 329.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[194/300] CMA-ES | add_sinesaw | p_loss=0.1186 | 326.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[195/300] CMA-ES | add_sinesaw | p_loss=0.2751 | 327.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[196/300] CMA-ES | add_sinesaw | p_loss=0.2765 | 326.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[197/300] CMA-ES | add_sinesaw | p_loss=0.3170 | 318.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[198/300] CMA-ES | add_sinesaw | p_loss=0.4906 | 321.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[199/300] CMA-ES | add_sinesaw | p_loss=0.3594 | 324.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[200/300] CMA-ES | add_sinesaw | p_loss=0.0002 | 324.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[201/300] CMA-ES | add_sinesaw | p_loss=0.1795 | 323.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[202/300] CMA-ES | add_sinesaw | p_loss=0.1605 | 340.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[203/300] CMA-ES | add_sinesaw | p_loss=0.5196 | 323.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[204/300] CMA-ES | add_sinesaw | p_loss=0.0729 | 334.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[205/300] CMA-ES | add_sinesaw | p_loss=0.0002 | 335.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[206/300] CMA-ES | add_sinesaw | p_loss=0.0096 | 339.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[207/300] CMA-ES | add_sinesaw | p_loss=0.3404 | 331.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[208/300] CMA-ES | add_sinesaw | p_loss=0.0485 | 311.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[209/300] CMA-ES | add_sinesaw | p_loss=0.2155 | 324.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[210/300] CMA-ES | add_sinesaw | p_loss=0.2300 | 320.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[211/300] CMA-ES | add_sinesaw | p_loss=0.1446 | 323.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[212/300] CMA-ES | add_sinesaw | p_loss=0.3845 | 314.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[213/300] CMA-ES | add_sinesaw | p_loss=0.5534 | 319.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[214/300] CMA-ES | add_sinesaw | p_loss=0.3232 | 321.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[215/300] CMA-ES | add_sinesaw | p_loss=0.1121 | 331.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[216/300] CMA-ES | add_sinesaw | p_loss=0.0297 | 327.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[217/300] CMA-ES | add_sinesaw | p_loss=0.2348 | 330.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[218/300] CMA-ES | add_sinesaw | p_loss=0.5736 | 317.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[219/300] CMA-ES | add_sinesaw | p_loss=0.0053 | 324.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[220/300] CMA-ES | add_sinesaw | p_loss=0.8767 | 328.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[221/300] CMA-ES | add_sinesaw | p_loss=0.5410 | 327.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[222/300] CMA-ES | add_sinesaw | p_loss=0.2795 | 318.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[223/300] CMA-ES | add_sinesaw | p_loss=0.4544 | 330.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[224/300] CMA-ES | add_sinesaw | p_loss=0.1319 | 322.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[225/300] CMA-ES | add_sinesaw | p_loss=0.8138 | 326.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[226/300] CMA-ES | add_sinesaw | p_loss=0.6013 | 324.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[227/300] CMA-ES | add_sinesaw | p_loss=0.0995 | 324.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[228/300] CMA-ES | add_sinesaw | p_loss=0.0117 | 320.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[229/300] CMA-ES | add_sinesaw | p_loss=0.3730 | 321.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[230/300] CMA-ES | add_sinesaw | p_loss=0.1986 | 311.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[231/300] CMA-ES | add_sinesaw | p_loss=0.6150 | 317.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[232/300] CMA-ES | add_sinesaw | p_loss=0.6332 | 322.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[233/300] CMA-ES | add_sinesaw | p_loss=0.3997 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[234/300] CMA-ES | add_sinesaw | p_loss=0.1291 | 308.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[235/300] CMA-ES | add_sinesaw | p_loss=0.0543 | 320.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[236/300] CMA-ES | add_sinesaw | p_loss=0.1616 | 316.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[237/300] CMA-ES | add_sinesaw | p_loss=0.1797 | 313.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[238/300] CMA-ES | add_sinesaw | p_loss=0.1626 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[239/300] CMA-ES | add_sinesaw | p_loss=0.0743 | 312.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[240/300] CMA-ES | add_sinesaw | p_loss=0.9667 | 317.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[241/300] CMA-ES | add_sinesaw | p_loss=0.9004 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[242/300] CMA-ES | add_sinesaw | p_loss=0.4409 | 321.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[243/300] CMA-ES | add_sinesaw | p_loss=0.5903 | 317.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[244/300] CMA-ES | add_sinesaw | p_loss=0.0642 | 325.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[245/300] CMA-ES | add_sinesaw | p_loss=0.5008 | 325.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[246/300] CMA-ES | add_sinesaw | p_loss=0.4825 | 331.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[247/300] CMA-ES | add_sinesaw | p_loss=0.3728 | 314.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[248/300] CMA-ES | add_sinesaw | p_loss=0.0922 | 317.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[249/300] CMA-ES | add_sinesaw | p_loss=0.3003 | 321.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[250/300] CMA-ES | add_sinesaw | p_loss=0.0404 | 322.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[251/300] CMA-ES | add_sinesaw | p_loss=0.2171 | 321.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[252/300] CMA-ES | add_sinesaw | p_loss=0.2158 | 322.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[253/300] CMA-ES | add_sinesaw | p_loss=0.1964 | 323.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[254/300] CMA-ES | add_sinesaw | p_loss=0.4851 | 322.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[255/300] CMA-ES | add_sinesaw | p_loss=0.0089 | 316.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[256/300] CMA-ES | add_sinesaw | p_loss=0.2327 | 317.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[257/300] CMA-ES | add_sinesaw | p_loss=0.0021 | 312.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[258/300] CMA-ES | add_sinesaw | p_loss=0.4968 | 308.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[259/300] CMA-ES | add_sinesaw | p_loss=0.0413 | 323.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[260/300] CMA-ES | add_sinesaw | p_loss=0.1180 | 327.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[261/300] CMA-ES | add_sinesaw | p_loss=0.6927 | 319.7s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[262/300] CMA-ES | add_sinesaw | p_loss=0.0157 | 329.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[263/300] CMA-ES | add_sinesaw | p_loss=0.1168 | 319.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[264/300] CMA-ES | add_sinesaw | p_loss=0.0154 | 324.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[265/300] CMA-ES | add_sinesaw | p_loss=0.0789 | 325.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[266/300] CMA-ES | add_sinesaw | p_loss=0.1299 | 325.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[267/300] CMA-ES | add_sinesaw | p_loss=0.0904 | 326.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[268/300] CMA-ES | add_sinesaw | p_loss=0.4599 | 317.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[269/300] CMA-ES | add_sinesaw | p_loss=0.6736 | 319.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[270/300] CMA-ES | add_sinesaw | p_loss=0.0672 | 323.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[271/300] CMA-ES | add_sinesaw | p_loss=0.1420 | 316.6s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[272/300] CMA-ES | add_sinesaw | p_loss=0.4183 | 314.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[273/300] CMA-ES | add_sinesaw | p_loss=0.0936 | 323.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[274/300] CMA-ES | add_sinesaw | p_loss=0.3839 | 318.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[275/300] CMA-ES | add_sinesaw | p_loss=0.0274 | 303.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[276/300] CMA-ES | add_sinesaw | p_loss=0.1382 | 320.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[277/300] CMA-ES | add_sinesaw | p_loss=0.1270 | 329.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[278/300] CMA-ES | add_sinesaw | p_loss=0.1712 | 320.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[279/300] CMA-ES | add_sinesaw | p_loss=0.0172 | 320.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[280/300] CMA-ES | add_sinesaw | p_loss=0.0139 | 322.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[281/300] CMA-ES | add_sinesaw | p_loss=0.0782 | 323.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[282/300] CMA-ES | add_sinesaw | p_loss=0.1049 | 332.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[283/300] CMA-ES | add_sinesaw | p_loss=0.0052 | 328.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[284/300] CMA-ES | add_sinesaw | p_loss=0.0024 | 317.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[285/300] CMA-ES | add_sinesaw | p_loss=0.0798 | 318.0s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[286/300] CMA-ES | add_sinesaw | p_loss=0.0881 | 318.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[287/300] CMA-ES | add_sinesaw | p_loss=0.3570 | 320.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[288/300] CMA-ES | add_sinesaw | p_loss=0.0836 | 331.9s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[289/300] CMA-ES | add_sinesaw | p_loss=0.0368 | 323.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[290/300] CMA-ES | add_sinesaw | p_loss=0.0238 | 321.2s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[291/300] CMA-ES | add_sinesaw | p_loss=0.3831 | 319.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[292/300] CMA-ES | add_sinesaw | p_loss=0.1284 | 319.1s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[293/300] CMA-ES | add_sinesaw | p_loss=0.3885 | 324.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[294/300] CMA-ES | add_sinesaw | p_loss=0.5598 | 315.9s | add_sinesaw_CLAP_CMA-ES.pkl
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/cshome/asalimi/.conda/envs/soundmatch/lib/python3.10/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4382.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+add_sinesaw/CLAP/CMA-ES: 299 done, running 1 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3831.84it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[295/300] CMA-ES | add_sinesaw | p_loss=0.2045 | 322.1s | add_sinesaw_CLAP_CMA-ES.pkl
+Load our best checkpoint in the paper.
+The checkpoint is already downloaded
+Load Checkpoint...
+logit_scale_a 	 Loaded
+logit_scale_t 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_real.weight 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_imag.weight 	 Loaded
+audio_branch.logmel_extractor.melW 	 Loaded
+audio_branch.bn0.weight 	 Loaded
+audio_branch.bn0.bias 	 Loaded
+audio_branch.patch_embed.proj.weight 	 Loaded
+audio_branch.patch_embed.proj.bias 	 Loaded
+audio_branch.patch_embed.norm.weight 	 Loaded
+audio_branch.patch_embed.norm.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.downsample.reduction.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.downsample.reduction.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.downsample.reduction.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.norm.weight 	 Loaded
+audio_branch.norm.bias 	 Loaded
+audio_branch.tscam_conv.weight 	 Loaded
+audio_branch.tscam_conv.bias 	 Loaded
+audio_branch.head.weight 	 Loaded
+audio_branch.head.bias 	 Loaded
+text_branch.embeddings.word_embeddings.weight 	 Loaded
+text_branch.embeddings.token_type_embeddings.weight 	 Loaded
+text_branch.embeddings.LayerNorm.weight 	 Loaded
+text_branch.embeddings.LayerNorm.bias 	 Loaded
+text_branch.embeddings.position_embeddings.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.bias 	 Loaded
+text_branch.pooler.dense.weight 	 Loaded
+text_branch.pooler.dense.bias 	 Loaded
+text_transform.sequential.0.weight 	 Loaded
+text_transform.sequential.0.bias 	 Loaded
+text_transform.sequential.3.weight 	 Loaded
+text_transform.sequential.3.bias 	 Loaded
+text_projection.0.weight 	 Loaded
+text_projection.0.bias 	 Loaded
+text_projection.2.weight 	 Loaded
+text_projection.2.bias 	 Loaded
+audio_transform.sequential.0.weight 	 Loaded
+audio_transform.sequential.0.bias 	 Loaded
+audio_transform.sequential.3.weight 	 Loaded
+audio_transform.sequential.3.bias 	 Loaded
+audio_projection.0.weight 	 Loaded
+audio_projection.0.bias 	 Loaded
+audio_projection.2.weight 	 Loaded
+audio_projection.2.bias 	 Loaded
+[300/300] CMA-ES | add_sinesaw | p_loss=0.0194 | 328.2s | add_sinesaw_CLAP_CMA-ES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[296/300] CMA-ES | add_sinesaw | p_loss=0.6619 | 312.3s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[297/300] CMA-ES | add_sinesaw | p_loss=0.2268 | 312.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[298/300] CMA-ES | add_sinesaw | p_loss=0.3314 | 314.5s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[299/300] CMA-ES | add_sinesaw | p_loss=0.3473 | 297.8s | add_sinesaw_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[300/300] CMA-ES | add_sinesaw | p_loss=0.0194 | 296.3s | add_sinesaw_CLAP_CMA-ES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_CLAP_CMA-ES.pkl

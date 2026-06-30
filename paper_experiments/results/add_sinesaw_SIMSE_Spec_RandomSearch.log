@@ -1,0 +1,1202 @@
+add_sinesaw/SIMSE_Spec/RandomSearch: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[1/300] RandomSearch | add_sinesaw | p_loss=0.0011 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[2/300] RandomSearch | add_sinesaw | p_loss=0.0198 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[3/300] RandomSearch | add_sinesaw | p_loss=0.0120 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[4/300] RandomSearch | add_sinesaw | p_loss=0.3942 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[5/300] RandomSearch | add_sinesaw | p_loss=0.5500 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[6/300] RandomSearch | add_sinesaw | p_loss=0.0823 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[7/300] RandomSearch | add_sinesaw | p_loss=0.2258 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[8/300] RandomSearch | add_sinesaw | p_loss=0.3727 | 15.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[9/300] RandomSearch | add_sinesaw | p_loss=0.0956 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[10/300] RandomSearch | add_sinesaw | p_loss=0.3579 | 15.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[11/300] RandomSearch | add_sinesaw | p_loss=0.0640 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[12/300] RandomSearch | add_sinesaw | p_loss=0.0117 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[13/300] RandomSearch | add_sinesaw | p_loss=0.5376 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[14/300] RandomSearch | add_sinesaw | p_loss=0.3099 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[15/300] RandomSearch | add_sinesaw | p_loss=0.1962 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[16/300] RandomSearch | add_sinesaw | p_loss=0.0058 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[17/300] RandomSearch | add_sinesaw | p_loss=0.2654 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[18/300] RandomSearch | add_sinesaw | p_loss=0.0338 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[19/300] RandomSearch | add_sinesaw | p_loss=0.3320 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[20/300] RandomSearch | add_sinesaw | p_loss=0.0035 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[21/300] RandomSearch | add_sinesaw | p_loss=0.7732 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[22/300] RandomSearch | add_sinesaw | p_loss=0.0165 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[23/300] RandomSearch | add_sinesaw | p_loss=0.3536 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[24/300] RandomSearch | add_sinesaw | p_loss=0.7362 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[25/300] RandomSearch | add_sinesaw | p_loss=0.0220 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[26/300] RandomSearch | add_sinesaw | p_loss=0.4401 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[27/300] RandomSearch | add_sinesaw | p_loss=0.4244 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[28/300] RandomSearch | add_sinesaw | p_loss=0.5346 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[29/300] RandomSearch | add_sinesaw | p_loss=0.0159 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[30/300] RandomSearch | add_sinesaw | p_loss=0.0289 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[31/300] RandomSearch | add_sinesaw | p_loss=0.3234 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[32/300] RandomSearch | add_sinesaw | p_loss=0.0225 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[33/300] RandomSearch | add_sinesaw | p_loss=0.0020 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[34/300] RandomSearch | add_sinesaw | p_loss=0.0147 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[35/300] RandomSearch | add_sinesaw | p_loss=0.4815 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[36/300] RandomSearch | add_sinesaw | p_loss=0.0196 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[37/300] RandomSearch | add_sinesaw | p_loss=0.0406 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[38/300] RandomSearch | add_sinesaw | p_loss=0.2507 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[39/300] RandomSearch | add_sinesaw | p_loss=0.2236 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[40/300] RandomSearch | add_sinesaw | p_loss=0.1368 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[41/300] RandomSearch | add_sinesaw | p_loss=0.2750 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[42/300] RandomSearch | add_sinesaw | p_loss=0.1631 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[43/300] RandomSearch | add_sinesaw | p_loss=0.6756 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[44/300] RandomSearch | add_sinesaw | p_loss=0.4465 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[45/300] RandomSearch | add_sinesaw | p_loss=0.6272 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[46/300] RandomSearch | add_sinesaw | p_loss=0.6347 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[47/300] RandomSearch | add_sinesaw | p_loss=0.1157 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[48/300] RandomSearch | add_sinesaw | p_loss=0.0652 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[49/300] RandomSearch | add_sinesaw | p_loss=0.1090 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[50/300] RandomSearch | add_sinesaw | p_loss=0.1915 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[51/300] RandomSearch | add_sinesaw | p_loss=0.5275 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[52/300] RandomSearch | add_sinesaw | p_loss=0.7071 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[53/300] RandomSearch | add_sinesaw | p_loss=0.0651 | 15.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[54/300] RandomSearch | add_sinesaw | p_loss=0.1593 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[55/300] RandomSearch | add_sinesaw | p_loss=0.0635 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[56/300] RandomSearch | add_sinesaw | p_loss=0.4581 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[57/300] RandomSearch | add_sinesaw | p_loss=0.2777 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[58/300] RandomSearch | add_sinesaw | p_loss=0.6229 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[59/300] RandomSearch | add_sinesaw | p_loss=0.9533 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[60/300] RandomSearch | add_sinesaw | p_loss=0.0217 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[61/300] RandomSearch | add_sinesaw | p_loss=0.5045 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[62/300] RandomSearch | add_sinesaw | p_loss=0.0368 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[63/300] RandomSearch | add_sinesaw | p_loss=0.6378 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[64/300] RandomSearch | add_sinesaw | p_loss=0.6037 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[65/300] RandomSearch | add_sinesaw | p_loss=0.0068 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[66/300] RandomSearch | add_sinesaw | p_loss=0.3820 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[67/300] RandomSearch | add_sinesaw | p_loss=0.5518 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[68/300] RandomSearch | add_sinesaw | p_loss=0.0969 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[69/300] RandomSearch | add_sinesaw | p_loss=0.3706 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[70/300] RandomSearch | add_sinesaw | p_loss=0.1980 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[71/300] RandomSearch | add_sinesaw | p_loss=0.2930 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[72/300] RandomSearch | add_sinesaw | p_loss=0.0325 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[73/300] RandomSearch | add_sinesaw | p_loss=0.0274 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[74/300] RandomSearch | add_sinesaw | p_loss=0.3952 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[75/300] RandomSearch | add_sinesaw | p_loss=0.0803 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[76/300] RandomSearch | add_sinesaw | p_loss=0.7002 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[77/300] RandomSearch | add_sinesaw | p_loss=0.0352 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[78/300] RandomSearch | add_sinesaw | p_loss=0.0137 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[79/300] RandomSearch | add_sinesaw | p_loss=0.0259 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[80/300] RandomSearch | add_sinesaw | p_loss=0.0304 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[81/300] RandomSearch | add_sinesaw | p_loss=0.0354 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[82/300] RandomSearch | add_sinesaw | p_loss=0.0539 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[83/300] RandomSearch | add_sinesaw | p_loss=0.1719 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[84/300] RandomSearch | add_sinesaw | p_loss=0.6165 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[85/300] RandomSearch | add_sinesaw | p_loss=0.4401 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[86/300] RandomSearch | add_sinesaw | p_loss=0.4110 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[87/300] RandomSearch | add_sinesaw | p_loss=0.2255 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[88/300] RandomSearch | add_sinesaw | p_loss=0.0311 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[89/300] RandomSearch | add_sinesaw | p_loss=0.0843 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[90/300] RandomSearch | add_sinesaw | p_loss=0.0045 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[91/300] RandomSearch | add_sinesaw | p_loss=0.0636 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[92/300] RandomSearch | add_sinesaw | p_loss=0.4397 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[93/300] RandomSearch | add_sinesaw | p_loss=0.0144 | 17.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[94/300] RandomSearch | add_sinesaw | p_loss=0.0378 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[95/300] RandomSearch | add_sinesaw | p_loss=0.1014 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[96/300] RandomSearch | add_sinesaw | p_loss=0.0547 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[97/300] RandomSearch | add_sinesaw | p_loss=0.1479 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[98/300] RandomSearch | add_sinesaw | p_loss=0.2537 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[99/300] RandomSearch | add_sinesaw | p_loss=0.1683 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[100/300] RandomSearch | add_sinesaw | p_loss=0.0094 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[101/300] RandomSearch | add_sinesaw | p_loss=0.0400 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[102/300] RandomSearch | add_sinesaw | p_loss=0.1355 | 15.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[103/300] RandomSearch | add_sinesaw | p_loss=0.0143 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[104/300] RandomSearch | add_sinesaw | p_loss=0.4086 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[105/300] RandomSearch | add_sinesaw | p_loss=0.2618 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[106/300] RandomSearch | add_sinesaw | p_loss=0.5340 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[107/300] RandomSearch | add_sinesaw | p_loss=0.0241 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[108/300] RandomSearch | add_sinesaw | p_loss=0.0095 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[109/300] RandomSearch | add_sinesaw | p_loss=0.0351 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[110/300] RandomSearch | add_sinesaw | p_loss=0.0096 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[111/300] RandomSearch | add_sinesaw | p_loss=0.9350 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[112/300] RandomSearch | add_sinesaw | p_loss=0.3550 | 16.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[113/300] RandomSearch | add_sinesaw | p_loss=0.4102 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[114/300] RandomSearch | add_sinesaw | p_loss=0.0250 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[115/300] RandomSearch | add_sinesaw | p_loss=0.0151 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[116/300] RandomSearch | add_sinesaw | p_loss=0.0107 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[117/300] RandomSearch | add_sinesaw | p_loss=0.0836 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[118/300] RandomSearch | add_sinesaw | p_loss=0.7529 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[119/300] RandomSearch | add_sinesaw | p_loss=0.0533 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[120/300] RandomSearch | add_sinesaw | p_loss=0.0350 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[121/300] RandomSearch | add_sinesaw | p_loss=0.1530 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[122/300] RandomSearch | add_sinesaw | p_loss=0.3480 | 16.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[123/300] RandomSearch | add_sinesaw | p_loss=0.1165 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[124/300] RandomSearch | add_sinesaw | p_loss=0.0201 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[125/300] RandomSearch | add_sinesaw | p_loss=0.0094 | 16.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[126/300] RandomSearch | add_sinesaw | p_loss=0.1737 | 16.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[127/300] RandomSearch | add_sinesaw | p_loss=0.0156 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[128/300] RandomSearch | add_sinesaw | p_loss=0.4867 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[129/300] RandomSearch | add_sinesaw | p_loss=0.1416 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[130/300] RandomSearch | add_sinesaw | p_loss=0.0213 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[131/300] RandomSearch | add_sinesaw | p_loss=0.0111 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[132/300] RandomSearch | add_sinesaw | p_loss=0.4119 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[133/300] RandomSearch | add_sinesaw | p_loss=0.1318 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[134/300] RandomSearch | add_sinesaw | p_loss=0.2655 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[135/300] RandomSearch | add_sinesaw | p_loss=0.0218 | 16.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[136/300] RandomSearch | add_sinesaw | p_loss=0.6703 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[137/300] RandomSearch | add_sinesaw | p_loss=0.0301 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[138/300] RandomSearch | add_sinesaw | p_loss=0.2638 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[139/300] RandomSearch | add_sinesaw | p_loss=0.3116 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[140/300] RandomSearch | add_sinesaw | p_loss=0.1900 | 16.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[141/300] RandomSearch | add_sinesaw | p_loss=0.7922 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[142/300] RandomSearch | add_sinesaw | p_loss=0.3886 | 17.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[143/300] RandomSearch | add_sinesaw | p_loss=0.7873 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[144/300] RandomSearch | add_sinesaw | p_loss=0.4102 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[145/300] RandomSearch | add_sinesaw | p_loss=0.5200 | 17.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[146/300] RandomSearch | add_sinesaw | p_loss=0.0117 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[147/300] RandomSearch | add_sinesaw | p_loss=0.0725 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[148/300] RandomSearch | add_sinesaw | p_loss=0.0152 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[149/300] RandomSearch | add_sinesaw | p_loss=0.0385 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[150/300] RandomSearch | add_sinesaw | p_loss=0.7378 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[151/300] RandomSearch | add_sinesaw | p_loss=0.0699 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[152/300] RandomSearch | add_sinesaw | p_loss=0.4655 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[153/300] RandomSearch | add_sinesaw | p_loss=0.0141 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[154/300] RandomSearch | add_sinesaw | p_loss=0.0530 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[155/300] RandomSearch | add_sinesaw | p_loss=0.0655 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[156/300] RandomSearch | add_sinesaw | p_loss=0.2661 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[157/300] RandomSearch | add_sinesaw | p_loss=0.6497 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[158/300] RandomSearch | add_sinesaw | p_loss=0.0296 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[159/300] RandomSearch | add_sinesaw | p_loss=0.0151 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[160/300] RandomSearch | add_sinesaw | p_loss=0.0257 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[161/300] RandomSearch | add_sinesaw | p_loss=0.0155 | 17.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[162/300] RandomSearch | add_sinesaw | p_loss=0.8256 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[163/300] RandomSearch | add_sinesaw | p_loss=0.0426 | 16.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[164/300] RandomSearch | add_sinesaw | p_loss=0.0987 | 17.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[165/300] RandomSearch | add_sinesaw | p_loss=0.6755 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[166/300] RandomSearch | add_sinesaw | p_loss=0.0328 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[167/300] RandomSearch | add_sinesaw | p_loss=0.2107 | 16.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[168/300] RandomSearch | add_sinesaw | p_loss=0.2399 | 17.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[169/300] RandomSearch | add_sinesaw | p_loss=0.1069 | 16.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[170/300] RandomSearch | add_sinesaw | p_loss=0.6086 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[171/300] RandomSearch | add_sinesaw | p_loss=0.0172 | 16.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[172/300] RandomSearch | add_sinesaw | p_loss=0.5021 | 17.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[173/300] RandomSearch | add_sinesaw | p_loss=0.0089 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[174/300] RandomSearch | add_sinesaw | p_loss=0.1033 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[175/300] RandomSearch | add_sinesaw | p_loss=0.0583 | 12.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[176/300] RandomSearch | add_sinesaw | p_loss=0.5918 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[177/300] RandomSearch | add_sinesaw | p_loss=0.0255 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[178/300] RandomSearch | add_sinesaw | p_loss=0.4618 | 15.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[179/300] RandomSearch | add_sinesaw | p_loss=0.0197 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[180/300] RandomSearch | add_sinesaw | p_loss=0.0028 | 15.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[181/300] RandomSearch | add_sinesaw | p_loss=0.0245 | 15.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[182/300] RandomSearch | add_sinesaw | p_loss=0.0100 | 15.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[183/300] RandomSearch | add_sinesaw | p_loss=0.0776 | 15.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[184/300] RandomSearch | add_sinesaw | p_loss=0.0133 | 15.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[185/300] RandomSearch | add_sinesaw | p_loss=0.3598 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[186/300] RandomSearch | add_sinesaw | p_loss=0.0688 | 15.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[187/300] RandomSearch | add_sinesaw | p_loss=0.0196 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[188/300] RandomSearch | add_sinesaw | p_loss=0.2724 | 15.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[189/300] RandomSearch | add_sinesaw | p_loss=0.2991 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[190/300] RandomSearch | add_sinesaw | p_loss=0.3703 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[191/300] RandomSearch | add_sinesaw | p_loss=0.3603 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[192/300] RandomSearch | add_sinesaw | p_loss=0.4907 | 15.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[193/300] RandomSearch | add_sinesaw | p_loss=0.0065 | 15.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[194/300] RandomSearch | add_sinesaw | p_loss=0.0195 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[195/300] RandomSearch | add_sinesaw | p_loss=0.0023 | 15.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[196/300] RandomSearch | add_sinesaw | p_loss=0.6801 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[197/300] RandomSearch | add_sinesaw | p_loss=0.0527 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[198/300] RandomSearch | add_sinesaw | p_loss=0.3881 | 15.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[199/300] RandomSearch | add_sinesaw | p_loss=0.5257 | 15.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[200/300] RandomSearch | add_sinesaw | p_loss=0.4519 | 15.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[201/300] RandomSearch | add_sinesaw | p_loss=0.0260 | 15.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[202/300] RandomSearch | add_sinesaw | p_loss=0.7390 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[203/300] RandomSearch | add_sinesaw | p_loss=0.0356 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[204/300] RandomSearch | add_sinesaw | p_loss=0.2761 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[205/300] RandomSearch | add_sinesaw | p_loss=0.6166 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[206/300] RandomSearch | add_sinesaw | p_loss=0.0300 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[207/300] RandomSearch | add_sinesaw | p_loss=0.0372 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[208/300] RandomSearch | add_sinesaw | p_loss=0.0443 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[209/300] RandomSearch | add_sinesaw | p_loss=0.0531 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[210/300] RandomSearch | add_sinesaw | p_loss=0.0167 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[211/300] RandomSearch | add_sinesaw | p_loss=0.0104 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[212/300] RandomSearch | add_sinesaw | p_loss=0.4160 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[213/300] RandomSearch | add_sinesaw | p_loss=0.3681 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[214/300] RandomSearch | add_sinesaw | p_loss=0.3988 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[215/300] RandomSearch | add_sinesaw | p_loss=0.0270 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[216/300] RandomSearch | add_sinesaw | p_loss=0.1044 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[217/300] RandomSearch | add_sinesaw | p_loss=0.0842 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[218/300] RandomSearch | add_sinesaw | p_loss=0.0144 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[219/300] RandomSearch | add_sinesaw | p_loss=0.7544 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[220/300] RandomSearch | add_sinesaw | p_loss=0.0423 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[221/300] RandomSearch | add_sinesaw | p_loss=0.1153 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[222/300] RandomSearch | add_sinesaw | p_loss=0.0409 | 13.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[223/300] RandomSearch | add_sinesaw | p_loss=0.0209 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[224/300] RandomSearch | add_sinesaw | p_loss=0.1723 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[225/300] RandomSearch | add_sinesaw | p_loss=0.0040 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[226/300] RandomSearch | add_sinesaw | p_loss=0.0220 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[227/300] RandomSearch | add_sinesaw | p_loss=0.0038 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[228/300] RandomSearch | add_sinesaw | p_loss=0.1874 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[229/300] RandomSearch | add_sinesaw | p_loss=0.6071 | 13.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[230/300] RandomSearch | add_sinesaw | p_loss=0.1548 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[231/300] RandomSearch | add_sinesaw | p_loss=0.0578 | 13.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[232/300] RandomSearch | add_sinesaw | p_loss=0.0710 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[233/300] RandomSearch | add_sinesaw | p_loss=0.0307 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[234/300] RandomSearch | add_sinesaw | p_loss=0.1069 | 13.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[235/300] RandomSearch | add_sinesaw | p_loss=0.0168 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[236/300] RandomSearch | add_sinesaw | p_loss=0.3723 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[237/300] RandomSearch | add_sinesaw | p_loss=0.3508 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[238/300] RandomSearch | add_sinesaw | p_loss=0.7351 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[239/300] RandomSearch | add_sinesaw | p_loss=0.0254 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[240/300] RandomSearch | add_sinesaw | p_loss=0.9260 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[241/300] RandomSearch | add_sinesaw | p_loss=0.8142 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[242/300] RandomSearch | add_sinesaw | p_loss=0.0059 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[243/300] RandomSearch | add_sinesaw | p_loss=0.6325 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[244/300] RandomSearch | add_sinesaw | p_loss=0.0080 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[245/300] RandomSearch | add_sinesaw | p_loss=0.0202 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[246/300] RandomSearch | add_sinesaw | p_loss=0.3703 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[247/300] RandomSearch | add_sinesaw | p_loss=0.0299 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[248/300] RandomSearch | add_sinesaw | p_loss=0.4049 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[249/300] RandomSearch | add_sinesaw | p_loss=0.3738 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[250/300] RandomSearch | add_sinesaw | p_loss=0.0200 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[251/300] RandomSearch | add_sinesaw | p_loss=0.0552 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[252/300] RandomSearch | add_sinesaw | p_loss=0.0332 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[253/300] RandomSearch | add_sinesaw | p_loss=0.1246 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[254/300] RandomSearch | add_sinesaw | p_loss=0.0304 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[255/300] RandomSearch | add_sinesaw | p_loss=0.0259 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[256/300] RandomSearch | add_sinesaw | p_loss=0.3485 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[257/300] RandomSearch | add_sinesaw | p_loss=0.1167 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[258/300] RandomSearch | add_sinesaw | p_loss=0.0638 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[259/300] RandomSearch | add_sinesaw | p_loss=0.0227 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[260/300] RandomSearch | add_sinesaw | p_loss=0.0157 | 13.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[261/300] RandomSearch | add_sinesaw | p_loss=0.0158 | 13.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[262/300] RandomSearch | add_sinesaw | p_loss=0.3436 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[263/300] RandomSearch | add_sinesaw | p_loss=0.5804 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[264/300] RandomSearch | add_sinesaw | p_loss=0.0286 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[265/300] RandomSearch | add_sinesaw | p_loss=0.1168 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[266/300] RandomSearch | add_sinesaw | p_loss=0.0106 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[267/300] RandomSearch | add_sinesaw | p_loss=0.2440 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[268/300] RandomSearch | add_sinesaw | p_loss=0.0222 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[269/300] RandomSearch | add_sinesaw | p_loss=0.9300 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[270/300] RandomSearch | add_sinesaw | p_loss=0.4577 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[271/300] RandomSearch | add_sinesaw | p_loss=0.0077 | 13.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[272/300] RandomSearch | add_sinesaw | p_loss=0.0521 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[273/300] RandomSearch | add_sinesaw | p_loss=0.1063 | 12.8s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[274/300] RandomSearch | add_sinesaw | p_loss=0.5157 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[275/300] RandomSearch | add_sinesaw | p_loss=0.6537 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[276/300] RandomSearch | add_sinesaw | p_loss=0.0101 | 12.9s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[277/300] RandomSearch | add_sinesaw | p_loss=0.6829 | 12.7s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[278/300] RandomSearch | add_sinesaw | p_loss=0.2227 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[279/300] RandomSearch | add_sinesaw | p_loss=0.0327 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[280/300] RandomSearch | add_sinesaw | p_loss=0.0122 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[281/300] RandomSearch | add_sinesaw | p_loss=0.0249 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[282/300] RandomSearch | add_sinesaw | p_loss=0.0504 | 13.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[283/300] RandomSearch | add_sinesaw | p_loss=0.0018 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[284/300] RandomSearch | add_sinesaw | p_loss=0.3316 | 13.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[285/300] RandomSearch | add_sinesaw | p_loss=0.0276 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[286/300] RandomSearch | add_sinesaw | p_loss=0.0373 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[287/300] RandomSearch | add_sinesaw | p_loss=0.0059 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[288/300] RandomSearch | add_sinesaw | p_loss=0.0050 | 12.4s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[289/300] RandomSearch | add_sinesaw | p_loss=0.1189 | 12.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[290/300] RandomSearch | add_sinesaw | p_loss=0.4322 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[291/300] RandomSearch | add_sinesaw | p_loss=0.0147 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[292/300] RandomSearch | add_sinesaw | p_loss=0.0191 | 12.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[293/300] RandomSearch | add_sinesaw | p_loss=0.3921 | 12.5s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[294/300] RandomSearch | add_sinesaw | p_loss=0.5515 | 12.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[295/300] RandomSearch | add_sinesaw | p_loss=0.0067 | 12.1s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[296/300] RandomSearch | add_sinesaw | p_loss=0.0199 | 12.3s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[297/300] RandomSearch | add_sinesaw | p_loss=0.0198 | 12.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[298/300] RandomSearch | add_sinesaw | p_loss=0.4130 | 12.0s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[299/300] RandomSearch | add_sinesaw | p_loss=0.5513 | 12.2s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/add_sinesaw_23d34a406380/add_sinesaw.dsp.json
+  saw_freq              /add_sinesaw/saw_freq                     [20.0, 1000.0]  default=510.0
+  sine_freq             /add_sinesaw/sine_freq                    [20.0, 1000.0]  default=510.0
+[300/300] RandomSearch | add_sinesaw | p_loss=0.0164 | 12.6s | add_sinesaw_SIMSE_Spec_RandomSearch.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_SIMSE_Spec_RandomSearch.pkl

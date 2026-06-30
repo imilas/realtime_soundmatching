@@ -1,0 +1,2044 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/cshome/asalimi/.conda/envs/soundmatch/lib/python3.10/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4382.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+am_noise/CLAP/CMA-ES: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3621.07it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Load our best checkpoint in the paper.
+The checkpoint is already downloaded
+Load Checkpoint...
+logit_scale_a 	 Loaded
+logit_scale_t 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_real.weight 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_imag.weight 	 Loaded
+audio_branch.logmel_extractor.melW 	 Loaded
+audio_branch.bn0.weight 	 Loaded
+audio_branch.bn0.bias 	 Loaded
+audio_branch.patch_embed.proj.weight 	 Loaded
+audio_branch.patch_embed.proj.bias 	 Loaded
+audio_branch.patch_embed.norm.weight 	 Loaded
+audio_branch.patch_embed.norm.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.downsample.reduction.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.downsample.reduction.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.downsample.reduction.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.norm.weight 	 Loaded
+audio_branch.norm.bias 	 Loaded
+audio_branch.tscam_conv.weight 	 Loaded
+audio_branch.tscam_conv.bias 	 Loaded
+audio_branch.head.weight 	 Loaded
+audio_branch.head.bias 	 Loaded
+text_branch.embeddings.word_embeddings.weight 	 Loaded
+text_branch.embeddings.token_type_embeddings.weight 	 Loaded
+text_branch.embeddings.LayerNorm.weight 	 Loaded
+text_branch.embeddings.LayerNorm.bias 	 Loaded
+text_branch.embeddings.position_embeddings.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.bias 	 Loaded
+text_branch.pooler.dense.weight 	 Loaded
+text_branch.pooler.dense.bias 	 Loaded
+text_transform.sequential.0.weight 	 Loaded
+text_transform.sequential.0.bias 	 Loaded
+text_transform.sequential.3.weight 	 Loaded
+text_transform.sequential.3.bias 	 Loaded
+text_projection.0.weight 	 Loaded
+text_projection.0.bias 	 Loaded
+text_projection.2.weight 	 Loaded
+text_projection.2.bias 	 Loaded
+audio_transform.sequential.0.weight 	 Loaded
+audio_transform.sequential.0.bias 	 Loaded
+audio_transform.sequential.3.weight 	 Loaded
+audio_transform.sequential.3.bias 	 Loaded
+audio_projection.0.weight 	 Loaded
+audio_projection.0.bias 	 Loaded
+audio_projection.2.weight 	 Loaded
+audio_projection.2.bias 	 Loaded
+[1/300] CMA-ES | am_noise | p_loss=0.0000 | 338.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[2/300] CMA-ES | am_noise | p_loss=0.0464 | 314.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[3/300] CMA-ES | am_noise | p_loss=0.0000 | 305.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[4/300] CMA-ES | am_noise | p_loss=0.0000 | 318.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[5/300] CMA-ES | am_noise | p_loss=0.0000 | 302.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[6/300] CMA-ES | am_noise | p_loss=0.0366 | 307.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[7/300] CMA-ES | am_noise | p_loss=0.0000 | 304.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[8/300] CMA-ES | am_noise | p_loss=0.0000 | 309.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[9/300] CMA-ES | am_noise | p_loss=0.0000 | 316.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[10/300] CMA-ES | am_noise | p_loss=0.3837 | 321.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[11/300] CMA-ES | am_noise | p_loss=0.0002 | 313.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[12/300] CMA-ES | am_noise | p_loss=0.1254 | 318.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[13/300] CMA-ES | am_noise | p_loss=0.0635 | 313.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[14/300] CMA-ES | am_noise | p_loss=0.0151 | 316.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[15/300] CMA-ES | am_noise | p_loss=0.0000 | 303.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[16/300] CMA-ES | am_noise | p_loss=0.0000 | 314.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[17/300] CMA-ES | am_noise | p_loss=0.0024 | 307.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[18/300] CMA-ES | am_noise | p_loss=0.0123 | 310.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[19/300] CMA-ES | am_noise | p_loss=0.0000 | 310.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[20/300] CMA-ES | am_noise | p_loss=0.0001 | 314.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[21/300] CMA-ES | am_noise | p_loss=0.0000 | 315.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[22/300] CMA-ES | am_noise | p_loss=0.0001 | 323.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[23/300] CMA-ES | am_noise | p_loss=0.0000 | 322.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[24/300] CMA-ES | am_noise | p_loss=0.0000 | 324.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[25/300] CMA-ES | am_noise | p_loss=0.0000 | 320.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[26/300] CMA-ES | am_noise | p_loss=0.1498 | 332.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[27/300] CMA-ES | am_noise | p_loss=0.0000 | 327.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[28/300] CMA-ES | am_noise | p_loss=0.0000 | 319.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[29/300] CMA-ES | am_noise | p_loss=0.0000 | 307.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[30/300] CMA-ES | am_noise | p_loss=0.0000 | 312.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[31/300] CMA-ES | am_noise | p_loss=0.0057 | 312.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[32/300] CMA-ES | am_noise | p_loss=0.0000 | 308.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[33/300] CMA-ES | am_noise | p_loss=0.0000 | 301.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[34/300] CMA-ES | am_noise | p_loss=0.1733 | 311.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[35/300] CMA-ES | am_noise | p_loss=0.0000 | 314.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[36/300] CMA-ES | am_noise | p_loss=0.0002 | 320.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[37/300] CMA-ES | am_noise | p_loss=0.0000 | 315.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[38/300] CMA-ES | am_noise | p_loss=0.0000 | 320.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[39/300] CMA-ES | am_noise | p_loss=0.0001 | 324.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[40/300] CMA-ES | am_noise | p_loss=0.0000 | 320.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[41/300] CMA-ES | am_noise | p_loss=0.0079 | 327.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[42/300] CMA-ES | am_noise | p_loss=0.0092 | 317.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[43/300] CMA-ES | am_noise | p_loss=0.0299 | 305.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[44/300] CMA-ES | am_noise | p_loss=0.0006 | 323.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[45/300] CMA-ES | am_noise | p_loss=0.2626 | 319.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[46/300] CMA-ES | am_noise | p_loss=0.5937 | 328.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[47/300] CMA-ES | am_noise | p_loss=0.3354 | 318.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[48/300] CMA-ES | am_noise | p_loss=0.1165 | 311.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[49/300] CMA-ES | am_noise | p_loss=0.0000 | 329.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[50/300] CMA-ES | am_noise | p_loss=0.0005 | 320.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[51/300] CMA-ES | am_noise | p_loss=0.0243 | 317.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[52/300] CMA-ES | am_noise | p_loss=0.0000 | 328.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[53/300] CMA-ES | am_noise | p_loss=0.0000 | 323.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[54/300] CMA-ES | am_noise | p_loss=0.0001 | 327.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[55/300] CMA-ES | am_noise | p_loss=0.1080 | 311.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[56/300] CMA-ES | am_noise | p_loss=0.0380 | 312.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[57/300] CMA-ES | am_noise | p_loss=0.0000 | 314.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[58/300] CMA-ES | am_noise | p_loss=0.0008 | 316.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[59/300] CMA-ES | am_noise | p_loss=0.0498 | 298.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[60/300] CMA-ES | am_noise | p_loss=0.0000 | 302.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[61/300] CMA-ES | am_noise | p_loss=0.0000 | 311.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[62/300] CMA-ES | am_noise | p_loss=0.0000 | 303.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[63/300] CMA-ES | am_noise | p_loss=0.0501 | 311.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[64/300] CMA-ES | am_noise | p_loss=0.0000 | 313.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[65/300] CMA-ES | am_noise | p_loss=0.0063 | 303.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[66/300] CMA-ES | am_noise | p_loss=0.0000 | 305.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[67/300] CMA-ES | am_noise | p_loss=0.0000 | 304.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[68/300] CMA-ES | am_noise | p_loss=0.0000 | 309.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[69/300] CMA-ES | am_noise | p_loss=0.0297 | 299.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[70/300] CMA-ES | am_noise | p_loss=0.0000 | 310.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[71/300] CMA-ES | am_noise | p_loss=0.0000 | 312.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[72/300] CMA-ES | am_noise | p_loss=0.0000 | 305.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[73/300] CMA-ES | am_noise | p_loss=0.0000 | 296.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[74/300] CMA-ES | am_noise | p_loss=0.1957 | 309.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[75/300] CMA-ES | am_noise | p_loss=0.1991 | 307.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[76/300] CMA-ES | am_noise | p_loss=0.0000 | 307.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[77/300] CMA-ES | am_noise | p_loss=0.1568 | 312.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[78/300] CMA-ES | am_noise | p_loss=0.0000 | 305.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[79/300] CMA-ES | am_noise | p_loss=0.0000 | 314.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[80/300] CMA-ES | am_noise | p_loss=0.0000 | 322.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[81/300] CMA-ES | am_noise | p_loss=0.0000 | 316.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[82/300] CMA-ES | am_noise | p_loss=0.0001 | 319.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[83/300] CMA-ES | am_noise | p_loss=0.0000 | 308.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[84/300] CMA-ES | am_noise | p_loss=0.0016 | 304.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[85/300] CMA-ES | am_noise | p_loss=0.0002 | 313.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[86/300] CMA-ES | am_noise | p_loss=0.0000 | 300.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[87/300] CMA-ES | am_noise | p_loss=0.1007 | 301.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[88/300] CMA-ES | am_noise | p_loss=0.0000 | 301.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[89/300] CMA-ES | am_noise | p_loss=0.0227 | 302.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[90/300] CMA-ES | am_noise | p_loss=0.0000 | 306.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[91/300] CMA-ES | am_noise | p_loss=0.0000 | 304.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[92/300] CMA-ES | am_noise | p_loss=0.0000 | 302.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[93/300] CMA-ES | am_noise | p_loss=0.0000 | 304.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[94/300] CMA-ES | am_noise | p_loss=0.0000 | 315.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[95/300] CMA-ES | am_noise | p_loss=0.0000 | 331.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[96/300] CMA-ES | am_noise | p_loss=0.0001 | 333.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[97/300] CMA-ES | am_noise | p_loss=0.0000 | 326.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[98/300] CMA-ES | am_noise | p_loss=0.0000 | 328.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[99/300] CMA-ES | am_noise | p_loss=0.0001 | 321.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[100/300] CMA-ES | am_noise | p_loss=0.1186 | 322.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[101/300] CMA-ES | am_noise | p_loss=0.0000 | 335.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[102/300] CMA-ES | am_noise | p_loss=0.0000 | 327.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[103/300] CMA-ES | am_noise | p_loss=0.0000 | 323.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[104/300] CMA-ES | am_noise | p_loss=0.0000 | 324.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[105/300] CMA-ES | am_noise | p_loss=0.0000 | 327.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[106/300] CMA-ES | am_noise | p_loss=0.0000 | 324.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[107/300] CMA-ES | am_noise | p_loss=0.0000 | 323.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[108/300] CMA-ES | am_noise | p_loss=0.0000 | 321.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[109/300] CMA-ES | am_noise | p_loss=0.0074 | 329.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[110/300] CMA-ES | am_noise | p_loss=0.0000 | 311.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[111/300] CMA-ES | am_noise | p_loss=0.0004 | 319.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[112/300] CMA-ES | am_noise | p_loss=0.0968 | 318.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[113/300] CMA-ES | am_noise | p_loss=0.0000 | 316.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[114/300] CMA-ES | am_noise | p_loss=0.0940 | 328.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[115/300] CMA-ES | am_noise | p_loss=0.0000 | 325.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[116/300] CMA-ES | am_noise | p_loss=0.0000 | 323.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[117/300] CMA-ES | am_noise | p_loss=0.0000 | 314.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[118/300] CMA-ES | am_noise | p_loss=0.0014 | 302.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[119/300] CMA-ES | am_noise | p_loss=0.2612 | 302.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[120/300] CMA-ES | am_noise | p_loss=0.0000 | 301.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[121/300] CMA-ES | am_noise | p_loss=0.0000 | 301.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[122/300] CMA-ES | am_noise | p_loss=0.5127 | 306.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[123/300] CMA-ES | am_noise | p_loss=0.0000 | 302.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[124/300] CMA-ES | am_noise | p_loss=0.0000 | 300.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[125/300] CMA-ES | am_noise | p_loss=0.0142 | 316.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[126/300] CMA-ES | am_noise | p_loss=0.0425 | 331.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[127/300] CMA-ES | am_noise | p_loss=0.0114 | 330.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[128/300] CMA-ES | am_noise | p_loss=0.4422 | 331.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[129/300] CMA-ES | am_noise | p_loss=0.0000 | 327.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[130/300] CMA-ES | am_noise | p_loss=0.0087 | 328.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[131/300] CMA-ES | am_noise | p_loss=0.0080 | 333.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[132/300] CMA-ES | am_noise | p_loss=0.0275 | 332.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[133/300] CMA-ES | am_noise | p_loss=0.0556 | 337.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[134/300] CMA-ES | am_noise | p_loss=0.0000 | 337.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[135/300] CMA-ES | am_noise | p_loss=0.0284 | 336.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[136/300] CMA-ES | am_noise | p_loss=0.0000 | 328.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[137/300] CMA-ES | am_noise | p_loss=0.0000 | 331.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[138/300] CMA-ES | am_noise | p_loss=0.6770 | 326.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[139/300] CMA-ES | am_noise | p_loss=0.0218 | 331.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[140/300] CMA-ES | am_noise | p_loss=0.1130 | 332.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[141/300] CMA-ES | am_noise | p_loss=0.0000 | 330.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[142/300] CMA-ES | am_noise | p_loss=0.0000 | 322.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[143/300] CMA-ES | am_noise | p_loss=0.1015 | 328.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[144/300] CMA-ES | am_noise | p_loss=0.0000 | 330.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[145/300] CMA-ES | am_noise | p_loss=0.1584 | 328.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[146/300] CMA-ES | am_noise | p_loss=0.0869 | 334.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[147/300] CMA-ES | am_noise | p_loss=0.0962 | 316.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[148/300] CMA-ES | am_noise | p_loss=0.1726 | 318.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[149/300] CMA-ES | am_noise | p_loss=0.0000 | 316.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[150/300] CMA-ES | am_noise | p_loss=0.0000 | 310.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[151/300] CMA-ES | am_noise | p_loss=0.0000 | 311.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[152/300] CMA-ES | am_noise | p_loss=0.0000 | 317.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[153/300] CMA-ES | am_noise | p_loss=0.0000 | 319.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[154/300] CMA-ES | am_noise | p_loss=0.1927 | 316.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[155/300] CMA-ES | am_noise | p_loss=0.0000 | 312.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[156/300] CMA-ES | am_noise | p_loss=0.0000 | 316.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[157/300] CMA-ES | am_noise | p_loss=0.0005 | 316.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[158/300] CMA-ES | am_noise | p_loss=0.0000 | 314.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[159/300] CMA-ES | am_noise | p_loss=0.1023 | 319.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[160/300] CMA-ES | am_noise | p_loss=0.0348 | 320.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[161/300] CMA-ES | am_noise | p_loss=0.0000 | 318.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[162/300] CMA-ES | am_noise | p_loss=0.0000 | 318.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[163/300] CMA-ES | am_noise | p_loss=0.0000 | 319.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[164/300] CMA-ES | am_noise | p_loss=0.0000 | 317.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[165/300] CMA-ES | am_noise | p_loss=0.0000 | 314.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[166/300] CMA-ES | am_noise | p_loss=0.0008 | 318.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[167/300] CMA-ES | am_noise | p_loss=0.1578 | 314.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[168/300] CMA-ES | am_noise | p_loss=0.0063 | 320.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[169/300] CMA-ES | am_noise | p_loss=0.0000 | 324.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[170/300] CMA-ES | am_noise | p_loss=0.1734 | 317.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[171/300] CMA-ES | am_noise | p_loss=0.0221 | 312.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[172/300] CMA-ES | am_noise | p_loss=0.0001 | 316.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[173/300] CMA-ES | am_noise | p_loss=0.0000 | 325.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[174/300] CMA-ES | am_noise | p_loss=0.0000 | 329.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[175/300] CMA-ES | am_noise | p_loss=0.0022 | 350.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[176/300] CMA-ES | am_noise | p_loss=0.0000 | 320.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[177/300] CMA-ES | am_noise | p_loss=0.0000 | 333.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[178/300] CMA-ES | am_noise | p_loss=0.0000 | 334.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[179/300] CMA-ES | am_noise | p_loss=0.0005 | 328.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[180/300] CMA-ES | am_noise | p_loss=0.0222 | 332.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[181/300] CMA-ES | am_noise | p_loss=0.0001 | 333.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[182/300] CMA-ES | am_noise | p_loss=0.0000 | 329.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[183/300] CMA-ES | am_noise | p_loss=0.0002 | 329.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[184/300] CMA-ES | am_noise | p_loss=0.0000 | 330.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[185/300] CMA-ES | am_noise | p_loss=0.5677 | 322.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[186/300] CMA-ES | am_noise | p_loss=0.0000 | 320.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[187/300] CMA-ES | am_noise | p_loss=0.0439 | 324.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[188/300] CMA-ES | am_noise | p_loss=0.0000 | 317.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[189/300] CMA-ES | am_noise | p_loss=0.0000 | 319.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[190/300] CMA-ES | am_noise | p_loss=0.0000 | 313.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[191/300] CMA-ES | am_noise | p_loss=0.0000 | 309.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[192/300] CMA-ES | am_noise | p_loss=0.0000 | 311.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[193/300] CMA-ES | am_noise | p_loss=0.0655 | 319.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[194/300] CMA-ES | am_noise | p_loss=0.0000 | 318.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[195/300] CMA-ES | am_noise | p_loss=0.0000 | 317.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[196/300] CMA-ES | am_noise | p_loss=0.0000 | 313.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[197/300] CMA-ES | am_noise | p_loss=0.1728 | 310.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[198/300] CMA-ES | am_noise | p_loss=0.0000 | 311.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[199/300] CMA-ES | am_noise | p_loss=0.0000 | 309.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[200/300] CMA-ES | am_noise | p_loss=0.0000 | 303.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[201/300] CMA-ES | am_noise | p_loss=0.0000 | 300.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[202/300] CMA-ES | am_noise | p_loss=0.2713 | 311.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[203/300] CMA-ES | am_noise | p_loss=0.0001 | 306.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[204/300] CMA-ES | am_noise | p_loss=0.0000 | 305.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[205/300] CMA-ES | am_noise | p_loss=0.0000 | 307.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[206/300] CMA-ES | am_noise | p_loss=0.0360 | 307.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[207/300] CMA-ES | am_noise | p_loss=0.0000 | 317.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[208/300] CMA-ES | am_noise | p_loss=0.0303 | 342.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[209/300] CMA-ES | am_noise | p_loss=0.0000 | 339.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[210/300] CMA-ES | am_noise | p_loss=0.0000 | 336.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[211/300] CMA-ES | am_noise | p_loss=0.0000 | 330.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[212/300] CMA-ES | am_noise | p_loss=0.0010 | 321.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[213/300] CMA-ES | am_noise | p_loss=0.7008 | 332.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[214/300] CMA-ES | am_noise | p_loss=0.0000 | 333.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[215/300] CMA-ES | am_noise | p_loss=0.0003 | 334.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[216/300] CMA-ES | am_noise | p_loss=0.0000 | 327.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[217/300] CMA-ES | am_noise | p_loss=0.0002 | 329.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[218/300] CMA-ES | am_noise | p_loss=0.0000 | 323.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[219/300] CMA-ES | am_noise | p_loss=0.4898 | 327.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[220/300] CMA-ES | am_noise | p_loss=0.0000 | 326.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[221/300] CMA-ES | am_noise | p_loss=0.1475 | 335.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[222/300] CMA-ES | am_noise | p_loss=0.0000 | 321.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[223/300] CMA-ES | am_noise | p_loss=0.0000 | 324.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[224/300] CMA-ES | am_noise | p_loss=0.3045 | 319.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[225/300] CMA-ES | am_noise | p_loss=0.0000 | 322.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[226/300] CMA-ES | am_noise | p_loss=0.0232 | 317.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[227/300] CMA-ES | am_noise | p_loss=0.0023 | 311.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[228/300] CMA-ES | am_noise | p_loss=0.0346 | 327.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[229/300] CMA-ES | am_noise | p_loss=0.0000 | 321.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[230/300] CMA-ES | am_noise | p_loss=0.0000 | 319.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[231/300] CMA-ES | am_noise | p_loss=0.1517 | 322.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[232/300] CMA-ES | am_noise | p_loss=0.0000 | 332.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[233/300] CMA-ES | am_noise | p_loss=0.0049 | 320.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[234/300] CMA-ES | am_noise | p_loss=0.1569 | 324.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[235/300] CMA-ES | am_noise | p_loss=0.0720 | 313.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[236/300] CMA-ES | am_noise | p_loss=0.0003 | 321.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[237/300] CMA-ES | am_noise | p_loss=0.0059 | 316.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[238/300] CMA-ES | am_noise | p_loss=0.0000 | 317.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[239/300] CMA-ES | am_noise | p_loss=0.0000 | 320.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[240/300] CMA-ES | am_noise | p_loss=0.0028 | 318.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[241/300] CMA-ES | am_noise | p_loss=0.0000 | 321.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[242/300] CMA-ES | am_noise | p_loss=0.0000 | 328.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[243/300] CMA-ES | am_noise | p_loss=0.1167 | 316.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[244/300] CMA-ES | am_noise | p_loss=0.0005 | 304.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[245/300] CMA-ES | am_noise | p_loss=0.0001 | 317.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[246/300] CMA-ES | am_noise | p_loss=0.0000 | 307.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[247/300] CMA-ES | am_noise | p_loss=0.0000 | 294.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[248/300] CMA-ES | am_noise | p_loss=0.0657 | 308.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[249/300] CMA-ES | am_noise | p_loss=0.0000 | 324.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[250/300] CMA-ES | am_noise | p_loss=0.0000 | 328.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[251/300] CMA-ES | am_noise | p_loss=0.0262 | 320.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[252/300] CMA-ES | am_noise | p_loss=0.0139 | 317.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[253/300] CMA-ES | am_noise | p_loss=0.0083 | 318.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[254/300] CMA-ES | am_noise | p_loss=0.0000 | 306.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[255/300] CMA-ES | am_noise | p_loss=0.0492 | 315.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[256/300] CMA-ES | am_noise | p_loss=0.1598 | 306.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[257/300] CMA-ES | am_noise | p_loss=0.0000 | 314.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[258/300] CMA-ES | am_noise | p_loss=0.0000 | 322.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[259/300] CMA-ES | am_noise | p_loss=0.0095 | 321.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[260/300] CMA-ES | am_noise | p_loss=0.0000 | 321.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[261/300] CMA-ES | am_noise | p_loss=0.0000 | 324.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[262/300] CMA-ES | am_noise | p_loss=0.0000 | 313.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[263/300] CMA-ES | am_noise | p_loss=0.0001 | 316.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[264/300] CMA-ES | am_noise | p_loss=0.0077 | 309.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[265/300] CMA-ES | am_noise | p_loss=0.0000 | 307.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[266/300] CMA-ES | am_noise | p_loss=0.2704 | 315.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[267/300] CMA-ES | am_noise | p_loss=0.0000 | 309.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[268/300] CMA-ES | am_noise | p_loss=0.0067 | 310.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[269/300] CMA-ES | am_noise | p_loss=0.0000 | 309.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[270/300] CMA-ES | am_noise | p_loss=0.0012 | 306.5s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[271/300] CMA-ES | am_noise | p_loss=0.0000 | 309.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[272/300] CMA-ES | am_noise | p_loss=0.0000 | 310.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[273/300] CMA-ES | am_noise | p_loss=0.0000 | 319.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[274/300] CMA-ES | am_noise | p_loss=0.0000 | 320.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[275/300] CMA-ES | am_noise | p_loss=0.0000 | 321.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[276/300] CMA-ES | am_noise | p_loss=0.0001 | 317.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[277/300] CMA-ES | am_noise | p_loss=0.0955 | 318.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[278/300] CMA-ES | am_noise | p_loss=0.0431 | 312.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[279/300] CMA-ES | am_noise | p_loss=0.0000 | 318.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[280/300] CMA-ES | am_noise | p_loss=0.0000 | 320.3s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[281/300] CMA-ES | am_noise | p_loss=0.0000 | 319.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[282/300] CMA-ES | am_noise | p_loss=0.0141 | 319.9s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[283/300] CMA-ES | am_noise | p_loss=0.0583 | 320.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[284/300] CMA-ES | am_noise | p_loss=0.2395 | 316.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[285/300] CMA-ES | am_noise | p_loss=0.0000 | 314.0s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[286/300] CMA-ES | am_noise | p_loss=0.0000 | 315.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[287/300] CMA-ES | am_noise | p_loss=0.0115 | 318.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[288/300] CMA-ES | am_noise | p_loss=0.0000 | 309.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[289/300] CMA-ES | am_noise | p_loss=0.0000 | 321.2s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[290/300] CMA-ES | am_noise | p_loss=0.0000 | 312.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[291/300] CMA-ES | am_noise | p_loss=0.0000 | 311.7s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[292/300] CMA-ES | am_noise | p_loss=0.0000 | 310.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[293/300] CMA-ES | am_noise | p_loss=0.1643 | 313.6s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[294/300] CMA-ES | am_noise | p_loss=0.0000 | 318.1s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[295/300] CMA-ES | am_noise | p_loss=0.0002 | 311.8s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[296/300] CMA-ES | am_noise | p_loss=0.2145 | 322.3s | am_noise_CLAP_CMA-ES.pkl
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/cshome/asalimi/.conda/envs/soundmatch/lib/python3.10/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4382.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+am_noise/CLAP/CMA-ES: 299 done, running 1 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 4146.73it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[297/300] CMA-ES | am_noise | p_loss=0.0022 | 320.6s | am_noise_CLAP_CMA-ES.pkl
+Load our best checkpoint in the paper.
+The checkpoint is already downloaded
+Load Checkpoint...
+logit_scale_a 	 Loaded
+logit_scale_t 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_real.weight 	 Loaded
+audio_branch.spectrogram_extractor.stft.conv_imag.weight 	 Loaded
+audio_branch.logmel_extractor.melW 	 Loaded
+audio_branch.bn0.weight 	 Loaded
+audio_branch.bn0.bias 	 Loaded
+audio_branch.patch_embed.proj.weight 	 Loaded
+audio_branch.patch_embed.proj.bias 	 Loaded
+audio_branch.patch_embed.norm.weight 	 Loaded
+audio_branch.patch_embed.norm.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.0.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.0.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.0.downsample.reduction.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.weight 	 Loaded
+audio_branch.layers.0.downsample.norm.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.1.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.1.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.1.downsample.reduction.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.weight 	 Loaded
+audio_branch.layers.1.downsample.norm.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.2.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.2.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.3.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.3.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.4.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.4.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.qkv.bias 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.weight 	 Loaded
+audio_branch.layers.2.blocks.5.attn.proj.bias 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.norm2.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc1.bias 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.weight 	 Loaded
+audio_branch.layers.2.blocks.5.mlp.fc2.bias 	 Loaded
+audio_branch.layers.2.downsample.reduction.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.weight 	 Loaded
+audio_branch.layers.2.downsample.norm.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.0.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.0.mlp.fc2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.relative_position_bias_table 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.qkv.bias 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.weight 	 Loaded
+audio_branch.layers.3.blocks.1.attn.proj.bias 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.norm2.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc1.bias 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.weight 	 Loaded
+audio_branch.layers.3.blocks.1.mlp.fc2.bias 	 Loaded
+audio_branch.norm.weight 	 Loaded
+audio_branch.norm.bias 	 Loaded
+audio_branch.tscam_conv.weight 	 Loaded
+audio_branch.tscam_conv.bias 	 Loaded
+audio_branch.head.weight 	 Loaded
+audio_branch.head.bias 	 Loaded
+text_branch.embeddings.word_embeddings.weight 	 Loaded
+text_branch.embeddings.token_type_embeddings.weight 	 Loaded
+text_branch.embeddings.LayerNorm.weight 	 Loaded
+text_branch.embeddings.LayerNorm.bias 	 Loaded
+text_branch.embeddings.position_embeddings.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.0.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.0.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.dense.weight 	 Loaded
+text_branch.encoder.layer.0.output.dense.bias 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.0.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.1.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.1.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.dense.weight 	 Loaded
+text_branch.encoder.layer.1.output.dense.bias 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.1.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.2.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.2.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.dense.weight 	 Loaded
+text_branch.encoder.layer.2.output.dense.bias 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.2.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.3.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.3.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.dense.weight 	 Loaded
+text_branch.encoder.layer.3.output.dense.bias 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.3.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.4.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.4.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.dense.weight 	 Loaded
+text_branch.encoder.layer.4.output.dense.bias 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.4.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.5.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.5.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.dense.weight 	 Loaded
+text_branch.encoder.layer.5.output.dense.bias 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.5.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.6.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.6.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.dense.weight 	 Loaded
+text_branch.encoder.layer.6.output.dense.bias 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.6.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.7.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.7.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.dense.weight 	 Loaded
+text_branch.encoder.layer.7.output.dense.bias 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.7.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.8.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.8.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.dense.weight 	 Loaded
+text_branch.encoder.layer.8.output.dense.bias 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.8.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.9.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.9.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.dense.weight 	 Loaded
+text_branch.encoder.layer.9.output.dense.bias 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.9.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.10.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.10.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.dense.weight 	 Loaded
+text_branch.encoder.layer.10.output.dense.bias 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.10.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.query.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.key.bias 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.weight 	 Loaded
+text_branch.encoder.layer.11.attention.self.value.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.attention.output.LayerNorm.bias 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.weight 	 Loaded
+text_branch.encoder.layer.11.intermediate.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.dense.weight 	 Loaded
+text_branch.encoder.layer.11.output.dense.bias 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.weight 	 Loaded
+text_branch.encoder.layer.11.output.LayerNorm.bias 	 Loaded
+text_branch.pooler.dense.weight 	 Loaded
+text_branch.pooler.dense.bias 	 Loaded
+text_transform.sequential.0.weight 	 Loaded
+text_transform.sequential.0.bias 	 Loaded
+text_transform.sequential.3.weight 	 Loaded
+text_transform.sequential.3.bias 	 Loaded
+text_projection.0.weight 	 Loaded
+text_projection.0.bias 	 Loaded
+text_projection.2.weight 	 Loaded
+text_projection.2.bias 	 Loaded
+audio_transform.sequential.0.weight 	 Loaded
+audio_transform.sequential.0.bias 	 Loaded
+audio_transform.sequential.3.weight 	 Loaded
+audio_transform.sequential.3.bias 	 Loaded
+audio_projection.0.weight 	 Loaded
+audio_projection.0.bias 	 Loaded
+audio_projection.2.weight 	 Loaded
+audio_projection.2.bias 	 Loaded
+[300/300] CMA-ES | am_noise | p_loss=0.0552 | 335.6s | am_noise_CLAP_CMA-ES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[298/300] CMA-ES | am_noise | p_loss=0.0000 | 319.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[299/300] CMA-ES | am_noise | p_loss=0.0000 | 315.4s | am_noise_CLAP_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/am_noise_224dbff3128a/am_noise.dsp.json
+  amp                   /am_noise/amp                             [0.0, 5.0]  default=2.5
+  carrier               /am_noise/carrier                         [0.0, 4.0]  default=2.0
+[300/300] CMA-ES | am_noise | p_loss=0.0552 | 322.5s | am_noise_CLAP_CMA-ES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_CMA-ES.pkl

@@ -1,0 +1,40 @@
+[env_capped] THREADS=1  PY=/cshome/asalimi/.conda/envs/soundmatch/bin/python  (keep jobs*THREADS <= 30)
+Jobs to run: 15  (jobs=10, trials=300, budget=500)
+
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+environment: line 4: 534792 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+environment: line 4: 534803 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+environment: line 4: 534798 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+[15:42:35] 0 | sine_mod_saw / CLAP / RandomSearch | [293/300] RandomSearch | sine_mod_saw | p_loss=0.0567 | 323.3s | sine_mod_saw_CLAP_RandomSearch.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[15:51:56] 0 | am_noise / CLAP / RandomSearch | [299/300] RandomSearch | am_noise | p_loss=0.0306 | 330.6s | am_noise_CLAP_RandomSearch.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[15:58:31] 0 | bandpass_noise_v1 / CLAP / CMA-ES | [291/300] CMA-ES | bandpass_noise_v1 | p_loss=0.0111 | 321.6s | bandpass_noise_v1_CLAP_CMA-ES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[15:59:28] 0 | add_sinesaw / CLAP / RandomSearch | [298/300] RandomSearch | add_sinesaw | p_loss=0.3312 | 321.2s | add_sinesaw_CLAP_RandomSearch.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[16:00:45] 0 | am_noise / CLAP / CMA-ES | [297/300] CMA-ES | am_noise | p_loss=0.0022 | 320.6s | am_noise_CLAP_CMA-ES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[16:04:42] 0 | bandpass_noise_v1 / CLAP / RandomSearch | [296/300] RandomSearch | bandpass_noise_v1 | p_loss=0.0199 | 326.9s | bandpass_noise_v1_CLAP_RandomSearch.pkl
+[16:18:05] 0 | add_sinesaw / CLAP / CMA-ES | [297/300] CMA-ES | add_sinesaw | p_loss=0.2268 | 312.4s | add_sinesaw_CLAP_CMA-ES.pkl
+[16:25:20] 0 | add_sinesaw / CLAP / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/add_sinesaw_CLAP_LES.pkl
+[16:30:01] 0 | bandpass_noise_v1 / CLAP / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/bandpass_noise_v1_CLAP_LES.pkl
+[16:35:09] 0 | am_noise / CLAP / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/am_noise_CLAP_LES.pkl
+environment: line 4: 1750661 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+environment: line 4: 1797171 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+[15:40:33] 0 | sine_mod_saw / CLAP / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_CLAP_CMA-ES.pkl
+[15:55:04] 0 | chirplet / CLAP / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_CLAP_CMA-ES.pkl
+[15:59:21] 0 | sine_mod_saw / CLAP / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_CLAP_LES.pkl
+[16:17:38] 0 | chirplet / CLAP / RandomSearch | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_CLAP_RandomSearch.pkl
+[16:24:46] 0 | chirplet / CLAP / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_CLAP_LES.pkl
+
+All done. Results in paper_experiments/results/

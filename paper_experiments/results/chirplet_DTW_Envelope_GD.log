@@ -1,0 +1,1836 @@
+chirplet/DTW_Envelope/GD: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[1/300] GD | chirplet | p_loss=1.1272 | 47.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[2/300] GD | chirplet | p_loss=0.2405 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[3/300] GD | chirplet | p_loss=0.0904 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[4/300] GD | chirplet | p_loss=0.1431 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[5/300] GD | chirplet | p_loss=0.0117 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[6/300] GD | chirplet | p_loss=0.0046 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[7/300] GD | chirplet | p_loss=0.5293 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[8/300] GD | chirplet | p_loss=0.5519 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[9/300] GD | chirplet | p_loss=0.4900 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[10/300] GD | chirplet | p_loss=0.4689 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[11/300] GD | chirplet | p_loss=0.3105 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[12/300] GD | chirplet | p_loss=0.6684 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[13/300] GD | chirplet | p_loss=0.1492 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[14/300] GD | chirplet | p_loss=0.8503 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[15/300] GD | chirplet | p_loss=0.3001 | 41.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[16/300] GD | chirplet | p_loss=0.5668 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[17/300] GD | chirplet | p_loss=0.4122 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[18/300] GD | chirplet | p_loss=0.2504 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[19/300] GD | chirplet | p_loss=0.4515 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[20/300] GD | chirplet | p_loss=0.5216 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[21/300] GD | chirplet | p_loss=0.5529 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[22/300] GD | chirplet | p_loss=0.1921 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[23/300] GD | chirplet | p_loss=0.1083 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[24/300] GD | chirplet | p_loss=0.6357 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[25/300] GD | chirplet | p_loss=0.0367 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[26/300] GD | chirplet | p_loss=0.5733 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[27/300] GD | chirplet | p_loss=0.1847 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[28/300] GD | chirplet | p_loss=0.6361 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[29/300] GD | chirplet | p_loss=0.3057 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[30/300] GD | chirplet | p_loss=0.6539 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[31/300] GD | chirplet | p_loss=0.1657 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[32/300] GD | chirplet | p_loss=0.2928 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[33/300] GD | chirplet | p_loss=0.0749 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[34/300] GD | chirplet | p_loss=0.5594 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[35/300] GD | chirplet | p_loss=0.3341 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[36/300] GD | chirplet | p_loss=0.2264 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[37/300] GD | chirplet | p_loss=0.4837 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[38/300] GD | chirplet | p_loss=0.3665 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[39/300] GD | chirplet | p_loss=0.1287 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[40/300] GD | chirplet | p_loss=0.9224 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[41/300] GD | chirplet | p_loss=0.5203 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[42/300] GD | chirplet | p_loss=0.9567 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[43/300] GD | chirplet | p_loss=0.4609 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[44/300] GD | chirplet | p_loss=0.7473 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[45/300] GD | chirplet | p_loss=1.0381 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[46/300] GD | chirplet | p_loss=0.7666 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[47/300] GD | chirplet | p_loss=0.6590 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[48/300] GD | chirplet | p_loss=0.4314 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[49/300] GD | chirplet | p_loss=0.1862 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[50/300] GD | chirplet | p_loss=0.5851 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[51/300] GD | chirplet | p_loss=0.6648 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[52/300] GD | chirplet | p_loss=0.1541 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[53/300] GD | chirplet | p_loss=0.4376 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[54/300] GD | chirplet | p_loss=0.7334 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[55/300] GD | chirplet | p_loss=0.2764 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[56/300] GD | chirplet | p_loss=0.5169 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[57/300] GD | chirplet | p_loss=0.3409 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[58/300] GD | chirplet | p_loss=0.5026 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[59/300] GD | chirplet | p_loss=0.6946 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[60/300] GD | chirplet | p_loss=0.0857 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[61/300] GD | chirplet | p_loss=0.3522 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[62/300] GD | chirplet | p_loss=0.0992 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[63/300] GD | chirplet | p_loss=0.6031 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[64/300] GD | chirplet | p_loss=0.8226 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[65/300] GD | chirplet | p_loss=0.0845 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[66/300] GD | chirplet | p_loss=0.8272 | 44.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[67/300] GD | chirplet | p_loss=0.1173 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[68/300] GD | chirplet | p_loss=0.8045 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[69/300] GD | chirplet | p_loss=0.1296 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[70/300] GD | chirplet | p_loss=0.2079 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[71/300] GD | chirplet | p_loss=0.3306 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[72/300] GD | chirplet | p_loss=0.1409 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[73/300] GD | chirplet | p_loss=0.5458 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[74/300] GD | chirplet | p_loss=0.5355 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[75/300] GD | chirplet | p_loss=0.4580 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[76/300] GD | chirplet | p_loss=0.0127 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[77/300] GD | chirplet | p_loss=0.0968 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[78/300] GD | chirplet | p_loss=0.3062 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[79/300] GD | chirplet | p_loss=0.1620 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[80/300] GD | chirplet | p_loss=0.0126 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[81/300] GD | chirplet | p_loss=0.1904 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[82/300] GD | chirplet | p_loss=0.0091 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[83/300] GD | chirplet | p_loss=0.6953 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[84/300] GD | chirplet | p_loss=0.1665 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[85/300] GD | chirplet | p_loss=0.3136 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[86/300] GD | chirplet | p_loss=0.1414 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[87/300] GD | chirplet | p_loss=0.2172 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[88/300] GD | chirplet | p_loss=0.2974 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[89/300] GD | chirplet | p_loss=0.5566 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[90/300] GD | chirplet | p_loss=0.1543 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[91/300] GD | chirplet | p_loss=0.2127 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[92/300] GD | chirplet | p_loss=0.5784 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[93/300] GD | chirplet | p_loss=0.0972 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[94/300] GD | chirplet | p_loss=0.0547 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[95/300] GD | chirplet | p_loss=0.6945 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[96/300] GD | chirplet | p_loss=0.2618 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[97/300] GD | chirplet | p_loss=0.1510 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[98/300] GD | chirplet | p_loss=0.8357 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[99/300] GD | chirplet | p_loss=1.0198 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[100/300] GD | chirplet | p_loss=0.2602 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[101/300] GD | chirplet | p_loss=0.4028 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[102/300] GD | chirplet | p_loss=0.0651 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[103/300] GD | chirplet | p_loss=0.1885 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[104/300] GD | chirplet | p_loss=0.5061 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[105/300] GD | chirplet | p_loss=0.0853 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[106/300] GD | chirplet | p_loss=0.2630 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[107/300] GD | chirplet | p_loss=0.2528 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[108/300] GD | chirplet | p_loss=0.2869 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[109/300] GD | chirplet | p_loss=0.7295 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[110/300] GD | chirplet | p_loss=0.4616 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[111/300] GD | chirplet | p_loss=0.1630 | 43.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[112/300] GD | chirplet | p_loss=0.4957 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[113/300] GD | chirplet | p_loss=0.4360 | 44.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[114/300] GD | chirplet | p_loss=0.0710 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[115/300] GD | chirplet | p_loss=0.2432 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[116/300] GD | chirplet | p_loss=0.8283 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[117/300] GD | chirplet | p_loss=0.0204 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[118/300] GD | chirplet | p_loss=0.0539 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[119/300] GD | chirplet | p_loss=0.1174 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[120/300] GD | chirplet | p_loss=0.7100 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[121/300] GD | chirplet | p_loss=0.5175 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[122/300] GD | chirplet | p_loss=0.0138 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[123/300] GD | chirplet | p_loss=1.1867 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[124/300] GD | chirplet | p_loss=0.0135 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[125/300] GD | chirplet | p_loss=0.0900 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[126/300] GD | chirplet | p_loss=0.2411 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[127/300] GD | chirplet | p_loss=0.6431 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[128/300] GD | chirplet | p_loss=0.5065 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[129/300] GD | chirplet | p_loss=0.9204 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[130/300] GD | chirplet | p_loss=0.3448 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[131/300] GD | chirplet | p_loss=0.4151 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[132/300] GD | chirplet | p_loss=0.2991 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[133/300] GD | chirplet | p_loss=0.4097 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[134/300] GD | chirplet | p_loss=0.4770 | 44.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[135/300] GD | chirplet | p_loss=0.0708 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[136/300] GD | chirplet | p_loss=0.0108 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[137/300] GD | chirplet | p_loss=0.5595 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[138/300] GD | chirplet | p_loss=0.5533 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[139/300] GD | chirplet | p_loss=0.0262 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[140/300] GD | chirplet | p_loss=0.5338 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[141/300] GD | chirplet | p_loss=0.5216 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[142/300] GD | chirplet | p_loss=0.0488 | 44.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[143/300] GD | chirplet | p_loss=0.5312 | 44.4s | chirplet_DTW_Envelope_GD.pkl
+chirplet/DTW_Envelope/GD: 142 done, running 158 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[143/300] GD | chirplet | p_loss=0.5312 | 47.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[144/300] GD | chirplet | p_loss=0.0475 | 45.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[144/300] GD | chirplet | p_loss=0.0475 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[145/300] GD | chirplet | p_loss=0.2585 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[145/300] GD | chirplet | p_loss=0.2585 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[146/300] GD | chirplet | p_loss=0.7771 | 44.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[146/300] GD | chirplet | p_loss=0.7771 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[147/300] GD | chirplet | p_loss=0.3249 | 44.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[147/300] GD | chirplet | p_loss=0.3249 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[148/300] GD | chirplet | p_loss=0.7674 | 44.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[148/300] GD | chirplet | p_loss=0.7674 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[149/300] GD | chirplet | p_loss=0.5249 | 44.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[149/300] GD | chirplet | p_loss=0.5249 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[150/300] GD | chirplet | p_loss=0.2970 | 45.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[150/300] GD | chirplet | p_loss=0.2970 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[151/300] GD | chirplet | p_loss=0.1059 | 44.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[151/300] GD | chirplet | p_loss=0.1059 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[152/300] GD | chirplet | p_loss=0.5943 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[152/300] GD | chirplet | p_loss=0.5943 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[153/300] GD | chirplet | p_loss=0.2795 | 44.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[153/300] GD | chirplet | p_loss=0.2795 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[154/300] GD | chirplet | p_loss=0.1107 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[154/300] GD | chirplet | p_loss=0.1107 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[155/300] GD | chirplet | p_loss=0.6117 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[155/300] GD | chirplet | p_loss=0.6117 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[156/300] GD | chirplet | p_loss=0.3220 | 44.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[156/300] GD | chirplet | p_loss=0.3220 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[157/300] GD | chirplet | p_loss=0.7115 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[157/300] GD | chirplet | p_loss=0.7115 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[158/300] GD | chirplet | p_loss=0.2322 | 45.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[158/300] GD | chirplet | p_loss=0.2322 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[159/300] GD | chirplet | p_loss=0.5424 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[159/300] GD | chirplet | p_loss=0.5424 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[160/300] GD | chirplet | p_loss=0.7036 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[160/300] GD | chirplet | p_loss=0.7036 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[161/300] GD | chirplet | p_loss=0.0102 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[161/300] GD | chirplet | p_loss=0.0102 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[162/300] GD | chirplet | p_loss=0.6392 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[162/300] GD | chirplet | p_loss=0.6392 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[163/300] GD | chirplet | p_loss=0.6920 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[163/300] GD | chirplet | p_loss=0.6920 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[164/300] GD | chirplet | p_loss=0.5378 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[164/300] GD | chirplet | p_loss=0.5378 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[165/300] GD | chirplet | p_loss=0.5579 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[165/300] GD | chirplet | p_loss=0.5579 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[166/300] GD | chirplet | p_loss=0.2443 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[166/300] GD | chirplet | p_loss=0.2443 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[167/300] GD | chirplet | p_loss=0.0073 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[167/300] GD | chirplet | p_loss=0.0073 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[168/300] GD | chirplet | p_loss=0.0016 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[168/300] GD | chirplet | p_loss=0.0016 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[169/300] GD | chirplet | p_loss=0.1433 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[169/300] GD | chirplet | p_loss=0.1433 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[170/300] GD | chirplet | p_loss=0.3555 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[170/300] GD | chirplet | p_loss=0.3555 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[171/300] GD | chirplet | p_loss=0.1333 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[171/300] GD | chirplet | p_loss=0.1333 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[172/300] GD | chirplet | p_loss=0.4250 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[172/300] GD | chirplet | p_loss=0.4250 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[173/300] GD | chirplet | p_loss=0.0285 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[173/300] GD | chirplet | p_loss=0.0285 | 44.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[174/300] GD | chirplet | p_loss=0.0087 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[174/300] GD | chirplet | p_loss=0.0087 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[175/300] GD | chirplet | p_loss=0.3216 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[175/300] GD | chirplet | p_loss=0.3216 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[176/300] GD | chirplet | p_loss=0.7541 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[176/300] GD | chirplet | p_loss=0.7541 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[177/300] GD | chirplet | p_loss=0.1715 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[177/300] GD | chirplet | p_loss=0.1715 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[178/300] GD | chirplet | p_loss=0.6087 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[178/300] GD | chirplet | p_loss=0.6087 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[179/300] GD | chirplet | p_loss=0.3323 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[179/300] GD | chirplet | p_loss=0.3323 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[180/300] GD | chirplet | p_loss=0.6043 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[180/300] GD | chirplet | p_loss=0.6043 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[181/300] GD | chirplet | p_loss=0.7000 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[181/300] GD | chirplet | p_loss=0.7000 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[182/300] GD | chirplet | p_loss=0.1079 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[182/300] GD | chirplet | p_loss=0.1079 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[183/300] GD | chirplet | p_loss=0.0493 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[183/300] GD | chirplet | p_loss=0.0493 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[184/300] GD | chirplet | p_loss=0.0069 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[184/300] GD | chirplet | p_loss=0.0069 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[185/300] GD | chirplet | p_loss=0.1329 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[185/300] GD | chirplet | p_loss=0.1329 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[186/300] GD | chirplet | p_loss=0.9029 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[186/300] GD | chirplet | p_loss=0.9029 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[187/300] GD | chirplet | p_loss=0.4309 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[187/300] GD | chirplet | p_loss=0.4309 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[188/300] GD | chirplet | p_loss=0.7602 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[188/300] GD | chirplet | p_loss=0.7602 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[189/300] GD | chirplet | p_loss=0.0558 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[189/300] GD | chirplet | p_loss=0.0558 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[190/300] GD | chirplet | p_loss=0.8777 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[190/300] GD | chirplet | p_loss=0.8777 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[191/300] GD | chirplet | p_loss=0.1978 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[191/300] GD | chirplet | p_loss=0.1978 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[192/300] GD | chirplet | p_loss=0.0833 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[192/300] GD | chirplet | p_loss=0.0833 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[193/300] GD | chirplet | p_loss=0.5114 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[193/300] GD | chirplet | p_loss=0.5114 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[194/300] GD | chirplet | p_loss=0.1866 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[194/300] GD | chirplet | p_loss=0.1866 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[195/300] GD | chirplet | p_loss=0.0597 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[196/300] GD | chirplet | p_loss=0.1805 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[195/300] GD | chirplet | p_loss=0.0597 | 44.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[197/300] GD | chirplet | p_loss=0.3393 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[196/300] GD | chirplet | p_loss=0.1805 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[198/300] GD | chirplet | p_loss=0.9064 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[197/300] GD | chirplet | p_loss=0.3393 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[199/300] GD | chirplet | p_loss=0.6217 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[198/300] GD | chirplet | p_loss=0.9064 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[200/300] GD | chirplet | p_loss=0.4600 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[199/300] GD | chirplet | p_loss=0.6217 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[201/300] GD | chirplet | p_loss=0.0978 | 43.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[200/300] GD | chirplet | p_loss=0.4600 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[202/300] GD | chirplet | p_loss=0.5942 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[201/300] GD | chirplet | p_loss=0.0978 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[203/300] GD | chirplet | p_loss=0.8585 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[202/300] GD | chirplet | p_loss=0.5942 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[204/300] GD | chirplet | p_loss=0.3853 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[203/300] GD | chirplet | p_loss=0.8585 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[205/300] GD | chirplet | p_loss=0.8218 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[204/300] GD | chirplet | p_loss=0.3853 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[206/300] GD | chirplet | p_loss=0.4779 | 43.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[205/300] GD | chirplet | p_loss=0.8218 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[207/300] GD | chirplet | p_loss=0.3712 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[206/300] GD | chirplet | p_loss=0.4779 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[208/300] GD | chirplet | p_loss=0.6905 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[207/300] GD | chirplet | p_loss=0.3712 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[209/300] GD | chirplet | p_loss=0.0435 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[208/300] GD | chirplet | p_loss=0.6905 | 43.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[210/300] GD | chirplet | p_loss=0.3696 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[209/300] GD | chirplet | p_loss=0.0435 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[211/300] GD | chirplet | p_loss=0.1022 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[210/300] GD | chirplet | p_loss=0.3696 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[212/300] GD | chirplet | p_loss=0.2866 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[211/300] GD | chirplet | p_loss=0.1022 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[213/300] GD | chirplet | p_loss=0.7596 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[212/300] GD | chirplet | p_loss=0.2866 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[214/300] GD | chirplet | p_loss=0.4841 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[213/300] GD | chirplet | p_loss=0.7596 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[215/300] GD | chirplet | p_loss=0.7494 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[214/300] GD | chirplet | p_loss=0.4841 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[216/300] GD | chirplet | p_loss=0.0247 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[215/300] GD | chirplet | p_loss=0.7494 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[217/300] GD | chirplet | p_loss=0.1055 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[216/300] GD | chirplet | p_loss=0.0247 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[218/300] GD | chirplet | p_loss=0.6361 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[217/300] GD | chirplet | p_loss=0.1055 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[219/300] GD | chirplet | p_loss=0.9792 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[218/300] GD | chirplet | p_loss=0.6361 | 43.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[220/300] GD | chirplet | p_loss=1.2367 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[219/300] GD | chirplet | p_loss=0.9792 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[221/300] GD | chirplet | p_loss=0.7625 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[220/300] GD | chirplet | p_loss=1.2367 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[222/300] GD | chirplet | p_loss=0.3741 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[221/300] GD | chirplet | p_loss=0.7625 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[223/300] GD | chirplet | p_loss=0.1540 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[222/300] GD | chirplet | p_loss=0.3741 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[224/300] GD | chirplet | p_loss=0.8488 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[223/300] GD | chirplet | p_loss=0.1540 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[225/300] GD | chirplet | p_loss=0.0791 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[224/300] GD | chirplet | p_loss=0.8488 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[226/300] GD | chirplet | p_loss=0.8559 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[225/300] GD | chirplet | p_loss=0.0791 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[227/300] GD | chirplet | p_loss=0.6563 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[226/300] GD | chirplet | p_loss=0.8559 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[228/300] GD | chirplet | p_loss=0.0491 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[227/300] GD | chirplet | p_loss=0.6563 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[229/300] GD | chirplet | p_loss=0.1137 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[228/300] GD | chirplet | p_loss=0.0491 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[230/300] GD | chirplet | p_loss=0.4189 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[229/300] GD | chirplet | p_loss=0.1137 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[231/300] GD | chirplet | p_loss=0.0643 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[230/300] GD | chirplet | p_loss=0.4189 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[232/300] GD | chirplet | p_loss=0.2784 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[231/300] GD | chirplet | p_loss=0.0643 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[233/300] GD | chirplet | p_loss=0.2548 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[234/300] GD | chirplet | p_loss=0.1570 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[232/300] GD | chirplet | p_loss=0.2784 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[235/300] GD | chirplet | p_loss=0.3676 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[233/300] GD | chirplet | p_loss=0.2548 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[236/300] GD | chirplet | p_loss=0.0073 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[234/300] GD | chirplet | p_loss=0.1570 | 41.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[237/300] GD | chirplet | p_loss=0.0248 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[235/300] GD | chirplet | p_loss=0.3676 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[238/300] GD | chirplet | p_loss=0.3373 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[236/300] GD | chirplet | p_loss=0.0073 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[239/300] GD | chirplet | p_loss=0.5415 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[237/300] GD | chirplet | p_loss=0.0248 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[240/300] GD | chirplet | p_loss=0.5469 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[238/300] GD | chirplet | p_loss=0.3373 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[241/300] GD | chirplet | p_loss=0.1842 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[239/300] GD | chirplet | p_loss=0.5415 | 44.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[242/300] GD | chirplet | p_loss=0.5761 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[240/300] GD | chirplet | p_loss=0.5469 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[243/300] GD | chirplet | p_loss=0.2929 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[241/300] GD | chirplet | p_loss=0.1842 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[244/300] GD | chirplet | p_loss=0.5782 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[242/300] GD | chirplet | p_loss=0.5761 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[245/300] GD | chirplet | p_loss=0.8016 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[243/300] GD | chirplet | p_loss=0.2929 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[246/300] GD | chirplet | p_loss=0.0267 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[244/300] GD | chirplet | p_loss=0.5782 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[247/300] GD | chirplet | p_loss=0.5115 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[245/300] GD | chirplet | p_loss=0.8016 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[248/300] GD | chirplet | p_loss=0.1962 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[246/300] GD | chirplet | p_loss=0.0267 | 44.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[249/300] GD | chirplet | p_loss=0.3206 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[247/300] GD | chirplet | p_loss=0.5115 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[250/300] GD | chirplet | p_loss=0.5038 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[248/300] GD | chirplet | p_loss=0.1962 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[251/300] GD | chirplet | p_loss=0.5697 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[249/300] GD | chirplet | p_loss=0.3206 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[252/300] GD | chirplet | p_loss=0.1176 | 41.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[250/300] GD | chirplet | p_loss=0.5038 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[253/300] GD | chirplet | p_loss=0.4186 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[251/300] GD | chirplet | p_loss=0.5697 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[254/300] GD | chirplet | p_loss=0.3052 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[252/300] GD | chirplet | p_loss=0.1176 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[255/300] GD | chirplet | p_loss=0.3925 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[253/300] GD | chirplet | p_loss=0.4186 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[256/300] GD | chirplet | p_loss=0.7461 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[254/300] GD | chirplet | p_loss=0.3052 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[257/300] GD | chirplet | p_loss=0.4295 | 41.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[255/300] GD | chirplet | p_loss=0.3925 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[258/300] GD | chirplet | p_loss=0.2790 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[256/300] GD | chirplet | p_loss=0.7461 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[259/300] GD | chirplet | p_loss=0.0181 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[257/300] GD | chirplet | p_loss=0.4295 | 44.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[260/300] GD | chirplet | p_loss=0.0029 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[258/300] GD | chirplet | p_loss=0.2790 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[261/300] GD | chirplet | p_loss=0.9370 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[259/300] GD | chirplet | p_loss=0.0181 | 41.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[262/300] GD | chirplet | p_loss=0.5828 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[260/300] GD | chirplet | p_loss=0.0029 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[263/300] GD | chirplet | p_loss=0.2682 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[264/300] GD | chirplet | p_loss=0.2421 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[261/300] GD | chirplet | p_loss=0.9370 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[265/300] GD | chirplet | p_loss=0.1963 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[262/300] GD | chirplet | p_loss=0.5828 | 41.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[266/300] GD | chirplet | p_loss=0.2776 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[263/300] GD | chirplet | p_loss=0.2682 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[267/300] GD | chirplet | p_loss=0.2578 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[264/300] GD | chirplet | p_loss=0.2421 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[268/300] GD | chirplet | p_loss=0.3059 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[265/300] GD | chirplet | p_loss=0.1963 | 43.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[269/300] GD | chirplet | p_loss=0.0493 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[266/300] GD | chirplet | p_loss=0.2776 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[270/300] GD | chirplet | p_loss=0.2855 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[267/300] GD | chirplet | p_loss=0.2578 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[271/300] GD | chirplet | p_loss=0.8680 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[268/300] GD | chirplet | p_loss=0.3059 | 43.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[272/300] GD | chirplet | p_loss=0.0314 | 41.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[269/300] GD | chirplet | p_loss=0.0493 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[273/300] GD | chirplet | p_loss=0.2783 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[270/300] GD | chirplet | p_loss=0.2855 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[274/300] GD | chirplet | p_loss=0.2659 | 42.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[271/300] GD | chirplet | p_loss=0.8680 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[275/300] GD | chirplet | p_loss=0.3732 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[272/300] GD | chirplet | p_loss=0.0314 | 43.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[276/300] GD | chirplet | p_loss=0.6485 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[273/300] GD | chirplet | p_loss=0.2783 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[277/300] GD | chirplet | p_loss=0.9073 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[274/300] GD | chirplet | p_loss=0.2659 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[278/300] GD | chirplet | p_loss=0.5036 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[275/300] GD | chirplet | p_loss=0.3732 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[279/300] GD | chirplet | p_loss=0.3960 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[276/300] GD | chirplet | p_loss=0.6485 | 44.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[280/300] GD | chirplet | p_loss=0.5690 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[277/300] GD | chirplet | p_loss=0.9073 | 41.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[281/300] GD | chirplet | p_loss=0.3971 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[278/300] GD | chirplet | p_loss=0.5036 | 41.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[282/300] GD | chirplet | p_loss=1.0010 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[279/300] GD | chirplet | p_loss=0.3960 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[283/300] GD | chirplet | p_loss=0.1553 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[280/300] GD | chirplet | p_loss=0.5690 | 44.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[284/300] GD | chirplet | p_loss=0.3423 | 43.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[281/300] GD | chirplet | p_loss=0.3971 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[285/300] GD | chirplet | p_loss=0.3551 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[282/300] GD | chirplet | p_loss=1.0010 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[286/300] GD | chirplet | p_loss=0.1109 | 43.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[283/300] GD | chirplet | p_loss=0.1553 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[287/300] GD | chirplet | p_loss=0.4167 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[284/300] GD | chirplet | p_loss=0.3423 | 45.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[288/300] GD | chirplet | p_loss=0.8756 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[285/300] GD | chirplet | p_loss=0.3551 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[289/300] GD | chirplet | p_loss=0.1035 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[286/300] GD | chirplet | p_loss=0.1109 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[290/300] GD | chirplet | p_loss=0.5423 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[287/300] GD | chirplet | p_loss=0.4167 | 43.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[291/300] GD | chirplet | p_loss=0.6364 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[288/300] GD | chirplet | p_loss=0.8756 | 44.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[292/300] GD | chirplet | p_loss=0.0721 | 43.3s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[289/300] GD | chirplet | p_loss=0.1035 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[293/300] GD | chirplet | p_loss=0.5323 | 42.5s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[290/300] GD | chirplet | p_loss=0.5423 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[294/300] GD | chirplet | p_loss=0.9034 | 42.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[291/300] GD | chirplet | p_loss=0.6364 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[295/300] GD | chirplet | p_loss=0.0586 | 42.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[296/300] GD | chirplet | p_loss=0.2787 | 42.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[292/300] GD | chirplet | p_loss=0.0721 | 44.9s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[297/300] GD | chirplet | p_loss=0.9080 | 42.0s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[293/300] GD | chirplet | p_loss=0.5323 | 42.7s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[298/300] GD | chirplet | p_loss=0.5210 | 42.6s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[294/300] GD | chirplet | p_loss=0.9034 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[299/300] GD | chirplet | p_loss=0.1989 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[295/300] GD | chirplet | p_loss=0.0586 | 43.2s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[300/300] GD | chirplet | p_loss=0.1983 | 44.1s | chirplet_DTW_Envelope_GD.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[296/300] GD | chirplet | p_loss=0.2787 | 44.8s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[297/300] GD | chirplet | p_loss=0.9080 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[298/300] GD | chirplet | p_loss=0.5210 | 42.1s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[299/300] GD | chirplet | p_loss=0.1989 | 42.4s | chirplet_DTW_Envelope_GD.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[300/300] GD | chirplet | p_loss=0.1983 | 43.1s | chirplet_DTW_Envelope_GD.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_GD.pkl

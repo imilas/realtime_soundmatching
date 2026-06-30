@@ -1,0 +1,1203 @@
+sine_mod_saw/DTW_Envelope/CMA-ES: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[1/300] CMA-ES | sine_mod_saw | p_loss=0.9058 | 150.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[2/300] CMA-ES | sine_mod_saw | p_loss=0.0335 | 148.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[3/300] CMA-ES | sine_mod_saw | p_loss=0.4151 | 144.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[4/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[5/300] CMA-ES | sine_mod_saw | p_loss=0.0050 | 147.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[6/300] CMA-ES | sine_mod_saw | p_loss=0.0030 | 147.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[7/300] CMA-ES | sine_mod_saw | p_loss=0.0591 | 147.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[8/300] CMA-ES | sine_mod_saw | p_loss=0.0198 | 147.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[9/300] CMA-ES | sine_mod_saw | p_loss=0.0085 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[10/300] CMA-ES | sine_mod_saw | p_loss=0.0170 | 146.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[11/300] CMA-ES | sine_mod_saw | p_loss=0.2776 | 147.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[12/300] CMA-ES | sine_mod_saw | p_loss=0.2741 | 147.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[13/300] CMA-ES | sine_mod_saw | p_loss=0.0028 | 147.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[14/300] CMA-ES | sine_mod_saw | p_loss=0.0720 | 146.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[15/300] CMA-ES | sine_mod_saw | p_loss=0.0066 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[16/300] CMA-ES | sine_mod_saw | p_loss=0.0471 | 147.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[17/300] CMA-ES | sine_mod_saw | p_loss=0.0166 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[18/300] CMA-ES | sine_mod_saw | p_loss=0.0133 | 147.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[19/300] CMA-ES | sine_mod_saw | p_loss=0.0159 | 146.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[20/300] CMA-ES | sine_mod_saw | p_loss=0.1355 | 146.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[21/300] CMA-ES | sine_mod_saw | p_loss=0.8802 | 146.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[22/300] CMA-ES | sine_mod_saw | p_loss=0.0741 | 146.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[23/300] CMA-ES | sine_mod_saw | p_loss=0.0773 | 147.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[24/300] CMA-ES | sine_mod_saw | p_loss=0.0283 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[25/300] CMA-ES | sine_mod_saw | p_loss=0.2399 | 146.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[26/300] CMA-ES | sine_mod_saw | p_loss=0.1305 | 147.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[27/300] CMA-ES | sine_mod_saw | p_loss=0.0402 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[28/300] CMA-ES | sine_mod_saw | p_loss=0.1088 | 145.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[29/300] CMA-ES | sine_mod_saw | p_loss=0.3912 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[30/300] CMA-ES | sine_mod_saw | p_loss=0.0132 | 147.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[31/300] CMA-ES | sine_mod_saw | p_loss=0.0000 | 146.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[32/300] CMA-ES | sine_mod_saw | p_loss=0.1081 | 147.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[33/300] CMA-ES | sine_mod_saw | p_loss=0.0813 | 146.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[34/300] CMA-ES | sine_mod_saw | p_loss=0.0090 | 147.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[35/300] CMA-ES | sine_mod_saw | p_loss=0.1819 | 147.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[36/300] CMA-ES | sine_mod_saw | p_loss=0.0013 | 147.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[37/300] CMA-ES | sine_mod_saw | p_loss=0.7043 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[38/300] CMA-ES | sine_mod_saw | p_loss=0.0522 | 147.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[39/300] CMA-ES | sine_mod_saw | p_loss=0.0947 | 147.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[40/300] CMA-ES | sine_mod_saw | p_loss=0.0258 | 148.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[41/300] CMA-ES | sine_mod_saw | p_loss=0.0113 | 146.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[42/300] CMA-ES | sine_mod_saw | p_loss=0.4742 | 146.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[43/300] CMA-ES | sine_mod_saw | p_loss=0.1031 | 145.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[44/300] CMA-ES | sine_mod_saw | p_loss=0.0000 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[45/300] CMA-ES | sine_mod_saw | p_loss=0.0010 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[46/300] CMA-ES | sine_mod_saw | p_loss=0.0270 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[47/300] CMA-ES | sine_mod_saw | p_loss=0.0275 | 146.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[48/300] CMA-ES | sine_mod_saw | p_loss=0.0011 | 146.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[49/300] CMA-ES | sine_mod_saw | p_loss=0.0244 | 145.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[50/300] CMA-ES | sine_mod_saw | p_loss=0.0295 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[51/300] CMA-ES | sine_mod_saw | p_loss=0.1586 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[52/300] CMA-ES | sine_mod_saw | p_loss=0.0477 | 145.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[53/300] CMA-ES | sine_mod_saw | p_loss=0.1716 | 145.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[54/300] CMA-ES | sine_mod_saw | p_loss=0.0157 | 146.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[55/300] CMA-ES | sine_mod_saw | p_loss=0.0566 | 147.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[56/300] CMA-ES | sine_mod_saw | p_loss=0.1055 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[57/300] CMA-ES | sine_mod_saw | p_loss=0.0374 | 145.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[58/300] CMA-ES | sine_mod_saw | p_loss=0.0120 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[59/300] CMA-ES | sine_mod_saw | p_loss=0.0035 | 146.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[60/300] CMA-ES | sine_mod_saw | p_loss=0.0898 | 145.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[61/300] CMA-ES | sine_mod_saw | p_loss=0.0782 | 146.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[62/300] CMA-ES | sine_mod_saw | p_loss=0.0280 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[63/300] CMA-ES | sine_mod_saw | p_loss=0.2056 | 146.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[64/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 145.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[65/300] CMA-ES | sine_mod_saw | p_loss=0.0715 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[66/300] CMA-ES | sine_mod_saw | p_loss=0.2262 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[67/300] CMA-ES | sine_mod_saw | p_loss=0.0458 | 146.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[68/300] CMA-ES | sine_mod_saw | p_loss=0.0079 | 148.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[69/300] CMA-ES | sine_mod_saw | p_loss=0.0743 | 145.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[70/300] CMA-ES | sine_mod_saw | p_loss=0.0096 | 145.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[71/300] CMA-ES | sine_mod_saw | p_loss=0.0018 | 146.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[72/300] CMA-ES | sine_mod_saw | p_loss=0.0047 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[73/300] CMA-ES | sine_mod_saw | p_loss=0.0150 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[74/300] CMA-ES | sine_mod_saw | p_loss=0.4796 | 146.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[75/300] CMA-ES | sine_mod_saw | p_loss=0.0023 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[76/300] CMA-ES | sine_mod_saw | p_loss=0.1140 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[77/300] CMA-ES | sine_mod_saw | p_loss=0.0712 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[78/300] CMA-ES | sine_mod_saw | p_loss=0.1037 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[79/300] CMA-ES | sine_mod_saw | p_loss=0.0843 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[80/300] CMA-ES | sine_mod_saw | p_loss=0.0140 | 146.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[81/300] CMA-ES | sine_mod_saw | p_loss=0.1638 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[82/300] CMA-ES | sine_mod_saw | p_loss=0.1184 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[83/300] CMA-ES | sine_mod_saw | p_loss=0.0330 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[84/300] CMA-ES | sine_mod_saw | p_loss=0.0422 | 145.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[85/300] CMA-ES | sine_mod_saw | p_loss=0.0358 | 146.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[86/300] CMA-ES | sine_mod_saw | p_loss=0.0177 | 146.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[87/300] CMA-ES | sine_mod_saw | p_loss=0.0728 | 146.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[88/300] CMA-ES | sine_mod_saw | p_loss=0.0032 | 146.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[89/300] CMA-ES | sine_mod_saw | p_loss=0.0275 | 146.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[90/300] CMA-ES | sine_mod_saw | p_loss=0.1139 | 146.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[91/300] CMA-ES | sine_mod_saw | p_loss=0.0160 | 145.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[92/300] CMA-ES | sine_mod_saw | p_loss=0.0196 | 147.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[93/300] CMA-ES | sine_mod_saw | p_loss=0.0619 | 145.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[94/300] CMA-ES | sine_mod_saw | p_loss=0.0911 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[95/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[96/300] CMA-ES | sine_mod_saw | p_loss=0.0587 | 146.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[97/300] CMA-ES | sine_mod_saw | p_loss=0.0885 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[98/300] CMA-ES | sine_mod_saw | p_loss=0.0188 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[99/300] CMA-ES | sine_mod_saw | p_loss=0.0186 | 146.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[100/300] CMA-ES | sine_mod_saw | p_loss=0.0543 | 146.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[101/300] CMA-ES | sine_mod_saw | p_loss=0.0136 | 145.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[102/300] CMA-ES | sine_mod_saw | p_loss=0.0019 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[103/300] CMA-ES | sine_mod_saw | p_loss=0.6102 | 146.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[104/300] CMA-ES | sine_mod_saw | p_loss=0.0346 | 146.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[105/300] CMA-ES | sine_mod_saw | p_loss=0.0002 | 145.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[106/300] CMA-ES | sine_mod_saw | p_loss=0.0000 | 144.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[107/300] CMA-ES | sine_mod_saw | p_loss=0.0373 | 145.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[108/300] CMA-ES | sine_mod_saw | p_loss=0.2233 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[109/300] CMA-ES | sine_mod_saw | p_loss=0.0602 | 144.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[110/300] CMA-ES | sine_mod_saw | p_loss=0.2328 | 144.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[111/300] CMA-ES | sine_mod_saw | p_loss=0.1225 | 144.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[112/300] CMA-ES | sine_mod_saw | p_loss=0.0000 | 144.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[113/300] CMA-ES | sine_mod_saw | p_loss=0.0820 | 144.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[114/300] CMA-ES | sine_mod_saw | p_loss=0.0063 | 144.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[115/300] CMA-ES | sine_mod_saw | p_loss=0.1734 | 144.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[116/300] CMA-ES | sine_mod_saw | p_loss=0.2337 | 144.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[117/300] CMA-ES | sine_mod_saw | p_loss=0.2679 | 144.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[118/300] CMA-ES | sine_mod_saw | p_loss=0.0270 | 145.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[119/300] CMA-ES | sine_mod_saw | p_loss=0.0073 | 144.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[120/300] CMA-ES | sine_mod_saw | p_loss=0.0301 | 144.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[121/300] CMA-ES | sine_mod_saw | p_loss=0.0437 | 144.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[122/300] CMA-ES | sine_mod_saw | p_loss=0.0014 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[123/300] CMA-ES | sine_mod_saw | p_loss=0.0016 | 142.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[124/300] CMA-ES | sine_mod_saw | p_loss=0.0198 | 143.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[125/300] CMA-ES | sine_mod_saw | p_loss=0.0211 | 144.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[126/300] CMA-ES | sine_mod_saw | p_loss=0.1130 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[127/300] CMA-ES | sine_mod_saw | p_loss=0.0344 | 144.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[128/300] CMA-ES | sine_mod_saw | p_loss=0.0186 | 143.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[129/300] CMA-ES | sine_mod_saw | p_loss=0.0334 | 142.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[130/300] CMA-ES | sine_mod_saw | p_loss=0.1333 | 144.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[131/300] CMA-ES | sine_mod_saw | p_loss=0.4361 | 145.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[132/300] CMA-ES | sine_mod_saw | p_loss=0.0033 | 144.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[133/300] CMA-ES | sine_mod_saw | p_loss=0.0402 | 145.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[134/300] CMA-ES | sine_mod_saw | p_loss=0.0133 | 145.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[135/300] CMA-ES | sine_mod_saw | p_loss=0.0003 | 144.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[136/300] CMA-ES | sine_mod_saw | p_loss=0.8462 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[137/300] CMA-ES | sine_mod_saw | p_loss=0.0236 | 144.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[138/300] CMA-ES | sine_mod_saw | p_loss=0.4555 | 143.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[139/300] CMA-ES | sine_mod_saw | p_loss=0.0021 | 143.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[140/300] CMA-ES | sine_mod_saw | p_loss=0.0002 | 143.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[141/300] CMA-ES | sine_mod_saw | p_loss=0.2341 | 143.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[142/300] CMA-ES | sine_mod_saw | p_loss=0.0195 | 143.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[143/300] CMA-ES | sine_mod_saw | p_loss=0.0208 | 143.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[144/300] CMA-ES | sine_mod_saw | p_loss=0.0756 | 144.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[145/300] CMA-ES | sine_mod_saw | p_loss=0.1245 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[146/300] CMA-ES | sine_mod_saw | p_loss=0.1266 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[147/300] CMA-ES | sine_mod_saw | p_loss=0.0114 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[148/300] CMA-ES | sine_mod_saw | p_loss=0.0223 | 144.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[149/300] CMA-ES | sine_mod_saw | p_loss=0.1067 | 143.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[150/300] CMA-ES | sine_mod_saw | p_loss=0.0425 | 143.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[151/300] CMA-ES | sine_mod_saw | p_loss=0.0877 | 143.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[152/300] CMA-ES | sine_mod_saw | p_loss=0.0666 | 141.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[153/300] CMA-ES | sine_mod_saw | p_loss=0.0540 | 143.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[154/300] CMA-ES | sine_mod_saw | p_loss=0.1354 | 143.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[155/300] CMA-ES | sine_mod_saw | p_loss=0.1115 | 143.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[156/300] CMA-ES | sine_mod_saw | p_loss=0.0043 | 142.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[157/300] CMA-ES | sine_mod_saw | p_loss=0.0443 | 143.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[158/300] CMA-ES | sine_mod_saw | p_loss=0.0059 | 143.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[159/300] CMA-ES | sine_mod_saw | p_loss=0.0067 | 143.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[160/300] CMA-ES | sine_mod_saw | p_loss=0.0077 | 143.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[161/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 142.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[162/300] CMA-ES | sine_mod_saw | p_loss=0.0324 | 142.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[163/300] CMA-ES | sine_mod_saw | p_loss=0.0183 | 144.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[164/300] CMA-ES | sine_mod_saw | p_loss=0.0376 | 144.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[165/300] CMA-ES | sine_mod_saw | p_loss=0.0272 | 143.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[166/300] CMA-ES | sine_mod_saw | p_loss=0.0958 | 142.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[167/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 143.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[168/300] CMA-ES | sine_mod_saw | p_loss=0.1396 | 143.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[169/300] CMA-ES | sine_mod_saw | p_loss=0.0973 | 143.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[170/300] CMA-ES | sine_mod_saw | p_loss=0.0091 | 143.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[171/300] CMA-ES | sine_mod_saw | p_loss=0.0248 | 143.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[172/300] CMA-ES | sine_mod_saw | p_loss=0.0286 | 144.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[173/300] CMA-ES | sine_mod_saw | p_loss=0.3323 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[174/300] CMA-ES | sine_mod_saw | p_loss=0.2084 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[175/300] CMA-ES | sine_mod_saw | p_loss=0.2075 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[176/300] CMA-ES | sine_mod_saw | p_loss=0.0915 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[177/300] CMA-ES | sine_mod_saw | p_loss=0.3119 | 140.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[178/300] CMA-ES | sine_mod_saw | p_loss=0.0772 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[179/300] CMA-ES | sine_mod_saw | p_loss=0.0842 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[180/300] CMA-ES | sine_mod_saw | p_loss=0.0583 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[181/300] CMA-ES | sine_mod_saw | p_loss=0.2736 | 140.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[182/300] CMA-ES | sine_mod_saw | p_loss=0.0086 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[183/300] CMA-ES | sine_mod_saw | p_loss=0.0008 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[184/300] CMA-ES | sine_mod_saw | p_loss=0.1016 | 140.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[185/300] CMA-ES | sine_mod_saw | p_loss=0.0066 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[186/300] CMA-ES | sine_mod_saw | p_loss=0.5814 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[187/300] CMA-ES | sine_mod_saw | p_loss=0.0143 | 141.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[188/300] CMA-ES | sine_mod_saw | p_loss=0.2547 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[189/300] CMA-ES | sine_mod_saw | p_loss=0.2364 | 141.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[190/300] CMA-ES | sine_mod_saw | p_loss=0.0104 | 141.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[191/300] CMA-ES | sine_mod_saw | p_loss=0.0003 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[192/300] CMA-ES | sine_mod_saw | p_loss=0.7661 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[193/300] CMA-ES | sine_mod_saw | p_loss=0.0563 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[194/300] CMA-ES | sine_mod_saw | p_loss=0.0506 | 141.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[195/300] CMA-ES | sine_mod_saw | p_loss=0.1149 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[196/300] CMA-ES | sine_mod_saw | p_loss=0.0094 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[197/300] CMA-ES | sine_mod_saw | p_loss=0.0004 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[198/300] CMA-ES | sine_mod_saw | p_loss=0.6104 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[199/300] CMA-ES | sine_mod_saw | p_loss=0.1310 | 140.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[200/300] CMA-ES | sine_mod_saw | p_loss=0.0514 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[201/300] CMA-ES | sine_mod_saw | p_loss=0.0901 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[202/300] CMA-ES | sine_mod_saw | p_loss=0.0167 | 141.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[203/300] CMA-ES | sine_mod_saw | p_loss=0.0215 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[204/300] CMA-ES | sine_mod_saw | p_loss=0.0407 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[205/300] CMA-ES | sine_mod_saw | p_loss=0.0072 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[206/300] CMA-ES | sine_mod_saw | p_loss=0.0174 | 141.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[207/300] CMA-ES | sine_mod_saw | p_loss=0.1108 | 141.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[208/300] CMA-ES | sine_mod_saw | p_loss=0.0591 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[209/300] CMA-ES | sine_mod_saw | p_loss=0.1289 | 140.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[210/300] CMA-ES | sine_mod_saw | p_loss=0.1268 | 141.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[211/300] CMA-ES | sine_mod_saw | p_loss=0.5201 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[212/300] CMA-ES | sine_mod_saw | p_loss=0.0104 | 141.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[213/300] CMA-ES | sine_mod_saw | p_loss=0.6765 | 141.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[214/300] CMA-ES | sine_mod_saw | p_loss=0.6477 | 141.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[215/300] CMA-ES | sine_mod_saw | p_loss=0.0825 | 139.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[216/300] CMA-ES | sine_mod_saw | p_loss=0.1322 | 139.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[217/300] CMA-ES | sine_mod_saw | p_loss=0.0390 | 139.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[218/300] CMA-ES | sine_mod_saw | p_loss=0.0315 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[219/300] CMA-ES | sine_mod_saw | p_loss=0.0448 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[220/300] CMA-ES | sine_mod_saw | p_loss=0.0191 | 140.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[221/300] CMA-ES | sine_mod_saw | p_loss=0.0000 | 140.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[222/300] CMA-ES | sine_mod_saw | p_loss=0.5944 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[223/300] CMA-ES | sine_mod_saw | p_loss=0.2287 | 140.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[224/300] CMA-ES | sine_mod_saw | p_loss=0.0510 | 140.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[225/300] CMA-ES | sine_mod_saw | p_loss=0.0160 | 140.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[226/300] CMA-ES | sine_mod_saw | p_loss=0.1805 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[227/300] CMA-ES | sine_mod_saw | p_loss=0.0786 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[228/300] CMA-ES | sine_mod_saw | p_loss=0.0037 | 140.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[229/300] CMA-ES | sine_mod_saw | p_loss=0.0161 | 139.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[230/300] CMA-ES | sine_mod_saw | p_loss=0.0305 | 139.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[231/300] CMA-ES | sine_mod_saw | p_loss=0.0208 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[232/300] CMA-ES | sine_mod_saw | p_loss=0.1928 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[233/300] CMA-ES | sine_mod_saw | p_loss=0.0565 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[234/300] CMA-ES | sine_mod_saw | p_loss=0.0009 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[235/300] CMA-ES | sine_mod_saw | p_loss=0.0421 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[236/300] CMA-ES | sine_mod_saw | p_loss=0.0986 | 139.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[237/300] CMA-ES | sine_mod_saw | p_loss=0.0668 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[238/300] CMA-ES | sine_mod_saw | p_loss=0.2161 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[239/300] CMA-ES | sine_mod_saw | p_loss=0.0456 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[240/300] CMA-ES | sine_mod_saw | p_loss=0.0751 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[241/300] CMA-ES | sine_mod_saw | p_loss=0.8253 | 139.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[242/300] CMA-ES | sine_mod_saw | p_loss=0.0375 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[243/300] CMA-ES | sine_mod_saw | p_loss=0.0640 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[244/300] CMA-ES | sine_mod_saw | p_loss=0.0041 | 140.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[245/300] CMA-ES | sine_mod_saw | p_loss=0.0315 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[246/300] CMA-ES | sine_mod_saw | p_loss=0.3267 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[247/300] CMA-ES | sine_mod_saw | p_loss=0.0625 | 140.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[248/300] CMA-ES | sine_mod_saw | p_loss=0.0211 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[249/300] CMA-ES | sine_mod_saw | p_loss=0.0359 | 141.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[250/300] CMA-ES | sine_mod_saw | p_loss=0.0327 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[251/300] CMA-ES | sine_mod_saw | p_loss=0.0351 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[252/300] CMA-ES | sine_mod_saw | p_loss=0.2932 | 139.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[253/300] CMA-ES | sine_mod_saw | p_loss=0.0003 | 139.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[254/300] CMA-ES | sine_mod_saw | p_loss=0.0611 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[255/300] CMA-ES | sine_mod_saw | p_loss=0.1136 | 140.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[256/300] CMA-ES | sine_mod_saw | p_loss=0.0132 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[257/300] CMA-ES | sine_mod_saw | p_loss=0.0366 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[258/300] CMA-ES | sine_mod_saw | p_loss=0.0305 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[259/300] CMA-ES | sine_mod_saw | p_loss=0.0003 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[260/300] CMA-ES | sine_mod_saw | p_loss=0.2139 | 140.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[261/300] CMA-ES | sine_mod_saw | p_loss=0.0737 | 139.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[262/300] CMA-ES | sine_mod_saw | p_loss=0.0115 | 139.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[263/300] CMA-ES | sine_mod_saw | p_loss=0.0331 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[264/300] CMA-ES | sine_mod_saw | p_loss=0.0363 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[265/300] CMA-ES | sine_mod_saw | p_loss=0.0956 | 139.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[266/300] CMA-ES | sine_mod_saw | p_loss=0.0018 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[267/300] CMA-ES | sine_mod_saw | p_loss=0.1629 | 140.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[268/300] CMA-ES | sine_mod_saw | p_loss=0.7276 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[269/300] CMA-ES | sine_mod_saw | p_loss=0.0121 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[270/300] CMA-ES | sine_mod_saw | p_loss=0.0232 | 140.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[271/300] CMA-ES | sine_mod_saw | p_loss=0.0241 | 139.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[272/300] CMA-ES | sine_mod_saw | p_loss=0.0581 | 140.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[273/300] CMA-ES | sine_mod_saw | p_loss=0.0448 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[274/300] CMA-ES | sine_mod_saw | p_loss=0.0162 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[275/300] CMA-ES | sine_mod_saw | p_loss=0.0528 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[276/300] CMA-ES | sine_mod_saw | p_loss=0.0245 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[277/300] CMA-ES | sine_mod_saw | p_loss=0.0579 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[278/300] CMA-ES | sine_mod_saw | p_loss=0.0929 | 141.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[279/300] CMA-ES | sine_mod_saw | p_loss=0.9128 | 140.7s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[280/300] CMA-ES | sine_mod_saw | p_loss=0.1680 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[281/300] CMA-ES | sine_mod_saw | p_loss=0.0187 | 141.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[282/300] CMA-ES | sine_mod_saw | p_loss=0.1691 | 141.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[283/300] CMA-ES | sine_mod_saw | p_loss=0.0293 | 141.8s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[284/300] CMA-ES | sine_mod_saw | p_loss=0.2433 | 141.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[285/300] CMA-ES | sine_mod_saw | p_loss=0.1248 | 140.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[286/300] CMA-ES | sine_mod_saw | p_loss=0.0279 | 141.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[287/300] CMA-ES | sine_mod_saw | p_loss=0.0858 | 142.2s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[288/300] CMA-ES | sine_mod_saw | p_loss=0.0996 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[289/300] CMA-ES | sine_mod_saw | p_loss=0.0078 | 141.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[290/300] CMA-ES | sine_mod_saw | p_loss=0.0497 | 141.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[291/300] CMA-ES | sine_mod_saw | p_loss=0.1151 | 139.5s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[292/300] CMA-ES | sine_mod_saw | p_loss=0.1598 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[293/300] CMA-ES | sine_mod_saw | p_loss=0.0286 | 141.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[294/300] CMA-ES | sine_mod_saw | p_loss=0.0345 | 141.4s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[295/300] CMA-ES | sine_mod_saw | p_loss=0.0001 | 142.3s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[296/300] CMA-ES | sine_mod_saw | p_loss=0.1890 | 141.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[297/300] CMA-ES | sine_mod_saw | p_loss=0.0313 | 141.0s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[298/300] CMA-ES | sine_mod_saw | p_loss=0.0511 | 142.6s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[299/300] CMA-ES | sine_mod_saw | p_loss=0.1051 | 140.1s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[300/300] CMA-ES | sine_mod_saw | p_loss=0.1282 | 140.9s | sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_DTW_Envelope_CMA-ES.pkl
+Already have 300 trials for sine_mod_saw/CMA-ES, nothing to do.

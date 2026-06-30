@@ -1,0 +1,1203 @@
+chirplet/SIMSE_Spec/RandomSearch: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[1/300] RandomSearch | chirplet | p_loss=0.0011 | 16.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[2/300] RandomSearch | chirplet | p_loss=0.1379 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[3/300] RandomSearch | chirplet | p_loss=0.0133 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[4/300] RandomSearch | chirplet | p_loss=0.0579 | 15.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[5/300] RandomSearch | chirplet | p_loss=0.0454 | 16.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[6/300] RandomSearch | chirplet | p_loss=0.4239 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[7/300] RandomSearch | chirplet | p_loss=0.2228 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[8/300] RandomSearch | chirplet | p_loss=0.5444 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[9/300] RandomSearch | chirplet | p_loss=0.0079 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[10/300] RandomSearch | chirplet | p_loss=0.1877 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[11/300] RandomSearch | chirplet | p_loss=0.0879 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[12/300] RandomSearch | chirplet | p_loss=0.0515 | 15.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[13/300] RandomSearch | chirplet | p_loss=0.3637 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[14/300] RandomSearch | chirplet | p_loss=0.1720 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[15/300] RandomSearch | chirplet | p_loss=0.0270 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[16/300] RandomSearch | chirplet | p_loss=0.0273 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[17/300] RandomSearch | chirplet | p_loss=0.0385 | 15.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[18/300] RandomSearch | chirplet | p_loss=0.0289 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[19/300] RandomSearch | chirplet | p_loss=0.2643 | 16.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[20/300] RandomSearch | chirplet | p_loss=0.0035 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[21/300] RandomSearch | chirplet | p_loss=0.0488 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[22/300] RandomSearch | chirplet | p_loss=0.0285 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[23/300] RandomSearch | chirplet | p_loss=0.2115 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[24/300] RandomSearch | chirplet | p_loss=0.6255 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[25/300] RandomSearch | chirplet | p_loss=0.0220 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[26/300] RandomSearch | chirplet | p_loss=0.3266 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[27/300] RandomSearch | chirplet | p_loss=0.0805 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[28/300] RandomSearch | chirplet | p_loss=0.0579 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[29/300] RandomSearch | chirplet | p_loss=0.0355 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[30/300] RandomSearch | chirplet | p_loss=0.4046 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[31/300] RandomSearch | chirplet | p_loss=0.0190 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[32/300] RandomSearch | chirplet | p_loss=0.1284 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[33/300] RandomSearch | chirplet | p_loss=0.0020 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[34/300] RandomSearch | chirplet | p_loss=0.1940 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[35/300] RandomSearch | chirplet | p_loss=0.2255 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[36/300] RandomSearch | chirplet | p_loss=0.1290 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[37/300] RandomSearch | chirplet | p_loss=0.7051 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[38/300] RandomSearch | chirplet | p_loss=0.0424 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[39/300] RandomSearch | chirplet | p_loss=0.5771 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[40/300] RandomSearch | chirplet | p_loss=0.0732 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[41/300] RandomSearch | chirplet | p_loss=0.1223 | 16.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[42/300] RandomSearch | chirplet | p_loss=0.0143 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[43/300] RandomSearch | chirplet | p_loss=0.4369 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[44/300] RandomSearch | chirplet | p_loss=0.6272 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[45/300] RandomSearch | chirplet | p_loss=0.7968 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[46/300] RandomSearch | chirplet | p_loss=0.7725 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[47/300] RandomSearch | chirplet | p_loss=0.2080 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[48/300] RandomSearch | chirplet | p_loss=0.2151 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[49/300] RandomSearch | chirplet | p_loss=0.1013 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[50/300] RandomSearch | chirplet | p_loss=0.0552 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[51/300] RandomSearch | chirplet | p_loss=0.6839 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[52/300] RandomSearch | chirplet | p_loss=0.0483 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[53/300] RandomSearch | chirplet | p_loss=0.7954 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[54/300] RandomSearch | chirplet | p_loss=0.1718 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[55/300] RandomSearch | chirplet | p_loss=0.0546 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[56/300] RandomSearch | chirplet | p_loss=0.0091 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[57/300] RandomSearch | chirplet | p_loss=0.0599 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[58/300] RandomSearch | chirplet | p_loss=0.0081 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[59/300] RandomSearch | chirplet | p_loss=0.2547 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[60/300] RandomSearch | chirplet | p_loss=0.0217 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[61/300] RandomSearch | chirplet | p_loss=0.0350 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[62/300] RandomSearch | chirplet | p_loss=0.1658 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[63/300] RandomSearch | chirplet | p_loss=0.2877 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[64/300] RandomSearch | chirplet | p_loss=0.3001 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[65/300] RandomSearch | chirplet | p_loss=0.0068 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[66/300] RandomSearch | chirplet | p_loss=0.0206 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[67/300] RandomSearch | chirplet | p_loss=0.2689 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[68/300] RandomSearch | chirplet | p_loss=0.2274 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[69/300] RandomSearch | chirplet | p_loss=0.0861 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[70/300] RandomSearch | chirplet | p_loss=0.0262 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[71/300] RandomSearch | chirplet | p_loss=0.0875 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[72/300] RandomSearch | chirplet | p_loss=0.0325 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[73/300] RandomSearch | chirplet | p_loss=0.4431 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[74/300] RandomSearch | chirplet | p_loss=0.0129 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[75/300] RandomSearch | chirplet | p_loss=0.4308 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[76/300] RandomSearch | chirplet | p_loss=0.0409 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[77/300] RandomSearch | chirplet | p_loss=0.0927 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[78/300] RandomSearch | chirplet | p_loss=0.1490 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[79/300] RandomSearch | chirplet | p_loss=0.2141 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[80/300] RandomSearch | chirplet | p_loss=0.0492 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[81/300] RandomSearch | chirplet | p_loss=0.0354 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[82/300] RandomSearch | chirplet | p_loss=0.1879 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[83/300] RandomSearch | chirplet | p_loss=0.0224 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[84/300] RandomSearch | chirplet | p_loss=0.0153 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[85/300] RandomSearch | chirplet | p_loss=0.5760 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[86/300] RandomSearch | chirplet | p_loss=0.1202 | 17.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[87/300] RandomSearch | chirplet | p_loss=0.2387 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[88/300] RandomSearch | chirplet | p_loss=0.0381 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[89/300] RandomSearch | chirplet | p_loss=0.4525 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[90/300] RandomSearch | chirplet | p_loss=0.0090 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[91/300] RandomSearch | chirplet | p_loss=0.0880 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[92/300] RandomSearch | chirplet | p_loss=0.1794 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[93/300] RandomSearch | chirplet | p_loss=0.0623 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[94/300] RandomSearch | chirplet | p_loss=0.1751 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[95/300] RandomSearch | chirplet | p_loss=0.3398 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[96/300] RandomSearch | chirplet | p_loss=0.2704 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[97/300] RandomSearch | chirplet | p_loss=0.5344 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[98/300] RandomSearch | chirplet | p_loss=0.1629 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[99/300] RandomSearch | chirplet | p_loss=0.6535 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[100/300] RandomSearch | chirplet | p_loss=0.1316 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[101/300] RandomSearch | chirplet | p_loss=0.0400 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[102/300] RandomSearch | chirplet | p_loss=0.0654 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[103/300] RandomSearch | chirplet | p_loss=0.0730 | 17.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[104/300] RandomSearch | chirplet | p_loss=0.1117 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[105/300] RandomSearch | chirplet | p_loss=0.0891 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[106/300] RandomSearch | chirplet | p_loss=0.5928 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[107/300] RandomSearch | chirplet | p_loss=0.0954 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[108/300] RandomSearch | chirplet | p_loss=0.0095 | 16.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[109/300] RandomSearch | chirplet | p_loss=0.5097 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[110/300] RandomSearch | chirplet | p_loss=0.0749 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[111/300] RandomSearch | chirplet | p_loss=0.0439 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[112/300] RandomSearch | chirplet | p_loss=0.1303 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[113/300] RandomSearch | chirplet | p_loss=0.1818 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[114/300] RandomSearch | chirplet | p_loss=0.4903 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[115/300] RandomSearch | chirplet | p_loss=0.6100 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[116/300] RandomSearch | chirplet | p_loss=0.0107 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[117/300] RandomSearch | chirplet | p_loss=0.2047 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[118/300] RandomSearch | chirplet | p_loss=0.5104 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[119/300] RandomSearch | chirplet | p_loss=0.0563 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[120/300] RandomSearch | chirplet | p_loss=0.3991 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[121/300] RandomSearch | chirplet | p_loss=0.1988 | 16.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[122/300] RandomSearch | chirplet | p_loss=0.0427 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[123/300] RandomSearch | chirplet | p_loss=0.0080 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[124/300] RandomSearch | chirplet | p_loss=0.0144 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[125/300] RandomSearch | chirplet | p_loss=0.1770 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[126/300] RandomSearch | chirplet | p_loss=0.4537 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[127/300] RandomSearch | chirplet | p_loss=0.4810 | 16.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[128/300] RandomSearch | chirplet | p_loss=0.0567 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[129/300] RandomSearch | chirplet | p_loss=0.1590 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[130/300] RandomSearch | chirplet | p_loss=0.4115 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[131/300] RandomSearch | chirplet | p_loss=0.2846 | 16.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[132/300] RandomSearch | chirplet | p_loss=0.0302 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[133/300] RandomSearch | chirplet | p_loss=0.0499 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[134/300] RandomSearch | chirplet | p_loss=0.4129 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[135/300] RandomSearch | chirplet | p_loss=0.0793 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[136/300] RandomSearch | chirplet | p_loss=0.0738 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[137/300] RandomSearch | chirplet | p_loss=0.0134 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[138/300] RandomSearch | chirplet | p_loss=0.0607 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[139/300] RandomSearch | chirplet | p_loss=0.1635 | 16.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[140/300] RandomSearch | chirplet | p_loss=0.5113 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[141/300] RandomSearch | chirplet | p_loss=0.2690 | 17.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[142/300] RandomSearch | chirplet | p_loss=0.1487 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[143/300] RandomSearch | chirplet | p_loss=0.5371 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[144/300] RandomSearch | chirplet | p_loss=0.2219 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[145/300] RandomSearch | chirplet | p_loss=0.3132 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[146/300] RandomSearch | chirplet | p_loss=0.2912 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[147/300] RandomSearch | chirplet | p_loss=0.0350 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[148/300] RandomSearch | chirplet | p_loss=0.1508 | 17.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[149/300] RandomSearch | chirplet | p_loss=0.1579 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[150/300] RandomSearch | chirplet | p_loss=0.2195 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[151/300] RandomSearch | chirplet | p_loss=0.3949 | 16.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[152/300] RandomSearch | chirplet | p_loss=0.0326 | 17.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[153/300] RandomSearch | chirplet | p_loss=0.2529 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[154/300] RandomSearch | chirplet | p_loss=0.0867 | 16.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[155/300] RandomSearch | chirplet | p_loss=0.2556 | 16.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[156/300] RandomSearch | chirplet | p_loss=0.3002 | 16.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[157/300] RandomSearch | chirplet | p_loss=0.3374 | 16.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[158/300] RandomSearch | chirplet | p_loss=0.4901 | 15.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[159/300] RandomSearch | chirplet | p_loss=0.2152 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[160/300] RandomSearch | chirplet | p_loss=0.0323 | 15.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[161/300] RandomSearch | chirplet | p_loss=0.3490 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[162/300] RandomSearch | chirplet | p_loss=0.0774 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[163/300] RandomSearch | chirplet | p_loss=0.1259 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[164/300] RandomSearch | chirplet | p_loss=0.0830 | 15.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[165/300] RandomSearch | chirplet | p_loss=0.5266 | 15.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[166/300] RandomSearch | chirplet | p_loss=0.1113 | 15.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[167/300] RandomSearch | chirplet | p_loss=0.0310 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[168/300] RandomSearch | chirplet | p_loss=0.3766 | 15.8s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[169/300] RandomSearch | chirplet | p_loss=0.0731 | 15.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[170/300] RandomSearch | chirplet | p_loss=0.0494 | 15.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[171/300] RandomSearch | chirplet | p_loss=0.5546 | 15.7s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[172/300] RandomSearch | chirplet | p_loss=0.1491 | 15.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[173/300] RandomSearch | chirplet | p_loss=0.8407 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[174/300] RandomSearch | chirplet | p_loss=0.2093 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[175/300] RandomSearch | chirplet | p_loss=0.6381 | 10.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[176/300] RandomSearch | chirplet | p_loss=0.0411 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[177/300] RandomSearch | chirplet | p_loss=0.0536 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[178/300] RandomSearch | chirplet | p_loss=0.4191 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[179/300] RandomSearch | chirplet | p_loss=0.3076 | 11.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[180/300] RandomSearch | chirplet | p_loss=0.0028 | 14.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[181/300] RandomSearch | chirplet | p_loss=0.5613 | 14.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[182/300] RandomSearch | chirplet | p_loss=0.2783 | 14.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[183/300] RandomSearch | chirplet | p_loss=0.0407 | 14.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[184/300] RandomSearch | chirplet | p_loss=0.0694 | 14.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[185/300] RandomSearch | chirplet | p_loss=0.3547 | 14.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[186/300] RandomSearch | chirplet | p_loss=0.0960 | 14.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[187/300] RandomSearch | chirplet | p_loss=0.2847 | 14.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[188/300] RandomSearch | chirplet | p_loss=0.2306 | 14.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[189/300] RandomSearch | chirplet | p_loss=0.2412 | 14.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[190/300] RandomSearch | chirplet | p_loss=0.6192 | 14.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[191/300] RandomSearch | chirplet | p_loss=0.2896 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[192/300] RandomSearch | chirplet | p_loss=0.1623 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[193/300] RandomSearch | chirplet | p_loss=0.3412 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[194/300] RandomSearch | chirplet | p_loss=0.1052 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[195/300] RandomSearch | chirplet | p_loss=0.0517 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[196/300] RandomSearch | chirplet | p_loss=0.1350 | 11.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[197/300] RandomSearch | chirplet | p_loss=0.4420 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[198/300] RandomSearch | chirplet | p_loss=0.1327 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[199/300] RandomSearch | chirplet | p_loss=0.1212 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[200/300] RandomSearch | chirplet | p_loss=0.1499 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[201/300] RandomSearch | chirplet | p_loss=0.2107 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[202/300] RandomSearch | chirplet | p_loss=0.1659 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[203/300] RandomSearch | chirplet | p_loss=0.1576 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[204/300] RandomSearch | chirplet | p_loss=0.1497 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[205/300] RandomSearch | chirplet | p_loss=0.1152 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[206/300] RandomSearch | chirplet | p_loss=0.2820 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[207/300] RandomSearch | chirplet | p_loss=0.4000 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[208/300] RandomSearch | chirplet | p_loss=0.0963 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[209/300] RandomSearch | chirplet | p_loss=0.0570 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[210/300] RandomSearch | chirplet | p_loss=0.4819 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[211/300] RandomSearch | chirplet | p_loss=0.0104 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[212/300] RandomSearch | chirplet | p_loss=0.2239 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[213/300] RandomSearch | chirplet | p_loss=0.0494 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[214/300] RandomSearch | chirplet | p_loss=0.0750 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[215/300] RandomSearch | chirplet | p_loss=0.0858 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[216/300] RandomSearch | chirplet | p_loss=0.0554 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[217/300] RandomSearch | chirplet | p_loss=0.3277 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[218/300] RandomSearch | chirplet | p_loss=0.5935 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[219/300] RandomSearch | chirplet | p_loss=0.4947 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[220/300] RandomSearch | chirplet | p_loss=0.0834 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[221/300] RandomSearch | chirplet | p_loss=0.4254 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[222/300] RandomSearch | chirplet | p_loss=0.1005 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[223/300] RandomSearch | chirplet | p_loss=0.0352 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[224/300] RandomSearch | chirplet | p_loss=0.0033 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[225/300] RandomSearch | chirplet | p_loss=0.1431 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[226/300] RandomSearch | chirplet | p_loss=0.3184 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[227/300] RandomSearch | chirplet | p_loss=0.1771 | 10.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[228/300] RandomSearch | chirplet | p_loss=0.0236 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[229/300] RandomSearch | chirplet | p_loss=0.0432 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[230/300] RandomSearch | chirplet | p_loss=0.0647 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[231/300] RandomSearch | chirplet | p_loss=0.0916 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[232/300] RandomSearch | chirplet | p_loss=0.0641 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[233/300] RandomSearch | chirplet | p_loss=0.5708 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[234/300] RandomSearch | chirplet | p_loss=0.0381 | 11.0s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[235/300] RandomSearch | chirplet | p_loss=0.0830 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[236/300] RandomSearch | chirplet | p_loss=0.0201 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[237/300] RandomSearch | chirplet | p_loss=0.3980 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[238/300] RandomSearch | chirplet | p_loss=0.0836 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[239/300] RandomSearch | chirplet | p_loss=0.1534 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[240/300] RandomSearch | chirplet | p_loss=0.2237 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[241/300] RandomSearch | chirplet | p_loss=0.0352 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[242/300] RandomSearch | chirplet | p_loss=0.3547 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[243/300] RandomSearch | chirplet | p_loss=0.3049 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[244/300] RandomSearch | chirplet | p_loss=0.2055 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[245/300] RandomSearch | chirplet | p_loss=0.3066 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[246/300] RandomSearch | chirplet | p_loss=0.0514 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[247/300] RandomSearch | chirplet | p_loss=0.0299 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[248/300] RandomSearch | chirplet | p_loss=0.2875 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[249/300] RandomSearch | chirplet | p_loss=0.2113 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[250/300] RandomSearch | chirplet | p_loss=0.5556 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[251/300] RandomSearch | chirplet | p_loss=0.1486 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[252/300] RandomSearch | chirplet | p_loss=0.7508 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[253/300] RandomSearch | chirplet | p_loss=0.0682 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[254/300] RandomSearch | chirplet | p_loss=0.1274 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[255/300] RandomSearch | chirplet | p_loss=0.7539 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[256/300] RandomSearch | chirplet | p_loss=0.0201 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[257/300] RandomSearch | chirplet | p_loss=0.2584 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[258/300] RandomSearch | chirplet | p_loss=0.4213 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[259/300] RandomSearch | chirplet | p_loss=0.0034 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[260/300] RandomSearch | chirplet | p_loss=0.3462 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[261/300] RandomSearch | chirplet | p_loss=0.5956 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[262/300] RandomSearch | chirplet | p_loss=0.2020 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[263/300] RandomSearch | chirplet | p_loss=0.2820 | 11.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[264/300] RandomSearch | chirplet | p_loss=0.7044 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[265/300] RandomSearch | chirplet | p_loss=0.3620 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[266/300] RandomSearch | chirplet | p_loss=0.4421 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[267/300] RandomSearch | chirplet | p_loss=0.1334 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[268/300] RandomSearch | chirplet | p_loss=0.0517 | 11.6s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[269/300] RandomSearch | chirplet | p_loss=0.4113 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[270/300] RandomSearch | chirplet | p_loss=0.2721 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[271/300] RandomSearch | chirplet | p_loss=0.0128 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[272/300] RandomSearch | chirplet | p_loss=0.0639 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[273/300] RandomSearch | chirplet | p_loss=0.0554 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[274/300] RandomSearch | chirplet | p_loss=0.4062 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[275/300] RandomSearch | chirplet | p_loss=0.2861 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[276/300] RandomSearch | chirplet | p_loss=0.5940 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[277/300] RandomSearch | chirplet | p_loss=0.2751 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[278/300] RandomSearch | chirplet | p_loss=0.5077 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[279/300] RandomSearch | chirplet | p_loss=0.3369 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[280/300] RandomSearch | chirplet | p_loss=0.5341 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[281/300] RandomSearch | chirplet | p_loss=0.0685 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[282/300] RandomSearch | chirplet | p_loss=0.0288 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[283/300] RandomSearch | chirplet | p_loss=0.5414 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[284/300] RandomSearch | chirplet | p_loss=0.6056 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[285/300] RandomSearch | chirplet | p_loss=0.3614 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[286/300] RandomSearch | chirplet | p_loss=0.0919 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[287/300] RandomSearch | chirplet | p_loss=0.0059 | 11.2s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[288/300] RandomSearch | chirplet | p_loss=0.2000 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[289/300] RandomSearch | chirplet | p_loss=0.0673 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[290/300] RandomSearch | chirplet | p_loss=0.1282 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[291/300] RandomSearch | chirplet | p_loss=0.0147 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[292/300] RandomSearch | chirplet | p_loss=0.0108 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[293/300] RandomSearch | chirplet | p_loss=0.2378 | 11.1s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[294/300] RandomSearch | chirplet | p_loss=0.0783 | 11.5s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[295/300] RandomSearch | chirplet | p_loss=0.0908 | 11.9s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[296/300] RandomSearch | chirplet | p_loss=0.2082 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[297/300] RandomSearch | chirplet | p_loss=0.0715 | 11.4s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[298/300] RandomSearch | chirplet | p_loss=0.0991 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[299/300] RandomSearch | chirplet | p_loss=0.0880 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/chirplet_2b38eac7d529/chirplet.dsp.json
+  increase_speed        /chirplet/increase_speed                  [1.0, 20.0]  default=10.5
+  starting_pitch        /chirplet/starting_pitch                  [30.0, 100.0]  default=65.0
+[300/300] RandomSearch | chirplet | p_loss=0.6259 | 11.3s | chirplet_SIMSE_Spec_RandomSearch.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_RandomSearch.pkl
+Already have 300 trials for chirplet/RandomSearch, nothing to do.

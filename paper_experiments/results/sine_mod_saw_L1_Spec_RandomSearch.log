@@ -1,0 +1,1203 @@
+sine_mod_saw/L1_Spec/RandomSearch: 0 done, running 300 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[1/300] RandomSearch | sine_mod_saw | p_loss=0.0011 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[2/300] RandomSearch | sine_mod_saw | p_loss=0.1379 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[3/300] RandomSearch | sine_mod_saw | p_loss=0.0133 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[4/300] RandomSearch | sine_mod_saw | p_loss=0.0579 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[5/300] RandomSearch | sine_mod_saw | p_loss=0.0454 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[6/300] RandomSearch | sine_mod_saw | p_loss=0.0652 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[7/300] RandomSearch | sine_mod_saw | p_loss=0.0366 | 13.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[8/300] RandomSearch | sine_mod_saw | p_loss=0.0543 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[9/300] RandomSearch | sine_mod_saw | p_loss=0.0582 | 13.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[10/300] RandomSearch | sine_mod_saw | p_loss=0.4533 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[11/300] RandomSearch | sine_mod_saw | p_loss=0.1587 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[12/300] RandomSearch | sine_mod_saw | p_loss=0.0117 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[13/300] RandomSearch | sine_mod_saw | p_loss=0.3257 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[14/300] RandomSearch | sine_mod_saw | p_loss=0.1115 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[15/300] RandomSearch | sine_mod_saw | p_loss=0.0270 | 13.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[16/300] RandomSearch | sine_mod_saw | p_loss=0.0058 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[17/300] RandomSearch | sine_mod_saw | p_loss=0.0385 | 13.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[18/300] RandomSearch | sine_mod_saw | p_loss=0.0289 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[19/300] RandomSearch | sine_mod_saw | p_loss=0.0312 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[20/300] RandomSearch | sine_mod_saw | p_loss=0.0035 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[21/300] RandomSearch | sine_mod_saw | p_loss=0.8615 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[22/300] RandomSearch | sine_mod_saw | p_loss=0.0285 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[23/300] RandomSearch | sine_mod_saw | p_loss=0.0272 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[24/300] RandomSearch | sine_mod_saw | p_loss=0.7362 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[25/300] RandomSearch | sine_mod_saw | p_loss=0.1003 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[26/300] RandomSearch | sine_mod_saw | p_loss=0.0986 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[27/300] RandomSearch | sine_mod_saw | p_loss=0.0805 | 13.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[28/300] RandomSearch | sine_mod_saw | p_loss=0.0328 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[29/300] RandomSearch | sine_mod_saw | p_loss=0.1927 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[30/300] RandomSearch | sine_mod_saw | p_loss=0.0289 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[31/300] RandomSearch | sine_mod_saw | p_loss=0.0190 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[32/300] RandomSearch | sine_mod_saw | p_loss=0.1665 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[33/300] RandomSearch | sine_mod_saw | p_loss=0.0020 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[34/300] RandomSearch | sine_mod_saw | p_loss=0.0965 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[35/300] RandomSearch | sine_mod_saw | p_loss=0.1283 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[36/300] RandomSearch | sine_mod_saw | p_loss=0.0482 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[37/300] RandomSearch | sine_mod_saw | p_loss=0.4312 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[38/300] RandomSearch | sine_mod_saw | p_loss=0.0816 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[39/300] RandomSearch | sine_mod_saw | p_loss=0.2086 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[40/300] RandomSearch | sine_mod_saw | p_loss=0.0608 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[41/300] RandomSearch | sine_mod_saw | p_loss=0.1858 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[42/300] RandomSearch | sine_mod_saw | p_loss=0.3979 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[43/300] RandomSearch | sine_mod_saw | p_loss=0.4048 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[44/300] RandomSearch | sine_mod_saw | p_loss=0.0279 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[45/300] RandomSearch | sine_mod_saw | p_loss=0.0645 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[46/300] RandomSearch | sine_mod_saw | p_loss=0.1712 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[47/300] RandomSearch | sine_mod_saw | p_loss=0.1371 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[48/300] RandomSearch | sine_mod_saw | p_loss=0.3066 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[49/300] RandomSearch | sine_mod_saw | p_loss=0.1397 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[50/300] RandomSearch | sine_mod_saw | p_loss=0.1945 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[51/300] RandomSearch | sine_mod_saw | p_loss=0.5037 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[52/300] RandomSearch | sine_mod_saw | p_loss=0.0483 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[53/300] RandomSearch | sine_mod_saw | p_loss=0.0087 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[54/300] RandomSearch | sine_mod_saw | p_loss=0.0828 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[55/300] RandomSearch | sine_mod_saw | p_loss=0.0177 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[56/300] RandomSearch | sine_mod_saw | p_loss=0.0091 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[57/300] RandomSearch | sine_mod_saw | p_loss=0.2147 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[58/300] RandomSearch | sine_mod_saw | p_loss=0.0081 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[59/300] RandomSearch | sine_mod_saw | p_loss=0.0189 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[60/300] RandomSearch | sine_mod_saw | p_loss=0.0112 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[61/300] RandomSearch | sine_mod_saw | p_loss=0.0350 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[62/300] RandomSearch | sine_mod_saw | p_loss=0.4219 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[63/300] RandomSearch | sine_mod_saw | p_loss=0.1054 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[64/300] RandomSearch | sine_mod_saw | p_loss=0.0093 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[65/300] RandomSearch | sine_mod_saw | p_loss=0.0068 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[66/300] RandomSearch | sine_mod_saw | p_loss=0.0877 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[67/300] RandomSearch | sine_mod_saw | p_loss=0.1916 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[68/300] RandomSearch | sine_mod_saw | p_loss=0.0826 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[69/300] RandomSearch | sine_mod_saw | p_loss=0.0097 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[70/300] RandomSearch | sine_mod_saw | p_loss=0.2745 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[71/300] RandomSearch | sine_mod_saw | p_loss=0.0674 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[72/300] RandomSearch | sine_mod_saw | p_loss=0.1013 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[73/300] RandomSearch | sine_mod_saw | p_loss=0.1234 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[74/300] RandomSearch | sine_mod_saw | p_loss=0.0129 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[75/300] RandomSearch | sine_mod_saw | p_loss=0.0312 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[76/300] RandomSearch | sine_mod_saw | p_loss=0.0213 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[77/300] RandomSearch | sine_mod_saw | p_loss=0.1922 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[78/300] RandomSearch | sine_mod_saw | p_loss=0.0141 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[79/300] RandomSearch | sine_mod_saw | p_loss=0.4171 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[80/300] RandomSearch | sine_mod_saw | p_loss=0.0304 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[81/300] RandomSearch | sine_mod_saw | p_loss=0.0354 | 13.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[82/300] RandomSearch | sine_mod_saw | p_loss=0.2417 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[83/300] RandomSearch | sine_mod_saw | p_loss=0.1006 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[84/300] RandomSearch | sine_mod_saw | p_loss=0.0153 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[85/300] RandomSearch | sine_mod_saw | p_loss=0.4360 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[86/300] RandomSearch | sine_mod_saw | p_loss=0.0885 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[87/300] RandomSearch | sine_mod_saw | p_loss=0.6668 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[88/300] RandomSearch | sine_mod_saw | p_loss=0.0095 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[89/300] RandomSearch | sine_mod_saw | p_loss=0.3704 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[90/300] RandomSearch | sine_mod_saw | p_loss=0.0045 | 13.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[91/300] RandomSearch | sine_mod_saw | p_loss=0.0242 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[92/300] RandomSearch | sine_mod_saw | p_loss=0.0911 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[93/300] RandomSearch | sine_mod_saw | p_loss=0.1635 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[94/300] RandomSearch | sine_mod_saw | p_loss=0.0120 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[95/300] RandomSearch | sine_mod_saw | p_loss=0.0542 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[96/300] RandomSearch | sine_mod_saw | p_loss=0.2704 | 14.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[97/300] RandomSearch | sine_mod_saw | p_loss=0.1479 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[98/300] RandomSearch | sine_mod_saw | p_loss=0.0336 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[99/300] RandomSearch | sine_mod_saw | p_loss=0.0661 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[100/300] RandomSearch | sine_mod_saw | p_loss=0.0094 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[101/300] RandomSearch | sine_mod_saw | p_loss=0.0400 | 13.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[102/300] RandomSearch | sine_mod_saw | p_loss=0.2106 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[103/300] RandomSearch | sine_mod_saw | p_loss=0.2130 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[104/300] RandomSearch | sine_mod_saw | p_loss=0.1280 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[105/300] RandomSearch | sine_mod_saw | p_loss=0.0192 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[106/300] RandomSearch | sine_mod_saw | p_loss=0.1273 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[107/300] RandomSearch | sine_mod_saw | p_loss=0.0795 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[108/300] RandomSearch | sine_mod_saw | p_loss=0.0197 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[109/300] RandomSearch | sine_mod_saw | p_loss=0.4276 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[110/300] RandomSearch | sine_mod_saw | p_loss=0.0096 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[111/300] RandomSearch | sine_mod_saw | p_loss=0.3491 | 14.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[112/300] RandomSearch | sine_mod_saw | p_loss=0.0554 | 14.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[113/300] RandomSearch | sine_mod_saw | p_loss=0.4174 | 14.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[114/300] RandomSearch | sine_mod_saw | p_loss=0.0326 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[115/300] RandomSearch | sine_mod_saw | p_loss=0.1286 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[116/300] RandomSearch | sine_mod_saw | p_loss=0.0235 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[117/300] RandomSearch | sine_mod_saw | p_loss=0.4326 | 14.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[118/300] RandomSearch | sine_mod_saw | p_loss=0.7794 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[119/300] RandomSearch | sine_mod_saw | p_loss=0.0533 | 14.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[120/300] RandomSearch | sine_mod_saw | p_loss=0.0097 | 14.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[121/300] RandomSearch | sine_mod_saw | p_loss=0.1180 | 14.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[122/300] RandomSearch | sine_mod_saw | p_loss=0.0427 | 15.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[123/300] RandomSearch | sine_mod_saw | p_loss=0.0727 | 15.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[124/300] RandomSearch | sine_mod_saw | p_loss=0.0144 | 15.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[125/300] RandomSearch | sine_mod_saw | p_loss=0.0094 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[126/300] RandomSearch | sine_mod_saw | p_loss=0.4042 | 15.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[127/300] RandomSearch | sine_mod_saw | p_loss=0.2847 | 15.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[128/300] RandomSearch | sine_mod_saw | p_loss=0.4170 | 15.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[129/300] RandomSearch | sine_mod_saw | p_loss=0.0921 | 15.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[130/300] RandomSearch | sine_mod_saw | p_loss=0.4887 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[131/300] RandomSearch | sine_mod_saw | p_loss=0.0111 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[132/300] RandomSearch | sine_mod_saw | p_loss=0.0302 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[133/300] RandomSearch | sine_mod_saw | p_loss=0.0499 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[134/300] RandomSearch | sine_mod_saw | p_loss=0.0970 | 15.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[135/300] RandomSearch | sine_mod_saw | p_loss=0.0218 | 15.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[136/300] RandomSearch | sine_mod_saw | p_loss=0.0163 | 15.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[137/300] RandomSearch | sine_mod_saw | p_loss=0.0134 | 16.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[138/300] RandomSearch | sine_mod_saw | p_loss=0.1109 | 15.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[139/300] RandomSearch | sine_mod_saw | p_loss=0.0611 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[140/300] RandomSearch | sine_mod_saw | p_loss=0.1018 | 15.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[141/300] RandomSearch | sine_mod_saw | p_loss=0.0188 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[142/300] RandomSearch | sine_mod_saw | p_loss=0.1487 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[143/300] RandomSearch | sine_mod_saw | p_loss=0.1406 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[144/300] RandomSearch | sine_mod_saw | p_loss=0.2219 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[145/300] RandomSearch | sine_mod_saw | p_loss=0.0185 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[146/300] RandomSearch | sine_mod_saw | p_loss=0.0117 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[147/300] RandomSearch | sine_mod_saw | p_loss=0.0350 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[148/300] RandomSearch | sine_mod_saw | p_loss=0.0265 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[149/300] RandomSearch | sine_mod_saw | p_loss=0.0808 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[150/300] RandomSearch | sine_mod_saw | p_loss=0.5101 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[151/300] RandomSearch | sine_mod_saw | p_loss=0.0928 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[152/300] RandomSearch | sine_mod_saw | p_loss=0.3003 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[153/300] RandomSearch | sine_mod_saw | p_loss=0.5188 | 16.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[154/300] RandomSearch | sine_mod_saw | p_loss=0.0854 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[155/300] RandomSearch | sine_mod_saw | p_loss=0.0664 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[156/300] RandomSearch | sine_mod_saw | p_loss=0.1323 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[157/300] RandomSearch | sine_mod_saw | p_loss=0.0138 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[158/300] RandomSearch | sine_mod_saw | p_loss=0.0296 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[159/300] RandomSearch | sine_mod_saw | p_loss=0.1626 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[160/300] RandomSearch | sine_mod_saw | p_loss=0.0323 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[161/300] RandomSearch | sine_mod_saw | p_loss=0.0355 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[162/300] RandomSearch | sine_mod_saw | p_loss=0.0213 | 16.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[163/300] RandomSearch | sine_mod_saw | p_loss=0.3485 | 16.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[164/300] RandomSearch | sine_mod_saw | p_loss=0.0143 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[165/300] RandomSearch | sine_mod_saw | p_loss=0.6755 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[166/300] RandomSearch | sine_mod_saw | p_loss=0.1184 | 16.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[167/300] RandomSearch | sine_mod_saw | p_loss=0.0310 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[168/300] RandomSearch | sine_mod_saw | p_loss=0.0825 | 16.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[169/300] RandomSearch | sine_mod_saw | p_loss=0.1365 | 16.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[170/300] RandomSearch | sine_mod_saw | p_loss=0.2849 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[171/300] RandomSearch | sine_mod_saw | p_loss=0.0196 | 16.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[172/300] RandomSearch | sine_mod_saw | p_loss=0.5566 | 16.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[173/300] RandomSearch | sine_mod_saw | p_loss=0.0089 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[174/300] RandomSearch | sine_mod_saw | p_loss=0.3404 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[175/300] RandomSearch | sine_mod_saw | p_loss=0.0583 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[176/300] RandomSearch | sine_mod_saw | p_loss=0.2884 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[177/300] RandomSearch | sine_mod_saw | p_loss=0.0656 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[178/300] RandomSearch | sine_mod_saw | p_loss=0.2502 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[179/300] RandomSearch | sine_mod_saw | p_loss=0.0212 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[180/300] RandomSearch | sine_mod_saw | p_loss=0.0028 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[181/300] RandomSearch | sine_mod_saw | p_loss=0.0163 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[182/300] RandomSearch | sine_mod_saw | p_loss=0.0114 | 14.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[183/300] RandomSearch | sine_mod_saw | p_loss=0.0407 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[184/300] RandomSearch | sine_mod_saw | p_loss=0.0340 | 14.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[185/300] RandomSearch | sine_mod_saw | p_loss=0.0131 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[186/300] RandomSearch | sine_mod_saw | p_loss=0.0238 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[187/300] RandomSearch | sine_mod_saw | p_loss=0.0127 | 14.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[188/300] RandomSearch | sine_mod_saw | p_loss=0.0633 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[189/300] RandomSearch | sine_mod_saw | p_loss=0.1612 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[190/300] RandomSearch | sine_mod_saw | p_loss=0.5082 | 15.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[191/300] RandomSearch | sine_mod_saw | p_loss=0.1225 | 14.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[192/300] RandomSearch | sine_mod_saw | p_loss=0.0074 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[193/300] RandomSearch | sine_mod_saw | p_loss=0.0065 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[194/300] RandomSearch | sine_mod_saw | p_loss=0.1052 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[195/300] RandomSearch | sine_mod_saw | p_loss=0.0023 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[196/300] RandomSearch | sine_mod_saw | p_loss=0.1029 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[197/300] RandomSearch | sine_mod_saw | p_loss=0.0151 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[198/300] RandomSearch | sine_mod_saw | p_loss=0.2445 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[199/300] RandomSearch | sine_mod_saw | p_loss=0.0455 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[200/300] RandomSearch | sine_mod_saw | p_loss=0.1110 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[201/300] RandomSearch | sine_mod_saw | p_loss=0.1600 | 11.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[202/300] RandomSearch | sine_mod_saw | p_loss=0.0150 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[203/300] RandomSearch | sine_mod_saw | p_loss=0.1576 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[204/300] RandomSearch | sine_mod_saw | p_loss=0.1497 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[205/300] RandomSearch | sine_mod_saw | p_loss=0.4821 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[206/300] RandomSearch | sine_mod_saw | p_loss=0.2084 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[207/300] RandomSearch | sine_mod_saw | p_loss=0.3079 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[208/300] RandomSearch | sine_mod_saw | p_loss=0.0207 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[209/300] RandomSearch | sine_mod_saw | p_loss=0.0178 | 15.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[210/300] RandomSearch | sine_mod_saw | p_loss=0.6222 | 14.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[211/300] RandomSearch | sine_mod_saw | p_loss=0.0104 | 15.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[212/300] RandomSearch | sine_mod_saw | p_loss=0.0317 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[213/300] RandomSearch | sine_mod_saw | p_loss=0.2294 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[214/300] RandomSearch | sine_mod_saw | p_loss=0.4877 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[215/300] RandomSearch | sine_mod_saw | p_loss=0.3736 | 15.3s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[216/300] RandomSearch | sine_mod_saw | p_loss=0.2424 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[217/300] RandomSearch | sine_mod_saw | p_loss=0.0552 | 15.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[218/300] RandomSearch | sine_mod_saw | p_loss=0.0144 | 15.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[219/300] RandomSearch | sine_mod_saw | p_loss=0.2491 | 15.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[220/300] RandomSearch | sine_mod_saw | p_loss=0.2181 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[221/300] RandomSearch | sine_mod_saw | p_loss=0.1153 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[222/300] RandomSearch | sine_mod_saw | p_loss=0.1690 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[223/300] RandomSearch | sine_mod_saw | p_loss=0.0562 | 15.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[224/300] RandomSearch | sine_mod_saw | p_loss=0.0180 | 14.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[225/300] RandomSearch | sine_mod_saw | p_loss=0.0040 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[226/300] RandomSearch | sine_mod_saw | p_loss=0.0082 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[227/300] RandomSearch | sine_mod_saw | p_loss=0.0038 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[228/300] RandomSearch | sine_mod_saw | p_loss=0.3934 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[229/300] RandomSearch | sine_mod_saw | p_loss=0.1174 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[230/300] RandomSearch | sine_mod_saw | p_loss=0.0051 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[231/300] RandomSearch | sine_mod_saw | p_loss=0.0916 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[232/300] RandomSearch | sine_mod_saw | p_loss=0.0641 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[233/300] RandomSearch | sine_mod_saw | p_loss=0.0154 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[234/300] RandomSearch | sine_mod_saw | p_loss=0.0381 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[235/300] RandomSearch | sine_mod_saw | p_loss=0.3468 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[236/300] RandomSearch | sine_mod_saw | p_loss=0.1108 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[237/300] RandomSearch | sine_mod_saw | p_loss=0.1819 | 11.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[238/300] RandomSearch | sine_mod_saw | p_loss=0.1829 | 12.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[239/300] RandomSearch | sine_mod_saw | p_loss=0.1154 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[240/300] RandomSearch | sine_mod_saw | p_loss=0.2237 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[241/300] RandomSearch | sine_mod_saw | p_loss=0.0352 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[242/300] RandomSearch | sine_mod_saw | p_loss=0.0059 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[243/300] RandomSearch | sine_mod_saw | p_loss=0.1868 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[244/300] RandomSearch | sine_mod_saw | p_loss=0.0647 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[245/300] RandomSearch | sine_mod_saw | p_loss=0.2995 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[246/300] RandomSearch | sine_mod_saw | p_loss=0.1618 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[247/300] RandomSearch | sine_mod_saw | p_loss=0.0299 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[248/300] RandomSearch | sine_mod_saw | p_loss=0.0275 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[249/300] RandomSearch | sine_mod_saw | p_loss=0.2643 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[250/300] RandomSearch | sine_mod_saw | p_loss=0.2139 | 11.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[251/300] RandomSearch | sine_mod_saw | p_loss=0.0266 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[252/300] RandomSearch | sine_mod_saw | p_loss=0.0332 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[253/300] RandomSearch | sine_mod_saw | p_loss=0.7601 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[254/300] RandomSearch | sine_mod_saw | p_loss=0.1644 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[255/300] RandomSearch | sine_mod_saw | p_loss=0.2591 | 12.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[256/300] RandomSearch | sine_mod_saw | p_loss=0.0201 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[257/300] RandomSearch | sine_mod_saw | p_loss=0.2308 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[258/300] RandomSearch | sine_mod_saw | p_loss=0.1106 | 12.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[259/300] RandomSearch | sine_mod_saw | p_loss=0.4692 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[260/300] RandomSearch | sine_mod_saw | p_loss=0.0105 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[261/300] RandomSearch | sine_mod_saw | p_loss=0.1731 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[262/300] RandomSearch | sine_mod_saw | p_loss=0.1820 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[263/300] RandomSearch | sine_mod_saw | p_loss=0.0173 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[264/300] RandomSearch | sine_mod_saw | p_loss=0.0925 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[265/300] RandomSearch | sine_mod_saw | p_loss=0.3257 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[266/300] RandomSearch | sine_mod_saw | p_loss=0.0354 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[267/300] RandomSearch | sine_mod_saw | p_loss=0.0675 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[268/300] RandomSearch | sine_mod_saw | p_loss=0.8298 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[269/300] RandomSearch | sine_mod_saw | p_loss=0.0216 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[270/300] RandomSearch | sine_mod_saw | p_loss=0.2711 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[271/300] RandomSearch | sine_mod_saw | p_loss=0.0077 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[272/300] RandomSearch | sine_mod_saw | p_loss=0.4457 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[273/300] RandomSearch | sine_mod_saw | p_loss=0.0554 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[274/300] RandomSearch | sine_mod_saw | p_loss=0.2896 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[275/300] RandomSearch | sine_mod_saw | p_loss=0.0239 | 12.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[276/300] RandomSearch | sine_mod_saw | p_loss=0.0101 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[277/300] RandomSearch | sine_mod_saw | p_loss=0.0246 | 12.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[278/300] RandomSearch | sine_mod_saw | p_loss=0.0218 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[279/300] RandomSearch | sine_mod_saw | p_loss=0.0107 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[280/300] RandomSearch | sine_mod_saw | p_loss=0.0122 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[281/300] RandomSearch | sine_mod_saw | p_loss=0.0129 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[282/300] RandomSearch | sine_mod_saw | p_loss=0.0329 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[283/300] RandomSearch | sine_mod_saw | p_loss=0.0018 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[284/300] RandomSearch | sine_mod_saw | p_loss=0.4738 | 12.2s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[285/300] RandomSearch | sine_mod_saw | p_loss=0.0276 | 11.7s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[286/300] RandomSearch | sine_mod_saw | p_loss=0.0815 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[287/300] RandomSearch | sine_mod_saw | p_loss=0.0059 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[288/300] RandomSearch | sine_mod_saw | p_loss=0.0050 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[289/300] RandomSearch | sine_mod_saw | p_loss=0.0484 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[290/300] RandomSearch | sine_mod_saw | p_loss=0.1282 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[291/300] RandomSearch | sine_mod_saw | p_loss=0.7583 | 11.8s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[292/300] RandomSearch | sine_mod_saw | p_loss=0.0108 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[293/300] RandomSearch | sine_mod_saw | p_loss=0.2312 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[294/300] RandomSearch | sine_mod_saw | p_loss=0.2340 | 11.6s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[295/300] RandomSearch | sine_mod_saw | p_loss=0.0067 | 11.5s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[296/300] RandomSearch | sine_mod_saw | p_loss=0.6345 | 12.1s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[297/300] RandomSearch | sine_mod_saw | p_loss=0.0126 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[298/300] RandomSearch | sine_mod_saw | p_loss=0.0616 | 11.4s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[299/300] RandomSearch | sine_mod_saw | p_loss=0.1902 | 11.9s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+[FaustParams] Loaded 2 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/sine_mod_saw_25e348634c08/sine_mod_saw.dsp.json
+  amp                   /sine_mod_saw/amp                         [1.0, 20.0]  default=10.5
+  carrier               /sine_mod_saw/carrier                     [20.0, 1000.0]  default=510.0
+[300/300] RandomSearch | sine_mod_saw | p_loss=0.5597 | 12.0s | sine_mod_saw_L1_Spec_RandomSearch.pkl
+Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/sine_mod_saw_L1_Spec_RandomSearch.pkl
+Already have 300 trials for sine_mod_saw/RandomSearch, nothing to do.

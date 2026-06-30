@@ -1,0 +1,73 @@
+[env_capped] THREADS=1  PY=/cshome/asalimi/.conda/envs/soundmatch/bin/python  (keep jobs*THREADS <= 30)
+Jobs to run: 32  (jobs=7, trials=300, budget=500)
+
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+environment: line 4:    61 Segmentation fault      env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+[16:41:30] 0 | chirplet / SIMSE_Spec / RandomSearch | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_RandomSearch.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[16:42:29] 0 | chirplet / SIMSE_Spec / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_CMA-ES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[16:45:35] 0 | chirplet / SIMSE_Spec / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_LES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[17:19:22] 0 | chirplet / SIMSE_Spec / GD | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_SIMSE_Spec_GD.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[19:05:17] 0 | chirplet / DTW_Envelope / GD | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_GD.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[19:09:37] 0 | chirplet / JTFS / GD | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_JTFS_GD.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[20:48:26] 0 | chirplet / L1_Spec / GD | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_L1_Spec_GD.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[21:02:39] 0 | chirplet / JTFS / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_JTFS_CMA-ES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[21:21:28] 0 | chirplet / JTFS / RandomSearch | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_JTFS_RandomSearch.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[21:59:53] 0 | chirplet / L1_Spec / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_L1_Spec_CMA-ES.pkl
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[21:59:55] 0 | sine_mod_saw / SIMSE_Spec / GD | Already have 300 trials for sine_mod_saw/GD, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[21:59:58] 0 | sine_mod_saw / SIMSE_Spec / CMA-ES | Already have 300 trials for sine_mod_saw/CMA-ES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:00] 0 | sine_mod_saw / SIMSE_Spec / RandomSearch | Already have 300 trials for sine_mod_saw/RandomSearch, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:02] 0 | sine_mod_saw / SIMSE_Spec / LES | Already have 300 trials for sine_mod_saw/LES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:05] 0 | sine_mod_saw / DTW_Envelope / GD | Already have 300 trials for sine_mod_saw/GD, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:07] 0 | sine_mod_saw / DTW_Envelope / CMA-ES | Already have 300 trials for sine_mod_saw/CMA-ES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:09] 0 | sine_mod_saw / DTW_Envelope / RandomSearch | Already have 300 trials for sine_mod_saw/RandomSearch, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:12] 0 | sine_mod_saw / DTW_Envelope / LES | Already have 300 trials for sine_mod_saw/LES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:14] 0 | sine_mod_saw / JTFS / GD | Already have 300 trials for sine_mod_saw/GD, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:17] 0 | sine_mod_saw / JTFS / CMA-ES | Already have 300 trials for sine_mod_saw/CMA-ES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:19] 0 | sine_mod_saw / JTFS / RandomSearch | Already have 300 trials for sine_mod_saw/RandomSearch, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:22] 0 | sine_mod_saw / JTFS / LES | Already have 300 trials for sine_mod_saw/LES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:24] 0 | sine_mod_saw / L1_Spec / GD | Already have 300 trials for sine_mod_saw/GD, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:27] 0 | sine_mod_saw / L1_Spec / CMA-ES | Already have 300 trials for sine_mod_saw/CMA-ES, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:29] 0 | sine_mod_saw / L1_Spec / RandomSearch | Already have 300 trials for sine_mod_saw/RandomSearch, nothing to do.
+bash: /cshome/asalimi/.conda/envs/soundmatch/lib/libtinfo.so.6: no version information available (required by bash)
+[22:00:32] 0 | sine_mod_saw / L1_Spec / LES | Already have 300 trials for sine_mod_saw/LES, nothing to do.
+environment: line 4: 799484 Segmentation fault      env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+environment: line 4: 1251207 Aborted                 env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+[22:11:21] 0 | chirplet / L1_Spec / RandomSearch | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_L1_Spec_RandomSearch.pkl
+[22:29:24] 0 | chirplet / L1_Spec / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_L1_Spec_LES.pkl
+[23:24:14] 0 | chirplet / JTFS / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_JTFS_LES.pkl
+environment: line 4: 511176 Segmentation fault      env "${THREAD_ENV[@]}" "$PY" paper_experiments/run_paper.py --synth "$synth" --loss "$loss" --method "$method" --trials "$TRIALS" --budget "$BUDGET" >> "$logfile" 2>&1
+[03:21:01] 0 | chirplet / DTW_Envelope / CMA-ES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_CMA-ES.pkl
+[03:26:50] 0 | chirplet / DTW_Envelope / RandomSearch | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_RandomSearch.pkl
+[04:42:35] 0 | chirplet / DTW_Envelope / LES | Saved 300 trials to /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/chirplet_DTW_Envelope_LES.pkl
+
+All done. Results in paper_experiments/results/
