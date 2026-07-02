@@ -138,19 +138,20 @@ def _run_gradfree(
     )
 
 
-def _run_gd(synth: str, trial_idx: int, budget: int, loss_name: str) -> SavedTrial:
+def _run_gd(synth: str, trial_idx: int, budget: int, loss_name: str,
+             method_tag: str = "GD", learning_rate: float = GD_LEARNING_RATE) -> SavedTrial:
     from experiments.multidim_runner import run_trial_gd
     if loss_name not in GD_SUPPORTED_LOSSES:
         supported = ", ".join(sorted(GD_SUPPORTED_LOSSES))
         raise ValueError(f"GD does not support loss {loss_name!r}; supported: {supported}")
     _t0 = time.perf_counter()
     r = run_trial_gd(
-        program_name=synth, method_name="GD", seed=trial_idx, eval_budget=budget,
-        learning_rate=GD_LEARNING_RATE, sample_rate=SAMPLE_RATE,
+        program_name=synth, method_name=method_tag, seed=trial_idx, eval_budget=budget,
+        learning_rate=learning_rate, sample_rate=SAMPLE_RATE,
         audio_duration_s=AUDIO_DURATION_S, loss_name=loss_name,
     )
     return SavedTrial(
-        program=synth, method="GD", loss_name=loss_name,
+        program=synth, method=method_tag, loss_name=loss_name,
         true_params=r.true_params, init_params=r.init_params,
         best_params=r.best_params, best_p_loss=r.best_p_loss, eval_budget=r.eval_budget,
         history_params=r.history_params, history_audio_loss=r.history_audio_loss,
@@ -179,21 +180,33 @@ def main() -> None:
     )
     parser.add_argument("--trials", type=int, default=N_TRIALS)
     parser.add_argument("--budget", type=int, default=200)
+    parser.add_argument(
+        "--lr", type=float, default=None,
+        help="GD learning rate override. When set, method is tagged GD_lr{value} in results.",
+    )
     args = parser.parse_args()
 
     synth, method = args.synth, args.method
+
+    # When --lr is given for GD, tag the method name so results are stored separately.
+    lr_override = args.lr
+    if lr_override is not None and method != "GD":
+        raise ValueError("--lr can only be used with --method GD")
+    method_tag = f"GD_lr{lr_override}" if lr_override is not None else method
+    effective_lr = lr_override if lr_override is not None else GD_LEARNING_RATE
+
     loss_name = args.loss or SYNTH_LOSS[synth]
-    pkl_path = _pkl_path(synth, method, args.loss)
+    pkl_path = _pkl_path(synth, method_tag, args.loss)
 
     existing_trials = _load_pkl(pkl_path)
     n_done = len(existing_trials)
     if n_done >= args.trials:
-        print(f"Already have {n_done} trials for {synth}/{method}, nothing to do.")
+        print(f"Already have {n_done} trials for {synth}/{method_tag}, nothing to do.")
         return
 
     n_remaining = args.trials - n_done
     print(
-        f"{synth}/{loss_name}/{method}: {n_done} done, "
+        f"{synth}/{loss_name}/{method_tag}: {n_done} done, "
         f"running {n_remaining} more → {pkl_path}"
     )
 
@@ -201,10 +214,10 @@ def main() -> None:
     new_trials = []
     for i in range(n_remaining):
         trial_idx = n_done + i
-        t = _run_gd(synth, trial_idx, args.budget, loss_name) if is_gd else \
+        t = _run_gd(synth, trial_idx, args.budget, loss_name, method_tag, effective_lr) if is_gd else \
             _run_gradfree(synth, method, factory, trial_idx, args.budget, loss_name)
         new_trials.append(t)
-        _log_trial(trial_idx + 1, args.trials, synth, method, t.best_p_loss, t.duration_s, pkl_path)
+        _log_trial(trial_idx + 1, args.trials, synth, method_tag, t.best_p_loss, t.duration_s, pkl_path)
         _save_pkl(pkl_path, existing_trials + [asdict(_t) for _t in new_trials])
 
     print(f"Saved {n_done + len(new_trials)} trials to {pkl_path}")
