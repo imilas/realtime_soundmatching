@@ -35,7 +35,7 @@ IEEE_PUBLISHED = {
     "sine_mod_saw":      {"SIMSE_Spec": 2, "L1_Spec": 3, "JTFS": 4, "DTW_Envelope": 1},
 }
 
-# chirplet_pulse excluded — only the "no delay" variant is in scope.
+# chirplet: only the "no delay" variant is in scope.
 ISMIR_PUBLISHED = {
     "chirplet": {"SIMSE_Spec": 3, "L1_Spec": 1, "JTFS": 1, "DTW_Envelope": 4},
 }

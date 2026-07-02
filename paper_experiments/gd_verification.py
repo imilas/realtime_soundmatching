@@ -23,7 +23,6 @@ def _():
     LOSSES = ["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope"]
 
     # In-domain synths: scenarios for which GD results should exist with all 4 losses.
-    # "chirplet" and "chirplet_pulse" also appear as in-domain scenarios in the
     # OOD paper (loss_navigation_sound_matching/main.tex, Table 1, P-Loss columns),
     # giving us published ground-truth rankings to compare against.
     # "_v1" variants use the exact parameter ranges from the old in-domain paper
@@ -88,12 +87,8 @@ def _():
         "am_noise":          "DTW_Envelope",
         "add_sinesaw":       "SIMSE_Spec",
         "chirplet":          "JTFS",
-        "chirplet_pulse":    "DTW_Envelope",
-        "sine_saw":          "JTFS",
         "sine_mod_saw":      "JTFS",
-        "sine_mod_sine":     "JTFS",
         "bandpass_noise": "SIMSE_Spec",
-        "am_noise_v1":       "DTW_Envelope",
     }
     return (
         EXPECTED_BEST,
@@ -121,7 +116,6 @@ def _(mo):
     **Why this matters:** The new benchmark compares GD against black-box methods.
     That comparison is only valid if GD's behaviour has not changed relative to
     the prior in-domain work.  Here we re-run the same 4-loss comparison that the
-    OOD paper used for its two in-domain scenarios (`chirplet`, `chirplet_pulse`)
     and check that the NPSK rankings match Table 1 of that paper.
 
     ---
@@ -142,7 +136,6 @@ def _(mo):
     | Synth | SIMSE\_Spec | L1\_Spec | JTFS | DTW\_Envelope |
     |---|---|---|---|---|
     | `chirplet` (Chirp: no delay) | 3 | 2 | **1** | 4 |
-    | `chirplet_pulse` (Chirp: pulsating) | 2 | 3 | 2 | **1** |
 
     Rank 1 = best.  A tie (same number) means NPSK could not distinguish the
     two distributions at α = 0.05, |Cliff's δ| ≥ 0.147.
@@ -162,9 +155,6 @@ def _(mo):
     conda activate soundmatch
     source experiment_scripts/env_capped.sh
 
-    for synth in bandpass_noise am_noise add_sinesaw chirplet chirplet_pulse \
-                 sine_saw sine_mod_saw sine_mod_sine \
-                 bandpass_noise am_noise_v1; do
         python paper_experiments/run_paper.py \
             --synth $synth --loss L1_Spec --method GD --trials 200
     done
@@ -173,7 +163,6 @@ def _(mo):
     To run all 4 losses on the old-paper replication synths (`_v1`):
 
     ```bash
-    for synth in bandpass_noise am_noise_v1; do
         for loss in SIMSE_Spec L1_Spec JTFS DTW_Envelope; do
             python paper_experiments/run_paper.py \
                 --synth $synth --loss $loss --method GD --trials 200
@@ -354,7 +343,6 @@ def _(PUBLISHED_RANKS, computed_ranks, mo, pd):
         mo.md(r"""
     **Notes:**
 
-    - `chirplet` and `chirplet_pulse` are the only synths with published P-Loss NPSK
       rankings from the OOD/ISMIR paper (Table 1, columns "Chirp: no delay" and "Chirp: pulsating");
       the rest come from the IEEE 2025 in-domain paper (Table III).
     - The OOD paper ran **300 trials**; current results use **200 trials**.
@@ -370,7 +358,6 @@ def _(PUBLISHED_RANKS, computed_ranks, mo, pd):
 def _(EXPECTED_BEST, LOSSES, SYNTHS, computed_ranks, mo, pd):
     # For synths without full published rank tables, show whether the expected
     # best loss achieves rank 1. Includes the _v1 replication synths.
-    _no_pub = [s for s in SYNTHS if s not in ("chirplet", "chirplet_pulse")]
     _check_rows = []
     for _synth in _no_pub:
         _expected = EXPECTED_BEST.get(_synth, "?")

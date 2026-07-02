@@ -25,16 +25,11 @@ SYNTHS=(
     bandpass_noise
     am_noise
     add_sinesaw
-    sine_saw
     sine_mod_saw
-    sine_mod_sine
     chirplet
-    chirplet_pulse
     dx7_alg1
     dx7_alg2
     dx7_alg3
-    bandpass_noise
-    am_noise_v1
 )
 
 GD_LOSSES=(L1_Spec SIMSE_Spec DTW_Envelope JTFS)

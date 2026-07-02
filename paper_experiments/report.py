@@ -177,8 +177,6 @@ def _(RES, np, pickle):
     ML_METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
     ML_SYNTHS = [
         "bandpass_noise", "am_noise", "add_sinesaw",
-        "sine_saw", "sine_mod_saw", "sine_mod_sine",
-        "chirplet", "chirplet_pulse",
     ]
 
     def _slug(s):
@@ -337,11 +335,8 @@ def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
         "bandpass_noise": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
-        "sine_saw":       "JTFS",
         "sine_mod_saw":   "JTFS",
-        "sine_mod_sine":  "JTFS",
         "chirplet":       "JTFS",
-        "chirplet_pulse": "DTW_Envelope",
     }
 
     _summary_rows = {m: {} for m in ML_METHODS}
@@ -373,11 +368,8 @@ def _(ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, npsk_ranks, plt):
         "bandpass_noise": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
-        "sine_saw":       "JTFS",
         "sine_mod_saw":   "JTFS",
-        "sine_mod_sine":  "JTFS",
         "chirplet":       "JTFS",
-        "chirplet_pulse": "DTW_Envelope",
     }
 
     _RANK_COLORS = {1: "#2ca02c", 2: "#ff7f0e", 3: "#d62728", 4: "#7f0000"}
