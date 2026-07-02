@@ -176,7 +176,7 @@ def _(RES, np, pickle):
     ML_CORE_LOSSES = ["SIMSE_Spec", "JTFS", "DTW_Envelope", "CLAP"]
     ML_METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
     ML_SYNTHS = [
-        "bandpass_noise_v1", "am_noise", "add_sinesaw",
+        "bandpass_noise", "am_noise", "add_sinesaw",
         "sine_saw", "sine_mod_saw", "sine_mod_sine",
         "chirplet", "chirplet_pulse",
     ]
@@ -334,7 +334,7 @@ def _(
 @app.cell
 def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
     _SYNTH_LOSS_CANONICAL = {
-        "bandpass_noise_v1": "SIMSE_Spec",
+        "bandpass_noise": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
         "sine_saw":       "JTFS",
@@ -370,7 +370,7 @@ def _(ML_METHODS, load_scores_ml, mo, npsk_ranks, pd):
 @app.cell
 def _(ML_METHODS, ML_SYNTHS, load_scores_ml, mo, np, npsk_ranks, plt):
     _SYNTH_LOSS_CANONICAL = {
-        "bandpass_noise_v1": "SIMSE_Spec",
+        "bandpass_noise": "SIMSE_Spec",
         "am_noise":       "DTW_Envelope",
         "add_sinesaw":    "SIMSE_Spec",
         "sine_saw":       "JTFS",

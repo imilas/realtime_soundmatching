@@ -26,7 +26,7 @@ RES = Path(__file__).parent / "results"
 FIG = RES / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
 
-SYNTHS = ["bandpass_noise_v1", "am_noise", "add_sinesaw", "sine_mod_saw", "chirplet",
+SYNTHS = ["bandpass_noise", "am_noise", "add_sinesaw", "sine_mod_saw", "chirplet",
           "dx7_alg1", "dx7_alg2", "dx7_alg3"]
 LOSSES = ["SIMSE_Spec", "DTW_Envelope", "JTFS", "L1_Spec", "CLAP"]
 METHODS = ["GD", "RandomSearch", "CMA-ES", "LES"]
@@ -37,7 +37,7 @@ COLORS = {
 
 # canonical loss per synth, used for figures that show one panel per synth
 SYNTH_LOSS_CANONICAL = {
-    "bandpass_noise_v1": "SIMSE_Spec",
+    "bandpass_noise": "SIMSE_Spec",
     "am_noise": "DTW_Envelope",
     "add_sinesaw": "SIMSE_Spec",
     "sine_mod_saw": "JTFS",
@@ -50,14 +50,14 @@ SYNTH_LOSS_CANONICAL = {
 # E3 controlled wall-clock (ms/eval, reach%, sec->thr) from bench_walltime.py
 # only measured for the original 3 synths at their canonical loss.
 E3 = {
-    ("bandpass_noise_v1", "GD"): (2212, 56, 28.8), ("bandpass_noise_v1", "CMA-ES"): (25, 96, 1.0),
-    ("bandpass_noise_v1", "RandomSearch"): (22, 52, 1.5),
+    ("bandpass_noise", "GD"): (2212, 56, 28.8), ("bandpass_noise", "CMA-ES"): (25, 96, 1.0),
+    ("bandpass_noise", "RandomSearch"): (22, 52, 1.5),
     ("am_noise", "GD"): (55, 14, 0.8), ("am_noise", "CMA-ES"): (286, 80, 9.4),
     ("am_noise", "RandomSearch"): (283, 52, 19.8),
     ("add_sinesaw", "GD"): (24, 6, 0.3), ("add_sinesaw", "CMA-ES"): (19, 56, 0.7),
     ("add_sinesaw", "RandomSearch"): (19, 52, 1.3),
 }
-E3_SYNTHS = ["bandpass_noise_v1", "am_noise", "add_sinesaw"]
+E3_SYNTHS = ["bandpass_noise", "am_noise", "add_sinesaw"]
 
 
 def _slug(loss):

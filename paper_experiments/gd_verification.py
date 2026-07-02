@@ -31,7 +31,7 @@ def _():
     # Matches make_verification_report.py's SYNTHS = list(PUBLISHED): only synths
     # with both replication data and a published P-Loss rank to compare against.
     SYNTHS = [
-        "bandpass_noise_v1",
+        "bandpass_noise",
         "add_sinesaw",
         "am_noise",
         "sine_mod_saw",
@@ -42,11 +42,11 @@ def _():
     # IEEE 2025 in-domain paper, Table III, P-Loss column (4 main synths).
     # OOD paper, Table 1, P-Loss column (in-domain chirplet scenarios).
     # Rank 1 = best (lowest expected P-Loss); ties mean NPSK could not distinguish.
-    # Note: bandpass_noise_v1 maps to paper's BP-Noise (same DSP, correct ranges);
+    # Note: bandpass_noise maps to paper's BP-Noise (same DSP, correct ranges);
     #       add_sinesaw / am_noise / sine_mod_saw match the paper listings directly.
     PUBLISHED_RANKS = {
         # IEEE 2025 in-domain paper, Table III
-        "bandpass_noise_v1": {
+        "bandpass_noise": {
             "SIMSE_Spec":   1,   # tied with L1 (both *1 in paper)
             "L1_Spec":      1,   # tied with SIMSE
             "JTFS":         4,
@@ -92,7 +92,7 @@ def _():
         "sine_saw":          "JTFS",
         "sine_mod_saw":      "JTFS",
         "sine_mod_sine":     "JTFS",
-        "bandpass_noise_v1": "SIMSE_Spec",
+        "bandpass_noise": "SIMSE_Spec",
         "am_noise_v1":       "DTW_Envelope",
     }
     return (
@@ -132,7 +132,7 @@ def _(mo):
 
     | Synth | SIMSE\_Spec | L1\_Spec | JTFS | DTW\_Envelope |
     |---|---|---|---|---|
-    | `bandpass_noise_v1` (BP-Noise) | **1** (tied) | **1** (tied) | 4 | 3 |
+    | `bandpass_noise` (BP-Noise) | **1** (tied) | **1** (tied) | 4 | 3 |
     | `add_sinesaw` (Add-SineSaw) | 4 | 2 | **1** | 3 |
     | `am_noise` (Noise-AM) | 4 | 2 | 3 | **1** |
     | `sine_mod_saw` (SineSaw-AM) | 2 | 3 | 4 | **1** |
@@ -147,9 +147,9 @@ def _(mo):
     Rank 1 = best.  A tie (same number) means NPSK could not distinguish the
     two distributions at α = 0.05, |Cliff's δ| ≥ 0.147.
 
-    **Note:** `bandpass_noise_v1` uses the paper's correct BP-Noise ranges [50,1000]/[1,120].
+    **Note:** `bandpass_noise` uses the paper's correct BP-Noise ranges [50,1000]/[1,120].
     The current `bandpass_noise.dsp` has different ranges and its PKL results are NOT
-    comparable to the paper.  Run new GD experiments with `bandpass_noise_v1` first.
+    comparable to the paper.  Run new GD experiments with `bandpass_noise` first.
 
     ---
 
@@ -164,7 +164,7 @@ def _(mo):
 
     for synth in bandpass_noise am_noise add_sinesaw chirplet chirplet_pulse \
                  sine_saw sine_mod_saw sine_mod_sine \
-                 bandpass_noise_v1 am_noise_v1; do
+                 bandpass_noise am_noise_v1; do
         python paper_experiments/run_paper.py \
             --synth $synth --loss L1_Spec --method GD --trials 200
     done
@@ -173,7 +173,7 @@ def _(mo):
     To run all 4 losses on the old-paper replication synths (`_v1`):
 
     ```bash
-    for synth in bandpass_noise_v1 am_noise_v1; do
+    for synth in bandpass_noise am_noise_v1; do
         for loss in SIMSE_Spec L1_Spec JTFS DTW_Envelope; do
             python paper_experiments/run_paper.py \
                 --synth $synth --loss $loss --method GD --trials 200

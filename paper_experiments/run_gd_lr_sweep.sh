@@ -33,7 +33,7 @@ SYNTHS=(
     dx7_alg1
     dx7_alg2
     dx7_alg3
-    bandpass_noise_v1
+    bandpass_noise
     am_noise_v1
 )
 
@@ -51,11 +51,13 @@ echo "=== GD LR sweep: lr=$LR | $TOTAL jobs | $(date) ==="
 
 export PATH="/cshome/asalimi/.conda/envs/soundmatch/bin:$PATH"
 export OMP_NUM_THREADS=2
-export XLA_FLAGS="--xla_cpu_multi_thread_eigen=true intra_op_parallelism_threads=2"
+export MKL_NUM_THREADS=2
+export OPENBLAS_NUM_THREADS=2
+export XLA_FLAGS="--xla_cpu_multi_thread_eigen=false"
 export JAX_PLATFORM_NAME=cpu
 
-# 2 cores per job × 25 parallel = 50 cores total
-printf '%s\n' "${JOBS[@]}" | xargs -P 25 -I{} bash -c '
+# 2 cores per job × 10 parallel = 20 cores total
+printf '%s\n' "${JOBS[@]}" | xargs -P 10 -I{} bash -c '
     job="$1"; lr="$2"
     synth="${job%%:::*}"
     loss="${job##*:::}"

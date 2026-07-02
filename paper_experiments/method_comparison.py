@@ -25,7 +25,7 @@ def _():
     # Synths with both replication data and a published P-Loss NPSK rank to
     # compare against (matches gd_verification.py / make_verification_report.py).
     SYNTHS = [
-        "bandpass_noise_v1",
+        "bandpass_noise",
         "add_sinesaw",
         "am_noise",
         "sine_mod_saw",
@@ -35,7 +35,7 @@ def _():
     # Published P-Loss NPSK ranks. Rank 1 = best (lowest expected P-Loss).
     PUBLISHED_RANKS = {
         # IEEE 2025 in-domain paper, Table III
-        "bandpass_noise_v1": {"SIMSE_Spec": 1, "L1_Spec": 1, "JTFS": 4, "DTW_Envelope": 3},
+        "bandpass_noise": {"SIMSE_Spec": 1, "L1_Spec": 1, "JTFS": 4, "DTW_Envelope": 3},
         "add_sinesaw":       {"SIMSE_Spec": 4, "L1_Spec": 2, "JTFS": 1, "DTW_Envelope": 3},
         "am_noise":          {"SIMSE_Spec": 4, "L1_Spec": 2, "JTFS": 3, "DTW_Envelope": 1},
         "sine_mod_saw":      {"SIMSE_Spec": 2, "L1_Spec": 3, "JTFS": 4, "DTW_Envelope": 1},

@@ -29,7 +29,7 @@ METHODS = ["GD", "CMA-ES", "RandomSearch", "LES"]
 # ---------------------------------------------------------------------------
 
 IEEE_PUBLISHED = {
-    "bandpass_noise_v1": {"SIMSE_Spec": 1, "L1_Spec": 1, "JTFS": 4, "DTW_Envelope": 3},
+    "bandpass_noise": {"SIMSE_Spec": 1, "L1_Spec": 1, "JTFS": 4, "DTW_Envelope": 3},
     "add_sinesaw":       {"SIMSE_Spec": 4, "L1_Spec": 2, "JTFS": 1, "DTW_Envelope": 3},
     "am_noise":          {"SIMSE_Spec": 4, "L1_Spec": 2, "JTFS": 3, "DTW_Envelope": 1},
     "sine_mod_saw":      {"SIMSE_Spec": 2, "L1_Spec": 3, "JTFS": 4, "DTW_Envelope": 1},
@@ -50,7 +50,7 @@ DX7_PUBLISHED = {
 PUBLISHED = {**IEEE_PUBLISHED, **ISMIR_PUBLISHED, **DX7_PUBLISHED}
 
 SYNTH_LABELS = {
-    "bandpass_noise_v1": "BP-Noise",
+    "bandpass_noise": "BP-Noise",
     "add_sinesaw":       "Add-SineSaw",
     "am_noise":          "Noise-AM",
     "sine_mod_saw":      "SineSaw-AM",
@@ -99,12 +99,13 @@ def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[f
     """Returns (returned_p_loss, best_p_loss) for every trial.
 
     returned_p_loss:
-      GD          — final gradient step (matches paper's methodology)
+      GD / GD_lr* — final gradient step (matches paper's methodology)
       Black-box   — P-loss at the step with the lowest audio loss
                     (the candidate the method would actually return)
     best_p_loss:
       All methods — minimum P-loss ever visited (oracle upper bound)
     """
+    is_gd = method == "GD" or method.startswith("GD_")
     returned, bests = [], []
     for t in trials:
         pl = np.asarray(t.get("history_p_loss", []), dtype=float)
@@ -113,7 +114,7 @@ def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[f
         best = float(np.nanmin(pl))
         if np.isfinite(best):
             bests.append(best)
-        if method == "GD":
+        if is_gd:
             ret = float(pl[-1])
         else:
             al = np.asarray(t.get("history_audio_loss", []), dtype=float)
@@ -121,6 +122,33 @@ def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[f
         if np.isfinite(ret):
             returned.append(ret)
     return returned, bests
+
+
+def discover_methods(res_dir=None) -> list[str]:
+    """Scan result pkl files and return all unique method names found.
+
+    Canonical methods (GD, CMA-ES, LES, RandomSearch) come first,
+    then GD_lr variants sorted by LR value, then any others alphabetically.
+    """
+    import pickle
+    res = Path(res_dir) if res_dir else RES
+    found = set()
+    for p in res.glob("*.pkl"):
+        try:
+            data = pickle.load(open(p, "rb"))
+            trials = data.get("trials", [])
+            if trials:
+                found.add(trials[0].get("method", ""))
+        except Exception:
+            pass
+    found.discard("")
+    canonical = [m for m in METHODS if m in found]
+    gd_lr = sorted(
+        (m for m in found if m.startswith("GD_lr")),
+        key=lambda m: float(m[5:]),
+    )
+    other = sorted(m for m in found if m not in METHODS and not m.startswith("GD_lr"))
+    return canonical + gd_lr + other
 
 # ---------------------------------------------------------------------------
 # NPSK
@@ -309,7 +337,7 @@ tr:hover td{background:#f0f4f8}
 
 <div class="note">
   <strong>IEEE paper</strong> (Salimi et al., 200 trials):
-  BP-Noise → <code>bandpass_noise_v1</code>,
+  BP-Noise → <code>bandpass_noise</code>,
   Add-SineSaw → <code>add_sinesaw</code>,
   Noise-AM → <code>am_noise</code>,
   SineSaw-AM → <code>sine_mod_saw</code><br>
