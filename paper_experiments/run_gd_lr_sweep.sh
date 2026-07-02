@@ -54,8 +54,8 @@ export OMP_NUM_THREADS=2
 export XLA_FLAGS="--xla_cpu_multi_thread_eigen=true intra_op_parallelism_threads=2"
 export JAX_PLATFORM_NAME=cpu
 
-# 2 cores per job × 15 parallel = 30 cores total
-printf '%s\n' "${JOBS[@]}" | xargs -P 15 -I{} bash -c '
+# 2 cores per job × 25 parallel = 50 cores total
+printf '%s\n' "${JOBS[@]}" | xargs -P 25 -I{} bash -c '
     job="$1"; lr="$2"
     synth="${job%%:::*}"
     loss="${job##*:::}"
