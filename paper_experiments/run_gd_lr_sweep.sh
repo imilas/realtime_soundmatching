@@ -45,6 +45,7 @@ TOTAL=${#JOBS[@]}
 echo "=== GD LR sweep: lr=$LR | $TOTAL jobs | $(date) ==="
 
 export PATH="/cshome/asalimi/.conda/envs/soundmatch/bin:$PATH"
+export PKG_CONFIG_PATH="/cshome/asalimi/.conda/envs/soundmatch/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 export OMP_NUM_THREADS=2
 export MKL_NUM_THREADS=2
 export OPENBLAS_NUM_THREADS=2
@@ -62,7 +63,7 @@ printf '%s\n' "${JOBS[@]}" | xargs -P 10 -I{} bash -c '
         --loss "$loss" \
         --lr "$lr" \
         --trials 200 \
-        --budget 200 \
+        --budget 500 \
         >> "paper_experiments/results/gd_lr${lr}_sweep.log" 2>&1
 ' _ {} "$LR"
 

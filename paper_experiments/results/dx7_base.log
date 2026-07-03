@@ -1,0 +1,90 @@
+=== DX7 base experiments: 48 jobs | Fri 03 Jul 2026 03:28:13 PM MDT ===
+WARNING:2026-07-03 15:28:16,452:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+WARNING:2026-07-03 15:28:16,453:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+WARNING:2026-07-03 15:28:16,454:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+WARNING:2026-07-03 15:28:16,454:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+dx7_alg1/L1_Spec/CMA-ES: 0 done, running 200 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/dx7_alg1_L1_Spec_CMA-ES.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[1/200] CMA-ES | dx7_alg1 | p_loss=1.1895 | 14.6s | dx7_alg1_L1_Spec_CMA-ES.pkl
+dx7_alg1/SIMSE_Spec/CMA-ES: 0 done, running 200 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/dx7_alg1_SIMSE_Spec_CMA-ES.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[1/200] CMA-ES | dx7_alg1 | p_loss=0.9118 | 16.1s | dx7_alg1_SIMSE_Spec_CMA-ES.pkl
+dx7_alg1/L1_Spec/GD: 0 done, running 200 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/dx7_alg1_L1_Spec_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[1/200] GD | dx7_alg1 | p_loss=0.8432 | 25.7s | dx7_alg1_L1_Spec_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[2/200] CMA-ES | dx7_alg1 | p_loss=1.3437 | 15.1s | dx7_alg1_L1_Spec_CMA-ES.pkl
+dx7_alg1/SIMSE_Spec/GD: 0 done, running 200 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/dx7_alg1_SIMSE_Spec_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[1/200] GD | dx7_alg1 | p_loss=0.5597 | 30.6s | dx7_alg1_SIMSE_Spec_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[2/200] CMA-ES | dx7_alg1 | p_loss=1.1776 | 17.1s | dx7_alg1_SIMSE_Spec_CMA-ES.pkl
+dx7_alg1/JTFS/GD: 0 done, running 200 more → /cshome/asalimi/code/realtime_soundmatching/paper_experiments/results/dx7_alg1_JTFS_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[1/200] GD | dx7_alg1 | p_loss=0.7910 | 39.1s | dx7_alg1_JTFS_GD.pkl
+[FaustParams] Loaded 8 parameter(s) from /cshome/asalimi/code/realtime_soundmatching/synths/build/dx7_alg1_32145e1d060a/dx7_alg1.dsp.json
+  f0                    /dx7_alg1/f0                              [50.0, 1000.0]  default=525.0
+  l1                    /dx7_alg1/l1                              [0.0, 8.0]  default=4.0
+  l2                    /dx7_alg1/l2                              [0.0, 8.0]  default=4.0
+  l3                    /dx7_alg1/l3                              [0.0, 8.0]  default=4.0
+  l4                    /dx7_alg1/l4                              [0.0, 8.0]  default=4.0
+  r2                    /dx7_alg1/r2                              [0.25, 8.0]  default=4.125
+  r3                    /dx7_alg1/r3                              [0.25, 8.0]  default=4.125
+  r4                    /dx7_alg1/r4                              [0.25, 8.0]  default=4.125
+[3/200] CMA-ES | dx7_alg1 | p_loss=1.0006 | 14.9s | dx7_alg1_L1_Spec_CMA-ES.pkl
