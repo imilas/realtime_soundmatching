@@ -28,6 +28,7 @@ SYNTHS = [
     "dx7_alg1",
     "dx7_alg2",
     "dx7_alg3",
+    "dx7_5op_am",
 ]
 
 SYNTH_LOSS = {
@@ -39,6 +40,7 @@ SYNTH_LOSS = {
     "dx7_alg1":          "SIMSE_Spec",
     "dx7_alg2":          "SIMSE_Spec",
     "dx7_alg3":          "SIMSE_Spec",
+    "dx7_5op_am":        "SIMSE_Spec",
 }
 
 N_TRIALS    = 200

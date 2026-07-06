@@ -45,6 +45,7 @@ DX7_PUBLISHED = {
     "dx7_alg1": {},
     "dx7_alg2": {},
     "dx7_alg3": {},
+    "dx7_5op_am": {},
 }
 
 PUBLISHED = {**IEEE_PUBLISHED, **ISMIR_PUBLISHED, **DX7_PUBLISHED}
@@ -58,6 +59,7 @@ SYNTH_LABELS = {
     "dx7_alg1":          "DX7 (serial stack)",
     "dx7_alg2":          "DX7 (two pairs)",
     "dx7_alg3":          "DX7 (3 mods→1)",
+    "dx7_5op_am":        "DX7 (5-op+AM)",
 }
 SYNTH_PAPER = {
     **{s: "IEEE" for s in IEEE_PUBLISHED},
