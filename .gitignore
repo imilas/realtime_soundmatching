@@ -11,4 +11,4 @@ synths/build/
 papers/
 *.tsv
 .pkl
-!paper_experiments/reslts/*.pkl
+!paper_experiments/results/*.pkl
