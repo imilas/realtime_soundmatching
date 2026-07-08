@@ -1,11 +1,11 @@
 import marimo
 
-__generated_with = "0.23.8"
+__generated_with = "0.8.22"
 app = marimo.App(width="full")
 
 
 @app.cell
-def _():
+def _(__file__):
     import sys
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -13,18 +13,20 @@ def _():
     import marimo as mo
 
     from paper_experiments.make_verification_report import METHODS, build_html
-    return METHODS, build_html, mo
+    return METHODS, Path, build_html, mo, sys
 
 
 @app.cell
 def _(mo):
-    mo.md("""
-    # Verification report explorer
+    mo.md(
+        """
+        # Verification report explorer
 
-    Pick a search method below — the rank-comparison report (NPSK P-loss
-    rankings vs. the published IEEE/ISMIR in-domain rankings) is rendered
-    inline, so there's no need to open separate `*_report.html` files.
-    """)
+        Pick a search method below — the rank-comparison report (NPSK P-loss
+        rankings vs. the published IEEE/ISMIR in-domain rankings) is rendered
+        inline, so there's no need to open separate `*_report.html` files.
+        """
+    )
     return
 
 

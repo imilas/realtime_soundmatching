@@ -1,11 +1,11 @@
 import marimo
 
-__generated_with = "0.23.8"
+__generated_with = "0.8.22"
 app = marimo.App(width="full")
 
 
 @app.cell
-def _():
+def _(__file__):
     import sys
     from pathlib import Path
 
@@ -30,6 +30,8 @@ def _():
         PUBLISHED,
         load_pkl,
         load_trials,
+        load_trials_cached,
+        save_trial_cache,
         extract_scores,
         bootstrap_medians,
         npsk_ranks,
@@ -40,8 +42,12 @@ def _():
     FIG = RES / "figures"
     return (
         FIG,
+        LOSSES,
         LOSSES_ALL,
+        METHODS,
         PUBLISHED,
+        Path,
+        RES,
         SYNTHS,
         SYNTH_LABELS,
         bootstrap_medians,
@@ -49,12 +55,17 @@ def _():
         discover_methods,
         extract_scores,
         io,
+        load_pkl,
         load_trials,
+        load_trials_cached,
+        matplotlib,
         mo,
         np,
         npsk_ranks,
         pd,
         plt,
+        save_trial_cache,
+        sys,
     )
 
 
@@ -82,13 +93,20 @@ def _(SYNTHS, SYNTH_LABELS, discover_methods, mo):
 
 
 @app.cell
-def _(LOSSES_ALL, SYNTHS, all_methods, load_trials):
+def _(
+    LOSSES_ALL,
+    SYNTHS,
+    all_methods,
+    load_trials_cached,
+    save_trial_cache,
+):
     trial_cache = {
-        (s, l, m): load_trials(s, l, m)
+        (s, l, m): load_trials_cached(s, l, m)
         for s in SYNTHS
         for l in LOSSES_ALL
         for m in all_methods
     }
+    save_trial_cache()
     return (trial_cache,)
 
 
@@ -108,7 +126,6 @@ def _(all_methods, cm, np):
         idx = _gd_sorted_mc.index(method) if method in _gd_sorted_mc else 0
         r, g, b, _ = _reds_mc[idx]
         return f"#{int(r * 255):02x}{int(g * 255):02x}{int(b * 255):02x}"
-
     return (method_color,)
 
 
@@ -300,7 +317,7 @@ def _(
     _n_cols = len(_selected)
 
     _fig, _axes = plt.subplots(
-        _n_rows, _n_cols, figsize=(8.0 * _n_cols, 6.4 * _n_rows), squeeze=False
+        _n_rows, _n_cols, figsize=(4 * _n_cols, 3 * _n_rows), squeeze=False
     )
 
     for _ri, _loss in enumerate(LOSSES_ALL):
@@ -349,10 +366,10 @@ def _(
     )
     _fig.tight_layout()
     _buf = io.BytesIO()
-    _fig.savefig(_buf, format="png", dpi=110, bbox_inches="tight")
+    _fig.savefig(_buf, format="png", dpi=30, bbox_inches="tight")
     plt.close(_fig)
     _buf.seek(0)
-    mo.Html(f'<div style="overflow-x:auto"><img src="data:image/png;base64,{__import__("base64").b64encode(_buf.read()).decode()}"style="min-width:2000px"></div>')
+    mo.Html(f'<div style="overflow-x:auto"><img src="data:image/png;base64,{__import__("base64").b64encode(_buf.read()).decode()}"style="min-width:1000px"></div>')
     return
 
 
@@ -424,7 +441,7 @@ def _(
     )
     _fig.tight_layout()
     _buf = io.BytesIO()
-    _fig.savefig(_buf, format="png", dpi=110, bbox_inches="tight")
+    _fig.savefig(_buf, format="png", dpi=50, bbox_inches="tight")
     plt.close(_fig)
 
 
@@ -432,6 +449,72 @@ def _(
     mo.Html(f'<div style="overflow-x:auto"><img src="data:image/png;base64,{__import__("base64").b64encode(_buf.read()).decode()}"style="min-width:2000px"></div>')
     # _buf.seek(0)
     # mo.image(_buf.read())
+    return
+
+
+@app.cell
+def _(
+    LOSSES_ALL,
+    SYNTHS,
+    SYNTH_LABELS,
+    io,
+    method_color,
+    method_select,
+    mo,
+    np,
+    plt,
+    synth_select,
+    trial_cache,
+):
+    plt.rcParams.update({"font.size": 30})
+    _selected = [s for s in SYNTHS if s in synth_select.value] or list(SYNTHS)
+    _methods = method_select.value or []
+    _n_rows = len(LOSSES_ALL)
+    _n_cols = len(_selected)
+
+    _fig, _axes = plt.subplots(
+        _n_rows, _n_cols, figsize=(8.0 * _n_cols, 6.4 * _n_rows), squeeze=False
+    )
+
+    for _ri, _loss in enumerate(LOSSES_ALL):
+        for _ci, _synth in enumerate(_selected):
+            _ax = _axes[_ri][_ci]
+            _any = False
+            for _method in _methods:
+                _trials = trial_cache.get((_synth, _loss, _method), [])
+                if not _trials:
+                    continue
+                _curves = [np.asarray(t.get("history_audio_loss", []), dtype=float) for t in _trials]
+                _curves = [c for c in _curves if len(c) > 0]
+                if not _curves:
+                    continue
+                _B = min(len(c) for c in _curves)
+                _curves_bsf = [np.fmin.accumulate(c[:_B]) for c in _curves]
+                _arr = np.stack(_curves_bsf)
+                _x = np.arange(1, _B + 1)
+                _med = np.nanmedian(_arr, 0)
+                _ax.plot(_x, _med, color=method_color(_method), lw=1.6,
+                         label=_method.replace("GD_lr", "lr="))
+                _any = True
+            if _ri == _n_rows - 1:
+                _ax.set_xlabel("evaluations", fontsize=15)
+            if _ci == 0:
+                _ax.set_ylabel(f"{_loss}\nbest-so-far audio loss", fontsize=30)
+            if _ri == 0:
+                _ax.set_title(SYNTH_LABELS.get(_synth, _synth), fontsize=30)
+            _ax.grid(True, alpha=0.3, which="both")
+            if _any:
+                _ax.set_yscale("symlog", linthresh=1e-6)
+            if _ri == 0 and _ci == 0 and _any:
+                _ax.legend(fontsize=15)
+
+    _fig.suptitle("Median best-so-far audio-loss curves, rows=loss, cols=synth", fontsize=30)
+    _fig.tight_layout()
+    _buf = io.BytesIO()
+    _fig.savefig(_buf, format="png", dpi=110, bbox_inches="tight")
+    plt.close(_fig)
+    _buf.seek(0)
+    mo.Html(f'<div style="overflow-x:auto"><img src="data:image/png;base64,{__import__("base64").b64encode(_buf.read()).decode()}"style="min-width:2000px"></div>')
     return
 
 

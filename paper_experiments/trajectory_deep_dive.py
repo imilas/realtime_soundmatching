@@ -1,11 +1,11 @@
 import marimo
 
-__generated_with = "0.23.8"
+__generated_with = "0.8.22"
 app = marimo.App(width="full")
 
 
 @app.cell
-def _():
+def _(__file__):
     import sys
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -35,21 +35,28 @@ def _():
 
     RESULTS_DIR = Path("paper_experiments/results")
     return (
+        AUDIO_DURATION_S,
         METHOD_ORDER,
+        Path,
         RESULTS_DIR,
+        SAMPLE_RATE,
         audio_to_wav_bytes,
         build_trial_context,
         compute_surface,
         extract_trajectory,
         fill_dsp_params,
         load_all_results,
+        make_eval_table,
         mo,
         np,
+        pd,
         plot_full_trajectory,
         plot_loss_curves,
+        plot_step_trajectory,
         plt,
         render_trial_audios,
         skip_indices,
+        sys,
         trial_summary_md,
     )
 
@@ -89,7 +96,13 @@ def _(mo, synths):
         )
         grid_slider = mo.ui.slider(start=2, stop=30, step=1, value=5, label="Grid resolution")
         skip_slider = mo.ui.slider(start=0, stop=90, step=5, value=20, label="Skip % of evals (keep first 10)")
-    return grid_slider, skip_slider, surface_picker, synth_picker, trial_picker
+    return (
+        grid_slider,
+        skip_slider,
+        surface_picker,
+        synth_picker,
+        trial_picker,
+    )
 
 
 @app.cell
@@ -115,7 +128,14 @@ def _(all_results, method_picker, mo, synth_picker):
 
 
 @app.cell
-def _(loss_picker, method_picker, mo, skip_slider, synth_picker, trial_picker):
+def _(
+    loss_picker,
+    method_picker,
+    mo,
+    skip_slider,
+    synth_picker,
+    trial_picker,
+):
     if synth_picker is None:
         _out = mo.md("No result pickle files found in `paper_experiments/results`.")
     else:
@@ -242,8 +262,6 @@ def _(
     xx,
     yy,
 ):
-
-
     clip_pct = 10  # keep bottom 10% of values, clip the rest
     threshold = np.percentile(surface, clip_pct)
     surface_clipped = np.clip(surface, None, threshold) 
@@ -260,14 +278,12 @@ def _(
         _out = mo.as_html(_fig)
         plt.close(_fig)
     _out
-    return
+    return clip_pct, surface_clipped, threshold, trajectory
 
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ### Step through the trajectory
-    """)
+    mo.md("""### Step through the trajectory""")
     return
 
 
