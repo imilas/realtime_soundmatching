@@ -97,6 +97,8 @@ def load_trials(synth: str, loss: str, method: str) -> list[dict]:
     return load_pkl(RES / f"{synth}_{_slug(loss)}_{method}.pkl")
 
 
+
+
 def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[float]]:
     """Returns (returned_p_loss, best_p_loss) for every trial.
 
@@ -127,22 +129,19 @@ def extract_scores(trials: list[dict], method: str) -> tuple[list[float], list[f
 
 
 def discover_methods(res_dir=None) -> list[str]:
-    """Scan result pkl files and return all unique method names found.
+    """Scan result pkl filenames and return all unique method names found.
 
     Canonical methods (GD, CMA-ES, LES, RandomSearch) come first,
     then GD_lr variants sorted by LR value, then any others alphabetically.
     """
-    import pickle
+    import re as _re
     res = Path(res_dir) if res_dir else RES
+    loss_pat = "|".join(["SIMSE_Spec", "L1_Spec", "JTFS", "DTW_Envelope", "CLAP"])
     found = set()
     for p in res.glob("*.pkl"):
-        try:
-            data = pickle.load(open(p, "rb"))
-            trials = data.get("trials", [])
-            if trials:
-                found.add(trials[0].get("method", ""))
-        except Exception:
-            pass
+        m = _re.search(rf"(?:{loss_pat})_(.+?)\.pkl$", p.name)
+        if m:
+            found.add(m.group(1))
     found.discard("")
     canonical = [m for m in METHODS if m in found]
     gd_lr = sorted(
