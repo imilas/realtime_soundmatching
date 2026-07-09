@@ -146,25 +146,32 @@ def __(
     return (fig3,)
 
 
-app._unparsable_cell(
-    r"""
-        importlib.reload(frh)
-        selected_synths = [s for s in SYNTHS if s in synth_select.value] or list(SYNTHS)
-        selected_methods = method_select.value or list(all_methods)
-        colors = frh.build_method_colors(all_methods)
+@app.cell
+def __(
+    LOSSES_ALL,
+    SYNTH_LABELS,
+    colors,
+    frh,
+    mo,
+    selected_methods,
+    selected_synths,
+    trial_cache,
+):
+        # importlib.reload(frh)
+        # selected_synths = [s for s in SYNTHS if s in synth_select.value] or list(SYNTHS)
+        # selected_methods = method_select.value or list(all_methods)
+        # colors = frh.build_method_colors(all_methods)
 
-        fig4 = frh.audio_loss_best_so_far_plot(
-            trial_cache,
-            synths=selected_synths,
-            losses=list(LOSSES_ALL),
-            methods=selected_methods,
-            synth_labels=SYNTH_LABELS,
-            method_colors=colors,
-        )
-        mo.Html(frh.fig_to_html(fig4, dpi=110, min_width=2000))
-    """,
-    name="__"
-)
+    fig4 = frh.audio_loss_best_so_far_plot(
+        trial_cache,
+        synths=selected_synths,
+        losses=list(LOSSES_ALL),
+        methods=selected_methods,
+        synth_labels=SYNTH_LABELS,
+        method_colors=colors,
+    )
+    mo.Html(frh.fig_to_html(fig4, dpi=110, min_width=2000))
+    return (fig4,)
 
 
 if __name__ == "__main__":
